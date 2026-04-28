@@ -1,6 +1,6 @@
 ---
 name: source-ingestor
-description: File a raw source from /sources/_inbox/ (PDF/HTML/TXT/MD) into /sources/<book>/, optionally converting to MD. Then invokes source-indexer. Curated metadata (notes, cite, summary) is added later by editing the book's index.yaml.
+description: File a raw source from /sources/_inbox/ (PDF/HTML/TXT/MD) into /sources/<book>/, optionally converting to MD. Then invokes source-indexer to scaffold or refresh the book's index.md. Curated metadata (cite, summary, notes) is added later by editing index.md directly.
 ---
 
 # Source Ingestor
@@ -32,11 +32,11 @@ Takes raw material the user dropped into `/sources/_inbox/` and files it into th
    - Chapter number (e.g. "2")
    - Chapter name (e.g. "Induction")
 
-   Do NOT gather `notes`, `summary`, or `cite` here. Those are added later by editing the book's `index.yaml` directly — that's the curation step, separate from ingest.
+   Do NOT gather `cite`, `summary`, or `notes` here. Those are added later by editing the book's `index.md` directly — that's the curation step, separate from ingest.
 
 4. **Decide on conversion** (only for non-MD inputs):
-   - **Convert to MD** (recommended for chapters that will be cited often, since line-range precision is sharper than page-range): produce a `.md` file with the canonical body and minimal frontmatter (`book`, `number`, `name`; optionally `toc:`). Place at `/sources/<book-slug>/<NN>-<chapter-slug>.md`. Move the inbox original to a `_inbox/_processed/` subdirectory (don't delete — keeps the OCR'd original recoverable).
-   - **Keep as-is**: move the file to `/sources/<book-slug>/<NN>-<chapter-slug>.<ext>`. No sidecar — the indexer will collect the TOC + page/line ranges at scaffold time.
+   - **Convert to MD** (recommended for chapters that will be cited often, since line-range precision is sharper than page-range): produce a `.md` file with the chapter body and minimal frontmatter (`book`, `number`, `name`). Make sure section headings in the body start with the section ref (e.g. `## 2.1 The Problem`, `### 2.3.4 Zebra and Mule`) so the indexer's grep can pick them up. Place at `/sources/<book-slug>/<NN>-<chapter-slug>.md`. Move the inbox original to `_inbox/_processed/`.
+   - **Keep as-is**: move the file to `/sources/<book-slug>/<NN>-<chapter-slug>.<ext>`. The indexer will collect the TOC + page/line ranges at scaffold time and store them in the book's `index.md`.
 
    Default: keep-as-is for PDFs (conversion is overhead the user said they want only when worth it). Ask if not sure.
 
@@ -46,19 +46,19 @@ Takes raw material the user dropped into `/sources/_inbox/` and files it into th
 
 7. **Move/write the file** into the book directory.
 
-8. **Invoke `source-indexer`** for the affected book. If the book is new, the indexer runs in scaffold mode; otherwise refresh mode picks up the new chapter.
+8. **Invoke `source-indexer`** for the affected book. If the book is new, the indexer runs in scaffold mode and creates `/sources/<book-slug>/index.md`; otherwise refresh mode picks up the new chapter.
 
-9. **Report**: name the new file, the book directory it landed in, the indexer mode that ran, and remind the user that `cite`, `summary`, `notes`, and per-section `note` fields in `index.yaml` are theirs to fill in.
+9. **Report**: name the new file, the book directory it landed in, the indexer mode that ran, and remind the user that `cite`, `summary`, chapter-level notes, and per-section notes in `index.md` are theirs to fill in (just open it and write prose under the headings).
 
 ## What this skill does NOT do
 
-- Never writes `notes`, `summary`, or `cite` values — those are curated by the user in `index.yaml`.
+- Never writes `cite`, `summary`, or `notes` values — those are curated by the user in `index.md`.
 - Never deletes inbox originals. Move them to `_inbox/_processed/` so the user can re-OCR or revert if needed.
 - Never modifies existing source files in `/sources/<book>/`.
-- Never touches `/sources/courses/*.yaml`.
+- Never touches `/sources/courses/*.md`.
 
 ## Implementation notes
 
 - For batch ingest of multiple inbox files, process one at a time — the metadata questions are per-chapter.
 - If a book directory and filename collision occurs (e.g. user re-OCR'd ch. 2), ask the user whether to overwrite or rename before proceeding.
-- After ingestion, the user will typically want to edit `/sources/<book>/index.yaml` to set the `cite`, add a `summary`, and add `notes` saying when the chapter is useful.
+- After ingestion, the user typically opens `/sources/<book>/index.md` and writes prose under the relevant chapter/section headings — that's the entire curation step.

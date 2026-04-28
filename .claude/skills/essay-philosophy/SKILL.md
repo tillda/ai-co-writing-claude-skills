@@ -13,7 +13,7 @@ Write clear, well-argued analytic philosophy essays at undergraduate level for a
    - `/context/voice-dna.json` — match voice throughout
    - `/context/icp.json` — understand what the examiner values and penalises
 
-2. **Resolve sources** — see the dedicated section below. Sources can be referenced from three places (exam prompt, course YAML, book index notes); free text everywhere; only the cited line/page ranges enter context, never whole books.
+2. **Resolve sources** — see the dedicated section below. Sources can be referenced from three places (exam prompt, course MD, book index notes); free text everywhere; only the cited line/page ranges enter context, never whole books.
 
 3. **Check for provided direction**:
    - **Outline given?** Follow it as the essay structure.
@@ -118,19 +118,30 @@ Analytic philosophy essays typically follow a tree structure that surveys compet
 Sources can come from three layers, queried in priority order:
 
 1. **Exam prompt** — explicit free-text refs in the prompt MD or chat (e.g. `(Huemer UK 10.4.2)`). Highest priority.
-2. **Course YAML, per-module** — `/sources/courses/<course>.yaml`, the matching module's `notes:` (guidance) and `sources:` (free-text refs).
-3. **Book index notes** — chapter-level `notes` and per-section `note` in each in-scope book's `/sources/<book>/index.yaml` (reverse-mode "use for X" annotations).
+2. **Course MD, per-module** — `/sources/courses/<course>.md`, the matching module's prose (guidance) and `**Sources:**` bullet list (free-text refs).
+3. **Book index notes** — chapter-level prose and per-section prose in each in-scope book's `/sources/<book>/index.md` (reverse-mode "use for X" annotations).
+
+### Format reminders
+
+- **`/sources/catalog.yaml`** is YAML, generated, lists books → `index: sources/<slug>/index.md`.
+- **`/sources/<book>/index.md`** is markdown:
+  - Frontmatter: `slug`, `title`, `author`, `kind`, `tags`.
+  - `## Chapter <N> · <Name>` per chapter, followed by an inline-code metadata line `` `cite: <key> · file: <relative-path> · format: md|pdf|html|txt` ``, then prose for chapter notes.
+  - `### <ref> <Name> [<a>-<b>]` per section (use `[pp. <a>-<b>]` for PDF), followed by optional prose for the section note.
+- **`/sources/courses/<course>.md`** is markdown:
+  - Frontmatter: `slug`, `name`, `style`, `books: [...]`.
+  - `## <Module Name>` per module, followed by prose for module notes, optional `**Sources:**` bullet list, optional `**Books:** [override]`.
 
 ### Resolution algorithm
 
 For each free-text reference (from any layer):
 
-1. Read `/sources/catalog.yaml` once. If the prompt sets a `course`, also read `/sources/courses/<course>.yaml` and identify in-scope books (course-level `books:`, possibly overridden by the named module's `books:`). Narrow per-book index lookups to those.
+1. Read `/sources/catalog.yaml` once. If the prompt sets a `course`, also read `/sources/courses/<course>.md` (frontmatter + body) and identify in-scope books (course-level `books:` from frontmatter, possibly overridden by `**Books:**` under the named module). Narrow per-book index lookups to those.
 2. Tokenise the ref. Identify:
    - **Author** — match against `author` field of any catalog entry (case-insensitive, surname sufficient).
    - **Book** — match against `title` and `slug` (fuzzy: "UK" → "Understanding Knowledge", word-prefix match, ignore italics/quotes).
    - **Chapter / section** — extract the most specific dotted number (`2.3.4` > `2.3` > `2`); if absent, look for "ch. N" / "chapter N".
-3. Open the matched book's per-book `index.yaml` (path from catalog). Walk the matched chapter's `toc` (recursing through `children`) to find the entry whose `ref` matches. If the requested ref has more dots than the index records, fall back to the closest enclosing entry.
+3. Open the matched book's `index.md`. Find the chapter whose `## Chapter <N>` matches and read its inline metadata line for `file:` and `format:`. Find the section heading whose **ref** matches (`### 2.3.4 ...`) — the dotted number (or synthetic numeric prefix for unnumbered books) is the identifier; the section name and the bracket are not. Read the trailing range marker (`[221-240]` or `[pp. 309-318]`) on that heading. If the requested ref has more dots than the index records, fall back to the closest enclosing heading.
 4. Return `{ file, lines | pages }`.
 5. **Read only that range**: `Read(path, offset=start, limit=end-start+1)` for MD/TXT/HTML; `Read(path, pages: "<start>-<end>")` for PDF. Never read whole books.
 6. If multiple candidates match, ask via AskUserQuestion before reading.
@@ -141,15 +152,15 @@ For each free-text reference (from any layer):
 If the prompt names a topic without naming a source, aggregate candidates from all three layers:
 
 - Layer 1: explicit prompt refs (none, by hypothesis).
-- Layer 2: read the matching module's `sources:` (resolve each via the algorithm above) and `notes:`.
-- Layer 3: scan in-scope books' `index.yaml` for chapter-level `notes` and per-section `note` matching the topic / module slug / module name.
+- Layer 2: read the matching module's prose and `**Sources:**` list in `/sources/courses/<course>.md` (resolve each free-text ref via the algorithm above).
+- Layer 3: scan in-scope books' `index.md` files for chapter-level prose and per-section prose matching the topic / module slug / module name. The index is short — a full read of one book's `index.md` is cheap.
 
 Deduplicate, propose to the user (showing which layer each candidate came from), confirm, then read the resolved ranges.
 
 ### What NOT to do
 
 - Never read a whole book or whole chapter when a section was named.
-- Never load a book's `index.yaml` if the book is out-of-scope and not explicitly cited.
+- Never load a book's `index.md` if the book is out-of-scope and not explicitly cited.
 - Never invent a citation key or section number that the index doesn't have.
 - If a ref is unresolvable, note it in a one-line preface to the user before writing — don't silently drop it.
 
@@ -177,13 +188,17 @@ STEP 1: UNDERSTAND THE TASK
 
 STEP 1.5: RESOLVE SOURCES
   □ Read /sources/catalog.yaml
-  □ If the prompt sets a course, read /sources/courses/<course>.yaml and
-    determine in-scope books. Read the matching module's notes and sources.
+  □ If the prompt sets a course, read /sources/courses/<course>.md and
+    determine in-scope books (frontmatter `books:` + optional `**Books:**`
+    override under the named module). Read the matching module's prose
+    and `**Sources:**` list.
   □ Aggregate candidates from three layers:
       1) prompt explicit refs (highest priority)
-      2) module-level `sources` and `notes`
-      3) in-scope books' index notes (chapter `notes`, section `note`)
-  □ Resolve each free-text ref via the algorithm above
+      2) module-level prose and `**Sources:**` bullets
+      3) in-scope books' /sources/<book>/index.md prose
+         (chapter-level prose under `## Chapter ...`,
+          section-level prose under `### N.M ...`)
+  □ Resolve each free-text ref via the resolution algorithm above
   □ For topic-only prompts, propose aggregated candidates to the user
     (show which layer each came from) and confirm before reading
   □ Read only the resolved ranges (offset+limit for MD/TXT/HTML; pages for PDF)

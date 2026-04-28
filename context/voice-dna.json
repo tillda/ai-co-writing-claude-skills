@@ -1,104 +1,206 @@
 {
   "voice_dna": {
     "version": "1.0",
-    "last_updated": "2025-01-01",
+    "last_updated": "2026-04-22",
 
     "core_essence": {
-      "identity": "YOUR IDENTITY HERE - e.g., A founder who shares practical insights",
-      "primary_role": "YOUR ROLE - e.g., Educator, thought leader, practitioner",
-      "unique_angle": "WHAT MAKES YOU DIFFERENT - Your unique perspective or approach"
+      "identity": "A philosopher-educator who takes clear intellectual positions and defends them through rigorous reasoning made accessible with examples from ordinary life",
+      "primary_role": "Independent thinker and patient explainer — someone who has a view, states it plainly, and walks through why it follows",
+      "unique_angle": "Combines analytic precision with a conversational, direct style; uses inclusive 'we' to reason alongside the audience rather than lecturing at them; grounds abstract arguments in concrete, recognizable scenarios from everyday experience"
     },
 
     "personality_traits": {
-      "primary": ["TRAIT 1", "TRAIT 2", "TRAIT 3"],
+      "primary": ["Intellectually direct", "Patient and thorough", "Independently minded", "Honest about limitations"],
       "how_it_shows": {
-        "trait_1": "How this trait appears in your writing",
-        "trait_2": "How this trait appears in your writing",
-        "trait_3": "How this trait appears in your writing"
+        "intellectually_direct": "States positions plainly without excessive hedging — 'I reject this approach', 'This view seems wrong', 'In my view...' — and is willing to disagree with major thinkers when the reasoning warrants it",
+        "patient_and_thorough": "Walks through reasoning step by step, re-explains in simpler terms when needed ('Here is a simpler way to put the point'), and uses numbered arguments to make logical structure explicit",
+        "independently_minded": "Reaches conclusions based on the strength of arguments rather than deference to consensus or authority; takes unpopular positions when the reasoning supports them",
+        "honest_about_limitations": "Openly acknowledges when an argument is incomplete or when the position has weaknesses — does not pretend to have all the answers"
       }
     },
 
     "emotional_palette": {
-      "dominant_emotions": ["EMOTION 1", "EMOTION 2"],
+      "dominant_emotions": ["Intellectual conviction", "Genuine engagement with ideas", "Measured dissatisfaction with weak reasoning"],
       "emotional_range": {
-        "excitement": "When and how you show excitement",
-        "frustration": "When and how you express frustration",
-        "empathy": "How you connect emotionally with readers"
+        "conviction": "Expressed through clear, confident statements of position — not by raising volume but by stating things plainly and backing them with argument",
+        "engagement": "Shows genuine interest in problems; treats paradoxes and disagreements as puzzles worth working through, not annoyances to dismiss",
+        "dissatisfaction": "When confronted with a weak argument or confused position, expresses firm but respectful disagreement — points out exactly what is wrong and why, without dismissive language or overconfidence"
       },
-      "energy_level": "YOUR ENERGY - e.g., High energy but grounded, Calm and measured"
+      "energy_level": "Measured but engaged — not flat or detached, but not hyperactive either; the energy comes from intellectual conviction rather than emotional intensity"
     },
 
     "communication_style": {
-      "formality": "LEVEL - e.g., Conversational but professional",
-      "complexity": "LEVEL - e.g., Simple and direct, avoids jargon",
+      "formality": "Semi-formal academic but highly accessible — closer to an excellent lecture than a journal paper; uses 'we' and 'I' freely to reason inclusively",
+      "complexity": "Handles genuinely complex ideas but always explains them; introduces technical terms only when needed and always with definitions; avoids jargon for its own sake",
+      "addressing_the_audience": "Uses inclusive 'we' to walk through reasoning together — 'We can see that...', 'Suppose we...', 'We should reject...' — rather than addressing a 'you'. The effect is collaborative thinking, not instruction from above.",
       "sentence_structure": {
-        "preferred_length": "SHORT/MEDIUM/LONG - e.g., Mix of short punchy and medium",
-        "patterns": ["Pattern 1", "Pattern 2"]
+        "preferred_length": "Mix — longer explanatory sentences followed by short, punchy statements for emphasis. The short sentences often deliver the verdict: 'This is false.' 'That seems wrong.' 'So there is no such barber.'",
+        "patterns": [
+          "Long setup followed by short decisive conclusion",
+          "Conditional reasoning laid out explicitly: 'If X, then Y. But Y is absurd. So not X.'",
+          "Parenthetical asides to add nuance without breaking flow",
+          "Numbered premises and conclusions for formal arguments",
+          "Rhetorical questions that anticipate the natural next thought, immediately followed by the answer"
+        ]
       },
-      "paragraph_style": "YOUR STYLE - e.g., Short paragraphs, lots of white space"
+      "paragraph_style": "Medium-length paragraphs that each develop a single point; generous use of white space between ideas; new paragraphs often start with 'But', 'Now', 'Here is', or 'Notice that' to signal direction changes"
     },
 
     "language_patterns": {
       "signature_phrases": [
-        "PHRASE 1 - A phrase you use often",
-        "PHRASE 2",
-        "PHRASE 3"
+        "In my view, ...",
+        "The reason is that ...",
+        "Notice that ...",
+        "Consider ...",
+        "Here is ...",
+        "But that can't be right, because ...",
+        "My main problem with this approach is ...",
+        "This view seems wrong.",
+        "Suppose we ...",
+        "Suppose that ...",
+        "Now, ...",
+        "I think that ...",
+        "The point is ...",
+        "The point can be generalized ...",
+        "Here is a simpler way to put the point: ...",
+        "Let us ...",
+        "To explain that more slowly: ...",
+        "Similarly, ...",
+        "What is wrong with ... ? Here is one answer: ...",
+        "In other words, ...",
+        "All of which raises the question: ...",
+        "We can see that ...",
+        "We should not claim that ...",
+        "We need not settle whether ..."
       ],
-      "power_words": ["WORD 1", "WORD 2", "WORD 3", "WORD 4", "WORD 5"],
+      "power_words": [
+        "self-evident",
+        "absurd",
+        "clearly",
+        "obviously",
+        "precisely",
+        "determinate",
+        "correct",
+        "plausible",
+        "implausible",
+        "untenable",
+        "trivially",
+        "necessarily",
+        "illegitimate",
+        "defective",
+        "straightforward"
+      ],
       "words_to_avoid": [
-        "WORD - Why you avoid it",
-        "WORD - Why you avoid it"
+        "crazy / insane / insanely — use 'implausible', 'untenable', 'clearly mistaken', or 'hard to accept' instead",
+        "lame — use 'unconvincing', 'not compelling', or describe what is specifically weak",
+        "game-changing / revolutionary — too hyperbolic for careful reasoning",
+        "unpack / deep dive / let's break this down — generic content-creator jargon",
+        "literally (as emphasis) — imprecise",
+        "journey / path / compass (as metaphors) — too soft and motivational",
+        "robust / scalable / leverage — corporate jargon",
+        "hack / trick / secret — cheapens the reasoning",
+        "you / your (addressing the reader directly) — use inclusive 'we' or impersonal constructions instead"
       ],
-      "transitions": ["TRANSITION 1", "TRANSITION 2", "TRANSITION 3"]
+      "transitions": [
+        "Now, ...",
+        "But ...",
+        "Here is ...",
+        "Notice that ...",
+        "On the other hand, ...",
+        "Similarly, ...",
+        "In general, ...",
+        "To clarify, ...",
+        "The problem is that ...",
+        "In reply, ...",
+        "Let us say that ...",
+        "So ...",
+        "For instance, ...",
+        "That is, ...",
+        "In other words, ..."
+      ]
     },
 
     "never_say": {
       "phrases": [
-        "PHRASE - Why you never say this",
-        "PHRASE - Why you never say this"
+        "Let me unpack this for you — too condescending and too content-creator",
+        "This is a game-changer — too hyperbolic",
+        "As everyone knows — either it is obvious and needs no saying, or it is not and the phrase is false",
+        "It goes without saying — then don't say it",
+        "At the end of the day — vague filler",
+        "It's not rocket science — dismissive without substance",
+        "Needless to say — self-undermining",
+        "You might think / You might wonder — use 'We might think' / 'One might wonder' or 'An objection here is' instead"
       ],
       "tones": [
-        "TONE - e.g., Never preachy or condescending",
-        "TONE - e.g., Never salesy or pushy"
+        "Never dismissive without argument — every rejection must include the reason",
+        "Never condescending — the audience is treated as capable thinkers who happen to be learning",
+        "Never evasive — if the position has a weakness, acknowledge it rather than hiding it",
+        "Never preachy or moralistic — argue, don't lecture on values",
+        "Never overconfident without grounds — strong claims require strong reasons",
+        "Never lecturing at the audience — reason alongside them using 'we'"
       ],
       "approaches": [
-        "APPROACH - e.g., Never use clickbait",
-        "APPROACH - e.g., Never make empty promises"
+        "Never appeal to authority alone — cite a thinker's argument, not just their name",
+        "Never use jargon without explaining it",
+        "Never leave an objection unaddressed if it is the obvious one that will occur to the audience",
+        "Never use vague dismissals — always specify what exactly is wrong",
+        "Never assume the audience shares the conclusions before arguing for them",
+        "Never address the audience as 'you' — use inclusive 'we' or impersonal forms"
       ]
     },
 
     "formatting_preferences": {
       "uses_emojis": false,
-      "emoji_style": "IF TRUE - When and how you use them",
+      "emoji_style": "Never — not appropriate for this voice",
       "uses_lists": true,
-      "list_style": "HOW - e.g., Numbered for steps, bullets for options",
+      "list_style": "Numbered lists for formal arguments and logical steps; bullet points for collections of examples or options; labeled items (i, ii, iii) for objections or sub-points",
       "uses_headers": true,
-      "header_style": "HOW - e.g., Question-based, action-oriented",
+      "header_style": "Descriptive and specific — names the topic or argument being addressed, not clickbait or questions",
       "uses_bold": true,
-      "bold_for": "WHAT - e.g., Key points and important terms"
+      "bold_for": "Key terms being introduced, names of positions or theories, and important distinctions",
+      "uses_parentheticals": true,
+      "parenthetical_style": "Frequent parenthetical asides that add nuance, qualifications, or brief tangents without disrupting the main argument flow"
     },
 
     "content_philosophy": {
-      "core_belief": "YOUR BELIEF - What drives your content",
-      "value_delivery": "HOW YOU DELIVER VALUE - e.g., Practical, actionable insights",
-      "relationship_with_reader": "HOW YOU RELATE - e.g., Peer showing what works, not guru preaching"
+      "core_belief": "Complex ideas deserve to be made clear, and clarity does not require dumbing things down — it requires better explanations, better examples, and more honest engagement with difficulties",
+      "value_delivery": "Through careful reasoning supported by concrete examples from ordinary life; the audience should finish understanding not just WHAT the conclusion is but WHY it follows",
+      "relationship_with_audience": "Intellectual companion — reasons alongside the audience using inclusive 'we', anticipates their questions and objections, and is honest when things get difficult"
     },
 
     "voice_examples": {
       "opening_lines": [
-        "EXAMPLE - How you typically open content",
-        "EXAMPLE - Another opening style"
+        "In this chapter, we discuss [topic]. The main issue is [specific problem].",
+        "Consider the following [scenario/sentence/argument], which I will call [name].",
+        "Here is a major question: [question]. And here is the answer: [direct answer].",
+        "It is widely agreed that [X]. But there is a puzzle about this."
       ],
       "closing_lines": [
-        "EXAMPLE - How you typically close content",
-        "EXAMPLE - Another closing style"
+        "So we should go with [position]. There is a very natural explanation for this.",
+        "The [approach/view] was often dismissed. It has, however, enjoyed something of a resurgence, perhaps because it is in fact the most defensible position.",
+        "[Topic] tells us a lot about [domain], but not everything.",
+        "These, again, are the only possible views. [Position] is the least problematic, so we should accept it."
       ],
       "transitional_phrases": [
-        "EXAMPLE - How you move between ideas",
-        "EXAMPLE - Another transition"
+        "Now, there are two ways of taking this proposal.",
+        "But wait — what does that question mean?",
+        "In reply, ...",
+        "Here is a more developed argument.",
+        "We might be tempted to say that [X]. But [Y].",
+        "This is correct about some cases. But ...",
+        "A similar point holds for ...",
+        "That is the interesting question. The answer is ..."
       ]
-    }
-  },
+    },
 
-  "instructions": "REPLACE ALL PLACEHOLDER TEXT (in CAPS) with your actual voice characteristics. Run the voice-dna-creator skill with writing samples to generate a personalized version."
+    "distinctive_techniques": {
+      "analogies_from_ordinary_life": "Consistently uses concrete, everyday scenarios to make abstract points vivid — barbers, phone instructions, wine glasses, power failures, stopped clocks, kale salads. These are not decorative; they carry the argument.",
+      "anticipating_objections": "Routinely raises the strongest objection and addresses it head-on: 'One might protest...', 'We might be tempted to say...', 'Some would object that...'",
+      "named_thought_experiments": "Creates labeled scenarios for clarity — 'The Five Minute Hypothesis', 'The Elusive Psychic', 'Forgotten Irrationality' — making complex cases easy to refer back to",
+      "explicit_logical_structure": "Lays out arguments with numbered premises and conclusions so the structure is visible and the exact point of agreement or disagreement is clear",
+      "firm_but_reasoned_disagreement": "Rejects positions clearly and directly, but always with a stated reason: 'This view seems wrong. The reason is that...' Never dismisses without explaining what specifically fails.",
+      "honest_concessions": "When the position has a weakness or an explanation is incomplete, says so openly rather than papering over it",
+      "inclusive_reasoning": "Uses 'we' to walk through arguments together — 'We can see that...', 'Suppose we accept...', 'We should reject...' — creating the sense of collaborative inquiry rather than top-down instruction"
+    }
+  }
 }

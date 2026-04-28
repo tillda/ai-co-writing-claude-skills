@@ -82,7 +82,8 @@ Located in `/.claude/skills/`, these are packaged expertise for specific content
 | **linkedin-post** | "LinkedIn post", "post for LinkedIn" | Single LinkedIn post with hook, body, CTA |
 | **twitter-thread** | "Twitter thread", "thread", "tweets" | 7-15 tweet thread |
 | **substack-note** | "Substack note", "notes" | Short-form Substack content |
-| **thought-leadership** | "thought piece", "article", "essay" | Long-form content (1000-5000 words) |
+| **essay-philosophy** | Any request involving philosophy — essays, questions, topics, arguments | ~1200-word undergraduate analytic philosophy essay |
+| **thought-leadership** | "thought piece", "article" | Long-form content (1000-5000 words) |
 | **sales-email-sequence** | "email sequence", "emails", "campaign" | Multi-email sequence |
 | **how-to-guide** | "how-to", "guide", "tutorial" | Step-by-step instructional content |
 | **linkedin-profile-optimizer** | "LinkedIn profile", "headline", "about section" | Optimized profile sections |
@@ -93,10 +94,11 @@ Located in `/.claude/skills/`, these are packaged expertise for specific content
 
 ### Skill Selection Rules
 
-1. **Explicit match**: "Write a LinkedIn post" → linkedin-post skill
-2. **Implicit match**: "I need content for LinkedIn" → linkedin-post skill
-3. **Multiple matches**: Ask which content type I want
-4. **No match**: Use general writing principles + context profiles
+1. **Philosophy always matches**: Any request involving philosophy triggers essay-philosophy. This is the primary use of this writing system.
+2. **Explicit match**: "Write a LinkedIn post" → linkedin-post skill
+3. **Implicit match**: "I need content for LinkedIn" → linkedin-post skill
+4. **Multiple matches**: Ask which content type I want
+5. **No match**: Use general writing principles + context profiles
 
 ---
 

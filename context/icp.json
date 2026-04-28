@@ -1,148 +1,60 @@
 {
   "ideal_client_profile": {
-    "version": "1.0",
-    "last_updated": "2025-01-01",
+    "version": "1.1",
+    "last_updated": "2026-04-23",
+    "context": "Academic — the audience is an examiner evaluating undergraduate philosophy essays, not a commercial customer",
 
     "demographics": {
-      "age_range": "RANGE - e.g., 28-45",
-      "gender": "ANY/SPECIFIC - e.g., Any, primarily male",
-      "location": "WHERE - e.g., US, UK, global English-speaking",
-      "income_level": "RANGE - e.g., $75k-250k annually",
-      "education": "LEVEL - e.g., College educated, often self-taught in specialty"
+      "role": "Examiner in an undergraduate Analytic Philosophy programme",
+      "location": "United Kingdom",
+      "institution_type": "University offering undergraduate philosophy",
+      "domain": "Analytic philosophy"
     },
 
-    "professional_profile": {
-      "job_titles": [
-        "TITLE 1 - e.g., Founder",
-        "TITLE 2 - e.g., Content Creator",
-        "TITLE 3 - e.g., Marketing Manager"
+    "what_the_examiner_values": {
+      "primary_values": [
+        "Conceptual clarity — precise use of terms, clear definitions, no vagueness",
+        "Demonstrated understanding of argumentation — not just WHAT positions exist, but WHY something supports or refutes a claim",
+        "Genuine engagement over landscape surveys — taking the argument somewhere rather than listing views",
+        "A clear thesis stated early"
       ],
-      "industries": [
-        "INDUSTRY 1 - e.g., Tech/SaaS",
-        "INDUSTRY 2 - e.g., Creator Economy",
-        "INDUSTRY 3 - e.g., Professional Services"
-      ],
-      "company_size": "SIZE - e.g., Solo to 50 employees",
-      "experience_level": "LEVEL - e.g., 3-10 years in their field",
-      "decision_making_power": "LEVEL - e.g., Primary decision maker or strong influencer"
+      "desired_depth": "The level of a sharp, enthusiastic undergraduate who grasps the main and most well-known arguments in analytic philosophy, with sparks of an opinionated approach",
+      "opinionated_approach": "Some visible positioning is welcomed and rewarded — the essay should show a thinker who cares about the topic, not a neutral reporter"
     },
 
-    "psychographics": {
-      "values": [
-        "VALUE 1 - e.g., Efficiency and productivity",
-        "VALUE 2 - e.g., Authenticity over polish",
-        "VALUE 3 - e.g., Continuous learning"
+    "what_the_examiner_penalises": {
+      "content_problems": [
+        "Advanced academic opinions or obscure digressions that would be unusual for an undergraduate to encounter through normal study — this looks suspicious rather than impressive",
+        "Mere surveying of positions without engaging with the arguments behind them",
+        "Being too assertive without providing supporting argument",
+        "Not addressing the asked topic or question directly"
       ],
-      "beliefs": [
-        "BELIEF 1 - e.g., AI is a tool, not a replacement",
-        "BELIEF 2 - e.g., Quality content builds real businesses"
+      "style_problems": [
+        "Dry, purely formal academic prose sustained for long stretches — formal arguments must be woven together with clear, accessible explanations",
+        "Poor essay structure"
       ],
-      "personality_traits": [
-        "TRAIT 1 - e.g., Action-oriented",
-        "TRAIT 2 - e.g., Curious and experimental",
-        "TRAIT 3 - e.g., Time-conscious"
-      ]
-    },
-
-    "problems_and_pain_points": {
-      "primary_problems": [
-        {
-          "problem": "PROBLEM 1 - The main challenge they face",
-          "severity": "HIGH/MEDIUM/LOW",
-          "frequency": "How often they experience this"
-        },
-        {
-          "problem": "PROBLEM 2 - Another key challenge",
-          "severity": "HIGH/MEDIUM/LOW",
-          "frequency": "How often they experience this"
-        }
-      ],
-      "frustrations": [
-        "FRUSTRATION 1 - What annoys them about current solutions",
-        "FRUSTRATION 2 - What they're tired of hearing/seeing"
-      ],
-      "fears": [
-        "FEAR 1 - What they're afraid of",
-        "FEAR 2 - What keeps them up at night"
-      ]
-    },
-
-    "goals_and_desires": {
-      "immediate_goals": [
-        "GOAL 1 - What they want in the next 30-90 days",
-        "GOAL 2 - Another short-term goal"
-      ],
-      "long_term_aspirations": [
-        "ASPIRATION 1 - Where they want to be in 1-3 years",
-        "ASPIRATION 2 - Their bigger vision"
-      ],
-      "dream_outcome": "THE DREAM - The ideal result they're working toward"
+      "scope_rule": "Non-standard or non-mainstream arguments should only appear when the question explicitly calls for them and specifies which ones to use"
     },
 
     "language_patterns": {
-      "words_they_use": [
-        "WORD 1", "WORD 2", "WORD 3", "WORD 4", "WORD 5"
+      "words_the_examiner_expects": [
+        "argument", "proposition", "entails", "follows from", "objection",
+        "premise", "conclusion", "necessary", "sufficient", "prima facie",
+        "plausible", "untenable", "counterexample", "implication"
       ],
-      "phrases_they_say": [
-        "PHRASE 1 - Something they commonly say",
-        "PHRASE 2 - Another common phrase"
+      "phrases_that_signal_quality": [
+        "The reason this matters is ...",
+        "This can be objected to on the grounds that ...",
+        "The strongest version of this argument holds that ...",
+        "However, this faces the following difficulty ...",
+        "In support of this, we can note that ..."
       ],
-      "questions_they_ask": [
-        "QUESTION 1 - A question they frequently have",
-        "QUESTION 2 - Another common question"
-      ],
-      "jargon_they_know": [
-        "TERM 1", "TERM 2", "TERM 3"
-      ]
-    },
-
-    "content_consumption": {
-      "platforms": [
-        "PLATFORM 1 - Where they spend time online",
-        "PLATFORM 2",
-        "PLATFORM 3"
-      ],
-      "content_formats": [
-        "FORMAT 1 - e.g., Short-form posts",
-        "FORMAT 2 - e.g., Newsletters",
-        "FORMAT 3 - e.g., Video tutorials"
-      ],
-      "consumption_time": "WHEN - When they consume content",
-      "attention_span": "LENGTH - How long they'll engage with content"
-    },
-
-    "objections": {
-      "common_objections": [
-        {
-          "objection": "OBJECTION 1 - Why they might not engage",
-          "response": "How to address this objection"
-        },
-        {
-          "objection": "OBJECTION 2 - Another hesitation",
-          "response": "How to address this objection"
-        }
-      ],
-      "trust_barriers": [
-        "BARRIER 1 - What makes them skeptical",
-        "BARRIER 2 - Another trust issue"
-      ]
-    },
-
-    "buying_triggers": {
-      "emotional_triggers": [
-        "TRIGGER 1 - What emotionally motivates them",
-        "TRIGGER 2"
-      ],
-      "logical_triggers": [
-        "TRIGGER 1 - What logically convinces them",
-        "TRIGGER 2"
-      ],
-      "timing_triggers": [
-        "TRIGGER 1 - When they're most likely to act",
-        "TRIGGER 2"
+      "jargon_the_examiner_knows": [
+        "a priori / a posteriori", "analytic / synthetic", "necessary / contingent",
+        "realism / anti-realism", "deflationism", "correspondence theory",
+        "supervenience", "modus ponens", "reductio", "T-schema",
+        "propositional attitude", "truth-apt", "bivalence"
       ]
     }
-  },
-
-  "instructions": "REPLACE ALL PLACEHOLDER TEXT (in CAPS) with your actual ICP characteristics. Run the icp-creator skill with an interview to generate a personalized version."
+  }
 }

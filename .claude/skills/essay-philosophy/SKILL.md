@@ -10,16 +10,18 @@ Write clear, well-argued analytic philosophy essays at undergraduate level for a
 ## Before Writing
 
 1. **Read context profiles**:
-   - `/context/voice-dna.json` — match voice throughout
-   - `/context/icp.json` — understand what the examiner values and penalises
+   - `/context/voice-dna.json` — match voice throughout.
+   - `/context/icp.json` — understand what the examiner values and penalises.
+   - `/context/positions-<course-slug>.md` — if the prompt names a course and this file exists, read it. Match each position's `**Applicable to:**` keywords and module refs against the prompt topic / module. Note any matches.
 
 2. **Resolve sources** — see the dedicated section below. Sources can be referenced from three places (exam prompt, course MD, book index notes); free text everywhere; only the cited line/page ranges enter context, never whole books.
 
-3. **Check for provided direction**:
+3. **Check for provided direction** (in priority order):
    - **Outline given?** Follow it as the essay structure.
-   - **Opinion/position given?** Argue in line with it.
+   - **Opinion/position given in the prompt?** Argue in line with it (overrides any user position).
    - **Specific argument given?** Follow that argument precisely.
-   - **No direction?** Default to the common mainstream position in analytic philosophy.
+   - **No prompt direction, but a matching position from `/context/positions-<course>.md`?** Argue that position as the conclusion. Use the theory-rejection structure honestly: present the rival theories in their strongest form, raise genuine objections, then arrive at the user's position last as the considered view. Do not strawman the rejected views — the examiner can tell.
+   - **No direction at all?** Default to the common mainstream position in analytic philosophy.
 
 ## Format
 
@@ -89,6 +91,9 @@ Analytic philosophy essays typically follow a tree structure that surveys compet
    [... repeat for further theories as needed ...]
 
 5. THEORY N (the preferred theory — always presented last)
+   - When the prompt provides a position, Theory N is that position.
+   - When the prompt is silent and a position from /context/positions-<course>.md matches the topic, Theory N is the matched user position.
+   - Otherwise, Theory N is the analytic-mainstream view.
    - Present it clearly
    - (Alleged) Objection 1
        → Reply that is considered conclusive in favour of Theory N
@@ -110,16 +115,19 @@ Analytic philosophy essays typically follow a tree structure that surveys compet
 ### Notes on Using This Structure
 
 - **If the user provides an outline, follow that instead.** This default structure applies only when no outline is given.
+- **Argue rivals honestly.** When the conclusion (Theory N) is set by a user position from `/context/positions-<course>.md`, the rival theories must still be presented in their strongest form with the genuine objections. Strawmanning a rejected view to make the user's position look easy is the fastest way to lose marks — the examiner profile penalises it.
 - **Not every theory needs the same depth.** A weaker theory can be dispatched briefly; the preferred theory deserves the most careful treatment.
 - **Use concrete examples from ordinary life** to illuminate abstract points where possible.
 
 ## Source Resolution
 
-Sources can come from three layers, queried in priority order:
+Sources can come from three layers. **Layers merge — they do not override.** Layer 1 always reads, layer 2 Sources always merge, layer 2 School Readings merge selectively, layer 3 surfaces additional candidates from in-scope books.
 
-1. **Exam prompt** — explicit free-text refs in the prompt MD or chat (e.g. `(Huemer UK 10.4.2)`). Highest priority.
-2. **Course MD, per-module** — `/sources/courses/<course>.md`, the matching module's prose (guidance) and `**Sources:**` bullet list (free-text refs).
-3. **Book index notes** — chapter-level prose and per-section prose in each in-scope book's `/sources/<book>/index.md` (reverse-mode "use for X" annotations).
+1. **Exam prompt (must-read)** — explicit free-text refs in the prompt MD or chat (e.g. `(Huemer UK 10.4.2)`). **Always resolved and read.**
+2. **Course MD, per-module** — `/courses/<course>/index.md` carries two distinct lists:
+   - `**Sources:**` — what the user has indicated they will use. **Always merged with layer 1.** Resolve every entry as a candidate.
+   - `**School Readings:**` — school-suggested bibliography. Loaded only if (a) the prompt names them explicitly, or (b) layers 1 + Sources don't cover the topic and a School Reading clearly fits. **If a School Reading is unresolvable (book not in `/sources/`) but the named author's position is canonical/well-known philosophy, it is acceptable to invoke the standard interpretation of their view from general knowledge — but never hallucinate quotes, page numbers, specific arguments, or invented positions.** When in doubt, omit the unresolved School Reading rather than risk fabrication.
+3. **Book index notes** — chapter-level prose and per-section prose in each in-scope book's `/sources/<book>/index.md` (reverse-mode "use for X" annotations). Topic-matched: when the annotation hits the prompt topic, the passage is pulled in.
 
 ### Format reminders
 
@@ -128,15 +136,18 @@ Sources can come from three layers, queried in priority order:
   - Frontmatter: `slug`, `title`, `author`, `kind`, `tags`.
   - `## Chapter <N> · <Name>` per chapter, followed by an inline-code metadata line `` `cite: <key> · file: <relative-path> · format: md|pdf|html|txt` ``, then prose for chapter notes.
   - `### <ref> <Name> [<a>-<b>]` per section (use `[pp. <a>-<b>]` for PDF), followed by optional prose for the section note.
-- **`/sources/courses/<course>.md`** is markdown:
+- **`/courses/<course>/index.md`** is markdown:
   - Frontmatter: `slug`, `name`, `style`, `books: [...]`.
-  - `## <Module Name>` per module, followed by prose for module notes, optional `**Sources:**` bullet list, optional `**Books:** [override]`.
+  - `## <N>. <Module Name>` per module (numbered 1-10, with optional `## 0. Introduction` for preamble), followed by prose for module notes, optionally `**Sources:**` and/or `**School Readings:**` bullet lists, optional `**Books:** [override]`.
+  - **Sources** = user-indicated working set; always merged with prompt refs.
+  - **School Readings** = school-suggested bibliography; loaded only on explicit reference or as fallback; canonical-author fallback allowed when unresolved (no fabrication).
+  - The number is the module identifier; the name is documentation. Prompts may reference a module by either number ("module 3") or by name ("module: Tragedy") — match whichever is supplied.
 
 ### Resolution algorithm
 
 For each free-text reference (from any layer):
 
-1. Read `/sources/catalog.yaml` once. If the prompt sets a `course`, also read `/sources/courses/<course>.md` (frontmatter + body) and identify in-scope books (course-level `books:` from frontmatter, possibly overridden by `**Books:**` under the named module). Narrow per-book index lookups to those.
+1. Read `/sources/catalog.yaml` once. If the prompt sets a `course`, also read `/courses/<course>/index.md` (frontmatter + body) and identify in-scope books (course-level `books:` from frontmatter, possibly overridden by `**Books:**` under the named module). Narrow per-book index lookups to those.
 2. Tokenise the ref. Identify:
    - **Author** — match against `author` field of any catalog entry (case-insensitive, surname sufficient).
    - **Book** — match against `title` and `slug` (fuzzy: "UK" → "Understanding Knowledge", word-prefix match, ignore italics/quotes).
@@ -152,10 +163,11 @@ For each free-text reference (from any layer):
 If the prompt names a topic without naming a source, aggregate candidates from all three layers:
 
 - Layer 1: explicit prompt refs (none, by hypothesis).
-- Layer 2: read the matching module's prose and `**Sources:**` list in `/sources/courses/<course>.md` (resolve each free-text ref via the algorithm above).
+- Layer 2 Sources: read the matching module's `**Sources:**` list in `/courses/<course>/index.md` (resolve each via the algorithm above). All Sources are merged in.
+- Layer 2 School Readings: read the matching module's `**School Readings:**` list. Surface only the entries that clearly fit the topic; the rest are background bibliography. For School Readings that do not resolve to any ingested book, skip the lookup but note the named author — if their canonical position is genuinely well-known and clearly relevant, the author and view may be invoked from general knowledge in the essay (no fabrication of quotes, page refs, or specific arguments).
 - Layer 3: scan in-scope books' `index.md` files for chapter-level prose and per-section prose matching the topic / module slug / module name. The index is short — a full read of one book's `index.md` is cheap.
 
-Deduplicate, propose to the user (showing which layer each candidate came from), confirm, then read the resolved ranges.
+Deduplicate, propose to the user (showing which layer each candidate came from — Source / Reading / book-note), confirm, then read the resolved ranges.
 
 ### What NOT to do
 
@@ -188,7 +200,7 @@ STEP 1: UNDERSTAND THE TASK
 
 STEP 1.5: RESOLVE SOURCES
   □ Read /sources/catalog.yaml
-  □ If the prompt sets a course, read /sources/courses/<course>.md and
+  □ If the prompt sets a course, read /courses/<course>/index.md and
     determine in-scope books (frontmatter `books:` + optional `**Books:**`
     override under the named module). Read the matching module's prose
     and `**Sources:**` list.

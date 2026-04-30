@@ -13,15 +13,17 @@ You are NOT a generic writing assistant. You are this specific writing partner.
 │                    PHILOSOPHY ESSAY SYSTEM                       │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                  │
-│  CONTEXT             SOURCES                  SKILLS             │
+│  CONTEXT             LIBRARY                  SKILLS             │
 │  ──────              ───────                  ──────             │
-│  voice-dna.json      catalog.yaml             essay-philosophy   │
-│  icp.json            <book>/index.md          source-indexer     │
-│                      courses/<course>.md      source-ingestor    │
-│                      <book>/<chapter>.{md,pdf}                   │
+│  voice-dna.json      sources/catalog.yaml     essay-philosophy   │
+│  icp.json            sources/<book>/index.md  source-indexer     │
+│                      sources/<book>/          source-ingestor    │
+│                        <chapter>.{md,pdf}                        │
+│                      courses/<course>/                           │
+│                        index.md                                  │
 │                                                                  │
-│   WHO I am /         Library + curated         HOW to            │
-│   serve              annotations (markdown)    produce           │
+│   WHO I am /         Library + curriculum     HOW to             │
+│   serve              (markdown annotations)   produce            │
 │                                                                  │
 │  EXAM PROMPTS                                                    │
 │  ────────────                                                    │
@@ -34,7 +36,7 @@ You are NOT a generic writing assistant. You are this specific writing partner.
 
 ## Context Profiles
 
-In `/context/`. Read both before writing any essay.
+In `/context/`. Read the relevant ones before writing any essay.
 
 ### `voice-dna.json`
 **Purpose**: My writing voice — philosopher-educator, intellectually direct, uses inclusive "we", grounds abstract arguments in concrete examples, weaves formal arguments with accessible explanations.
@@ -43,6 +45,10 @@ In `/context/`. Read both before writing any essay.
 ### `icp.json`
 **Purpose**: The **examiner**, not a commercial customer. UK undergraduate analytic philosophy programme. Lists what the examiner values (clarity, engagement, opinionated thesis early), what they penalise (advanced/obscure digressions, mere surveying, dry sustained prose), and the jargon they expect.
 **When to read**: ALWAYS before writing.
+
+### `positions-<course-slug>.md` (per-course)
+**Purpose**: My stated philosophical positions for one course (e.g. `positions-logic.md`, `positions-epistemology.md`). Each position has a free-text statement of the view and an `**Applicable to:**` line listing trigger keywords and module refs. When the prompt is silent on direction, the matching position becomes the **conclusion** of the essay; the theory-rejection structure presents rival views honestly first and arrives at my position last. When the prompt directs a position, the prompt wins.
+**When to read**: When the prompt names a course (e.g. `course: logic`), read `/context/positions-logic.md` if it exists. Match each position's `**Applicable to:**` against the prompt's topic / module, surface any matches, then bias the thesis to argue the matched position(s) as the conclusion.
 
 (Note: `business-profile.json` exists but is unused for this project. Ignore it.)
 
@@ -57,18 +63,19 @@ The sources subsystem is what makes precise citation possible without loading wh
 ```
 /sources/
   catalog.yaml                # generated; lists books → per-book index paths
-  courses/
-    <course>.md               # hand-authored; per-course scope and module guidance
   _inbox/                     # drop zone for unprocessed PDFs/HTML/TXT
   <book-slug>/
     index.md                  # the only file you maintain per book (markdown)
     <NN>-<chapter>.md         # raw OCR (or converted) — never hand-edited
     <NN>-<chapter>.pdf        # PDFs allowed alongside MD
+/courses/
+  <course>/
+    index.md                  # hand-authored; per-course scope and module guidance
 ```
 
 ### Index and course-spec format
 
-Both `<book>/index.md` and `courses/<course>.md` are **markdown** with YAML frontmatter. Edit them as prose; structure is implicit in headings.
+Both `<book>/index.md` and `courses/<course>/index.md` are **markdown** with YAML frontmatter. Edit them as prose; structure is implicit in headings.
 
 **`<book>/index.md`** carries: book metadata in frontmatter; one `## Chapter <N> · <Name>` per chapter with an inline metadata line `` `cite: <key> · file: <path> · format: md|pdf|html|txt` `` directly under the heading; chapter notes as free prose; `### <ref> <Name> [<a>-<b>]` per section (use `[pp. <a>-<b>]` for PDF), with optional per-section prose.
 
@@ -79,17 +86,28 @@ A section heading has three roles:
 
 For books without numbered sections (`## Introduction`, `## The Argument` etc.), the indexer assigns synthetic numeric prefixes at scaffold time (`### 1 Introduction [10-45]`, `### 2 The Argument [46-180]`) so there's still a stable identifier to match by.
 
-**`courses/<course>.md`** carries: course metadata in frontmatter (`slug`, `name`, `style`, `books: [...]`); one `## <Module Name>` per module; module guidance as free prose; optional `**Sources:**` bullet list with free-text refs; optional `**Books:** [...]` line to override the course-level book scope for that module.
+**`courses/<course>/index.md`** carries: course metadata in frontmatter (`slug`, `name`, `style`, `books: [...]`); one `## <N>. <Module Name>` per module (numbered 1-10 typically, with optional `## 0. Introduction` for preamble material); module guidance as free prose; optionally `**Sources:**` and/or `**School Readings:**` bullet lists with free-text refs; optional `**Books:** [...]` line to override the course-level book scope for that module.
+
+The two bullet lists serve different purposes:
+
+- **`**Sources:**`** — what I (the student) have indicated I will actually use. Should resolve cleanly. **Always merged with prompt refs.** The resolver loads each Source as a candidate.
+- **`**School Readings:**`** — school-suggested bibliography. Self-paced study means I'm not expected to read all of these. Some may not even be ingested into `/sources/`. They're listed for completeness and discovery.
+
+The leading number is the **module identifier** (stable across renames); the name after it is documentation for the human reader. Prompts reference modules by either number ("module 3") or name ("module: Tragedy") — the resolver matches whichever is supplied.
 
 ### Three layers of source guidance
 
 When a prompt names sources, or names only a topic, look in three places. **All free text everywhere** — the same fuzzy resolver parses "Huemer Understanding Knowledge 2.3.4" wherever it appears.
 
-1. **Exam prompt** — explicit refs in the prompt MD or chat. Highest priority.
-2. **Course MD** — `/sources/courses/<course>.md`, the matching module's prose and `**Sources:**` bullets. Standing intent for *this module*.
-3. **Book index** ("reverse mode") — `/sources/<book>/index.md`, chapter-level prose and per-section prose saying "use for scepticism", etc. Standing intent for *this passage*.
+**Layers merge, they do not override.** Layer 1 always reads. Layer 2 Sources always merge. Layer 2 School Readings merge only when relevant or explicitly cited. Layer 3 surfaces additional candidates from in-scope books.
 
-For topic-only or under-specified prompts, aggregate candidates from layers 2 and 3, propose to me with the layer of origin labelled, then resolve.
+1. **Exam prompt (must-read)** — explicit refs in the prompt MD or chat. **Always resolved and read.** Non-negotiable.
+2. **Course MD** — `/courses/<course>/index.md` carries two distinct lists per module:
+   - `**Sources:**` — what I've indicated I will use. **Always merged with layer 1.** Every Source is loaded as a candidate.
+   - `**School Readings:**` — school-suggested bibliography. Loaded only if (a) the prompt explicitly names them, or (b) layers 1 + Sources don't cover the topic and a School Reading clearly fits. **If a School Reading cannot be resolved (book not in `/sources/`) but the author's position is well-known canonical philosophy, it is acceptable to invoke that position from general knowledge — but never hallucinate quotes, page numbers, specific arguments, or invented positions.** When in doubt, leave the unresolved School Reading out rather than risk fabrication.
+3. **Book index** ("reverse mode") — `/sources/<book>/index.md`, chapter-level prose and per-section prose saying "use for scepticism", etc. **Topic-matched.** When an annotation matches the prompt topic, the passage is pulled in.
+
+For topic-only or under-specified prompts, aggregate candidates from layer 2 (Sources first, then School Readings) and layer 3, propose to me with the layer of origin labelled, then resolve.
 
 ### Subchapter precision
 
@@ -129,10 +147,16 @@ STEP 1: LOAD CONTEXT
 STEP 2: PARSE PROMPT
   □ Identify the question, direction, outline, and source refs
   □ Note the prompt's `course:` and `module:` if set
+  □ If course is named, read /context/positions-<course-slug>.md
+    (if it exists). For each position, check its **Applicable to:**
+    line against the prompt topic / module. Surface matching positions —
+    they become the essay's default conclusion when the prompt is silent
+    on direction (theory-rejection structure honestly: rivals first,
+    matched position last).
 
 STEP 3: RESOLVE SOURCES
   □ Read /sources/catalog.yaml
-  □ If a course is named, read /sources/courses/<course>.md and
+  □ If a course is named, read /courses/<course>/index.md and
     determine in-scope books (frontmatter `books:` + optional `**Books:**`
     override under the named module). Read the matching module's prose
     and `**Sources:**` list.
@@ -186,7 +210,7 @@ You:
 1. Read /context/voice-dna.json, /context/icp.json
 2. Read /exam-prompts/induction.md
 3. Parse course/module/outline/source refs
-4. Read /sources/catalog.yaml + relevant courses/<course>.yaml
+4. Read /sources/catalog.yaml + relevant /courses/<course>/index.md
 5. Resolve and read only cited section ranges
 6. Plan via essay-philosophy framework
 7. Print ~1200-word essay to chat
@@ -261,7 +285,7 @@ You:
 - Run source-indexer in refresh mode. It re-derives the bracket range from the current source headings, matched by section number, and leaves your prose alone.
 
 ### A source that should have been suggested wasn't
-- The book may not be in scope for the named course/module. Check the `books:` field in `/sources/courses/<course>.md` frontmatter (or `**Books:**` under the module).
+- The book may not be in scope for the named course/module. Check the `books:` field in `/courses/<course>/index.md` frontmatter (or `**Books:**` under the module).
 - The book's `index.md` may not have prose mentioning the topic. Open it and write a sentence under the relevant chapter or section heading.
 
 ### Subchapter content was wrong (read more than the section)
@@ -276,7 +300,7 @@ You:
 Context:       /context/voice-dna.json, /context/icp.json
 Sources:       /sources/catalog.yaml
                /sources/<book>/index.md
-               /sources/courses/<course>.md
+               /courses/<course>/index.md
 Inbox:         /sources/_inbox/
 Skills:        /.claude/skills/<skill>/SKILL.md
 Exam prompts:  /exam-prompts/
@@ -288,7 +312,7 @@ Voice samples: /setup/voice-samples/ (input for voice-dna-creator)
 ```
 "What books are in the library?"           → reads catalog.yaml
 "What's the index say about UK ch. 10?"   → reads understanding-knowledge/index.md
-"What modules are in the epistemology course?" → reads courses/epistemology.md
+"What modules are in the epistemology course?" → reads courses/epistemology/index.md
 ```
 
 ---

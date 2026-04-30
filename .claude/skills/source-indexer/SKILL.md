@@ -185,7 +185,7 @@ Run after every invocation:
 - Every section heading has a parseable range marker.
 - `cite` keys are unique across the whole library (only flag when both filled in; empty placeholders are OK).
 - Every `file:` referenced exists on disk under `/sources/<book>/`.
-- For each `/sources/courses/*.md`:
+- For each `/courses/*/index.md`:
   - Every book listed under frontmatter `books:` exists in `catalog.yaml`.
   - Every entry under any module's `**Sources:**` list resolves through the fuzzy resolver (warn for unresolved).
 
@@ -206,7 +206,7 @@ Warnings: ch. 14 in understanding-knowledge lists "14.5" with no matching headin
 
 - Never edits source files (`.md`, `.pdf`, etc.).
 - Never deletes or modifies user prose in `index.md`.
-- Never modifies `/sources/courses/*.md`.
+- Never modifies `/courses/*/index.md`.
 - Never writes essays or modifies prompts.
 
 ## Implementation notes

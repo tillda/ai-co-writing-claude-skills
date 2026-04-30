@@ -2,5 +2,35 @@
 # This file is the assistant's first read when resolving a source reference.
 # Hand edits are tolerated but the indexer will overwrite on next run.
 version: 1
-generated: ""
-books: []
+generated: "2026-04-30"
+books:
+  - slug: philosophical-logic
+    title: An Introduction to Philosophical Logic
+    author: A. C. Grayling
+    kind: book
+    tags: [logic, philosophical-logic, language, truth]
+    index: sources/philosophical-logic/index.md
+  - slug: philosophy-of-language
+    title: Philosophy of Language — A Contemporary Introduction
+    author: William G. Lycan
+    kind: book
+    tags: [language, reference, meaning, truth-conditions, pragmatics]
+    index: sources/philosophy-of-language/index.md
+  - slug: reading-philosophy
+    title: Reading Philosophy
+    author: Stephen Guttenplan, Jennifer Hornsby, Christopher Janaway, John Schwenkler
+    kind: book
+    tags: [introduction, philosophy]
+    index: sources/reading-philosophy/index.md
+  - slug: truth-horwich
+    title: Truth
+    author: Paul Horwich
+    kind: book
+    tags: [truth, minimalism, deflationism]
+    index: sources/truth-horwich/index.md
+  - slug: understanding-knowledge
+    title: Understanding Knowledge
+    author: Michael Huemer
+    kind: book
+    tags: [epistemology]
+    index: sources/understanding-knowledge/index.md

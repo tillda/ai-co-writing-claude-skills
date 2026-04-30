@@ -55,7 +55,7 @@ Takes raw material the user dropped into `/sources/_inbox/` and files it into th
 - Never writes `cite`, `summary`, or `notes` values — those are curated by the user in `index.md`.
 - Never deletes inbox originals. Move them to `_inbox/_processed/` so the user can re-OCR or revert if needed.
 - Never modifies existing source files in `/sources/<book>/`.
-- Never touches `/sources/courses/*.md`.
+- Never touches `/courses/*/index.md`.
 
 ## Implementation notes
 

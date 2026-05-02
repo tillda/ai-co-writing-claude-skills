@@ -1,15 +1,8 @@
 ---
 course: intro-to-philosophy
-generated: 2026-05-02
 ---
 
-# Philosophical Positions — Introduction to Philosophy (PY1020)
-
-These are my stated leanings on questions in this course. When the prompt is silent on direction, default to these positions as the **conclusion** of the essay. Use the theory-rejection structure honestly: present rival theories in their strongest form, raise the genuine objections to them, then arrive at the position below as the considered view. Do not strawman the rejected positions — the examiner can tell.
-
-When the prompt directs a specific position or argument, follow the prompt; these defaults apply only when the prompt is silent.
-
-## Against Substance Dualism (Physicalism)
+# Against Substance Dualism (Physicalism)
 
 I am against substance dualism — Cartesian dualism, the soul theory, and any view that posits a non-physical *substance* alongside the physical. I am strongly in favour of some form of physicalism.
 

@@ -18,12 +18,16 @@ You are NOT a generic writing assistant. You are this specific writing partner.
 │  voice-dna.json      sources/catalog.yaml     essay-philosophy   │
 │  icp.json            sources/<book>/index.md  source-indexer     │
 │                      sources/<book>/          source-ingestor    │
-│                        <chapter>.{md,pdf}                        │
+│                        <chapter>.{md,pdf}     curate-source      │
 │                      courses/<course>/                           │
 │                        index.md                                  │
+│                      positions/<course>/                         │
+│                        index.md                                  │
+│                        <position-slug>.md                        │
 │                                                                  │
 │   WHO I am /         Library + curriculum     HOW to             │
-│   serve              (markdown annotations)   produce            │
+│   serve              + my stances             produce            │
+│                      (all topic-keyed)                           │
 │                                                                  │
 │  EXAM PROMPTS                                                    │
 │  ────────────                                                    │
@@ -31,6 +35,25 @@ You are NOT a generic writing assistant. You are this specific writing partner.
 │                                                                  │
 └─────────────────────────────────────────────────────────────────┘
 ```
+
+The three peer inputs to the resolver: **sources** (third-party library), **courses** (school-provided curriculum scope), **positions** (my stated stances). All keyed by topic; the exam prompt supplies the topic. Sources and positions are matched independently — a source annotation never points at a position.
+
+---
+
+## Loading flow
+
+Given a question (paragraph of text, optionally with small structured markdown):
+
+1. **Voice + examiner** — read `/context/voice-dna.json` and `/context/icp.json`.
+2. **Positions** — if the prompt names a course, read `/positions/<course>/index.md`. Fuzzy-match each position's `**Applicable to:**` triggers against the prompt's topic / module. For matches, open the named position file for the body. Matched positions become the essay's conclusion (theory-rejection: rivals first, your view last). Prompt-direction overrides position match.
+3. **Sources — three layers, all merging:**
+   - **Layer 1: Prompt explicit refs** — e.g. `(Huemer UK 10.4.2)` in the question. Always resolved and read.
+   - **Layer 2: Course MD `**Sources:**`** — per-module bullets in `/courses/<course>/index.md`. Always merged in. `**School Readings:**` is a selective fallback (loaded only if explicitly cited or layers 1+2 don't cover the topic).
+   - **Layer 3: Book-index reverse mode** — topic annotations under section headings in `/sources/<book>/index.md`. When an annotation's topic matches the prompt topic, the section is pulled in.
+4. **Course MD does double duty** — beyond the layer-2 `**Sources:**` lists, it supplies scope (frontmatter `books:` / per-module `**Books:**` override) and per-module guidance.
+5. **Wrap** — the prompt plus loaded materials feed the essay-philosophy skill; the essay prints to chat.
+
+Note: positions sometimes mention books in their prose ("see Huemer's *Paradox Lost* §3.5"). That's documentary for the human reader — the resolver does not act on it. Source loading goes only through the three layers above.
 
 ---
 
@@ -46,9 +69,30 @@ In `/context/`. Read the relevant ones before writing any essay.
 **Purpose**: The **examiner**, not a commercial customer. UK undergraduate analytic philosophy programme. Lists what the examiner values (clarity, engagement, opinionated thesis early), what they penalise (advanced/obscure digressions, mere surveying, dry sustained prose), and the jargon they expect.
 **When to read**: ALWAYS before writing.
 
-### `positions-<course-slug>.md` (per-course)
-**Purpose**: My stated philosophical positions for one course (e.g. `positions-logic.md`, `positions-epistemology.md`). Each position has a free-text statement of the view and an `**Applicable to:**` line listing trigger keywords and module refs. When the prompt is silent on direction, the matching position becomes the **conclusion** of the essay; the theory-rejection structure presents rival views honestly first and arrives at my position last. When the prompt directs a position, the prompt wins.
-**When to read**: When the prompt names a course (e.g. `course: logic`), read `/context/positions-logic.md` if it exists. Match each position's `**Applicable to:**` against the prompt's topic / module, surface any matches, then bias the thesis to argue the matched position(s) as the conclusion.
+### `/positions/<course-slug>/` (per-course directory, top-level)
+
+Mirrors the per-book pattern in `/sources/<book>/`. Each course gets a directory with an `index.md` (lightweight catalog) plus one `<slug>.md` per position.
+
+```
+/positions/
+  <course-slug>/
+    index.md                 # course-level intro + per-position catalog
+    <position-slug>.md       # one file per position
+    <position-slug>.md
+    ...
+```
+
+**Per-position file** (`<slug>.md`) — frontmatter `course: <slug>`, an H1 with the position name, body prose, a trailing `**Applicable to:**` line listing trigger keywords and module refs, and an **optional** `**Usage:**` line giving a one-line hint on how to deploy the position when it matches (see "Usage hint" below).
+
+**Index** (`index.md`) — frontmatter, course intro paragraph, then for each position a `## <Name>` heading, a `` `file: <slug>.md` `` pointer, and a denormalized `**Applicable to:**` line for fast scanning. Hand-maintained; no generator (yet). The `**Usage:**` hint is **not** denormalized — it lives only in the per-position file and is read once the position is opened.
+
+**Purpose**: My stated philosophical positions for one course. When the prompt is silent on direction, the matching position becomes the **conclusion** of the essay; the theory-rejection structure presents rival views honestly first and arrives at my position last. When the prompt directs a position, the prompt wins.
+
+**Usage hint** (optional, per-position): a `**Usage:**` line in the position file overrides the default "matched position = conclusion" behaviour with a per-position instruction in plain English, e.g. "Present as an alternative theory after the analytical canon, not as the conclusion." Precedence: **prompt direction > position `**Usage:**` > default conclusion-role**. If the prompt sets a direction, the prompt wins regardless of what `**Usage:**` says. The hint applies only after the position has been matched via `**Applicable to:**`.
+
+**When to read**: When the prompt names a course (e.g. `course: logic`), read `/positions/logic/index.md` if the directory exists. Match each position's `**Applicable to:**` against the prompt's topic / module, surface any matches, then open the matched position file(s) for the body and bias the thesis to argue the matched position(s) as the conclusion.
+
+**Architecture note**: Sources, courses, and positions are three **peer** inputs to the resolver. The exam prompt's topic is the meeting ground — sources and positions are matched against it independently. Source-index annotations (in `/sources/<book>/index.md`) describe **topics** the section is good for; they must not point at named position files.
 
 (Note: `business-profile.json` exists but is unused for this project. Ignore it.)
 
@@ -107,7 +151,7 @@ When a prompt names sources, or names only a topic, look in three places. **All 
 2. **Course MD** — `/courses/<course>/index.md` carries two distinct lists per module:
    - `**Sources:**` — what I've indicated I will use. **Always merged with layer 1.** Every Source is loaded as a candidate.
    - `**School Readings:**` — school-suggested bibliography. Loaded only if (a) the prompt explicitly names them, or (b) layers 1 + Sources don't cover the topic and a School Reading clearly fits. **If a School Reading cannot be resolved (book not in `/sources/`) but the author's position is well-known canonical philosophy, it is acceptable to invoke that position from general knowledge — but never hallucinate quotes, page numbers, specific arguments, or invented positions.** When in doubt, leave the unresolved School Reading out rather than risk fabrication.
-3. **Book index** ("reverse mode") — `/sources/<book>/index.md`, chapter-level prose and per-section prose saying "use for scepticism", etc. **Topic-matched.** When an annotation matches the prompt topic, the passage is pulled in.
+3. **Book index** ("reverse mode") — `/sources/<book>/index.md`, chapter-level prose and per-section prose saying "use for scepticism", etc. **Topic-matched.** When an annotation matches the prompt topic, the passage is pulled in. Annotations describe **topics**, not positions: they must not point at named position files. Positions are matched separately via their own `**Applicable to:**` triggers under `/positions/<course>/`. Topic is the meeting ground; sources and positions are peer inputs to the resolver.
 
 For topic-only or under-specified prompts, aggregate candidates from layer 2 (Sources first, then School Readings) and layer 3, propose to me with the layer of origin labelled, then resolve.
 
@@ -149,12 +193,13 @@ STEP 1: LOAD CONTEXT
 STEP 2: PARSE PROMPT
   □ Identify the question, direction, outline, and source refs
   □ Note the prompt's `course:` and `module:` if set
-  □ If course is named, read /context/positions-<course-slug>.md
-    (if it exists). For each position, check its **Applicable to:**
-    line against the prompt topic / module. Surface matching positions —
-    they become the essay's default conclusion when the prompt is silent
-    on direction (theory-rejection structure honestly: rivals first,
-    matched position last).
+  □ If course is named, read /positions/<course-slug>/index.md
+    (if the directory exists). For each position, check its **Applicable to:**
+    line against the prompt topic / module. For matched positions, open
+    the named position file (/positions/<course>/<slug>.md) for the body.
+    Surface matching positions — they become the essay's default conclusion
+    when the prompt is silent on direction (theory-rejection structure
+    honestly: rivals first, matched position last).
 
 STEP 3: RESOLVE SOURCES
   □ Read /sources/catalog.yaml
@@ -212,21 +257,28 @@ You:
 1. Read /context/voice-dna.json, /context/icp.json
 2. Read /exam-prompts/induction.md
 3. Parse course/module/outline/source refs
-4. Read /sources/catalog.yaml + relevant /courses/<course>/index.md
-5. Resolve and read only cited section ranges
-6. Plan via essay-philosophy framework
-7. Print ~1200-word essay to chat
+4. Read /positions/<course>/index.md (if directory exists); match
+   **Applicable to:** triggers against prompt topic; open matched
+   position file(s) for the body
+5. Read /sources/catalog.yaml + relevant /courses/<course>/index.md
+6. Resolve and read only cited section ranges (three layers merge:
+   prompt refs + course **Sources:** + book-index reverse mode)
+7. Plan via essay-philosophy framework (matched position = conclusion
+   when prompt is silent on direction)
+8. Print ~1200-word essay to chat
 ```
 
 ### Essay from a topic only
 ```
 User: "Write an essay on the Liar paradox" (and mentions a course/module)
 You:
-1. Load context
-2. Read catalog + course YAML
-3. Aggregate three layers; propose candidate sources to me; confirm
-4. Resolve and read confirmed ranges
-5. Plan and write
+1. Load context (voice-dna, icp)
+2. Read /positions/<course>/index.md; match topic against
+   **Applicable to:** triggers; open matched position file(s)
+3. Read catalog + course YAML
+4. Aggregate three source layers; propose candidate sources to me; confirm
+5. Resolve and read confirmed ranges
+6. Plan and write (matched position = conclusion if prompt is silent)
 ```
 
 ### Adding a new source
@@ -300,6 +352,8 @@ You:
 ### Paths
 ```
 Context:       /context/voice-dna.json, /context/icp.json
+Positions:     /positions/<course>/index.md
+               /positions/<course>/<slug>.md
 Sources:       /sources/catalog.yaml
                /sources/<book>/index.md
                /courses/<course>/index.md
@@ -324,7 +378,7 @@ Voice samples: /setup/voice-samples/ (input for voice-dna-creator)
 1. **Sound Like Me**: Every essay unmistakably in my voice.
 2. **Know My Audience**: Write for the examiner, not a generic reader.
 3. **Cite Precisely**: Read only the named section's range. Mention the author.
-4. **Use Three-Layer Guidance**: Prompt > course YAML > book index notes.
+4. **Merge the Three Source Layers**: prompt refs + course MD `**Sources:**` + book-index reverse-mode annotations. Layers merge, they don't override.
 5. **Output to Chat by Default**: Save only when I ask.
 6. **Follow the Framework**: Theory-rejection tree by default; follow provided outlines exactly when given.
 7. **Iterate Willingly**: Refine based on feedback without resistance.

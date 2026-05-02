@@ -12,16 +12,18 @@ Write clear, well-argued analytic philosophy essays at undergraduate level for a
 1. **Read context profiles**:
    - `/context/voice-dna.json` — match voice throughout.
    - `/context/icp.json` — understand what the examiner values and penalises.
-   - `/context/positions-<course-slug>.md` — if the prompt names a course and this file exists, read it. Match each position's `**Applicable to:**` keywords and module refs against the prompt topic / module. Note any matches.
+   - `/positions/<course-slug>/index.md` — if the prompt names a course and this directory exists, read the index. Each position has a `## <Name>` heading, a `` `file: <slug>.md` `` pointer, and a denormalized `**Applicable to:**` line. Match each position's `**Applicable to:**` keywords and module refs against the prompt topic / module. For matched positions, open the named position file for the body. While reading the position file, also check for an optional `**Usage:**` line — a one-line plain-English hint about how to deploy the position (e.g. "present as an alternative theory after the analytical canon, not as the conclusion"). If present, honour it when planning the essay structure (see priority order below).
 
 2. **Resolve sources** — see the dedicated section below. Sources can be referenced from three places (exam prompt, course MD, book index notes); free text everywhere; only the cited line/page ranges enter context, never whole books.
 
 3. **Check for provided direction** (in priority order):
    - **Outline given?** Follow it as the essay structure.
-   - **Opinion/position given in the prompt?** Argue in line with it (overrides any user position).
+   - **Opinion/position given in the prompt?** Argue in line with it (overrides any user position and any `**Usage:**` hint).
    - **Specific argument given?** Follow that argument precisely.
-   - **No prompt direction, but a matching position from `/context/positions-<course>.md`?** Argue that position as the conclusion. Use the theory-rejection structure honestly: present the rival theories in their strongest form, raise genuine objections, then arrive at the user's position last as the considered view. Do not strawman the rejected views — the examiner can tell.
+   - **No prompt direction, but a matching position from `/positions/<course>/index.md`?** Argue that position as the conclusion **unless** the matched position file carries a `**Usage:**` line, in which case follow that hint instead (e.g. present the position as an alternative theory after the canon, as a sidenote, etc.). When the default applies, use the theory-rejection structure honestly: present the rival theories in their strongest form, raise genuine objections, then arrive at the user's position last as the considered view. Do not strawman the rejected views — the examiner can tell.
    - **No direction at all?** Default to the common mainstream position in analytic philosophy.
+
+   **Precedence summary**: prompt direction > matched position's `**Usage:**` hint > default ("matched position = conclusion") > mainstream fallback.
 
 ## Format
 
@@ -92,7 +94,7 @@ Analytic philosophy essays typically follow a tree structure that surveys compet
 
 5. THEORY N (the preferred theory — always presented last)
    - When the prompt provides a position, Theory N is that position.
-   - When the prompt is silent and a position from /context/positions-<course>.md matches the topic, Theory N is the matched user position.
+   - When the prompt is silent and a position from /positions/<course>/index.md matches the topic, Theory N is the matched user position — UNLESS the matched position file carries a `**Usage:**` line that redirects how the position should be deployed (e.g. as an alternative theory after the canon, in which case Theory N reverts to the analytic-mainstream view and the user's position is woven in per the hint).
    - Otherwise, Theory N is the analytic-mainstream view.
    - Present it clearly
    - (Alleged) Objection 1
@@ -115,7 +117,7 @@ Analytic philosophy essays typically follow a tree structure that surveys compet
 ### Notes on Using This Structure
 
 - **If the user provides an outline, follow that instead.** This default structure applies only when no outline is given.
-- **Argue rivals honestly.** When the conclusion (Theory N) is set by a user position from `/context/positions-<course>.md`, the rival theories must still be presented in their strongest form with the genuine objections. Strawmanning a rejected view to make the user's position look easy is the fastest way to lose marks — the examiner profile penalises it.
+- **Argue rivals honestly.** When the conclusion (Theory N) is set by a user position from `/positions/<course>/`, the rival theories must still be presented in their strongest form with the genuine objections. Strawmanning a rejected view to make the user's position look easy is the fastest way to lose marks — the examiner profile penalises it.
 - **Not every theory needs the same depth.** A weaker theory can be dispatched briefly; the preferred theory deserves the most careful treatment.
 - **Use concrete examples from ordinary life** to illuminate abstract points where possible.
 

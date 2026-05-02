@@ -110,15 +110,15 @@ Chapter scope for the Logic course (PY1070): §§5.2.1, 5.2.2, 5.2.3, 5.5.1, 5.5
 
 #### 5.2.1 The Law of Non-Contradiction [69-78]
 
-Use for *positions-logic.md / Classical Logic*. Argue LNC from the meaning of negation: ¬A is, by definition, all the situations where A fails; the two ranges cannot overlap, so (A & ¬A) is necessarily false. Cite as the intro-level statement of the same move developed in *Paradox Lost* Introduction §1.3. Reject paraconsistent and dialetheist responses.
+Use for the defense of classical logic / law of non-contradiction. Argue LNC from the meaning of negation: ¬A is, by definition, all the situations where A fails; the two ranges cannot overlap, so (A & ¬A) is necessarily false. Cite as the intro-level statement of the same move developed in *Paradox Lost* Introduction §1.3. Counters paraconsistent and dialetheist responses.
 
 #### 5.2.2 The Law of Excluded Middle [79-88]
 
-Use for *positions-logic.md / Classical Logic*. Argue LEM from the meaning of negation (¬A *includes* every case where A doesn't obtain), plus the reductio: denying both A and ¬A entails ¬A ∧ ¬¬A, an explicit contradiction. **Crucial**: cite the closing caveat — LEM applies only to proposition-expressing sentences ("All blugs are torf" is no counterexample) — as the canonical statement of the scope-restriction move. Also cited by *positions-logic.md / Sorites Paradox* for the parallel "fail to express a proposition" framing for vague borderline sentences. Reject deviant logics that revise the *content* of LEM rather than restrict its *scope*.
+Use for the defense of classical logic / law of excluded middle. Argue LEM from the meaning of negation (¬A *includes* every case where A doesn't obtain), plus the reductio: denying both A and ¬A entails ¬A ∧ ¬¬A, an explicit contradiction. **Crucial**: cite the closing caveat — LEM applies only to proposition-expressing sentences ("All blugs are torf" is no counterexample) — as the canonical statement of the scope-restriction move. Also relevant for the Sorites paradox, where the same "fail to express a proposition" framing applies to vague borderline sentences. Counters deviant logics that revise the *content* of LEM rather than restrict its *scope*.
 
 #### 5.2.3 What Questions Have Answers? [89-104]
 
-Use sparingly, for Module 2 (Truth) essays where the scope of LEM is at issue. Argue: a question can lack an answer only if it is meaningless or contains a false presupposition; otherwise saying "philosophical questions have no answers" is incoherent (it amounts to ¬P ∧ ¬¬P). Connects the scope-restriction move from §5.2.2 to the rejection of relativism, and reinforces *positions-logic.md / Classical Logic*.
+Use sparingly, for Module 2 (Truth) essays where the scope of LEM is at issue. Argue: a question can lack an answer only if it is meaningless or contains a false presupposition; otherwise saying "philosophical questions have no answers" is incoherent (it amounts to ¬P ∧ ¬¬P). Connects the scope-restriction move from §5.2.2 to the rejection of relativism, and reinforces the defense of classical logic.
 
 ### 5.3 Why Believe Relativism? [105-106]
 
@@ -140,11 +140,11 @@ Use sparingly, for Module 2 (Truth) essays where the scope of LEM is at issue. A
 
 #### 5.5.1 The Correspondence Theory [199-204]
 
-Use for *positions-logic.md / Truth Minimalism* (Module 2 — Truth). Cite Aristotle's gloss ("to say of what is that it is, and of what is not that it is not, is true") as the canonical statement of the equivalence-schema intuition that minimalism explains. Layman's "correspondence" and Horwich's "minimalism" agree on this data — Horwich himself frames minimalism as preserving the lay correspondence intuition. The user's position rejects the *substantive* correspondence theory (the obscure "fact"-relation account), not Aristotle's gloss. Do not present this section as a rival to the user's position.
+Use for the defense of truth minimalism (Module 2 — Truth). Cite Aristotle's gloss ("to say of what is that it is, and of what is not that it is not, is true") as the canonical statement of the equivalence-schema intuition that minimalism explains. Layman's "correspondence" and Horwich's "minimalism" agree on this data — Horwich himself frames minimalism as preserving the lay correspondence intuition. Note: it is the *substantive* correspondence theory (the obscure "fact"-relation account) that minimalists reject, not Aristotle's gloss. Do not present this section as a rival to minimalism.
 
 #### 5.5.2 Rival Theories [205-226]
 
-Use for *positions-logic.md / Truth Minimalism* (Module 2 — Truth). Argue: the equivalence schema (`"It's true that P"` entails `P` and vice versa) demolishes pragmatism, coherence, and verificationism — Huemer's argument here is the deflationist's own, and gives a clean intro-level companion to Horwich's *Truth*. Each rival fails the entailment test: e.g. the pragmatic biconditional "cats eat mice iff it is useful to believe cats eat mice" is uncontroversially false in both directions.
+Use for the defense of truth minimalism (Module 2 — Truth). Argue: the equivalence schema (`"It's true that P"` entails `P` and vice versa) demolishes pragmatism, coherence, and verificationism — Huemer's argument here is the deflationist's own, and gives a clean intro-level companion to Horwich's *Truth*. Each rival fails the entailment test: e.g. the pragmatic biconditional "cats eat mice iff it is useful to believe cats eat mice" is uncontroversially false in both directions.
 
 #### 5.5.3 Is Everything Relative? [227-238]
 

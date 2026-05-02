@@ -20,7 +20,7 @@ Use for Huemer's overall methodology: classical logic is non-negotiable; the way
 
 ### 1.3 How to Seek Solutions [96-120]
 
-Use for *positions-logic.md / Classical Logic*. Huemer's commitment to classical logic — LNC, LEM, bivalence as self-evident truths reflecting the meanings of "and", "or", "not", and "true". Argument that even reasoning about deviant logics requires classical logic. Methodological maxim: principles that almost everyone finds self-evident are probably not flat-out wrong.
+Use for the defense of classical logic — LNC, LEM, bivalence as self-evident truths reflecting the meanings of "and", "or", "not", and "true". Argument that even reasoning about deviant logics requires classical logic. Methodological maxim: principles that almost everyone finds self-evident are probably not flat-out wrong.
 
 ### 1.4 Why Paradoxes? [121-130]
 
@@ -49,13 +49,13 @@ Use for the case against dialetheism / paraconsistent logic and the defense of L
 
 ### 2.5 Putting the Blame on Truth [198-244]
 
-Use for *positions-logic.md / Liars Paradox* — the case against Tarski's hierarchy. Four objections: (1) parallel paradoxes for "refer", "ascribe", "assert" — Tarski would have to deny those general relations too; (2) we plainly use "true" across orders ("Everything you said is true" applied to mixed first- and second-order claims is intelligible and correct); (3) the theory cannot state itself (no order, so no truth predicate applies); (4) the truth_N patch is insufficient — Liar-style sentences migrate to that level.
+Use for the case against Tarski's hierarchy. Four objections: (1) parallel paradoxes for "refer", "ascribe", "assert" — Tarski would have to deny those general relations too; (2) we plainly use "true" across orders ("Everything you said is true" applied to mixed first- and second-order claims is intelligible and correct); (3) the theory cannot state itself (no order, so no truth predicate applies); (4) the truth_N patch is insufficient — Liar-style sentences migrate to that level.
 
 ### 2.6 A Solution [245-246]
 
 #### 2.6.1 An Inconsistent Language [247-279]
 
-Use for *positions-logic.md / Liars Paradox* — Huemer's positive solution. Premise 2 of the paradoxical reasoning ("L says that L is false") is false: language conventions impose inconsistent constraints on the proposition L should express. Analogy with the barber paradox — there is no such barber, and analogously no such proposition. Note: the inconsistency is in the language conventions as applied to L, not in the concept of truth (contra Tarski) or in any sentence taken alone.
+Use for Huemer's positive solution to the Liar paradox. Premise 2 of the paradoxical reasoning ("L says that L is false") is false: language conventions impose inconsistent constraints on the proposition L should express. Analogy with the barber paradox — there is no such barber, and analogously no such proposition. Note: the inconsistency is in the language conventions as applied to L, not in the concept of truth (contra Tarski) or in any sentence taken alone.
 
 #### 2.6.2 Meaning Deficiency [280-289]
 
@@ -84,11 +84,11 @@ Use for any prompt on the Sorites paradox, vagueness, supervaluationism, epistem
 
 ### 3.2 Deviant Logic [73-112]
 
-Use for the case against three-valued logics and degree-of-truth theories of vagueness, and for *positions-logic.md / Classical Logic*. Huemer's reductio for LEM: if neither A nor ¬A holds, then ¬A ∧ ¬¬A — explicit contradiction. Against degrees of truth: TRUTH and HEAP are not degree concepts; "closer to F" ≠ "F to a degree" (Sue in Philadelphia is closer to NY than Groot on Mars, but neither is in NY to any degree).
+Use for the case against three-valued logics and degree-of-truth theories of vagueness, and for the defense of classical logic. Huemer's reductio for LEM: if neither A nor ¬A holds, then ¬A ∧ ¬¬A — explicit contradiction. Against degrees of truth: TRUTH and HEAP are not degree concepts; "closer to F" ≠ "F to a degree" (Sue in Philadelphia is closer to NY than Groot on Mars, but neither is in NY to any degree).
 
 ### 3.3 Supervaluationism [113-135]
 
-Use for *positions-logic.md / Supervaluationism* — full critique. Main argument: supervaluationism must reject the T-schema, the central principle about the meaning of "true". Supporting objections: a disjunction comes out true with no true disjunct; second-order vagueness reproduces the puzzle one level up; the theory is self-undermining (it implies "'heap' is precise" is supertrue, hence true on the theory); requires deviant logic.
+Use for the full critique of supervaluationism. Main argument: supervaluationism must reject the T-schema, the central principle about the meaning of "true". Supporting objections: a disjunction comes out true with no true disjunct; second-order vagueness reproduces the puzzle one level up; the theory is self-undermining (it implies "'heap' is precise" is supertrue, hence true on the theory); requires deviant logic.
 
 ### 3.4 Epistemicism [136-170]
 
@@ -96,7 +96,7 @@ Use for the case against epistemicism. Meaning is fixed by usage; our usage does
 
 ### 3.5 A Moderate Nihilist Solution [171-176]
 
-Use for *positions-logic.md / Sorites Paradox* — Huemer's positive solution. Vague sentences fail to express propositions because mental states have continuous satisfaction profiles, not discrete propositional content. Subsections develop this: §3.5.5 has the core argument, §3.5.7 shows classical logic is preserved, §3.5.11 introduces the strict-truth vs. truthiness distinction.
+Use for Huemer's positive solution to the Sorites paradox (moderate nihilism). Vague sentences fail to express propositions because mental states have continuous satisfaction profiles, not discrete propositional content. Subsections develop this: §3.5.5 has the core argument, §3.5.7 shows classical logic is preserved, §3.5.11 introduces the strict-truth vs. truthiness distinction.
 
 #### 3.5.1 Fit Determines Content [177-207]
 
@@ -108,13 +108,13 @@ Use for *positions-logic.md / Sorites Paradox* — Huemer's positive solution. V
 
 #### 3.5.5 An Argument that Vague Statements Do Not Express Propositions [255-287]
 
-Use for *positions-logic.md / Sorites Paradox* — the central argument. Vague sentences don't express precise propositions (else they wouldn't be vague), and don't express vague propositions (vagueness is purely semantic — no vague properties, objects, or propositions). So they express no proposition at all. Compare "He has arrived" said with no person or place in mind: meaning-deficient, not meaningless.
+Use for the central argument that vague sentences fail to express propositions. Vague sentences don't express precise propositions (else they wouldn't be vague), and don't express vague propositions (vagueness is purely semantic — no vague properties, objects, or propositions). So they express no proposition at all. Compare "He has arrived" said with no person or place in mind: meaning-deficient, not meaningless.
 
 #### 3.5.6 Arguments by Analogy [288-301]
 
 #### 3.5.7 Logic Is Classical [302-321]
 
-Use for *positions-logic.md / Classical Logic* — shows how the moderate-nihilist view preserves classical logic. LEM and bivalence apply only to proposition-expressing sentences; "Blug or not blug" is no counterexample to LEM, and neither is "B is a heap or B is not a heap" for borderline B. Restricting *scope* is not revising *content*. Epistemicists are right that classical logic is self-evident; they're wrong that it forces sharp boundaries.
+Use for how the moderate-nihilist view preserves classical logic under vagueness. LEM and bivalence apply only to proposition-expressing sentences; "Blug or not blug" is no counterexample to LEM, and neither is "B is a heap or B is not a heap" for borderline B. Restricting *scope* is not revising *content*. Epistemicists are right that classical logic is self-evident; they're wrong that it forces sharp boundaries.
 
 #### 3.5.8 How to Almost Say Something [322-340]
 
@@ -124,7 +124,7 @@ Use for *positions-logic.md / Classical Logic* — shows how the moderate-nihili
 
 #### 3.5.11 Interpreting 'Truth': Strict Truth vs. Loose Truth [397-435]
 
-Use for *positions-logic.md / Sorites Paradox* — the strict-truth vs. truthiness distinction. Vague sentences ordinarily called "true" ("there is a heap of sand in the yard") are *truthy*, close enough to expressing a true proposition for practical purposes. Modus ponens preserves strict truth but not approximate truth — that gap is what the sorites exploits.
+Use for the strict-truth vs. truthiness distinction in the Sorites context. Vague sentences ordinarily called "true" ("there is a heap of sand in the yard") are *truthy*, close enough to expressing a true proposition for practical purposes. Modus ponens preserves strict truth but not approximate truth — that gap is what the sorites exploits.
 
 #### 3.5.12 Why Is There Second-Order Vagueness? [436-448]
 

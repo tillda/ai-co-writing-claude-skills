@@ -1,17 +1,17 @@
 ---
 name: curate-source
-description: After a book is ingested into /sources/, walk it against the user's positions for a course (in /context/positions-<course>.md) and the course's module topics, and propose three things: (1) updates to the user's positions, (2) authoritative back-reference annotations to add under section headings in /sources/<book>/index.md — these prescribe the required line of argument when matched at essay time (layer-3 / reverse-mode), (3) course-MD updates (`books:` scope, per-module `**Sources:**` lists). Produces a structured plan the user iterates on, then applies the approved items only on explicit signal.
+description: After a book is ingested into /sources/, walk it against the user's positions for a course (in /positions/<course>/) and the course's module topics, and propose three things: (1) updates to the user's positions, (2) topic-keyed annotations to add under section headings in /sources/<book>/index.md — these tell the resolver "this passage is good for topic X" so it surfaces at essay time when X matches the prompt (layer-3 / reverse-mode), (3) course-MD updates (`books:` scope, per-module `**Sources:**` lists). Produces a structured plan the user iterates on, then applies the approved items only on explicit signal.
 ---
 
 # Curate Source
 
 Bridges an ingested book into the writing system. Ingestion (source-ingestor + source-indexer) leaves a book filed and structurally indexed, but the *judgement* layer — which of the user's positions to update, which sections to back-reference, which modules to scope it into — is curation, and that's what this skill proposes.
 
-Both outputs are **authoritative**, not advisory:
-- A **position** in `/context/positions-<course>.md` is the user's stated stance for the course; when an essay prompt is silent on direction, the matched position is the conclusion the essay must argue toward.
-- A **back-reference annotation** under a section heading in `/sources/<book>/index.md` prescribes the line of argument when the resolver matches it at essay time. It is not a "passage worth citing" hint — it is a binding directive, written in the user's voice, that commits the essay to a particular argumentative course.
+The two outputs play different roles, but both are load-bearing:
+- A **position** in `/positions/<course>/<slug>.md` is the user's stated stance for the course; when an essay prompt is silent on direction, the matched position is the conclusion the essay must argue toward. Authoritative.
+- A **topic annotation** under a section heading in `/sources/<book>/index.md` tells the resolver what topic the section is good for ("use for the case against Tarski's hierarchy"). The resolver fuzzy-matches against the prompt topic at essay time and pulls the section in as evidence. Annotations describe **topics**, not positions — they must not point at named position files. Sources and positions are peer inputs; the topic is the meeting ground. (Coupling a source's annotation to a specific position would mean every nuance-shift in the user's stance silently invalidates curated source notes, which is brittle.)
 
-The skill never auto-applies. It surveys, proposes a plan, iterates with the user, and executes only on explicit approval — because every accepted item commits the user to an argumentative line that future essays will follow.
+The skill never auto-applies. It surveys, proposes a plan, iterates with the user, and executes only on explicit approval — because every accepted position commits the user to an argumentative line that future essays will follow.
 
 ## When to invoke
 
@@ -55,7 +55,7 @@ If any of these triggers fire and `course` was not supplied (or was supplied but
 
 1. Read `/sources/<book>/index.md` — frontmatter (tags), chapter list, any existing prose under chapter/section headings (prior annotations).
 2. Read `/courses/<course>/index.md` — module list, frontmatter `books:`, per-module `**Sources:**` and `**School Readings:**`, any module-level prose.
-3. Read `/context/positions-<course>.md` if it exists — for each position: name, body, `**Applicable to:**` triggers.
+3. Read `/positions/<course>/index.md` if it exists for the catalog of positions and their `**Applicable to:**` triggers. For each candidate position, open the named position file (`/positions/<course>/<slug>.md`) for the body. If the directory does not exist yet, treat the course as having no stated positions.
 4. If `chapters` or `topics` was given, narrow accordingly.
 5. Read in-scope chapters at section granularity using line ranges from the book's `index.md` (`offset` + `limit` for MD/TXT/HTML; `pages` for PDF). Never read whole books or whole chapters when section-level reading suffices.
 
@@ -97,9 +97,11 @@ B.1 <Draft Position Name> (covers module <N> · <topic>)
     Applicable to: <trigger list>
     Rationale: <why this gap; which passages back it>
 
-### C. Book index back-references (directive — prescribe the line of argument)
+### C. Book index topic annotations (describe what the section is good for)
 
-C.1 §<ref> <heading> — <annotation prose>
+C.1 §<ref> <heading> — <topic-describing annotation prose>
+
+(Annotations describe **topics** the section addresses, not user positions. The resolver fuzzy-matches the prose against the prompt topic at essay time. Never write `Use for *positions/<course> / <Position Name>*` — that couples the source's curation to the user's current stance and breaks when the stance shifts.)
 
 ### D. Course MD updates
 
@@ -136,10 +138,10 @@ Never apply changes without an explicit execute signal. Silence or off-topic rep
 
 Apply the approved items in this order:
 
-1. **Positions file** (`/context/positions-<course>.md`)
-   - For position updates: edit the existing position's body and `**Applicable to:**` line.
-   - For new positions: append at the end of the file using the standard structure (heading, body, argumentative path bullets if appropriate, `**Applicable to:**` line).
-   - If the file does not exist and B has approved items, create it with course frontmatter (`---\ncourse: <slug>\ngenerated: <today>\n---`) and the standard intro paragraph from existing positions files.
+1. **Positions** (`/positions/<course>/`)
+   - For position updates: edit the existing position file (`/positions/<course>/<slug>.md`) — body and `**Applicable to:**` line — and update the denormalized `**Applicable to:**` line under that position's heading in `/positions/<course>/index.md`.
+   - For new positions: write a new file `/positions/<course>/<slug>.md` (slug = kebab-case of position name; drop parenthetical disambiguators) with frontmatter `course: <slug>`, an H1 with the position name, body prose, and a trailing `**Applicable to:**` line. Then append a new entry under `/positions/<course>/index.md` (a `## <Name>` heading, a `` `file: <slug>.md` `` line, and the denormalized `**Applicable to:**`).
+   - If the directory does not exist and B has approved items, create it. Seed the new `index.md` with frontmatter `course: <slug>` and the standard intro paragraph from existing positions indexes (theory-rejection guidance), then append per-position entries.
 
 2. **Book index** (`/sources/<book>/index.md`)
    - Insert each approved annotation as a paragraph between the section heading line and the next heading.
@@ -170,7 +172,7 @@ After execution, report:
 - For section-level matching, use the section ref (`3.5.7`) as the identifier. Heading text can be lightly rewritten by the user; refs are stable.
 - Read sparingly: use `index.md` line ranges to load only relevant sections.
 - Frame position updates as diffs ("strengthen X by adding Y", "soften the Z claim") rather than full rewrites — the user can see what's actually changing.
-- Annotations are directive: when the resolver matches them at essay time, the essay must follow the line of argument they prescribe. Write in the user's voice with exam-language keywords (the strings the resolver fuzzy-matches), and state the argumentative course plainly. Bad: "interesting discussion of vagueness". Good: "Use for *positions-<course>.md / Sorites Paradox* — argue Huemer's moderate nihilism: vague sentences fail to express propositions; classical logic preserved by restricting scope. Reject supervaluationism (T-schema), epistemicism (no fact fixes the cutoff), deviant logic."
+- Annotations are topic-keyed: the resolver fuzzy-matches the prose against the prompt topic at essay time and pulls the section in as evidence. Write with exam-language keywords (the strings the resolver matches against) and state plainly what the section is good for. Bad (too vague): "interesting discussion of vagueness". Bad (couples to a stance): "Use for *positions/logic / Sorites Paradox* — argue Huemer's moderate nihilism…" — annotations must not name position files. Good: "Use for the case for the moderate-nihilist solution to the Sorites — vague sentences fail to express propositions; classical logic preserved by restricting scope. Rejects supervaluationism (T-schema), epistemicism (no fact fixes the cutoff), deviant logic." The good form names the topic and previews the argumentative material the section supplies; the resolver matches it whenever a prompt mentions Sorites/vagueness/moderate nihilism, and the user's stance is then layered separately by the essay-philosophy skill via `/positions/<course>/`.
 - If a section in the book index already carries prose, treat existing prose as authoritative; propose refinement only.
 - The plan lives in chat, not on disk. If the user wants to defer for a session, they can ask for the plan to be saved to a temp file.
 - When proposing additions to a course's `**Sources:**` list, prefer the per-module list whose topic the passage matches; do not blanket-add the book to every module.

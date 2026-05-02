@@ -86,7 +86,9 @@ A section heading has three roles:
 
 For books without numbered sections (`## Introduction`, `## The Argument` etc.), the indexer assigns synthetic numeric prefixes at scaffold time (`### 1 Introduction [10-45]`, `### 2 The Argument [46-180]`) so there's still a stable identifier to match by.
 
-**`courses/<course>/index.md`** carries: course metadata in frontmatter (`slug`, `name`, `style`, `books: [...]`); one `## <N>. <Module Name>` per module (numbered 1-10 typically, with optional `## 0. Introduction` for preamble material); module guidance as free prose; optionally `**Sources:**` and/or `**School Readings:**` bullet lists with free-text refs; optional `**Books:** [...]` line to override the course-level book scope for that module.
+**`courses/<course>/index.md`** carries: course metadata in frontmatter (`slug`, `name`, `style`, `books: [...]`); optionally an `**Essay scope:**` block at the very top of the file describing course-wide sourcing policy (see below); one `## <N>. <Module Name>` per module (numbered 1-10 typically, with optional `## 0. Introduction` for preamble material); module guidance as free prose; optionally `**Sources:**` and/or `**School Readings:**` bullet lists with free-text refs; optional `**Books:** [...]` line to override the course-level book scope for that module.
+
+**`**Essay scope:**`** (course-level, optional) — a course-specific policy directive that **always binds the essay-philosophy skill**. Read it before writing. Common shapes: *textbook-bound* (stay strictly within the course's canonical readings unless the prompt explicitly invites going outside — typical for tightly-textbooked introductory courses), *open* (follow the canonical book's own references into external authors as needed — typical when exam questions cluster around named external philosophers). When this block is present and the prompt does not override it, defer to it: do not pull in outside authors merely because they would strengthen the argument.
 
 The two bullet lists serve different purposes:
 

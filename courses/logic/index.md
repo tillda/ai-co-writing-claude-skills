@@ -3,7 +3,7 @@ slug: logic
 name: Logic (PY1070)
 code: PY1070
 style: analytic
-books: [sainsbury-logic-guide]
+books: [paradox-lost, knowledge-reality-value]
 ---
 
 # Logic (PY1070)
@@ -61,6 +61,8 @@ The Liar paradox, Tarski's T-schema, deflationism (disquotationalism, minimalism
 - Glanzberg 'Truth' (Stanford Encyclopedia of Philosophy)
 - Frege 'The Thought' (on truth as the goal of logic)
 - Dummett 'Truth' (1959)
+- Huemer *Knowledge, Reality, and Value* §§5.2.1-5.2.2 (the law of non-contradiction and the law of excluded middle, derived from the meaning of negation; closing caveat on scope-restriction to proposition-expressing sentences)
+- Huemer *Knowledge, Reality, and Value* §§5.5.1-5.5.2 (correspondence and the equivalence-schema rejection of pragmatism, coherence, verificationism)
 
 ## 3. Modality
 

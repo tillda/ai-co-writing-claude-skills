@@ -2,8 +2,20 @@
 # This file is the assistant's first read when resolving a source reference.
 # Hand edits are tolerated but the indexer will overwrite on next run.
 version: 1
-generated: "2026-04-30"
+generated: "2026-05-02"
 books:
+  - slug: knowledge-reality-value
+    title: "Knowledge, Reality, and Value: A Mostly Common Sense Guide to Philosophy"
+    author: Michael Huemer
+    kind: book
+    tags: [introduction, philosophy, epistemology, metaphysics, ethics, free-will, philosophy-of-religion, skepticism, personal-identity, metaethics]
+    index: sources/knowledge-reality-value/index.md
+  - slug: paradox-lost
+    title: "Paradox Lost: Logical Solutions to Ten Puzzles of Philosophy"
+    author: Michael Huemer
+    kind: book
+    tags: [paradoxes, logic, liar, sorites, vagueness, decision-theory, probability, classical-logic]
+    index: sources/paradox-lost/index.md
   - slug: philosophical-logic
     title: An Introduction to Philosophical Logic
     author: A. C. Grayling

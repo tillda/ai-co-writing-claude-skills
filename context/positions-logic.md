@@ -22,7 +22,7 @@ The argumentative path:
 
 Crucial qualification: bivalence and LEM apply only to **proposition-expressing sentences**. A sentence that fails to express a proposition — the Liar, vague sentences in their borderline range — is no counterexample. This is how I can keep classical logic intact while still saying the Liar sentence and "B is a heap" (for borderline B) are neither true nor false. Restricting the *scope* of these laws is a different operation from revising their *content*.
 
-In detail: see Michael Huemer's *Paradox Lost*, Introduction §1.3 and Chapter 3 §3.5.7.
+In detail: see Michael Huemer's *Paradox Lost*, Introduction §1.3 and Chapter 3 §3.5.7. For an intro-level statement of the same arguments, see Huemer's *Knowledge, Reality, and Value* §§5.2.1-5.2.2 — including the closing caveat at §5.2.2 that LEM/LNC apply only to proposition-expressing sentences ("All blugs are torf" is no counterexample to LEM), which is the canonical statement of the scope-restriction move.
 
 **Applicable to:** classical logic, deviant logics, paraconsistent logic, three-valued logic, dialetheism, law of non-contradiction, law of excluded middle, bivalence, justification of deduction, justification of specific logical laws, *logic / 1. What is Logic?*, *logic / 2. Truth*, *logic / 7. Vagueness*, *logic / 9. The Justification of Deduction*
 
@@ -39,6 +39,8 @@ The argumentative path:
 - **Coherence** faces the fairy-tale objection: a maximally coherent set of beliefs can still be false. Coherence is at best a fallible test for truth, not its nature.
 - **Pragmatism** conflates truth with utility; useful falsehoods (and useless truths) are real.
 - **Minimalism** explains all the deflationary data (T-schema biconditionals, the generalising role) without metaphysical excess. 
+
+For an intro-level companion to Horwich, see Huemer's *Knowledge, Reality, and Value* §§5.5.1-5.5.2. KRV §5.5.2 deploys the equivalence schema (`"It's true that P"` entails `P` and vice versa) to demolish pragmatism, coherence, and verificationism — the deflationist's own argument. KRV §5.5.1's Aristotelian gloss ("to say of what is that it is, and of what is not that it is not, is true") is the layman's articulation of the equivalence-schema intuition that minimalism explains; Horwich himself acknowledges minimalism preserves this "correspondence intuition", so there is no genuine tension to flag.
 
 **Applicable to:** truth, T-schema, deflationism, disquotationalism, redundancy theory, "is truth a property", correspondence theory of truth, coherence theory of truth, pragmatist theory of truth, the Liar paradox, *logic / 2. Truth*
 
@@ -91,6 +93,6 @@ The argumentative path:
 - **Ordinary use of "true" is loose.** "There is a heap of sand in the yard" is "truthy" — close enough to expressing a true proposition for practical purposes. We use this loose sense ubiquitously without confusion. The sorites trick exploits the gap: it applies the logical rules valid for strict truth to mere approximations, and the approximation breaks down under iteration.
 - **Why I reject the rivals.** Embracing the conclusion (no heaps, or every quantity a heap) is absurd. Epistemicism (a precise hidden cutoff) cannot explain what would *make* a particular cutoff correct, given that meaning is fixed by usage and our usage settles no such cutoff. Supervaluationism fails for the reasons given above. Deviant logic is the wrong move.
 
-In detail: see Michael Huemer's *Paradox Lost*, Chapter 3 — esp. §3.5 (the moderate nihilist solution) and §3.5.11 (strict truth vs. truthiness).
+In detail: see Michael Huemer's *Paradox Lost*, Chapter 3 — esp. §3.5 (the moderate nihilist solution) and §3.5.11 (strict truth vs. truthiness). For an intro-level parallel to the "fail to express a proposition" framing, see *Knowledge, Reality, and Value* §5.2.2 — Huemer's "All blugs are torf" example shows the same scope-restriction move at work for nonsense terms, which is the underlying mechanism for vague borderline sentences.
 
 **Applicable to:** The Sorites paradox, vagueness, borderline cases, propositional content, degrees of truth, epistemicism

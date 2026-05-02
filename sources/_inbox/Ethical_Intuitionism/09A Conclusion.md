@@ -1,0 +1,230 @@
+---
+book: "Ethical Intuitionism"
+title: "Chapter 09A Conclusion"
+chapter_number: "9"
+chapter_name: "Conclusion"
+part: "A of 2"
+topics: "Metaethics (non-cognitivism, subjectivism, naturalism, nihilism), analytic and synthetic reductionism, G. E. Moore (open question argument), ethical intuitionism (foundations), phenomenal conservatism, moral knowledge, moral motivation, critique of Humean theory of reasons, weakness of will."
+author: "Michael Huemer"
+table_of_content: |
+  9.1 The failures of alternative theories of metaethics
+    9.1.1 Non-cognitivism
+    9.1.2 Subjectivism
+    9.1.3 Naturalism
+    9.1.4 Nihilism
+  9.2 The intuitionist view
+    9.2.1 Intuition and moral knowledge
+    9.2.2 Moral motivation
+---
+
+<h1 class="split-chapter subchapter_1">9 Conclusion</h1>
+<h1 class="subchapter subchapter_1">Part 1: Metaethical Alternatives and Case for Intuitionism</h1>
+
+In the last eight chapters, I have made the case for ethical intuitionism by rebutting the alternative theories and then responding to all the major objections to intuitionism. In essence, I have argued:
+
+1. There are five broad views about the nature of morality: non-cognitivism, subjectivism, naturalism, nihilism, and intuitionism.
+
+2. Non-cognitivism, subjectivism, naturalism, and nihilism all face grave difficulties.
+
+3. Intuitionism faces no serious problems.
+
+4. Therefore, intuitionism is probably the correct view.
+
+But the arguments establishing points (2) and (3) have been long and complex. In this chapter, I provide a brief review of the most important arguments for these theses. I then discuss why intuitionism has been unpopular, and why the issue is important. I conclude with some remarks about how I became an intuitionist.
+
+## 9.1 The failures of alternative theories of metaethics
+
+The four alternative theories of metaethics are competing views about the nature of values and value judgments. For ease of exposition, I shall give examples of what they would say about certain evaluative statements; in each case, it is to be understood that the theory says analogous things about all other evaluative statements.
+
+### 9.1.1 Non-cognitivism
+
+Ethical non-cognitivists say that '$x$ is wrong' does not assert anything that can be true or false. Instead, it just expresses an emotion or issues an imperative. It is thus comparable to 'Boo on $x$!' or 'Don't do $x$!'.
+
+There is no linguistic evidence to support this. Every objective test that anyone has come up with for distinguishing assertions from imperatives or expressions of emotion gives the result that '$x$ is wrong' is an assertion. Thus, consider the sentences (and pseudosentences) in the following table:
+
+|  Normal Sentence | Non-Cognitivist Interpretations  |   |
+| --- | --- | --- |
+|  Abortion is wrong. | Boo on abortion. | Don’t have an abortion.  |
+|  It is false that abortion is wrong. | It is false that boo on abortion. | It is false that don’t have an abortion.  |
+|  Abortion may be wrong. | Maybe boo on abortion. | Maybe don’t have an abortion.  |
+|  Jon believes abortion is wrong. | Jon believes boo on abortion. | Jon believes don’t have an abortion.  |
+|  I hope abortion isn’t wrong. | I hope not boo on abortion. | I hope not don’t have an abortion.  |
+|  Is abortion wrong? | Boo on abortion? | Don’t have an abortion?  |
+|  If abortion is wrong, then don’t do it. | If boo on abortion, then don’t do it. | If don’t have an abortion, then don’t do it.  |
+|  The wrongness of abortion bothers me. | The boo-ness of abortion bothers me. | The don’t-have-one-ness of abortion bothers me.  |
+
+All the sentences in the first column make perfect sense and are good English. The second and third columns give attempted non-cognitivist interpretations of them. The only ones that even remotely appear to work are those in the first row. For any more complex sentence involving 'wrong', the non-cognitivist interpretation degenerates into nonsense. Not only are the expressions in the second and third columns grammatically malformed, but they fail to suggest any intelligible meanings. I have no idea, for example, what it would mean to call an emotion ‘false’, nor what it would mean to believe an imperative. Furthermore, for any uncontroversial case of a non-cognitive sentence—such as ‘Hurray for the Broncos!’ or ‘Please pass the salt’—no such problems arise; we do not call them false, say we believe them, and so on.
+
+
+There is little psychological evidence to support non-cognitivism either. The non-cognitivist can point to the fact that emotions often accompany and even cause our moral judgments. But this is equally true of many non-moral, factual judgments, such as people’s beliefs about their own intelligence, their beliefs about who ‘really won’ the 2000 U.S. Presidential election, and so on. Furthermore, the strength of our emotions bears little relationship to our moral beliefs. You can know that Nero’s execution of Agrippina was far more wrong than your roommate’s eating of your ice cream, but still feel more outrage at the latter than at the former. You may indeed feel nothing at all about Agrippina’s fate.
+
+Introspectively, we are aware of making moral judgments, which have the characteristics judgments normally do. One can distinguish, for example, the degree of confidence of one’s belief from the degree of wrongness one believes an action to have. One might tentatively believe that abortion is very wrong, or firmly believe that abortion is slightly wrong, and these would be different states of mind. But if a moral ‘judgment’ were just an emotion or desire, no such distinction could exist; there would only be the strength of the emotion or desire one felt about abortion.
+
+We treat the things we call ‘moral judgments’ in exactly the way we treat judgments, rather than the way we treat typical emotions or desires. We may exercise care in making moral judgments, wonder whether we are right, argue and weigh evidence about them, do research, and so on. We may consider arguments directed at whether our judgments are biased and whether they cohere with other plausible judgments. We do none of these things for typical emotions or desires.
+
+All of the reasonably direct and objective evidence is against non-cognitivism—moral claims and judgments act in every discernible way just like assertions and beliefs. The only thing the non-cognitivist has going for him is the supposed implausibility of other views.
+
+### 9.1.2 Subjectivism
+
+Ethical subjectivists say that ‘x is right’ is a statement about someone’s attitude towards x. Here are three common versions of subjectivism:
+
+Individual Subjectivism: $x$ is right = I (the speaker) approve of $x$.
+
+Cultural Relativism: $x$ is right = Society approves of $x$.
+
+Divine Command Theory: $x$ is right = God approves of $x$.
+
+These theories face a host of problems. First, each implies that if the specified individual or group were to change their attitudes, then seemingly horrible things would suddenly become moral. Thus, each theory entails a statement of the following form:
+
+If (I/society/God) were to approve of torturing and killing children for the fun of it, then it would be right to torture and kill children for the fun of it.
+
+But this is not correct.
+
+Second, individual subjectivism implies, absurdly, that I am morally infallible: that in general, if I approve of something then, automatically, it is morally correct. Cultural relativism similarly implies that society is morally infallible.
+
+Third, these theories make moral disagreement difficult to understand. On the individual subjectivist view, $A$ could disagree with $B$'s statement, '$x$ is wrong', only if $A$ doubted that $B$ was truthfully reporting $B$'s attitudes. On the cultural relativist view, the disagreement could only occur if the parties disagreed about what the attitudes of most of society were, and it would be impossible for anyone to criticize the prevailing social norms. On the divine command theory, moral disagreements would have to be disagreements about God's commands, and atheists and agnostics thus could not have moral views.$^1$
+
+Fourth, these theories all imply that a merely arbitrary attitude or decision can render an action obligatory. All of them imply that there are no evaluative facts independent of the attitudes of the specified individual or group. Therefore, the specified individual or group can not approve of the things they approve of because they are right, good, or have any other positive characteristic. Thus, these attitudes of approval would have to be arbitrary. But how would someone's arbitrarily approving of $x$ make it right to do $x$?
+
+Fifth, the divine command theory faces the additional problems of how we can know either that God exists, or what He wants if He does.
+
+On top of this, there are no good arguments for subjectivism. The main arguments seem to consist in pointing out either that people have many conflicting moral beliefs or that many people form moral beliefs in irrational ways. It is obscure how either of these things could support subjectivism. The arguments make about as much sense as arguing that if three gamblers all believe, for emotional reasons, that different horses are going to win a race, then the race won't have any outcome in reality, or it will have different outcomes 'relative' to different people.
+
+
+### 9.1.3 Naturalism
+
+Ethical Naturalists hold two beliefs:
+
+i) Moral properties are *reducible*: for instance, it is possible to explain what wrongness is without using any evaluative expressions. There are two variants of this idea:
+
+a) *Analytic* reductionists say that some expression containing no evaluative terms is *synonymous* with ‘wrong’.
+
+b) *Synthetic* reductionists say that some expression containing no evaluative terms explains what it is to be wrong, even though it does not have the same meaning as ‘wrong’.
+
+ii) Moral truths can be known, ultimately, on the basis of observation.
+
+Analytic reductionism was refuted by G. E. Moore. If two expressions have the same meaning, then it should be possible to substitute one expression for the other in any sentence, without changing the meaning of the sentence. Moore noticed that for any non-evaluative expression, it was possible to formulate a meaningful statement or question containing the word ‘good’ in which, intuitively, one cannot substitute the non-evaluative expression for ‘good’. Thus, consider the three reductionist theories mentioned below:
+
+|  Reductionist Definition | Moorcan Question | Reductionist Interpretation  |
+| --- | --- | --- |
+|  x is good = x
+
+promotes pleasure. | Is pleasure good? | Does pleasure promote pleasure?  |
+
+|  x is right = x
+
+accords with social customs. | Is it right to obey social customs? | Does obeying social customs accord with social customs?  |
+
+|  x is good = x
+
+promotes life. | Is life good? | Does life promote itself?  |
+
+In the first column are three examples of analytic reductionist theses. In the second column are questions that it makes sense to ask, in ordinary moral discourse. The Moorean point is that the questions in the third column obviously do not mean the same as those in the second column. But they should mean the same, if the reductionist theories were correct. So the reductionist theories are not correct accounts of the meanings of 'good' or 'right'.
+
+
+Synthetic reductionists grant this point. They say that moral properties are reducible in a way analogous to how water, for example, is reducible: water is $\mathrm{H}_2\mathrm{O}$; however, the word 'water' is not synonymous with the word 'H₂O'. This can be shown by a Moorean argument: the question, 'What is the chemical formula of water?' does not mean the same as, 'What is the chemical formula of $\mathrm{H}_2\mathrm{O}$?'; therefore, 'water' does not mean the same as '$\mathrm{H}_2\mathrm{O}$'. Nevertheless, $\mathrm{H}_2\mathrm{O}$ is what water is.
+
+This form of reductionism faces two main problems. The first is that evaluative properties seem, on their face, to be radically different in kind from natural properties. Being good, for instance, is obviously a different kind of thing from being round, weighing 200 pounds, or being positively charged. This can be seen on the basis of one's grasp of the concepts of the relevant properties, just as one can see, solely on the basis of one's understanding of the concept of a symphony and the concept of a planet, that the planet Neptune is not Beethoven's Ninth Symphony.
+
+The second problem is that synthetic reductionists cannot explain moral knowledge. We do not know about wrongness in the way we know about water—we cannot observe with the five senses that an act is wrong. Nor, according to the synthetic reductionists, can we know that an act is wrong by intuition. Nor can one deduce evaluative propositions from non-evaluative premises.
+
+Contemporary naturalists commonly argue that we can know moral truths because some moral truths provide the best explanations for certain non-moral facts of which we have independent knowledge. For instance, Adolf Hitler's evilness supposedly provides the best explanation for why he ordered the Final Solution. But in order for this to work as an account of our moral knowledge, the naturalist would have to show that the hypothesis that Hitler was evil enables us to explain facts that could not otherwise be explained, and to do so without relying on any ad hoc assumptions about the causal powers of evil or the like. Thus, one would have to argue that Hitler's actions could not be explained as well by appealing merely to psychological facts non-morally described, such as the fact that he had an intense hatred for Jews, a lust for power, and so on. Naturalists have failed to make this case.
+
+Another way of seeing the futility of the naturalist's project is to imagine a perverse individual with exactly opposite values to your own. This person could construct ‘explanations’ for observed phenomena exactly parallel to any that you could construct, but using ‘bad’ wherever you use ‘good’, and so on. Thus, if you say that Hitler’s actions during World War II were explained by his evilness, the perverse individual could say that Hitler’s actions were explained by his goodness. If you say that slavery was abolished because it was unjust (and people generally tend to oppose injustice), the perverse individual could say that slavery was abolished because it was just (and people generally tend to oppose justice). No doubt we would accuse this perverse person of holding corrupt values, but this could not be proven merely by citing the ability to explain observed facts, since he could offer explanations corresponding to every explanation we offered. His explanations, of course, would be counter-intuitive, but the ethical naturalist does not recognize intuition as a legitimate source of knowledge. Consequently, the naturalist would have no way of showing any given moral belief to be more justified than its exact opposite.
+
+
+### 9.1.4 Nihilism
+
+Nihilists believe that all positive evaluative claims are false. They believe this because they think that (a) evaluative claims are claims about an alleged realm of non-natural, objective moral properties, but (b) there really are no such properties. Abortion, the nihilist would say, cannot be wrong, because in order for it to be wrong there would have to be such things as objective values.
+
+This view has such implications as the following: murder is not wrong; the most excruciating pain is not worse than the greatest ecstasy; the Holocaust was not bad; and so on. It is difficult to know how to respond to such a view, because it is difficult to think of any propositions more absurd than some of those that its proponents explicitly embrace.
+
+In order to support their view, nihilists must bring forward powerful arguments. These arguments would have to start from premises that we are strongly convinced of—in particular, these premises would have to be more plausible than the claim that murder is wrong, that the Holocaust was bad, and so on. It is difficult to see how the nihilist could do this.
+
+The actual arguments brought forth by nihilists have been disappointing. They depend upon the supposed implausibility of the notion of objective morality. But the notion of objective morality is not implausible, and the arguments against it have been rebutted in earlier chapters.
+
+## 9.2 The intuitionist view
+
+We have established so far:
+
+1. Evaluative statements assert propositions, which can be true or false. (Non-cognitivism is false.)
+
+2. They are not always false. (Nihilism is false.)
+
+3. The truth of an evaluative statement is not subjective or relative. (Subjectivism is false.)
+
+4. Evaluative facts cannot be reduced to non-evaluative facts, nor can they be known solely on the basis of observation. (Naturalism is false.)
+
+From these points, it follows that:
+
+5. Some evaluative statements are true. (From 1, 2.)
+
+6. Some evaluative statements are objectively true. (From 3, 5.)
+
+7. There are irreducible, objective, evaluative facts, which cannot be known on the basis of observation. (From 4, 6.)²
+
+(7) is close to a definition of ethical intuitionism. It lacks only a positive statement of how evaluative facts are known, to which we now turn.
+
+### 9.2.1 Intuition and moral knowledge
+
+Some basic principles about good, bad, right, and wrong are self-evident, such as the following:
+
+Suffering is bad.
+
+If $A$ is better than $B$ and $B$ is better than $C$, then $A$ is better than $C$.
+
+If an action is wrong, then any qualitatively indistinguishable action (in identical circumstances) is also wrong.
+
+No person is blameworthy for an action they did not perform.
+
+These principles are self-evident in the same sense that the following are:
+
+Nothing is both red and green.
+
+If $A$ is next to $B$, then $B$ is next to $A$.
+
+Yellow is a color.
+
+Everything is identical with itself.
+
+'Socrates is a man' and 'All men are inconsiderate' together entail 'Socrates is inconsiderate'.
+
+Time is one-dimensional.
+
+Seven is more than two.
+
+We are justified in believing these propositions for the same reason that we are justified in believing observations of the external world: namely, because they seem to be the case and we have no serious grounds for doubting them. The principle of Phenomenal Conservatism states: if it seems to one that $p$, then one has at least prima facie justification for believing that $p$. This principle is presupposed in all normal judgment and reasoning, since the judgments one makes are determined by what seems to oneself to be the case. What arguments a person accepts is also a matter of what arguments seem to him to be valid and to have true premises. Even skeptics who say that we know nothing say this only because it seems to them to be the case (or seems to follow from things that seem to them to be the case).
+
+We form justified beliefs about the physical world on the basis of sensory appearances (also called 'perceptual experiences'). Similarly, we form justified beliefs about certain abstract truths, including the self-evident principles mentioned above, on the basis of intellectual appearances ('intuitions'). Intuitions are mental states in which something appears to be the case upon intellectual reflection (as opposed to perception, memory, or introspection), prior to argument.
+
+When we perceive physical objects, we do not first apprehend perceptual experiences and then infer that there are physical objects corresponding to them. Instead, we are first aware of physical objects, directly. Our perceptual experiences are merely the form that that awareness takes; they (partly) constitute our awareness of the physical world. Similarly, when we know moral truths intuitively, we do not first apprehend intuitions and then infer that there are moral facts corresponding to them. Instead, we are directly aware of moral facts. Our intuitions are merely the form that that awareness takes; they (partly) constitute our awareness of moral truths.
+
+Moral intuitions can be affected by bias, just as nearly all beliefs can. However, moral intuitions are not moral beliefs, nor are they simply caused by our moral beliefs. This is shown by the fact that, when confronted with cases we have never previously considered, we often have moral intuitions that conflict with our moral theories. Thus, even utilitarians experience the intuition that it would be wrong to kill a healthy person to distribute his organs to five other people who need transplants, although utilitarians do not believe this intuition. In some cases, we have difficulty even coming up with a theory that accommodates our intuitions.
+
+
+### 9.2.2 Moral motivation
+
+Why should we be moral? According to the most popular theory of practical reasons, the only good reason, as well as the only motivation, anyone can have for doing anything at all is that it would satisfy their desires. This is the Humean theory of reasons.
+
+The Humean theory is too simplistic. There are at least two different kinds of motivation one can have: one can be motivated by desires, and one can be motivated by certain kinds of beliefs. The Humean is correct to note that most kinds of belief cannot by themselves motivate action. For example, my belief that I am out of cookies cannot by itself move me to buy more cookies at the store, since the belief that I am out of cookies does not by itself tell me whether having cookies is desirable or not. But there are some kinds of beliefs that are different, including prudential beliefs (beliefs about what is in one's interests) and moral beliefs. These beliefs do, by their very nature, tell us what is desirable and what is not. The belief that I am out of cookies may be unable to motivate action, but the belief that I am out of cookies and it would be good to have some cookies, can do so.
+
+These evaluative beliefs render certain actions prima facie rational. The belief that $x$ is in one's long-term interests provides one with a good reason for doing $x$. Furthermore, this reason takes precedence over any desires one may have to the contrary, in the sense that even if one wants more strongly to do something else, it would still be rational to do $x$. This is because the prudential belief (if formed rationally) already takes into account one's evaluation of the relative importance of one's present desires; thus, one's present desires cannot weigh against it. Similarly, the belief that $x$ is morally required provides one with a good reason for doing $x$. This reason takes precedence not only over desires but also over prudential beliefs. This is because the moral belief (if formed rationally) already takes into account one's evaluation of the relative importance of one's desires and interests; thus, one's desires and interests cannot weigh against it.
+
+But while prudential and moral beliefs have this kind of rational authority, people do not always act rationally: there are cases of weakness of the will, in which a person acts on some present desire rather than on his judgment of what is really in his interests, or of what is morally right. Weakness of will and strength of will are both possible, because the weight of rational motives for action is not commensurable with the strength of desires—this is because a rational motive is a belief, and it does not make sense to ask whether a belief is 'stronger' or 'weaker' than a desire. This view at least leaves room for free will, something the Humean theory appears unable to do.
+
+
+The Humean theory of reasons is inferior in a number of ways to the account just sketched. First, the Humean theory offers us no understanding of the phenomenon of weakness of will. On the Humean view, when two motives conflict, since all motives come from desire, the only question is: which desire is stronger? The stronger desire will always be acted upon. Furthermore, since all good reasons for action come from desire, it will be rational to act on the stronger desire. There is nothing in this story that resembles 'weakness', that explains how agents might act irrationally, or that explains the appropriateness of remorse or blame reactions.
+
+Second, the Humean cannot explain what is interesting or particularly important about morality. On the Humean view, the most that could be said for morality is that its rules will often help us satisfy certain desires, such as our desires for the well-being of others. But we have many other desires that may conflict with moral motivation, such as the desires caused by envy, anger, and hatred; and from a Humean point of view, there is no reason why the former desires should be somehow privileged over the latter. Morality thus merely serves some arbitrarily selected subclass of our desires, which we have no more reason to take an interest in than in any other desires we happen to have. The rationalist, anti-Humean view avoids this problem by appealing to objective evaluative facts—the fact that actions prompted by envy and hatred are generally bad, for example.
+
+Third, the Humean conception of reasons cannot accommodate paradigmatic examples of rational and irrational actions, declaring instead that no action can ever be irrational. For example, the Humean is forced to say that the following are examples of equally rational actions:
+
+Odysseus: Odysseus knows that when he approaches the Sirens, he will feel an intense desire to join them, but he now desires that he not join them. Odysseus gives no weight to his future desire, and instead has himself tied to the mast so that he will be unable in the future to act on that desire.
+
+The Partying Student: A student decides to spend the night partying, knowing that this will result in her failing an important test the next day. Though she knows that tomorrow she will wish she had spent the night studying, she gives little or no weight to this future desire, and instead acts on her immediate desire to party.
+
+For a Humean, the reasons for action one now has must be determined by the desires one now has. The only reason one would care about one's future desires would be if one had a present desire that one's future desires be satisfied—but there is no reason why one must have such a present desire. The Humean is right about Odysseus' case: we can all agree that Odysseus is rational in acting to satisfy his present desire, rather than his future desire to be with the Sirens. But the Humean is just as clearly wrong about the Partying Student case: this is a paradigm case of irrational behavior. The rationalist has a ready explanation: Odysseus' future desire to be with the Sirens will be an irrational desire, because it will be a desire for what is clearly bad; the student's future desire to pass the test, however, will be a perfectly rational desire. Thus, it is rational for Odysseus to discount his future desire, but irrational for the student to do likewise. A Humean cannot accept this natural explanation, since Humeans deny that ultimate desires can be evaluated by reason.
+
+Fourth, a Humean cannot even account for why we should care about making our moral judgments coherent. The usual reason for wanting coherent beliefs is that coherent beliefs are more likely to be true. But for a Humean, moral principles—to the extent that we have any reason to pay attention to them—must reflect our desires and feelings, rather than our beliefs. Desires differ fundamentally from beliefs in that, whereas we aim to make our beliefs conform to reality, we do not aim to make our desires conform to reality; instead, we aim to make reality conform to our desires. Thus, whereas I would be irrational to continue to hold a belief that has been shown to be unlikely to be true, I would not be to any extent irrational to have a desire that has been shown to be unlikely to be satisfied. For this reason, one cannot argue that we should seek to have coherent desires on the grounds that such desires are more likely to match reality. With no requirement of coherence on desires, we would be left also with no requirement of coherence on moral principles.
+
+Despite its popularity, the Humean theory fails abysmally as an account of practical rationality: it misclassifies paradigm cases of irrational actions as rational; it collapses 'rational action' into whatever an agent actually chooses; and it cannot account for weakness of will, free will, or the importance of morality. The only justification typically offered for the Humean theory is an appeal to intuition—it just seems that only desires can motivate. But this intuition depends on our considering only certain kinds of cases. When we consider evaluative beliefs, it is not at all intuitively obvious that such beliefs cannot motivate.

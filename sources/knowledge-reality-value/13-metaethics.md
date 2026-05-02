@@ -1,0 +1,451 @@
+---
+book: "Knowledge, Reality, and Value: A Mostly Common Sense Guide to Philosophy"
+title: "Chapter 13 Metaethics"
+chapter_number: "13"
+chapter_name: "Metaethics"
+author: "Michael Huemer"
+table_of_content: |
+  13.1. About Ethics and Metaethics
+    13.1.1. Ethics
+    13.1.2. Metaethics
+    13.1.3. Objectivity
+    13.1.4. Five Metaethical Theories
+  13.2. What’s Wrong with Non-Cognitivism
+    13.2.1. The Non-Cognitivist View
+    13.2.2. The Linguistic Evidence
+    13.2.3. The Introspective Evidence
+  13.3. What’s Wrong with Subjectivism
+    13.3.1. The Subjectivist View
+    13.3.2. Motives for Subjectivism, 1: Tolerance
+    13.3.3. Motives for Subjectivism, 2: Cultural Variation
+    13.3.4. The Nazi Objection
+  13.4. What’s Wrong with Nihilism
+    13.4.1. The Nihilist View
+    13.4.2. Against Objective Values: The Humean Argument
+    13.4.3. Against Objective Values: The Argument from Weirdness
+    13.4.4. Nihilism Is Maximally Implausible
+  13.5. What’s Wrong with Ethical Naturalism
+    13.5.1. The Naturalist View
+    13.5.2. A Point About Meaning
+    13.5.3. Bad Theories
+    13.5.4. A Bad Analogy
+  13.6. Ethical Intuitionism
+    13.6.1. The Intuitionist View
+    13.6.2. Objection: Intuition Cannot Be Checked
+    13.6.3. Objection: Differing Intuitions
+  13.7. Conclusion
+---
+
+# 13. Metaethics
+
+## 13.1. About Ethics and Metaethics
+
+### 13.1.1. Ethics
+
+We’re now going to talk about the nature of ethics. Ethics studies what is good, bad, right, and wrong. Statements about good, bad, right, and wrong are known as “**evaluative statements**”.^[74] Statements that are *not* evaluative are called “**descriptive**”.
+
+Here’s an example of a famous ethical problem, known as “the **Trolley Problem**”:^[75]
+
+*Trolley:* A runaway trolley is headed for a fork in the track. On the left track, there are five people in the way who will be killed if the trolley goes that way. On the right track, there is one person who will be killed if the trolley goes that way. There’s no way to move any of the people out of the way in time. The trolley is presently set to go down the left track, toward the five. You can flip the switch to send the trolley down the *right* track instead, toward the one person. Or you can do nothing and let the trolley continue toward the five. What should you do?
+
+Now, before you propose one of the annoying distractions that students like to use to avoid the main issue, let me clarify that all six of the people on the tracks are normal, average people. None of them is Adolf Hitler, nor is any of them a scientist about to discover the cure for cancer. None of them is responsible for the trolley being out of control, nor for their being trapped on the tracks. Nor are there any other weird circumstances that could be used to change the subject and that I would obviously have mentioned if they were intended to be part of the story. The dilemma is just the simple, obvious one suggested by the above description.
+
+With that understood, most people think that it is *morally permissible* to switch the trolley, possibly even obligatory. A minority, however, think that it’s *morally wrong* because it amounts to murder, and you can’t murder an innocent person even to save five others.
+
+### 13.1.2. Metaethics
+
+We’re not going to try to answer here what is the right thing to do in the Trolley case. I’m just using that as an example of an ethical question. I want to raise questions like this: Is there a *fact* about what is the right thing to do in that case? If there is, how could we know it? What does it mean that turning the trolley is “morally right”? These are known as **meta-ethical** questions.
+
+Basically, meta-ethics studies the nature of ethics and ethical questions. (Note: I use “moral” and “ethical” interchangeably, as is common in ethics.) For instance:
+
+> a)       Do ethical questions have objectively correct answers?
+
+> b)      How, if at all, do we know what is right or wrong?
+
+> c)       What does “good” mean?
+
+> d)      What reason do we have for being moral?
+
+Notice that those aren’t themselves ethical questions, since they don’t call for evaluative statements as answers; they’re just questions *about* ethics, about what is going on when we make moral judgements and such. Question (c) might have some direct implications for what is good, but in itself, it’s a descriptive question. It could be resolved by looking at how people in fact use the word “good” (regardless of whether anything is in fact good).
+
+### 13.1.3. Objectivity
+
+The most discussed question of metaethics is the first one I listed above: Are there objective values, or objective ethical truths?
+
+But wait, what does that question mean? Basically, it means: Are there ethical statements that are true independent of the attitudes of observers toward the things that are being evaluated? For instance, you might think “murder is wrong” is an objective ethical truth: This would be to say that murder is wrong regardless of anyone’s attitudes toward it. It’s wrong independent of whether we approve or disapprove of it, like or dislike it, etc. If our society has a sudden change of conventions and people start approving of murder, murder won’t become morally okay; rather, our society will just be wrong. That’s what it means to say that murder is “objectively” wrong.
+
+Most people will basically accept that definition of “objectivity”, but then they will proceed to use the word in ways that don’t cohere with the definition we just gave. Here are four questions that people often confuse with each other:
+
+> a.Is the truth of an evaluative statement independent of observers’ attitudes?
+
+> b.Can evaluative statements be conclusively proved, or known with certainty?
+
+> c.Are there some categories of action (say, “murder”) that are always wrong, regardless of the circumstances?
+
+> d.Are there evaluative statements that everyone would agree with?
+
+Notice that those are all *completely different* questions. Only (a) is the question of objectivity. I’m telling you this because almost everyone, on first being introduced to metaethics, immediately confuses all those questions with each other, and then starts using “objectivity” to express some vague jumble of answers to all four questions. (As I noted in the preface, almost everyone is insanely confused whenever they talk about philosophy. If you’re a beginning student, you’re undoubtedly insanely confused right now. Don’t worry, though; it gets better if you keep studying philosophy.)
+
+Anyway, we’re going to spend most of the chapter on the question of objectivity.
+
+### 13.1.4. Five Metaethical Theories
+
+Now I’m going to tell you the five main views in meta-ethics, and why there are exactly five of them.
+
+Suppose you think that there are *no* objective ethical truths. This view is sometimes called ethical (or moral) **anti-realism**. As an anti-realist, there are the following things you could believe:
+
+> i.Ethical statements are neither true nor false.
+
+> ii.Ethical statements are always false.
+
+> iii.Ethical statements are sometimes true, but their truth depends on the attitudes of observers.
+
+Notice that those are *all the logical possibilities*. If none of (i), (ii), and (iii) is the case, then, logically, there must be objective values. (If ethical statements are true or false, and they’re not always false, then they’re sometimes true. If they’re sometimes true, and their truth *doesn’t* depend on the attitudes of observers, then they’re sometimes “objectively true”, on the definition of objectivity given above.)
+
+The alternative to anti-realism is **moral realism**, which holds that there are objective ethical truths. These ethical truths are either **reducible** to descriptive truths, or they are irreducible. What does it mean to be “reducible”? Basically, to say that goodness is reducible is to say that you could explain *what goodness is* using only descriptive (non-evaluative) terms. E.g., suppose you think that “*x* is good” just means “*x* promotes pleasure”. That some action promotes pleasure is a matter of descriptive fact (it’s also objective). So that would be a reductionist view – truths about what is good would be reducible, as we say, to truths about pleasure. By contrast, the non-reductionists say that there is no way of explaining what goodness is except using other evaluative expressions (e.g., “desirable”, “positive”, “worthy of pursuit”).
+
+So there are five views relating to the objectivity of morality – three forms of anti-realism and two forms of realism. Each of these logical possibilities has been defended by some philosophers. Here are the five possibilities again, with the names of the theories that embrace each possibility:
+
+> (Anti-realism)
+
+> i.Ethical statements are neither true nor false: **Non-cognitivism**/ **Expressivism**.
+
+> ii.Ethical statements are always false: **Nihilism** / moral **Error Theory**.
+
+> iii.Ethical statements depend for their truth on the attitudes of observers: **Subjectivism** / **Relativism**.
+
+> (Realism)
+
+> iv.There are objective ethical truths, which are reducible to descriptive facts: **Ethical**
+> **Naturalism**.
+
+> v.There are objective ethical truths, which are irreducible: **Ethical**
+> **Intuitionism**.
+
+Below, we’ll add some complications to those views.^[76] We’ll also see the problems with each of them.
+
+## 13.2. What’s Wrong with Non-Cognitivism
+
+### 13.2.1. The Non-Cognitivist View
+
+How could ethical statements be neither true nor false? You may recall the Law of Excluded Middle, (A ∨ ~A) (see §5.2.2). It seems like the following would be a valid instance of the law: Either it is right to divert the trolley in the Trolley case, or it is not right to divert the trolley in the Trolley case. If it is right, then the sentence “It is right to divert the trolley in the Trolley case” is true. If it isn’t right, then “It is right to divert the trolley in the Trolley case” is false. So, the sentence is either true or false.
+
+How could one avoid this conclusion? Well, the Law of Excluded Middle only applies if you have a sentence that is used to *assert a proposition*. Not every sentence does that. For instance, “Hurray for kale!”, “What year is this?”, and “Please pass the tequila” are neither true nor false, since they don’t assert propositions. Instead, they: express an emotional attitude, ask for information, and direct someone’s behavior, respectively.
+
+Maybe moral statements are like that: They don’t really assert propositions, i.e., they do not purport to describe the way the world is. Maybe, instead, they are used to express certain emotions, so, e.g., “Abortion is wrong” is sort of like “Boo on abortion!” Or maybe they are just sophisticated ways of telling other people what to do, so that “Abortion is wrong” is like “Don’t have an abortion!” The first of those views is called “emotivism”; the latter is called “prescriptivism”. Emotivism and prescriptivism are two (once-popular) forms of non-cognitivism.^[77] Notice how they both explain why moral statements would fail to be either true or false. You could also have a hybrid view (maybe “Abortion is wrong” expresses a feeling of disapproval toward abortion *and* directs other people not to have abortions). You could also introduce other non-cognitive attitudes that moral statements express. The key point is that, according to non-cognitivists, moral terms don’t express genuine beliefs, in the sense that there is no particular way that you’re thinking the world (or anything else) is when you make a moral claim. By the way, this is probably the most popular view in the meta-ethics literature.
+
+### 13.2.2. The Linguistic Evidence
+
+The most obvious problem with non-cognitivism is that moral statements act exactly like proposition-asserting statements in all known respects. They do not act like interjections (like “Ouch!”), commands (like “Pass the tequila”), or any other non-assertive sentences. Here are some examples of what I mean by acting like a proposition-asserting statement:
+
+> *i*.Proposition-expressing sentences can appear in the antecedents of conditionals, i.e., you can say “If P, then …”, where “P” expresses a proposition. You cannot insert a non-propositional expression for P. E.g., “If it is raining, then we’re going to get wet” is fine, but “If hurray for kale, then …” and “If please pass the Cholula, then …” make no sense, regardless of how you fill in the ellipses.
+
+> *ii*.You can call propositions “true”, “false”, “possible”, “probable”, etc. You can’t do that with non-propositional phrases. E.g., “Probably it’s going to rain” makes sense, but “Probably please pass the Cholula” is nonsense.
+
+> *iii*.You can add “It’s not the case that” in front of a proposition-expressing sentence. You can’t do that with non-propositional phrases. E.g., “It’s not the case that Obama is a Muslim” is okay, but “It’s not the case that hurray for democracy” is nonsense.
+
+> *iv*.You can convert propositional sentences into yes/no questions – e.g., from the statement, “It is raining”, you can form the question, “Is it raining?” But from the interjection, “Boo on Marx”, you can’t form a sensible question, “Boo on Marx?”
+
+> *v*.Words that are used to ascribe properties can be converted into abstract nouns, such as “redness” and “squareness”. There are no similar abstract nouns for emotive terms (e.g., “booness” or “hurrayness”).
+
+> *vi*.Certain attitude verbs take proposition-expressing complements. E.g., “I believe that …”, “I hope that …”, and “I wonder whether …” all have to be followed by proposition-expressing sentences. E.g., you can say, “I wonder whether it’s going to rain”, but not “I wonder whether boo for the broncos”.
+
+Items (i)-(vi) above identify standard marks for whether a sentence asserts a proposition. Leaving aside moral sentences, I know of no exception to any of them. You can see the obvious reasons why all of the above observations are true. E.g., “I believe that …” has to be followed by a proposition-expressing sentence because you can’t believe something that’s not a proposition; that just makes no sense.
+
+Now, here’s the point: Moral sentences clearly pass every test for being proposition-expressing sentences. To illustrate:
+
+> *i.*“If abortion is wrong, then God is going to be upset with us.”
+
+> *ii.*“It’s true that murder is wrong.” “Watching pornography is probably okay.” “It’s possible that abortion is wrong.”
+
+> *iii.*“It’s not the case that contraception is murder.”
+
+> *iv.*“Is abortion wrong?” “Is pleasure the sole good?”
+
+> *v.*“I am questioning the act’s rightness, not its goodness.”
+
+> *vi.*“I believe that stealing is wrong.” “I wonder whether abortion is wrong.” “I hope that pornography is okay.”
+
+All of those make sense. They wouldn’t make sense if moral statements were emotive expressions, or imperatives, or any other non-proposition-asserting thing. So moral statements express propositions.
+
+**Interlude: The Frege-Geach Problem**
+
+The mid-twentieth-century philosopher Peter Geach raised an objection like the one above. He said he got the idea for it from the late 19^th-/early 20^th-century philosopher Gottlob Frege. So the problem for non-cognitivism has come to be called the **Frege-Geach Problem**. By the way, Frege’s name is pronounced “fray-guh” not “freej” – take note of that so that philosophers don’t laugh at you.
+
+Most of the literature treats the problem as being: How can a non-cognitivist explain what sentences like “If abortion is wrong, then God is going to be upset” *mean*? (Similarly for all the others, like “It’s true that abortion is wrong”, “I believe abortion is wrong”, etc.) Suppose you say that “Abortion is wrong” means something like “Boo on abortion!” (expressing a non-cognitive, emotional attitude about abortion). Then what could be meant by “I wonder whether abortion is wrong”? Does it mean “I wonder whether boo on abortion”? But that makes no sense.
+
+Non-cognitivists have tried to answer questions like that. They give increasingly complicated and confusing theories that we don’t have time to talk about in detail. But basically, the non-cognitivist has to say that the expressions used in tests (i)-(vi) above – “if…then”, “true”, “probable”, “possible”, “not the case”, “believe”, “hope”, “wonder” – each have two meanings, i.e., that they have different meanings when applied to ordinary, descriptive statements from what they mean when applied to evaluative statements. They then need to come up with a new interpretation, ad hoc, for each of these expressions (there’s no systematic way of explaining how all of them change when you apply them to an evaluative sentence). This has to be done for *every* expression in the language that gets applied to a proposition-expressing clause. All to explain why every test that can normally be used to distinguish proposition-expressing sentences from non-propositional sentences gives the wrong answer when applied to ethical sentences.
+
+### 13.2.3. The Introspective Evidence
+
+I’m only going to touch on this briefly. Introspectively, moral judgments seem exactly like beliefs, and not like emotions or desires. That’s why we call them “moral judgments”, not “moral feelings”. We can hold them with more or less confidence, we often consider arguments for and against them, we find ourselves wondering what the right conclusion is, and so on.
+
+We often have strong feelings about moral issues, which might tempt you to think that moral “judgments” are really just feelings. But note that people often have strong feelings about descriptive questions too. E.g., many people have strong feelings about whether they themselves are better looking than their peers, or whether white people are smarter than black people, or whether President Trump colluded with the Russians in the 2016 election – even though those are all perfectly descriptive, non-ethical questions. So it’s not particularly weird that people have strong feelings about morality too, and it hardly shows that moral statements don’t express propositions.
+
+Note also that our emotions and desires don’t always track our moral judgments. You can be upset about some action that you know wasn’t wrong, and you can be unperturbed by an action that you know *was* wrong. When Emperor Nero killed Agrippina, that was *very* wrong, and I *know* that, yet I have no particular desires or feelings about it. (Nero was an ancient Roman emperor widely known for being a total psycho. Agrippina was his mother.) I just have a cool, cognitive attitude about it: I intellectually recognize the wrongness of Nero’s action.
+
+As far as I can tell, then, all the evidence is against non-cognitivism.
+
+## 13.3. What’s Wrong with Subjectivism
+
+### 13.3.1. The Subjectivist View
+
+According to **ethical subjectivists**, ethical truths depend on observers’ attitudes. Whether a thing is good or bad, right or wrong, depends on how people feel about that thing, or what people think of it, or in some other way how people react to it.^[78] One prominent form of subjectivism is **cultural relativism**, the view that right and wrong depend on what practices are accepted in one’s culture.
+
+Why would ethical truths depend on someone’s attitudes? Basically, subjectivists think that “*x* is right” just means that the speaker (whoever is saying that *x* is right) has a sentiment of approval toward *x*, or that society approves of *x*, or something like that. By the way, notice that if you give this kind of theory, you cannot then analyze “approving of *x*” in terms of believing that *x* is right (that leads to circularity). Rather, you would claim that “approval” is just a particular positive emotional attitude that people can have.  Notice that on a subjectivist view, what is right and wrong will vary from one society to another and possibly even from one individual to another.
+
+Notice also that subjectivism *is not non-cognitivism*. On the non-cognitivist view, as discussed above, moral statements *do not assert propositions* and therefore are *neither true nor false.* On the subjectivist view, moral statements *do* assert propositions and *are* either true or false. For instance, “murder is wrong” is *true* (according to most subjectivists) since society, as a matter of fact, disapproves of murder, and so do I, and so does God (according to people who believe in God).
+
+### 13.3.2. Motives for Subjectivism, 1: Tolerance
+
+Subjectivism (including cultural relativism) is very unpopular among philosophers, but fairly popular among non-philosophers who have philosophical views. (But note that non-philosophers usually hold some incoherent jumble of views in which they confuse subjectivism, non-cognitivism, and nihilism with each other.) There are two prominent motivations for subjectivism, both of which are pretty awful, intellectually speaking.
+
+Here’s the first one: Tolerance is a virtue. Being a subjectivist makes you tolerant, because you won’t want to impose your views on other people if you don’t think your views are objectively right. Therefore, we should be subjectivists.
+
+What’s awful about that? First, it provides no evidence for subjectivism. It just tries to argue that being a subjectivist might make you nicer, but that doesn’t mean that subjectivism is actually true. (Compare this argument: “Mormons are nice people. Therefore, you should be a Mormon.” That doesn’t provide any evidence that the tenets of the Mormon faith are actually true.)
+
+Second, subjectivism is not a reliable way of promoting tolerance. Suppose that I personally approve of imposing my views on others, and suppose my society also approves of imposing its culture on other societies. Those attitudes, by the way, have historically been very prominent, which is what gave rise to this whole concern about tolerance in the first place. Now, in this situation, subjectivism tells me that I *should* impose my views on others, or that my society *should* impose its culture on other societies. That’s morally right, because that is what I (/my society) approve(s) of. So in this case, subjectivism leads to the opposite of its intended result. It only works out if you happen to be in a culture that already supports tolerance (in which case, you probably don’t need the subjectivist doctrine).
+
+Third, there are obviously better and more honest ways of promoting tolerance. Like, you could argue that tolerance is objectively good. That view would support tolerance even if you are in an intolerant society.
+
+### 13.3.3. Motives for Subjectivism, 2: Cultural Variation
+
+The other main motivation for subjectivism (especially cultural relativism) is the wide variation in moral codes among human beings, especially between different cultures. E.g., polygamy is considered bad in our society, but has been considered perfectly fine in most primitive societies. Therefore, it is said, right and wrong vary from one society to another.
+
+What’s awful about this argument? Well, it just seems to confuse beliefs with truths. The inference seems to be something like this:
+
+> P1.Moral beliefs vary from one society to another.
+
+> C.Therefore, moral truth varies from one society to another.
+
+That’s invalid on its face. To make it valid, you’d have to add another premise, something like this:
+
+> P2.All beliefs are true.
+
+P1 and P2 together get you C. But P2 is ridiculous.
+
+To be more charitable, perhaps the intended argument is an inference to the best explanation: The *best explanation* for why there is so much variation in moral beliefs is that there aren’t any facts there for us to discover. The way that people manage to converge in their beliefs – for example, in science – is that reality constrains us. Everyone tries to figure out the facts, and to some degree we succeed in doing so, and so we wind up thinking roughly the same things. But in morality, perhaps, there aren’t any facts independent of our attitudes for us to figure out.
+
+There are two problems with this argument (or maybe a single, two-part problem): First, there has actually been very wide disagreement about many non-moral matters of fact. Different cultures, in addition to having different practices and norms, also have drastically different views about things like medicine, the origin of the Earth, the structure of the cosmos, how many gods there are (if any), what the gods want, and so on. (Examples: They might think that diseases are caused by evil spirits, rather than by germs; that Earth was created by some gods, rather than by gravitational accretion; that the Sun orbits the Earth rather than the other way around.) No one concludes that therefore all those things are entirely dependent on our attitudes and that there are no objective facts about them.
+
+Granted, there has been more convergence on scientific beliefs in modern times – that is, societies that are exposed to modern science and under its influence tend to agree on the origin of the Earth, the structure of the cosmos, and so on. But this brings us to the second problem for the relativist’s argument: The same is true of morality. The same societies that have converged in their scientific beliefs (technologically and economically advanced societies) are *also* converging in their *values*: They are moving toward liberal, democratic values. E.g., they have been moving and continue to move more toward belief in equality, respect for the dignity of the individual, opposition to needless violence, and so on. (Most primitive societies are extremely illiberal.)^[79]
+
+The societies that continue to have very different values from ours tend to be primitive societies – those are the ones that anthropologists are always raising to show widely different cultures – and they have very different *descriptive* beliefs from us as well. So if you don’t think that descriptive facts are subjective or relative, you shouldn’t conclude that moral facts are subjective or relative either.
+
+The above doesn’t prove that subjectivism is false. But it shows that the leading *arguments* for it *don’t work*; they don’t give us any good reason to believe it.
+
+### 13.3.4. The Nazi Objection
+
+We turn now to the case against subjectivism. Imagine that you live in Nazi Germany. Your society approves of rounding up Jews and sending them to concentration camps. According to cultural relativism, what is morally right is what society approves of. Therefore, according to cultural relativism, it is morally right for you to help round up Jews to send them to concentration camps. Meanwhile, people like Oskar Schindler, who tried to save Jews from the concentration camps (see §11.4.3), would have to be judged as villains. This, to put it mildly, does not seem correct. It is in fact hard to think of how a theory about morality could go more wrong than that.
+
+A similar point applies to a more individualistic subjectivism which holds that what is right for an individual is whatever that individual approves of. Just add to the above example the stipulation that you yourself happen to be a Nazi at the time. Then the subjectivist view implies that it is morally right for you to round up Jews, and it would be wrong for you to instead try to help them.
+
+The point can be generalized to any subjectivist view. Suppose the subjectivist view says:
+
+> *x* is right if and only if: G takes A toward *x*.
+
+where G is some person or group and A is some attitude. Then imagine a case where G takes A toward something horrible – say, torturing babies for fun. The theory implies that in that situation (when G takes that attitude), it is morally right to torture babies for fun. But obviously that isn’t right. So the theory is false.
+
+Notice, btw, how the Nazi argument above is just an instance of this: Cultural relativism says that *x* is right if and only if *society* takes the attitude of *approval* toward *x*. Then for *x*, you could plug in the act of sending Jews to concentration camps, and the theory says: If society approves of sending Jews to concentration camps, then doing so is morally right.
+
+## 13.4. What’s Wrong with Nihilism
+
+### 13.4.1. The Nihilist View
+
+Subjectivism and non-cognitivism can both be refuted *empirically*, that is, by evidence that comes from observation. Both theories contain false views about what moral language means, so we can refute them by looking at how people talk about morality. We just do not talk in the way that we would if moral sentences were used to express emotions, describe social conventions, etc.
+
+By contrast, nihilism can’t be refuted in that way. The nihilist agrees with the realist that when we talk about “right”, “wrong”, “good”, and “bad”, we are *trying* to describe objective facts. The sentence “Murder is wrong” is really used to ascribe an objective property of wrongness to the act of murder. But the nihilist disagrees with the realist about whether these objective moral properties *exist*: In the nihilist’s view, we are just *mistaken* when we attribute objective moral properties to things. Thus, nothing is either right or wrong, good or bad. Statements like “Murder is wrong”, “Hitler was evil”, and so on are simply false.
+
+Why would someone hold this view? Basically, because they’re convinced by the above arguments against non-cognitivism and subjectivism, but they don’t believe in objective values. But why not believe in objective values? One argument was discussed above (§13.3.3), so I won’t repeat that here. But there are a couple of additional arguments …
+
+### 13.4.2. Against Objective Values: The Humean Argument
+
+The following is the most popular argument in meta-ethics, and possibly in all of contemporary philosophy; I’ve seen it in more places than any other philosophical argument. I call this the “Humean Argument”, and the people who endorse it “Humeans”:
+
+> P1.If there were objective values, then beliefs about them would motivate us to act, independent of our desires.
+
+> P2.Beliefs alone can never motivate action; only desires can motivate.
+
+> C.Therefore, there are no objective values.
+
+Other philosophers must think this argument is super-persuasive, since so many of them have rested so much on it. Or at least, anti-realists find it persuasive.^[80]
+
+**Interlude: The Humean Theory of Reasons**
+
+David Hume was a very famous Scottish philosopher from the 1700s. He spent most of his time being skeptical about stuff (you know, like religion, morality, the external world, and everything that isn’t directly observed). Also, though, he is widely thought to have held a certain view about reasons for action, which is hence called the “Humean Theory of Reasons”. This is the view that reasons for action always depend on desires: If you want *x*, and you believe action *A* (which you can do) will increase your chances of getting *x*, then you have a reason to do *A*. If you *don’t* want anything that you think *A* will make more likely, then you don’t have any reason to do *A*. (You can also say the same thing with “motive” substituted for “reason”.)
+
+Btw, “desire” here is supposed to refer to a particular sort of mental state that you can be introspectively aware of. “Desire” can’t really be defined (like most things; see §8.5), but it is important that it is separate from belief (or other cognitive states) – i.e., no belief can be a desire. Also, “desire” does not merely mean “motive”, which would turn the Humean theory into the trivial thesis that motives for action always depend on motives and would (incorrectly) imply that if a belief motivated action then the belief would be a desire.
+
+The Humean theory of reasons is controversial, since some philosophers think that you can have a reason to do *A* merely because you believe *A* is morally right, even if it won’t get you anything you want.
+
+Now, why accept premise P1? Generally, little is said to defend that; it’s just supposed to be intuitive. Note that P1 is generally understood to mean that moral beliefs would provide us with *at least some* motivation to act in the ways we consider moral; that is compatible with our also having conflicting motives (like, say, self-interest), which can sometimes be stronger than our moral motives.
+
+You can give examples to illustrate the idea. The comedian Louis CK has a comedy bit in which he talks about why he eats meat:
+
+> People talk about like, “Don’t eat dolphins when they’re in the tuna.” … Why not kill and eat a dolphin? No, I don’t fuckin’ get it. If you’re a tuna, fuck you, we’re eating you. So I don’t really see the difference. And I think it’s *wrong* to eat tuna, and dolphin, and cows, and everything. But I eat them. I eat them all. Because I *don’t care* that it’s wrong. I totally think it’s *terrible*, but that’s not important to me. So what if it’s wrong?^[81]
+
+There is something incongruous about his insistence that eating meat is terrible but that this isn’t important to him. That’s part of what’s funny. (You have to hear his delivery to get the full comedic effect.) You might even think it’s inconsistent to say that you think something is wrong, terrible, etc., and yet that you don’t care and it isn’t important to you. (How could this be inconsistent? It must be because recognizing an objective moral fact *necessarily motivates you* to act in accordance with it!) Note: That part in parentheses there is *the anti-realists’ interpretation of the realist’s position*. That’s what anti-realists think that moral realists are thinking. If that’s right, then the idea of an “objective moral value” is something like this: It’s an objective fact with the peculiar feature that, as soon as you become aware of it, it automatically motivates you to behave in a particular way. Hence, we arrive at
+
+> P1.If there were objective values, then beliefs about them would motivate us to act, independent of our desires.
+
+My assessment of the case for P1: This is extremely dubious. Moral realists do not in fact all agree that objective values necessarily motivate you to act independent of your desires. Some moral realists say that you are motivated to act morally only to the extent that you *desire* to be moral. For instance, they’d say that the belief that stealing is wrong does not *by itself* motivate you to avoid stealing; it only motivates you to avoid stealing if you already want to avoid doing wrong. About the Louis CK comedy bit: Part of the joke lies in the fact that many people *are* like Louis CK – they know that meat-eating is wrong, but they just don’t have the motivation to do anything about it. It’s just that people usually aren’t that honest about it. The joke isn’t that he’s contradicting himself; the joke is that he’s an immoral person. All of which is to say that the anti-realist’s interpretation of “objective values” is questionable – it’s far from obvious that objective values would have to be inherently motivating.
+
+Anyway, what about premise P2? Why think that only desires can motivate people? When you think about some mundane examples, you can see that a belief by itself doesn’t tell you what to do. Say you are standing on the platform at Union Station in Denver. Someone comes up and tells you, “Hey, the train for the airport is leaving in 1 minute.” Would that information motivate you to do something – say, to get on the train? Not by itself, no. Sure, if you already want to get to the airport, *then* the fact that the train for the airport is about to leave would motivate you to get on that train. But if you want to avoid the airport, then the same fact would motivate you to stay away from that train. The information about the train *by itself* doesn’t give you a goal, since it doesn’t tell you whether getting to the airport is desirable or not.
+
+You can give lots of examples like that. Humeans generalize to say that you only have a reason to act if you start out with some goal, and just believing something about how the world *is* can’t give you a goal. Only your desires give you goals. Hence, we have
+
+> P2.Beliefs alone can never motivate action; only desires can motivate.
+
+Now here’s a possible objection. Sometimes, we say things that seem to imply that we are motivated by something other than desire. E.g., you spend the night studying even though you “don’t want to” – you’d much prefer to be out drinking, tipping cows, or whatever it is that college students do when they’re not studying. Yet you study anyway. So you must be motivated by something other than your desires, right?
+
+Well, the Humeans would say: No, that just shows that you *wanted* to get a good grade in your class *more* than you wanted to go out drinking. In general, they would say, all cases in which people claim to do something that they “don’t want to do” are just cases in which they had conflicting desires, not cases where they really did something that they didn’t expect to satisfy *any* of their desires.
+
+My assessment of the case for P2: All of that is also extremely dubious. What the Humean says about beliefs is indeed true of *descriptive* beliefs, but not true about *evaluative* beliefs. If you have a purely descriptive piece of information – say, that the airport train is about to leave – that doesn’t tell you what to do, because, e.g., it doesn’t tell you whether getting to the airport is good or not. That’s right. But the proposition [Getting to the airport is good] obviously *does* tell you whether getting to the airport is good. Evaluative propositions just are propositions that tell us what we should do, or what is good or bad. The Humean theory only seems intuitive when you are thinking about purely descriptive facts.
+
+Now, you might of course question whether there ever is a fact such as [Getting to the airport is good]. But remember where we are: The Humeans were supposed to be giving us an *argument* to *show* that there aren’t any such facts. So they can’t *assume* that there aren’t any. If we don’t start by assuming that there are no evaluative facts, then it just is not at all obvious why we would say that beliefs can never motivate action, regardless of whether they are descriptive or evaluative.
+
+My assessment of the argument overall: It just isn’t clear why we should accept either premise. They’re not *obviously false*, but nor are they obviously true. Either premise could reasonably be rejected. So I don’t find the argument persuasive.
+
+### 13.4.3. Against Objective Values: The Argument from Weirdness
+
+Okay, I think this might be what is really motivating nihilists and other anti-realists: Objective values are *weird*. In fact, one famous argument against moral realism is officially named “the argument from queerness”.^[82] If there are objective values, they are very different from all the things that science studies. It’s weird that they’re not part of our best scientific theories about the world. It’s weird that we can’t detect them by the five senses, nor by any scientific instruments. People will say stuff like this in conversation, though usually not in print (actually, they usually give even less explanation than I just did).
+
+**Aside**
+
+Variations of the argument from weirdness appear all over philosophy. People say that moral value is weird, the soul is weird, libertarian free will is weird, abstract objects (numbers, sets, etc.) are weird, synthetic a priori knowledge is weird – and therefore, that these things don’t exist. (Compare §12.4.1.) This sort of “argument” seems to have an *enormous* impact on the prevailing philosophical views. I personally think it’s an embarrassment that philosophers rest so much weight on such a vague, inarticulate “argument”.
+
+Let’s think about what the charge of weirdness really means. First interpretation: Maybe it means “counter-intuitive”. In that case, the premise of the argument from weirdness is just false: Objective values are not counter-intuitive at all. You can tell this from the fact that almost all societies throughout history seem to have regarded values as objective, most thinkers in the history of ethics have done likewise, and *even the nihilists themselves admit* that moral realism is built into ordinary language. (The standard nihilist view is that words like “good”, “bad”, “right”, and “wrong” are intended to refer to objective moral properties. That’s why the nihilists think that all moral claims are false.) So it’s hard to see how you could claim that moral realism is counter-intuitive. By the way, you’ll find lots of *much weirder* things if you start studying modern physics.
+
+Second interpretation: Maybe weirdness just amounts to being very different from other things. But then, lots of things are weird in that sense. Matter, space, time, numbers, fields, and consciousness are all weird (different from other things). Why should we believe that weird things don’t exist? This is just a very lame argument.
+
+### 13.4.4. Nihilism Is Maximally Implausible
+
+The main reason for rejecting nihilism is its extreme initial implausibility. In other words, the Moorean Response to skepticism (§7.4) applies to this case. Take an uncontroversial moral statement, the most obvious you can think of – say, “You shouldn’t torture babies for fun.” That is extremely plausible on its face; it is indeed difficult to think of any statement that is more plausible. The nihilist wants us to reject that statement – he says it’s *false* that you shouldn’t torture babies for fun – on the basis of the sort of arguments discussed above. So consider the following four propositions:
+
+> 1.You shouldn’t torture babies for fun.
+
+> 2.“You shouldn’t torture babies for fun” entails that there are objective values.
+
+> 3.If there were objective values, then beliefs about them would motivate us to act, independent of our desires.
+
+> 4.Beliefs alone can never motivate action; only desires can motivate.
+
+Those four propositions are jointly inconsistent (1+2 entail that there are objective values; 3+4 entail that there aren’t). So we have to reject at least one of them. Which should we reject? Whichever one is the least initially plausible (the least obvious on its face). Which one is that? I’m not sure, but it’s definitely not (1). Proposition (1) is in fact the *most* obvious of the four. The nihilist wants us to reject (1) on the basis of (2)-(4). That’s irrational – it’s irrational to reject the most plausible proposition rather than one of the less plausible ones. I would reject (3) or (4), maybe both. (For defense of (2), see sections 13.2–13.3.)
+
+The same point will almost certainly apply to any argument for nihilism. The nihilist would have to find some premises that are more plausible than “You shouldn’t torture babies for fun”. But “You shouldn’t torture babies for fun” is just about the most plausible statement I can think of.^[83] No philosopher has come up with any premises that are more obvious than that that could be used to argue against it. For example, suppose the nihilist uses the premises “Moral values are weird” and “Weird things don’t exist”. Well, those are *much* less obvious than “You shouldn’t torture babies for fun.” So they couldn’t be used to refute the proposition that you shouldn’t torture babies for fun.
+
+## 13.5. What’s Wrong with Ethical Naturalism
+
+### 13.5.1. The Naturalist View
+
+Ethical naturalists think that moral facts are real and objective, but that they are **reducible** to descriptive facts. Basically, this means that you can explain what it is for something to be good (or right, etc.) using some more fundamental terms, without using any moral terms.
+
+Here’s an example of something that’s reducible: water. You can explain what water is in more fundamental terms, without using “water” or any other word that is close in meaning to “water”. Here is how you would explain it: Water is *a substance composed of molecules each of which contain one oxygen atom bonded to two hydrogen atoms*. The italicized phrase is the “reduction” of the concept water – it explains the underlying nature of water without using water or any similar concept.
+
+Maybe moral rightness is like that; maybe you could explain what it is without using moral concepts. For instance, maybe rightness is *the property of an action where the act increases the total amount of enjoyment and/or reduces the total amount of suffering in the world*. Notice that the phrase in italics doesn’t use “right” or any other moral term.
+
+How would we know moral truths, on this view? One of the central motivations of ethical naturalism is to avoid having to appeal to things like “intuition” in explaining ethics. That’s part of why they appeal to analogies like the scientific theory of water. The naturalists want to say that ethical theories could be justified in the same way as scientific theories are – which is to say, because they help to explain our observations. Here’s an actual example from the literature: How do we know that Adolf Hitler was evil? Well, it’s an empirical (based on observation) fact that he ordered the Holocaust, and the theory that he was evil helps to explain why he did this. Therefore, we have empirical justification for thinking he was evil.
+
+So ethical naturalists hold two views: (i) that ethical truths are reducible to objective, descriptive facts, and (ii) that ethical knowledge is justified on the basis of observations.^[84]
+
+### 13.5.2. A Point About Meaning
+
+Ethical naturalists (and maybe everyone else) used to be confused about meaning. They would say or imply that you could explain the *meaning* of the words “good”, “right”, etc., using non-moral terms. E.g., they might say that “right” *just means* “increases the total enjoyment in the world”.
+
+You can see that that’s false since it makes sense to ask, “Is it right to increase the total enjoyment in the world?”, and that obviously does not mean the same as “Does increasing the total enjoyment in the world increase the total enjoyment in the world?”
+
+**Interlude: G.E. Moore’s Open Question Argument**
+
+G.E. Moore was a 20^th-century British philosopher who wrote a book called *Principia Ethica*. (He also gave a famous reply to skepticism in epistemology; see §7.4.) In the book, he argued that “good” could not be defined. His argument for this came to be called “the **open question argument**”, mostly because there was a passage in which he briefly used the phrase “open question”. The context was something like this: Suppose someone claims that “*x* is good” means “*x* promotes pleasure”. G.E. Moore says it’s an open question whether promoting pleasure is good. (Roughly, what this means is that you could make sense of someone wondering whether promoting pleasure is good – that’s not inherently confused.) But it’s not an open question whether promoting pleasure promotes pleasure. Therefore, “good” can’t simply mean “promotes pleasure”. Moore thinks you can give similar arguments against *any* reductionist definition of “good”.
+
+These days, naturalists generally do not claim to explain the *meaning* of moral terms anymore. They generally recognize that you can’t do that (at least, not without using other evaluative terms). But they still claim that we can explain the underlying nature of moral properties or moral facts. That’s why the “water/H~2O” example above is useful. Notice that the H~2O theory explains the underlying nature of water, even though it does *not* explain the *meaning* of the word “water”. People understood the word “water” long before modern chemistry arose. Before the late 18^th century, people thought that water was an element. It’s not the case that they didn’t understand what “water” meant, though. So it can’t be that “water” *means* the same as “H~2O”.
+
+Similarly, the ethical naturalists would say, most people today understand the meaning of “good”, “right”, etc., but they don’t know the correct theory that explains the underlying nature of moral properties.
+
+### 13.5.3. Bad Theories
+
+The theory mentioned in §13.5.1, about the right being whatever increases the total amount of enjoyment, is not a very good theory, since there are many counterexamples to it. Example: Suppose you could torture an innocent person, and a very large number of sadistic people could then watch this torture on video, each getting a little sadistic pleasure from it. There would be so many sadistic viewers that the total amount of pleasure would be greater than the amount of suffering felt by the victim. Would it be morally right to do this? It seems not.
+
+That was just one possible reductionist theory. Here’s another one. Suppose someone says, “The good is that which promotes one’s survival”. (This implies that what is good is relative to an individual, since an event can promote one person’s survival but not another’s.) Counter-examples: Imagine an event that causes you to live slightly longer but also causes you to be in agony the entire time. Or imagine an action that increases your life expectancy by 5 minutes but also kills 500 other people. Are these things good?
+
+There are similar points to be made about every reductionist theory that anyone has devised; all have apparent counter-examples. In general, it seems that there are many different things that are good, and many different kinds of action that are right.
+
+Ethical naturalists today often talk in the abstract about how a reductive theory of goodness might exist, even though they don’t actually have the theory. This is odd. There’s no reason to think goodness is reducible if you can’t plausibly say what it might reduce to. Think about the water example: Why do we think water is reducible? Because we have a specific reductive theory that we have empirical evidence for. People didn’t just claim that water was reducible in general before there was any good theory about it. People thought it was an element *until* they had specific evidence that it could be decomposed into hydrogen and oxygen. Of this, more below.
+
+### 13.5.4. A Bad Analogy
+
+Contemporary ethical naturalists motivate their theory using examples like the water/H~2O example above. (Also: heat and molecular kinetic energy; sound and compression waves in the air; color and spectral reflectance distributions; etc. There are many examples of reductionist theories in science. But we’ll stick with the water example for simplicity.) But the water/H~2O analogy is a bad one – naturalist theories about ethics are not like that at all. When you see why, you’ll see that the basic idea of ethical naturalism is confused.
+
+How do we know that water is H~2O? There are two main pieces of evidence. In one experiment (the electrolysis experiment), you apply an electric voltage to some water. Bubbles of hydrogen gas form at the cathode and oxygen gas at the anode, and the mass of water present declines by the same amount as the mass of hydrogen and oxygen that is produced. In another experiment, you burn some hydrogen in the presence of oxygen, and you get some water that condenses on the sides of the container. The mass of water produced equals the mass of hydrogen and oxygen consumed.^[85] The best explanation for these experimental results is that water is a compound of hydrogen and oxygen. A person who doesn’t already believe the water=H~2O theory can see how the theory would explain these results. Furthermore, they can independently (i.e., without using the water=H~2O theory) detect water, hydrogen, and oxygen using the observable properties of these substances, they can do the experiments, and they can verify that the results are as stated.
+
+Now, exactly what comparable evidence could be given for a naturalistic ethical theory? For simplicity, let’s say someone has the theory that goodness=pleasure. What experiments could we do to test that, in the way that the electrolysis experiment tests whether water=H~2O? First produce some goodness, then see whether it’s pleasurable? How would we do that? Make some pleasure, then see whether it’s good? Well, we can certainly cause some pleasure, but we don’t have any way of detecting the moral goodness or non-goodness of it, without relying on our pre-existing ethical views. Notice how this is different from the water/H~2O example.
+
+You might say we can just *intuit* that pleasure is good; it will just *seem good* to us. This, however, is relying on another meta-ethical view, intuitionism (discussed in §13.6), which naturalists reject. Ethical naturalists are specifically trying to *avoid* appealing to intuition, which is why they use analogies to scientific theories in the first place.
+
+What of the idea that we could explain, e.g., why the Holocaust happened by appealing to the theory that Adolf Hitler was evil (§13.5.1)? Sure, that explanation works, *provided* that you already accept that genocide is wrong, bad, evil, or something like that. But if you thought that genocide was *good*, then you could equally well “explain” the Holocaust by citing Hitler’s *goodness*. In general, everything that you can explain by citing a moral claim could equally well be explained by someone who held an *opposite* value system; they would just use an opposing moral claim. Because of this, you can’t justify a particular value system by appealing to this sort of explanation (i.e., explanations like “Hitler ordered the Holocaust because he was evil”).
+
+Notice that this is *not* like real scientific theories. The water=H~2O theory explains why you can convert a sample of water into hydrogen and oxygen gas, and you don’t have to already believe the theory (or any other theory of water) to see that it would explain that. If you hold an opposing theory – say, that water is a compound of uranium and radon – you *cannot* explain the experimental results equally well.
+
+That’s how the “good=pleasure” theory is different from the “water=H~2O” theory. That explains why “water=H~2O” is justified, whereas “good=pleasure” is completely groundless. Once you see this, you can probably see that a similar point could be applied to any reductionist theory about goodness, or any other moral property. They’re all going to be like that – if you assume some completely opposite moral theory, it makes no difference to your empirical predictions. Basically, once you fix the *descriptive* facts, different moral views make no difference to what you should expect to observe in the physical world.
+
+There is one plausible exception to that: Different moral views make a difference to what we should expect *people to believe*, *provided* that people have a faculty of ethical intuition, or something like that, which can detect moral facts as such. Naturalists don’t accept such a faculty, though. Fortunately, intuitionists accept it, which we will discuss presently.
+
+## 13.6. Ethical Intuitionism
+
+### 13.6.1. The Intuitionist View
+
+Ethical intuitionists hold three main views: (i) There are objective moral truths, (ii) (some) moral truths are irreducible, and (iii) we know (some of) these truths through ethical intuition.
+
+Why believe (i)? Because the only ways to not have objective moral truths would be for subjectivism, non-cognitivism, or nihilism to be true, and we saw the problems with all of those above (§§13.2–13.4). Why believe (ii)? Well, we saw the problems with reductionism above as well (§13.5). It remains to talk about (iii).
+
+Intuitionists like to compare ethics to mathematics. Note: This does not mean that ethics is exactly like mathematics in all ways (if that were true, this wouldn’t be a *comparison*; ethics would just *be* mathematics). Rather, we draw the comparison to highlight certain specific points. People sometimes ask, for example, *where* goodness is, or where it “comes from”. Goodness is not located anywhere, nor does it come from anywhere, any more than the number 2 is located or comes from somewhere.
+
+More importantly, people sometimes find ethical knowledge weird because it is not based on observation. But mathematics is not based on observation either. Mathematics starts from certain self-evident axioms, from which you can then infer further conclusions. What is a “self-evident” proposition? Basically, it’s one that is obvious when you think about it, in a way that doesn’t require an argument; you can directly see that it’s true. For instance, that 3 is greater than 1, that the shortest path between two points is a straight line, or that if *a*=*b* and *b*=*c*, then *a*=*c*.
+
+Similarly, perhaps the field of ethics rests on self-evident ethical axioms. For instance, maybe it’s self-evident that enjoyment is good in itself; that one should not cause harm for no reason; or that if *a* is better than *b* and *b* is better than *c*, then *a* is better than *c*.
+
+Now, what is an “**ethical intuition**”? Essentially, an *intuition* is a mental state that you have in which something just seems true to you, upon reflecting on it intellectually, in a way that does not depend upon your going through an argument for it. An *ethical* intuition is just an intuition that’s about ethics. All the above are examples of intuitions. E.g., when you think about [3 > 1], you should have a (mathematical) intuition that it’s true; when you think about [It’s wrong to cause harm for no reason], you should have an (ethical) intuition that that’s true.
+
+Why should we believe our intuitions? In an earlier chapter, we discussed the principle that it is rational to assume that things are the way they appear, unless and until one has specific reasons to doubt this (see §7.6). This, I argue, is the foundation of all reasonable beliefs. That includes the beliefs that we get from perception, memory, introspection, and reasoning, as well as intuition – in all of these cases, we believe what we believe because it seems correct to us and we lack sufficient reasons to doubt it. So, that’s also why it makes sense to believe, for example, that it’s wrong to cause harm for no reason: That seems true, and we have no good reason to doubt it. (Of course, some would claim to have good reasons to doubt it; see §13.4.)
+
+### 13.6.2. Objection: Intuition Cannot Be Checked
+
+Some object that intuition is not an acceptable way of forming beliefs because there is no way of *checking* a particular intuition to see whether it’s really true, and thus no way of knowing whether intuition in general is reliable. (Some would say this about intuition in general; others would only say it about *ethical* intuition.)
+
+This is false in one sense but true in another. If you’re allowed to consult other intuitions – both your own and other people’s – then you *can* check on a particular intuition. For instance, if I intuit that murder is wrong, I can “check’ that by asking whether other people also intuit that. I can also see whether my intuition that murder is wrong is consistent with my other ethical intuitions (say, my intuition that it’s wrong to cause harm for no reason, my intuition that life is valuable, and so on). So it’s just *false* that you can never check on an intuition. Many intuitions can be tested in these ways and will in fact pass the tests.
+
+Of course, some would object to the idea of using intuitions to check other intuitions. If you’re *not* allowed to consult other intuitions, then indeed you generally cannot check on a particular intuition. That’s the sense in which it’s *true* that you can’t check intuitions. However, in that sense, you cannot check on any of the other basic types of cognition that we rely on either (see §§7.2, 7.5.5). For instance, there is no way of checking on observations made by the five senses, without relying on other observations. If you want to check on the reliability of your senses, you could, say, ask other people whether they perceive the same things you do. But that would depend upon your *perceiving* those other people, perceiving the answers they give, and trusting those perceptions. A similar point applies to basically any test you might try to do.
+
+Similarly, if some skeptic comes along and doubts whether memory is reliable, you have no way of settling that doubt without relying on memory. Let’s say I want to test my memory. I seem to remember where I live. So I go to the address that I remember my house is at, and, lo!, I find a house there that looks just like the one I remember. I go inside, and there is a bunch of stuff there that looks just like the stuff I remember. Etc. This suggests that my memory is reliable. However, this test requires me to use my memory in the process of testing it – when I get to the house, I must *remember* that I previously remembered a house just like that. Furthermore, to construct a suitable inductive argument, I will need to *remember* many cases like this – i.e., many cases in which my memory proved reliable in the past.
+
+Finally, you face the same problem with reason itself, if you want to verify that reason is reliable. You could try constructing an argument that reason is reliable, but that would require you to reason.
+
+My point: Intuition is just like reason, observation, and memory in this respect: You can’t check its reliability without using it. You probably don’t think (and very few moral anti-realists think) that we should ignore reason, observation, and memory; therefore, you also shouldn’t ignore intuition merely because it can’t be checked without using intuition itself. According to Phenomenal Conservatism (§7.6.1), this is all okay, because we are permitted to *start* from the assumption that what seems to be the case is the case, unless and until we have specific reasons for doubting that. We don’t have to first prove that appearances are reliable.
+
+### 13.6.3. Objection: Differing Intuitions
+
+Perhaps the most popular objection to intuitionism is that people sometimes have conflicting intuitions, and therefore (?) we should not believe intuitions. I put a question mark there, because it’s not always clear what the argument is. I think there are a few different strands of thinking:
+
+First, sometimes it seems that the concern is that, if we form ethical beliefs based on intuitions, then there may be intractable disagreements. We might be unable to resolve a disagreement with someone who has conflicting intuitions, and that is bad. In reply, I would note that this is not actually an objection to intuitionism, in the normal understanding of an objection – that is, the “objection” does not attempt to cite any evidence that intuitionism is not actually true. It just cites something bad that could happen if intuitionism is true. And I agree that this bad thing could happen – you could find yourself in an intractable disagreement with someone. This doesn’t mean intuitionism isn’t correct, though; in fact, there *are* intractable disagreements, so this is just a *correct prediction* of intuitionism. There are also, by the way, equally intractable disagreements about many other things besides ethics. All areas of philosophy, as well as religion, as well as many (non-ethical) political questions occasion disagreements that appear about as difficult to resolve as the disagreements in ethics. No one should be surprised that there might be disagreements in ethics that we can’t resolve.
+
+Second, some would argue that disagreement undermines the claim to objectivity – an ethical claim can’t be objectively true if we don’t all accept it. This sort of argument, however, just rests on a conceptual mistake (see §13.3.3). Objective truths are defined as truths that don’t depend on observers; they are not defined as truths that everyone agrees on. You can’t stop a fact from existing objectively merely by refusing to accept it! On the intuitionist view, ethical facts are not dependent on our intuitions. Ethical facts exist independent of us; ethical intuition is merely our way of becoming aware of them. (Compare: Physical objects exist independent of your sensory experiences; your sensory experiences are merely your means of becoming aware of these independently-existing objects.)
+
+Third, some believe that intuition just isn’t very reliable, due to the variations in intuitions across individuals and across cultures. This is the most reasonable version of the objection. If there are objective ethical facts, then whenever people’s intuitions disagree, someone has to be wrong. If there’s a lot of disagreement, then intuitions go wrong a lot. But there’s no reason to assume that *your* intuitions in particular are much better than other people’s; therefore, if ethical intuitions in general are unreliable, yours are probably unreliable, and therefore you should stop trusting them.
+
+In response, this objection is correct about *some* intuitions. For instance, suppose that abortion just seems wrong to you, intuitively. That’s a highly controversial intuition – many people lack that intuition or even have an opposite intuition. Therefore, you should not rest much weight on that intuition. (Note, however, that there is probably a lot less *intuitive* disagreement than there is disagreement in *reasoning*. For example, people who think abortion is wrong almost certainly think that because they have an *argument* for that conclusion, not simply an intuition.^[86] But for the sake of argument, let’s just assume that someone has an intuition that abortion is wrong.)
+
+However, there are other intuitions that are not controversial. For instance, that enjoyment is intrinsically good, that you shouldn’t cause harm for no reason, or that if *a* is better than *b* and *b* is better than *c*, then *a* is better than *c*. That’s why I used those examples above (and not the example of “abortion is wrong”) in §13.6.1. You can’t very well argue that *those* intuitions are unreliable due to widespread disagreement, when there *isn’t* widespread disagreement about those things.
+
+This is enough for the intuitionists. Intuitionists are not silly: They don’t claim that we know *all* ethical truths. They only claim that we know *some* ethical truths.
+
+By the way, something similar holds in many other areas, perhaps all areas of human intellectual endeavor: There are always things that are obvious and uncontroversial, and then other things that are widely disputed. That’s true in other branches of philosophy, and in science, and in everyday life. It’s reasonable to withhold judgment about the disputed questions (especially if you’re a non-expert). But there is no reason to also withhold judgment about the obvious and uncontroversial points.
+
+## 13.7. Conclusion
+
+Ethical intuitionism was often ridiculed in twentieth century philosophy. It has, however, enjoyed something of a resurgence in recent decades, perhaps because it is in fact the most sensible view in metaethics.
+
+The alternatives are non-cognitivism, subjectivism, nihilism, and naturalism. Non-cognitivism is no good because ethical sentences behave exactly like cognitive (proposition-asserting) sentences in all known respects. Subjectivism is no good because it implies that if you (or your society, or whatever) approve of torturing babies for fun, then torturing babies for fun is good. Nihilism is no good because it implies that recreational baby torture isn’t wrong, which is too implausible on its face to be justified by speculative philosophical assumptions. And naturalism is no good because reductive theories of goodness do not make empirical predictions in the way that real scientific theories do, and thus naturalistic theories of goodness have no justification.
+
+Turning to the common objections to intuitionism: The inability to check intuition without relying on intuition is not a major problem, since we similarly cannot check on memory without relying on memory, on observation without relying on observation, or on reason without relying on reason. On the other hand, disagreements in ethics *do* provide a reason for doubting one’s own ethical intuitions; however, this only applies to intuitions about controversial questions, not intuitions that virtually everyone agrees on.
+
+I suspect that the main reason why many people are not comfortable embracing ethical intuitionism is that they vaguely sense that the view is “weird”. I think that is lame – I think that feeling of weirdness has no evidential value. So we should feel free to embrace the view that coheres with common sense ways of thinking about morality.

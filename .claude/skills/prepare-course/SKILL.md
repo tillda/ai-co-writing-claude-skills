@@ -186,7 +186,7 @@ Report at the end: number of modules, total topics, any modules where the questi
 
 If `/courses/<slug>/index.md` already exists:
 
-- **Preserve** the user's frontmatter (`books:`, `style:`), the H1 intro paragraph, any `**Essay scope:**` or `**Books usage:**` blocks at the top.
+- **Preserve** the user's frontmatter (`books:`, `style:`), the H1 intro paragraph, any `**Essay scope:**` or `**Usage:**` blocks at the top.
 - **Refresh** topic lists per the latest syllabus + exam-questions content.
 - Leave hand-written `**Sources:**` / `**Readings:**` lists untouched unless the user explicitly asks for them to be regenerated. The user often curates these.
 - If the existing index has prose paragraphs under module headings (the legacy verbose format), drop them — that is part of the cleanup the skill exists to do — but show the user a brief diff so nothing material is lost.

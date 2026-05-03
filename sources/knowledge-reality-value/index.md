@@ -58,7 +58,7 @@ generated: 2026-05-03
 - cogency
 - category errors
 
-- Use 2.8 for Validity
+- Source 2.8 for Validity
   add that critique about counterexamples
   add that critique about conepts being different that people's intuitions
 

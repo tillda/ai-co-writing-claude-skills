@@ -105,17 +105,17 @@ The sources subsystem is what makes precise citation possible without loading wh
 
 Both `<book>/index.md` and `courses/<course>/index.md` are **markdown** with YAML frontmatter. Edit them as prose; structure is implicit in headings.
 
-**`<book>/index.md`** comes in two layouts; `chapter-indexes: split | inline` in the frontmatter says which. Both carry: book metadata in frontmatter; an optional book-level prose intro under the H1; an optional `**Usage:**` block (see below) right after the intro; one `## Chapter <N> · <Name>` per chapter with an inline metadata line `` `cite: <key> · file: <path> · format: md|pdf|html|txt` `` directly under the heading; optional chapter prose; an indexer-generated `**Topics:**` bulleted list (one topic per `- ` line); and zero or more curator-approved `- Use <ref> for <topic>` bullets binding specific section refs to topics. The two surfaces have different force — see Layer 3 below.
+**`<book>/index.md`** comes in two layouts; `chapter-indexes: split | inline` in the frontmatter says which. Both carry: book metadata in frontmatter; an optional book-level prose intro under the H1; an optional `**Usage:**` block (see below) right after the intro; one `## Chapter <N> · <Name>` per chapter with an inline metadata line `` `cite: <key> · file: <path> · format: md|pdf|html|txt` `` directly under the heading; optional chapter prose; an indexer-generated `**Topics:**` bulleted list (one topic per `- ` line); and zero or more curator-approved `- Source <ref> for <topic>` bullets binding specific section refs to topics. The two surfaces have different force — see Layer 3 below.
 
-**`**Usage:**`** (book-level, optional) — a one-line policy describing how this book should be deployed by default whenever it's loaded. Lives near the top of `<book>/index.md`, after the H1 intro paragraph and before the first `## Chapter`. Examples: *"Canonical reference for this topic; prefer over Readings where they overlap"*, *"Lay introduction; reinforces academic positions but never overrides them"*, *"Skip technical chapters 5-7 unless the prompt demands depth"*. The hint is hand-authored — the indexer scaffolds an empty placeholder and never overwrites it. A course's `**Books usage:**` line for the same book overrides this hint inside that course; outside any course context, the book-level hint applies as-is.
+**`**Usage:**`** (book-level, optional) — a one-line policy describing how this book should be deployed by default whenever it's loaded. Lives near the top of `<book>/index.md`, after the H1 intro paragraph and before the first `## Chapter`. Examples: *"Canonical reference for this topic; prefer over Readings where they overlap"*, *"Lay introduction; reinforces academic positions but never overrides them"*, *"Skip technical chapters 5-7 unless the prompt demands depth"*. The hint is hand-authored — the indexer scaffolds an empty placeholder and never overwrites it. A course MD's `**Usage:**` bullet for the same book overrides this hint inside that course; outside any course context, the book-level hint applies as-is.
 
-- **Inline layout** (small books) — after the `**Topics:**` block (and any `Use` bullets, when present), each chapter block also contains `### <ref> <Name> [<a>-<b>]` per section (use `[pp. <a>-<b>]` for PDF) with optional per-section prose. One file holds everything.
-- **Split layout** (≥500-line index, or ≥10 chapters with subsections) — section headings and line ranges are extracted into per-chapter `index-ch<NN>.md` files (`<NN>` zero-padded). The short `index.md` carries only chapter blocks (metadata, prose, Topics, optional `Use` bullets — no section listings). Each `index-ch<NN>.md` has lightweight frontmatter (`slug`, `chapter`, `generated`), the chapter H2 + metadata line, and the section listing with line ranges. The per-chapter file path is implicit by convention: `sources/<slug>/index-ch<NN>.md` from the chapter number.
+- **Inline layout** (small books) — after the `**Topics:**` block (and any `Source` bullets, when present), each chapter block also contains `### <ref> <Name> [<a>-<b>]` per section (use `[pp. <a>-<b>]` for PDF) with optional per-section prose. One file holds everything.
+- **Split layout** (≥500-line index, or ≥10 chapters with subsections) — section headings and line ranges are extracted into per-chapter `index-ch<NN>.md` files (`<NN>` zero-padded). The short `index.md` carries only chapter blocks (metadata, prose, Topics, optional `Source` bullets — no section listings). Each `index-ch<NN>.md` has lightweight frontmatter (`slug`, `chapter`, `generated`), the chapter H2 + metadata line, and the section listing with line ranges. The per-chapter file path is implicit by convention: `sources/<slug>/index-ch<NN>.md` from the chapter number.
 
 Reverse-mode (topic-only) is **two-tier**:
 
 - **`**Topics:**` is the soft surface.** A topic match flags the chapter as a candidate. The resolver does not auto-read on a Topics-only match — without a section ref the chapter is too coarse a target. Topics matches enter the candidate list shown to the user for confirmation.
-- **`- Use <ref> for <topic>` is the hard surface.** A topic match is authoritative: parse `<ref>`, open the corresponding `index-ch<NN>.md` (split) or read the inline section heading (inline) for the line range, and read the section directly as canonical evidence.
+- **`- Source <ref> for <topic>` is the hard surface.** A topic match is authoritative: parse `<ref>`, open the corresponding `index-ch<NN>.md` (split) or read the inline section heading (inline) for the line range, and read the section directly as canonical evidence.
 
 Forward-mode (explicit `<ref>` in prompt): same range lookup, but the topic match is skipped.
 
@@ -126,18 +126,18 @@ A section heading has three roles:
 
 The `**Topics:**` block is generated by `source-indexer` at scaffold time from the source headings — `-isms`, named theories, eponymous adjectives (`Wittgensteinian`, `Bayesian`), possessive philosopher names (`Hume's`, `Quine's`), and named arguments / paradoxes / principles. Each topic is emitted as its own `- ` bullet under the `**Topics:**` label. The indexer optionally accepts one or two course slugs; when supplied, it also matches the book against those courses' module vocabulary (module names, `**Sources:**`, `**Readings:**`) and emits course-relevant terms as additional Topics. Refresh never re-runs Topics extraction; once written, the Topics block is user-owned (ask explicitly to regenerate one chapter's Topics).
 
-The `- Use <ref> for <topic>` bullets are *never* indexer output. They are produced exclusively by `accept-canonical-chapters` after explicit user approval — every bullet is a deliberate claim that the named section is the canonical text for the topic, and the resolver's hard-surface read depends on that being true. The indexer preserves any bullets it finds verbatim across refresh but never creates, modifies, or removes them.
+The `- Source <ref> for <topic>` bullets are *never* indexer output. They are produced exclusively by `accept-canonical-chapters` after explicit user approval — every bullet is a deliberate claim that the named section is the canonical text for the topic, and the resolver's hard-surface read depends on that being true. The indexer preserves any bullets it finds verbatim across refresh but never creates, modifies, or removes them.
 
 For books without numbered sections (`## Introduction`, `## The Argument` etc.), the indexer assigns synthetic numeric prefixes at scaffold time (`### 1 Introduction [10-45]`, `### 2 The Argument [46-180]`) so there's still a stable identifier to match by.
 
-**`courses/<course>/index.md`** carries: course metadata in frontmatter (`slug`, `name`, `style`, `books: [...]`); optionally an `**Essay scope:**` block at the very top of the file describing course-wide sourcing policy (see below); optionally a `**Books usage:**` block immediately after it with per-book deployment hints scoped to this course (see below); one `## <N>. <Module Name>` per module (numbered 1-10 typically, with optional `## 0. Introduction` for preamble material); module guidance as free prose; optionally `**Sources:**` and/or `**Readings:**` bullet lists with free-text refs; optional `**Books:** [...]` line to override the course-level book scope for that module.
+**`courses/<course>/index.md`** carries: course metadata in frontmatter (`slug`, `name`, `style`, `books: [...]`); optionally an `**Essay scope:**` block at the very top of the file describing course-wide sourcing policy (see below); optionally a `**Usage:**` block immediately after it with per-book deployment hints scoped to this course (see below); one `## <N>. <Module Name>` per module (numbered 1-10 typically, with optional `## 0. Introduction` for preamble material); module guidance as free prose; optionally `**Sources:**` and/or `**Readings:**` bullet lists with free-text refs; optional `**Books:** [...]` line to override the course-level book scope for that module.
 
 **`**Essay scope:**`** (course-level, optional) — a course-specific policy directive that **always binds the essay-philosophy skill**. Read it before writing. Common shapes: *textbook-bound* (stay strictly within the course's canonical readings unless the prompt explicitly invites going outside — typical for tightly-textbooked introductory courses), *open* (follow the canonical book's own references into external authors as needed — typical when exam questions cluster around named external philosophers). When this block is present and the prompt does not override it, defer to it: do not pull in outside authors merely because they would strengthen the argument.
 
-**`**Books usage:**`** (course-level, optional) — a bullet list of per-book deployment hints scoped to this course. Each bullet names a book (italicised title or slug, with optional author in parens) followed by an em-dash and a one-line hint. Example:
+**`**Usage:**`** (course-level, optional) — a bullet list of per-book deployment hints scoped to this course. Each bullet names a book (italicised title or slug, with optional author in parens) followed by an em-dash and a one-line hint. Same label as the book-level `**Usage:**` block, disambiguated by location (course MD vs book index) and shape (bullet list vs one-liner). Example:
 
 ```markdown
-**Books usage:**
+**Usage:**
 - *Understanding Knowledge* (Huemer) — canonical for this course; prefer over Longworth where they overlap
 - *Problems of Philosophy* (Russell) — historical framing only; skip the technical chapters
 ```
@@ -161,19 +161,19 @@ When a prompt names sources, or names only a topic, look in three places. **All 
 2. **Course MD** — `/courses/<course>/index.md` carries two distinct lists per module:
    - `**Sources:**` — the canonical backbone. **Always loaded.** Lead with these; they present the canonical arguments. **If the module lists no Sources at all, fall back to the canonical analytic answer from the relevant field invoked from general knowledge — the standard interpretation only, never fabricated quotes, page numbers, or specific arguments.**
    - `**Readings:**` — specific deepening additions. **Loaded when present.** Each typically elaborates an argument that Sources cover in short form, and becomes one branch of argumentation in the essay. **If a Reading cannot be resolved (book not in `/sources/`) but the author's position is well-known canonical philosophy, it is acceptable to invoke that position from general knowledge — but never hallucinate quotes, page numbers, specific arguments, or invented positions.** When in doubt, leave the unresolved Reading out rather than risk fabrication.
-3. **Book index** ("reverse mode") — `/sources/<book>/index.md` carries per-chapter `**Topics:**` bulleted lists (indexer-generated; soft surface) and zero or more `- Use <ref> for <topic>` bullets (curator-approved; hard surface). **Topic-matched, two-tier:**
+3. **Book index** ("reverse mode") — `/sources/<book>/index.md` carries per-chapter `**Topics:**` bulleted lists (indexer-generated; soft surface) and zero or more `- Source <ref> for <topic>` bullets (curator-approved; hard surface). **Topic-matched, two-tier:**
    - A `**Topics:**` match flags the chapter as a candidate and surfaces it to the user for confirmation. The resolver does not auto-read on a Topics-only hit.
-   - A `- Use <ref> for <topic>` match is authoritative: parse `<ref>` and read the section (range from inline section heading or per-chapter file).
+   - A `- Source <ref> for <topic>` match is authoritative: parse `<ref>` and read the section (range from inline section heading or per-chapter file).
    Both surfaces describe **topics**, not positions: they must not point at named position files. Positions are matched separately via their own `**Applicable to:**` triggers under `/positions/<course>/`. Topic is the meeting ground; sources and positions are peer inputs to the resolver.
 
 For topic-only or under-specified prompts, aggregate candidates from layer 2 (Sources first, then Readings) and layer 3, propose to me with the layer of origin labelled, then resolve.
 
 **Usage hints overlay the layers.** Independent of which layer surfaced a book, two optional hints shape how the book gets deployed once loaded:
 
-- **Book-level `**Usage:**`** — a one-line default in `/sources/<book>/index.md`. Travels with the book.
-- **Course-level `**Books usage:**`** — per-book overrides in `/courses/<course>/index.md`. Scoped to that course only.
+- **Book-index `**Usage:**`** — a one-line default in `/sources/<book>/index.md`. Travels with the book.
+- **Course-MD `**Usage:**`** — per-book overrides in `/courses/<course>/index.md`. Scoped to that course only.
 
-Precedence: **course `**Books usage:**` (per-book line) > book `**Usage:**` > no hint**. Hints are interpretive guidance — they steer what to cite and how strongly to lean on the author — but they never override the prompt and never licence fabrication.
+Precedence: **course MD `**Usage:**` (per-book line) > book index `**Usage:**` > no hint**. Hints are interpretive guidance — they steer what to cite and how strongly to lean on the author — but they never override the prompt and never licence fabrication.
 
 ---
 
@@ -222,7 +222,7 @@ You:
    course's module vocabulary
 5. Remind me of the optional curation steps:
    - Hand-edit index.md to fill cite, **Usage:**, chapter/section prose
-   - Run accept-canonical-chapters <book> [<course>] to add `Use` marks
+   - Run accept-canonical-chapters <book> [<course>] to add `Source` marks
      (and, with a course, course-MD updates)
    - Run accept-canonical-positions <book> <course> to update positions
 ```
@@ -275,7 +275,7 @@ You:
 ### A source that should have been suggested wasn't
 - The book may not be in scope for the named course/module. Check the `books:` field in `/courses/<course>/index.md` frontmatter (or `**Books:**` under the module). To add it for a course, run `accept-canonical-chapters <book> <course>` and approve the bucket-B course-MD updates.
 - The chapter's `**Topics:**` block may not list the topic you expected — only a soft match would have fired anyway. Either rerun `source-indexer` against the relevant course slug to widen Topics, or hand-edit the block (add a new `- <topic>` bullet).
-- For an authoritative auto-read, the chapter needs a `- Use <ref> for <topic>` bullet matching the prompt's topic. Run `accept-canonical-chapters <book>` (optionally with a course) to propose one through the approval loop. Hand-editing the bullet is also fine — the indexer preserves any it finds. For split-layout books, line ranges live in `index-ch<NN>.md`; the bullet only needs the `<ref>`.
+- For an authoritative auto-read, the chapter needs a `- Source <ref> for <topic>` bullet matching the prompt's topic. Run `accept-canonical-chapters <book>` (optionally with a course) to propose one through the approval loop. Hand-editing the bullet is also fine — the indexer preserves any it finds. For split-layout books, line ranges live in `index-ch<NN>.md`; the bullet only needs the `<ref>`.
 
 ### Subchapter content was wrong (read more than the section)
 - The heading numbering in the source body may not start with the section ref. Either fix the heading or hand-edit the `[a-b]` marker in the matching section heading inside the book's `index.md`.

@@ -66,13 +66,13 @@ For PDF/HTML/TXT chapters without parseable headings, ask the user for the chapt
 
 ## Refresh
 
-Refresh is the same procedure — every block is regenerated from the current source. Topics, subheadings, refs, and ranges all re-derive. **Nothing in the old `index.md` is preserved.** If the user previously ran `accept-canonical-chapters` to add `- Use <ref> for <topic>` bullets, those will be wiped on refresh; re-run `accept-canonical-chapters` afterward to re-add them.
+Refresh is the same procedure — every block is regenerated from the current source. Topics, subheadings, refs, and ranges all re-derive. **Nothing in the old `index.md` is preserved.** If the user previously ran `accept-canonical-chapters` to add `- Source <ref> for <topic>` bullets, those will be wiped on refresh; re-run `accept-canonical-chapters` afterward to re-add them.
 
 ## What this skill does NOT do
 
 - Never edits source files in `/sources/<book>/`.
 - Never edits `/courses/*/` files.
-- Never writes `- Use <ref> for <topic>` bullets — that is `accept-canonical-chapters`.
+- Never writes `- Source <ref> for <topic>` bullets — that is `accept-canonical-chapters`.
 - Never writes prose annotations, chapter narrative, book intros, or `**Usage:**` blocks.
 - Never produces split-layout / per-chapter `index-ch<NN>.md` files.
 - Never modifies `/sources/catalog.yaml` (no longer maintained by this skill).

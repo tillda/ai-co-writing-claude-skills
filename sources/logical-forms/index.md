@@ -35,10 +35,10 @@ generated: 2026-05-03
 
 **Topics:** validity, deductive validity, inductive strength, monotonicity, logical possibility, physical possibility, formal validity, logical constants, topic-neutrality, soundness, sentences vs propositions, project of formalization, lexical ambiguity, structural ambiguity, a priori
 
-- Use 1.3 for validity
-- Use 1.6 for validity
-- Use 1.7 for validity
-- Use 1.9 for validity
+- Source 1.3 for validity
+- Source 1.6 for validity
+- Source 1.7 for validity
+- Source 1.9 for validity
 
 ## Chapter 2 · Truth functionality
 *Source: 02-truth-functionality.md*

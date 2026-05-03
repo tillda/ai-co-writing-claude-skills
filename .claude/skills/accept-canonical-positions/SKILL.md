@@ -46,11 +46,11 @@ If any trigger fires and `course` was supplied but other courses also clearly ma
 1. Read `/sources/<book>/index.md`:
    - Frontmatter (slug, tags).
    - Chapter list with metadata lines.
-   - Per-chapter `**Topics:**` lines and `- Use <ref> for <topic>` bullets — these are the candidate topic surface. Use bullets are particularly informative: they tell you which sections the user has already committed to as canonical.
-2. Read `/courses/<course>/index.md`: module list (numbered), per-module `**Sources:**` and `**Readings:**`, any module-level prose, frontmatter `books:`, optional `**Essay scope:**` and `**Books usage:**` blocks (read for context; never edit).
+   - Per-chapter `**Topics:**` lines and `- Source <ref> for <topic>` bullets — these are the candidate topic surface. Source bullets are particularly informative: they tell you which sections the user has already committed to as canonical.
+2. Read `/courses/<course>/index.md`: module list (numbered), per-module `**Sources:**` and `**Readings:**`, any module-level prose, frontmatter `books:`, optional `**Essay scope:**` and `**Usage:**` blocks (read for context; never edit).
 3. Read `/positions/<course>/index.md` if it exists: the catalog of existing positions and their `**Applicable to:**` triggers (denormalized in the index). For each candidate position, open the named position file (`/positions/<course>/<slug>.md`) for the body. If the directory does not exist yet, treat the course as having no stated positions.
 4. If `chapters` or `topics` was given, narrow accordingly.
-5. Read in-scope chapters at section granularity using line ranges from the book's `index.md` (or `index-ch<NN>.md` for split layout). Prioritise sections that already carry `Use` bullets — those are the user's flagged-as-canonical passages. Never read whole books or whole chapters when section-level reading suffices.
+5. Read in-scope chapters at section granularity using line ranges from the book's `index.md` (or `index-ch<NN>.md` for split layout). Prioritise sections that already carry `Source` bullets — those are the user's flagged-as-canonical passages. Never read whole books or whole chapters when section-level reading suffices.
 
 ### Phase 2 · Match
 
@@ -151,7 +151,7 @@ After execution, report:
 
 ## What this skill does NOT do
 
-- Never edits `/sources/<book>/index.md` or `/sources/<book>/index-ch<NN>.md` — that's `accept-canonical-chapters` (Use marks) or `source-indexer` (structure / Topics).
+- Never edits `/sources/<book>/index.md` or `/sources/<book>/index-ch<NN>.md` — that's `accept-canonical-chapters` (Source marks) or `source-indexer` (structure / Topics).
 - Never edits source files (`/sources/<book>/<chapter>.*`).
 - Never edits `/courses/<course>/index.md` — that's `accept-canonical-chapters` (when a course is supplied) or hand-editing.
 - Never writes essays.
@@ -164,6 +164,6 @@ After execution, report:
 - Frame position updates as diffs ("strengthen X by adding Y", "soften the Z claim") rather than full rewrites — the user can see what's actually changing.
 - Read sparingly: load only the section ranges you need to argue the case.
 - New positions are theory-rejection-shaped: the position is *defensible* against rivals, not just sympathetic to one author. The body should signal which rivals the position rejects and on what grounds, even in a 2–4 sentence draft.
-- Sections already flagged with `Use` bullets in the book index are particularly strong evidence for position updates — they're the user's curated canonical passages.
+- Sections already flagged with `Source` bullets in the book index are particularly strong evidence for position updates — they're the user's curated canonical passages.
 - Match prose style to the existing positions in `/positions/<course>/` — read one or two before drafting B items so the voice is consistent.
 - The plan lives in chat. If the user wants to defer for a session, they can ask for the plan to be saved to a temp file.

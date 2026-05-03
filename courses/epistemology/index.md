@@ -10,7 +10,7 @@ books: [longworth-epistemology-guide, understanding-knowledge]
 
 Huemer's *Understanding Knowledge* is the canonical text for this course — its chapter-by-chapter expositions form the backbone of each module's `**Sources:**` list. Longworth's subject guide and the wider literature (Stanford Encyclopedia of Philosophy entries, primary papers, monographs) appear under `**Readings:**` as deepening additions, each typically elaborating in detail an argument that Huemer presents in shorter form. The modules below split the content into ten distinct exam topics rather than by Longworth's three big chapters, so a prompt about reliabilism doesn't drag in unrelated discussion of memory, and a prompt about contextualism doesn't drag in foundationalism. Where *Understanding Knowledge* does not cover a module's topic (the value of knowledge; introspection and self-knowledge), `**Sources:**` is left empty and the essay falls back to the canonical analytic position from general knowledge.
 
-**Books usage:**
+**Usage:**
 - *Understanding Knowledge* (Huemer) — canonical for this course; lead with it on every prompt and prefer it over Readings where they overlap.
 
 ## 1. The Tripartite Analysis and Gettier Cases

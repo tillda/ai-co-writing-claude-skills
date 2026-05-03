@@ -1,20 +1,20 @@
 ---
 name: accept-canonical-chapters
-description: Walk an ingested book against its `**Topics:**` blocks (and optionally a course's module vocabulary), propose `- Use <ref> for <topic>` bullets that mark specific sections as the canonical text for a topic, and — when a course is supplied — also propose course-MD updates (`books:` scope, per-module `**Sources:**`). Iterates as a structured plan with the user; applies approved items only on explicit signal. Never emits free-prose annotations, never edits positions, never edits source files.
+description: Walk an ingested book against its `**Topics:**` blocks (and optionally a course's module vocabulary), propose `- Source <ref> for <topic>` bullets that mark specific sections as the canonical text for a topic, and — when a course is supplied — also propose course-MD updates (`books:` scope, per-module `**Sources:**`). Iterates as a structured plan with the user; applies approved items only on explicit signal. Never emits free-prose annotations, never edits positions, never edits source files.
 ---
 
 # Accept Canonical Chapters
 
-Turns an indexed book into a curated one. The indexer's `**Topics:**` blocks are a *soft* surface — they say "this chapter mentions X." This skill produces the *hard* surface: `- Use <ref> for <topic>` bullets that authoritatively bind a topic to a specific section, telling the resolver to read that range as canonical evidence whenever the topic matches the prompt.
+Turns an indexed book into a curated one. The indexer's `**Topics:**` blocks are a *soft* surface — they say "this chapter mentions X." This skill produces the *hard* surface: `- Source <ref> for <topic>` bullets that authoritatively bind a topic to a specific section, telling the resolver to read that range as canonical evidence whenever the topic matches the prompt.
 
-`Use` marks are load-bearing — a match steers the essay's argumentation toward a specific passage as canonical — so they should be earned, not heuristically generated. This skill is the only path to creating them, and only ever after explicit user approval.
+`Source` marks are load-bearing — a match steers the essay's argumentation toward a specific passage as canonical — so they should be earned, not heuristically generated. This skill is the only path to creating them, and only ever after explicit user approval.
 
 When invoked with a course slug, the skill also proposes the course-MD updates that naturally accompany "this book is canonical for topic X in this course": adding the book to the course's `books:` scope and appending per-module `**Sources:**` entries.
 
 ## When to invoke
 
 - "accept canonical chapters in `<book>`"
-- "add canonical Use marks to `<book>`"
+- "add canonical Source marks to `<book>`"
 - "accept canonical chapters in `<book>` against `<course>`" (with course-MD updates)
 - After `source-ingestor` and `source-indexer` finish on a new book, when the user wants to commit canonical-status claims
 - "back-reference `<book>` for the `<course>` course" (course-aware mode)
@@ -33,7 +33,7 @@ If the book is large, prefer narrowing `chapters` or `topics` over producing a s
 
 ### One course per run
 
-Books often span multiple courses. Adding `Use` marks is book-level (a `Use` bullet is not course-scoped), but course-MD updates are course-scoped, and proposing them across multiple courses in one run conflates separate decisions.
+Books often span multiple courses. Adding `Source` marks is book-level (a `Source` bullet is not course-scoped), but course-MD updates are course-scoped, and proposing them across multiple courses in one run conflates separate decisions.
 
 When `course` is supplied, **curate against exactly one course per run**. Detect ambiguity up front:
 
@@ -53,7 +53,7 @@ Detection heuristics — apply before Phase 1:
    - Frontmatter (slug, tags, layout).
    - Chapter list with metadata lines (file, format).
    - Per-chapter `**Topics:**` blocks (the candidate vocabulary — bulleted list under the `**Topics:**` label).
-   - Existing `- Use <ref> for <topic>` bullets — never propose duplicates of these.
+   - Existing `- Source <ref> for <topic>` bullets — never propose duplicates of these.
 2. For split-layout books, read each in-scope chapter's `index-ch<NN>.md` to get section headings with line ranges.
 3. If `<course>` was supplied, read `/courses/<course>/index.md`: module list (numbered), each module's `**Sources:**` and `**Readings:**`, current frontmatter `books:`. Note any module's existing `**Books:**` override.
 4. If `chapters` or `topics` was given, narrow the candidate set accordingly.
@@ -77,14 +77,14 @@ Produce a structured markdown plan in chat with two or three sections (A, option
 ## Plan: accept canonical chapters in <book>[ ↔ <course>]
 
 ### Survey
-- Book: <title> by <author>; <N> chapters in scope, <M> existing Use bullets
+- Book: <title> by <author>; <N> chapters in scope, <M> existing Source bullets
 - Course (if supplied): <name>; <N> modules
 - Topics in scope: <comma list> (drawn from per-chapter Topics blocks)
 
-### A. Canonical-chapter Use marks
+### A. Canonical-chapter Source marks
 
 A.1 Chapter <N> · <Name> — add bullet:
-    `- Use <ref> for <topic-phrase>`
+    `- Source <ref> for <topic-phrase>`
     Rationale: <one-paragraph: which passage in §<ref> backs the canonical claim, why this section over neighbours>
 
 A.2 Chapter <N> · <Name> — add bullet:
@@ -127,13 +127,13 @@ Never apply changes without an explicit execute signal.
 Apply the approved items in this order:
 
 1. **Book index** (`/sources/<book>/index.md`)
-   - For each approved A item: insert the bullet under the matching `## Chapter <N> · <Name>` block, after the entire `**Topics:**` block (the label plus all its `- <topic>` bullets). If the chapter already has Use bullets, append in section-ref order. Never duplicate an existing `(ref, topic-phrase)` pair (case-insensitive on the topic phrase).
-   - Never modify chapter headings, metadata lines, frontmatter, prose, the `**Topics:**` block (label or its bullets), section headings, or range markers. Use marks are the only writable target.
+   - For each approved A item: insert the bullet under the matching `## Chapter <N> · <Name>` block, after the entire `**Topics:**` block (the label plus all its `- <topic>` bullets). If the chapter already has Source bullets, append in section-ref order. Never duplicate an existing `(ref, topic-phrase)` pair (case-insensitive on the topic phrase).
+   - Never modify chapter headings, metadata lines, frontmatter, prose, the `**Topics:**` block (label or its bullets), section headings, or range markers. Source marks are the only writable target.
 
 2. **Course MD** (`/courses/<course>/index.md`) — only if `<course>` was supplied
    - For B items adding the book to `books:`: edit the frontmatter list. Append the slug if not already present. Preserve list style (inline `[a, b]` or block).
    - For B items appending to `**Sources:**`: locate the matching `## <M>. <Module Name>` block; append a new bullet at the end of that module's `**Sources:**` list. If the module has no `**Sources:**` block at all, add one. Use the user's free-text reference style (e.g. "Huemer *Paradox Lost* ch. 3").
-   - Never touch other modules, `**Readings:**`, `**Essay scope:**`, `**Books usage:**`, or module prose.
+   - Never touch other modules, `**Readings:**`, `**Essay scope:**`, `**Usage:**`, or module prose.
 
 After execution, report:
 - Files changed (paths)
@@ -146,7 +146,7 @@ After execution, report:
 - Never ingests new sources (that's `source-ingestor`).
 - Never re-derives section ranges or modifies the structural skeleton of the book index (that's `source-indexer`).
 - Never edits source files (`/sources/<book>/<chapter>.*`).
-- Never writes prose annotations under section headings (Use bullets are the only authoritative annotation surface).
+- Never writes prose annotations under section headings (Source bullets are the only authoritative annotation surface).
 - Never edits `**Topics:**` blocks (that's the indexer's surface).
 - Never edits `/positions/*/` (that's `accept-canonical-positions`).
 - Never writes essays.

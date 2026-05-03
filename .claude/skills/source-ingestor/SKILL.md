@@ -49,7 +49,7 @@ Takes raw material the user dropped into `/sources/_inbox/` and files it into th
 8. **Report**: name the new file(s) and the book directory it landed in. Remind the user of the next steps they may want to run (each is a separate, explicit invocation — never auto-run any of these):
    - `source-indexer <book>` — scaffold or refresh `/sources/<book>/index.md`. Required before the book can be cited.
    - Hand-edit `index.md` to fill in `cite`, the book-level `**Usage:**` policy, chapter-level notes, and per-section notes (just open it and write prose under the headings).
-   - `accept-canonical-chapters <book>` (optionally with a course slug) — propose authoritative `- Use <ref> for <topic>` marks via the approval loop.
+   - `accept-canonical-chapters <book>` (optionally with a course slug) — propose authoritative `- Source <ref> for <topic>` marks via the approval loop.
    - `accept-canonical-positions <book> <course>` — propose new or strengthened user positions for that course.
 
 ## What this skill does NOT do

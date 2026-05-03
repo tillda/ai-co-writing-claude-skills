@@ -48,7 +48,10 @@ Takes raw material the user dropped into `/sources/_inbox/` and files it into th
 
 8. **Invoke `source-indexer`** for the affected book. If the book is new, the indexer runs in scaffold mode and creates `/sources/<book-slug>/index.md`; otherwise refresh mode picks up the new chapter.
 
-9. **Report**: name the new file, the book directory it landed in, the indexer mode that ran, and remind the user that `cite`, `summary`, chapter-level notes, and per-section notes in `index.md` are theirs to fill in (just open it and write prose under the headings).
+9. **Report**: name the new file, the book directory it landed in, and the indexer mode that ran. Remind the user of three optional next steps:
+   - Hand-edit `index.md` to fill in `cite`, the book-level `**Usage:**` policy, chapter-level notes, and per-section notes (just open it and write prose under the headings).
+   - Run `accept-canonical-chapters <book>` (optionally with a course slug) to propose authoritative `- Use <ref> for <topic>` marks via the approval loop.
+   - Run `accept-canonical-positions <book> <course>` to propose new or strengthened user positions for that course.
 
 ## What this skill does NOT do
 
@@ -61,4 +64,4 @@ Takes raw material the user dropped into `/sources/_inbox/` and files it into th
 
 - For batch ingest of multiple inbox files, process one at a time — the metadata questions are per-chapter.
 - If a book directory and filename collision occurs (e.g. user re-OCR'd ch. 2), ask the user whether to overwrite or rename before proceeding.
-- After ingestion, the user typically opens `/sources/<book>/index.md` and writes prose under the relevant chapter/section headings — that's the entire curation step.
+- After ingestion, curation is split across two skills: `accept-canonical-chapters` (authoritative `- Use ...` marks in the book index, optionally with course-MD updates) and `accept-canonical-positions` (the user's stated stances per course). Both are approval-loop based and never auto-apply.

@@ -1,11 +1,13 @@
 ---
 name: source-indexer
-description: Scaffold or refresh per-book /sources/<book>/index.md files (and the top-level /sources/catalog.yaml). Scaffold mode generates a fresh MD index from a source's headings; refresh mode preserves all human-written prose and only updates derived line/page ranges. Use when adding new sources or after editing source files.
+description: Scaffold or refresh per-book /sources/<book>/index.md files (and the top-level /sources/catalog.yaml). Scaffold mode generates a fresh MD index from a source's headings, including a per-chapter `**Topics:**` keyword line for soft topic matching. Refresh mode preserves all human-written prose and only updates derived line/page ranges. Optionally accepts one or two course slugs; when given, the indexer reads those courses and biases Topics extraction toward course-vocabulary matches. The skill never emits authoritative `- Use <ref> for <topic>` bullets — those are produced exclusively by `accept-canonical-chapters`. Use when adding new sources or after editing source files.
 ---
 
 # Source Indexer
 
 Builds and maintains the per-book index files that make subchapter-precise source resolution possible. The index is **markdown**: human-readable, prose-friendly, with structured data inline in headings and frontmatter.
+
+The indexer's output for reverse-mode matching is the per-chapter `**Topics:**` line — a soft surface that surfaces the chapter as a *candidate* when a prompt topic matches. The hard surface — `- Use <ref> for <topic>` bullets that bind a topic to a specific section as canonical — is produced only by the separate `accept-canonical-chapters` skill, and only with explicit user approval. The indexer preserves any such bullets it finds on refresh but never generates them.
 
 Two layouts exist, both valid:
 
@@ -19,6 +21,8 @@ The resolver always opens `index.md` first; whether it then opens a per-chapter 
 - "reindex sources"
 - "scaffold an index for the new book I just added"
 - "refresh Understanding Knowledge"
+- "index Understanding Knowledge against the epistemology course" (course-aware Topics)
+- "index Paradox Lost against logic and intro-to-philosophy" (two-course)
 - After dropping a new chapter into `/sources/<book>/`
 - After editing a source file (re-OCR, fixed headings, etc.)
 - "split this index" — to migrate an inline-layout book to split layout
@@ -28,13 +32,20 @@ The skill never edits source files. It only writes:
 - `/sources/<book>/index-ch<NN>.md` (per-chapter files, split layout only)
 - `/sources/catalog.yaml` (the small generated catalog)
 
+## Inputs
+
+- `<book-slug>` — required. Either a book that already exists at `/sources/<book>/` (refresh) or a book directory just populated by `source-ingestor` (scaffold).
+- `<course-slug>` — optional, 0–2 entries. When supplied, the indexer reads `/courses/<course>/index.md` and uses that course's vocabulary (module names, per-module `**Sources:**` and `**Readings:**` text, module prose) as soft context when generating Topics — biasing the wording toward course terminology where the chapter genuinely discusses overlapping material. Two slugs are accepted because a single book can occasionally span two courses (rare). More than two: ask the user to pick at most two — Topics with too many course filters becomes noisy.
+
+A course argument applies only to **Topics** generation. It never causes the indexer to emit `- Use ...` bullets, and it never edits course-MD files.
+
 ## Layout decision
 
 At scaffold time, choose the layout based on the source.
 
 **Use split layout** when at least one of:
 - The would-be inline `index.md` would exceed ~500 lines.
-- The book has ≥10 numbered chapters with subsections.
+- The book has ≥10 chapters with subsections (any heading style).
 - The user explicitly requests it.
 
 **Use inline layout** otherwise. Small books (a few short chapters) read better as one file.
@@ -69,17 +80,20 @@ chapter-indexes: split
 
 **Topics:** Gettier, reliabilism, proper function, sensitivity, tracking, safety, relevant alternatives, defeasibility, Lockean theory, Wittgenstein
 
+## Chapter 3 · ...
+```
+
+`- Use <ref> for <topic>` bullets, when present, sit directly under the `**Topics:**` line. The indexer never emits them at scaffold time and never edits them on refresh — they're written and maintained by `accept-canonical-chapters`. A chapter block in a curated book typically looks like:
+
+```markdown
+## Chapter 2 · What is Knowledge?
+`cite: huemer-uk-ch02 · file: 02-what-is-knowledge.md · format: md`
+
+**Topics:** Gettier, reliabilism, proper function, sensitivity, tracking, safety, relevant alternatives, defeasibility, Lockean theory, Wittgenstein
+
 - Use 2.4 for Gettier's refutation
 - Use 2.5.2 for reliabilism
-- Use 2.5.3 for proper function
 - Use 2.5.4 for sensitivity / tracking
-- Use 2.5.5 for safety
-- Use 2.5.6 for relevant alternatives
-- Use 2.5.7 for defeasibility
-- Use 2.6.2 for the Lockean theory of concepts
-- Use 2.6.3 for the Wittgensteinian view of concepts
-
-## Chapter 3 · ...
 ```
 
 The short index has **no line ranges**. Line ranges live in per-chapter files. The short index is the always-read entry point — fast to scan, cheap to keep in context.
@@ -90,8 +104,8 @@ The short index has **no line ranges**. Line ranges live in per-chapter files. T
 - **Chapter headings** are H2: `## Chapter <N> · <Name>`.
 - **Chapter metadata line** is a single backtick-fenced inline-code line directly under the chapter heading: `` `cite: <key> · file: <relative-path> · format: md|pdf|html|txt` ``. Same fields as inline layout.
 - **Chapter prose** (optional) — any free paragraphs between metadata line and `**Topics:**` or first bullet. Author-curated guidance: scope, summary, when to invoke.
-- **`**Topics:**` line** (auto-generated, user-editable) — comma-separated keyword list for at-a-glance reverse-mode matching. Lowercased except for proper nouns.
-- **Bullet list** of `- Use <ref> for <topic-phrase>` annotations. Each bullet binds a section ref (e.g. `2.5.2`) to a topic phrase. The resolver matches the topic phrase against the prompt; on a match, parses the ref and looks it up in the matching `index-ch<NN>.md`.
+- **`**Topics:**` line** (auto-generated, user-editable) — comma-separated keyword list for at-a-glance reverse-mode matching. **Soft surface**: a topic match here surfaces the chapter as a candidate; the resolver does not auto-read on a Topics match alone. Lowercased except for proper nouns.
+- **Bullet list** of `- Use <ref> for <topic-phrase>` annotations (optional; absent on a freshly-scaffolded book). Each bullet binds a section ref (e.g. `2.5.2`) to a topic phrase. **Hard surface**: a topic match here is authoritative; the resolver parses the ref and reads the section directly. Bullets are produced exclusively by `accept-canonical-chapters` via explicit user approval — the indexer never writes or modifies them, and only preserves them verbatim across refresh.
 - **No section headings.** All H3/H4/H5 headings live in per-chapter files.
 - **Per-chapter file pointer is implicit by convention:** `index-ch<NN>.md` where `<NN>` is the chapter number zero-padded to 2 digits (`index-ch02.md`, `index-ch14.md`). The chapter heading's `<N>` supplies the number. No explicit pointer field needed.
 
@@ -137,9 +151,17 @@ generated: 2026-05-03
 
 - **Lightweight frontmatter** — `slug` (parent book), `chapter` (number), `generated` (date). No need to repeat `title`, `author`, `kind`, `tags` — those live in the short index.
 - **Chapter heading** is H2 (matches the short index for consistency). The metadata line is duplicated from the short index; the indexer keeps both in sync on refresh.
-- **Section headings** are H3 / H4 / H5 with line ranges as before: `### <ref> <Name> [<a>-<b>]` (MD/TXT/HTML), `### <ref> <Name> [pp. <a>-<b>]` (PDF).
+- **Section headings** are H3 / H4 / H5 with composed `<chapter>.<local>` ref + name + line range: `### <chapter>.<local> <Name> [<a>-<b>]` (MD/TXT/HTML), `### <chapter>.<local> <Name> [pp. <a>-<b>]` (PDF). The leading `<chapter>.` is always present in the index, even when the source heading didn't carry a number — see "Heading conventions in source files" above.
 - **Section prose** lives here, not in the short index.
 - The per-chapter file is structurally a single chapter slice of the old monolithic format.
+
+#### Example — same chapter, different source styles
+
+Source `## 2.5 Reliabilism` (prefixed) → index `### 2.5 Reliabilism [128-201]`.
+Source `## 5 Reliabilism` (local, in chapter 2) → index `### 2.5 Reliabilism [128-201]`.
+Source `## Reliabilism` (unnumbered, fifth section under chapter 2 H1) → index `### 2.5 Reliabilism [128-201]`.
+
+All three render identically in the index. The match key changes per style (full ref / tail-after-chapter / heading name) but downstream resolution is uniform.
 
 ### Three roles in a section heading
 
@@ -147,11 +169,13 @@ A section heading has three slots, each with a different job:
 
 | Slot | Role | Stability | Owner |
 |------|------|-----------|-------|
-| `<ref>` (e.g. `2.3.4`) | **Identifier** — the match key | Stable across re-OCR | The book |
-| `<Name>` | **Documentation** — for the human reader | Mostly stable; user may tweak | The user |
+| `<ref>` (e.g. `2.3.4`) | **Identifier** — the match key (for `prefixed` and `local` styles) | Stable across re-OCR | The book |
+| `<Name>` | **Documentation** for `prefixed`/`local`; **identifier** for `unnumbered` | Mostly stable; user may tweak | The user |
 | `[<a>-<b>]` | **Derived range** — what to read | Volatile; recomputed every refresh | The indexer |
 
-**The identifier is `<ref>`, not the bracket.** The indexer matches index entries to source headings by `<ref>` (`2.3.4`), then writes the freshly-derived range into `[<a>-<b>]`. The bracket is the indexer's only writable target on a heading line; everything else is preserved verbatim.
+**For `prefixed` and `local` styles, the identifier is `<ref>`.** The indexer matches index entries to source headings by `<ref>` (composed `<chapter>.<local>` on the index side), then writes the freshly-derived range into `[<a>-<b>]`.
+
+**For `unnumbered` books, the identifier is the normalised heading name** (case-insensitive, whitespace-collapsed). The leading number in the index ref is cosmetic — synthesised from source order and re-derived on every refresh. Renaming a section in source updates the name in the index; reordering sections updates the cosmetic numbers; either way Topics, prose, and any attached metadata follow the section by name.
 
 Use plain ASCII hyphen (`-`) inside the bracket, not en-dash, to keep grep/sed simple.
 
@@ -159,83 +183,50 @@ Use plain ASCII hyphen (`-`) inside the bracket, not en-dash, to keep grep/sed s
 
 Identical to the split-layout short index *except*:
 - Frontmatter carries `chapter-indexes: inline`.
-- Each chapter block, after the `**Topics:**` line and bullets, also lists section headings inline (H3/H4/H5) with `[<a>-<b>]` ranges, followed by any per-section prose.
+- Each chapter block, after the `**Topics:**` line (and any `Use` bullets, when present), also lists section headings inline (H3/H4/H5) with `[<a>-<b>]` ranges, followed by any per-section prose.
 - No `index-ch<NN>.md` files exist for the book.
 
-This is the legacy format with the topics/bullets addition. Suitable for short books.
+Suitable for short books.
 
-## Books without numbered sections
+## Heading conventions in source files
 
-Some books just have `## Introduction`, `## The Argument`, `## Conclusion` — no dotted numbers.
+Source files come in three styles. The indexer detects the style per chapter at scaffold (and re-detects on refresh — no stored signal), and **always emits composed `<chapter>.<local>` refs in the index** regardless of style. Citations like `Grayling PL 5.2` resolve cleanly in every case.
 
-For those, the indexer assigns synthetic numeric prefixes at scaffold time:
+| Style | Example source heading | Index heading |
+|---|---|---|
+| `prefixed` | `## 2.5 Reliabilism` | `### 2.5 Reliabilism [<a>-<b>]` |
+| `local` | `## 2 The Argument` (in chapter 5) | `### 5.2 The Argument [<a>-<b>]` |
+| `unnumbered` | `## Introduction` (in chapter 5, in source order = 1) | `### 5.1 Introduction [<a>-<b>]` |
 
-```markdown
-### 1 Introduction [10-45]
-### 2 The Argument [46-180]
-### 3 Replies [181-220]
-### 4 Conclusion [221-240]
-```
+For `unnumbered`, the leading number is **synthesised from source order** — first section under the chapter heading is `<chapter>.1`, second is `<chapter>.2`, etc. The number is cosmetic; the **stable identifier is the heading name** (case-insensitive, whitespace-collapsed). Renaming a section in source updates the index name. Reordering sections re-derives the numbers. Either way the bracket range and any attached metadata follow the section by name.
 
-The number is arbitrary — just a stable handle. The indexer numbers sections in source order at scaffold time; refresh matches by number-then-name. If the user reorders or renames sections in the index, the synthetic numbers are still the match key — they survive renames.
+For `local` and `prefixed`, the **stable identifier is the ref** — index `5.2` matches source bare `2` (local) or source `5.2` (prefixed) directly.
 
-If the user prefers no synthetic prefix (e.g. wants `### Introduction [10-45]`), refresh falls back to matching by heading text (case-insensitive, whitespace-normalised). This is brittle — editing the title in the index breaks the link. Numbers are recommended.
+The detection algorithm is in scaffold step 2 below.
 
-## Auto-topic extraction (scaffold mode)
+## Topics extraction (scaffold mode)
 
-For each chapter, walk all H3/H4/H5 source headings and detect candidate topics. The output is the chapter's `**Topics:**` line and bullet list in the short / inline index.
+For each chapter, the indexer emits a single `**Topics:**` line — a comma-separated keyword list. The skill is run by Claude, so Topics extraction is done by *reading the chapter and deciding what it discusses*, not by regex matching. This handles every heading convention naturally and produces better topics than any keyword heuristic.
 
-### Detection heuristics
+### Procedure (per chapter, at scaffold time)
 
-A heading earns a bullet if any of these match its text:
+1. Read the chapter source file in full. For very large chapters (≳1500 lines), read all section headings plus the first ~30 lines under each section — enough to recognise what's discussed without loading the whole body.
+2. If one or two `<course-slug>` arguments were supplied, read `/courses/<course>/index.md` and keep the course's module names, `**Sources:**` and `**Readings:**` entries available as soft context.
+3. Generate one `**Topics:**` line: a comma-separated list of the philosophical concepts, positions, theories, arguments, paradoxes, principles, and named figures *actually discussed* in the chapter. Aim for 5–15 items. Use the chapter's own terminology where it has a settled name (e.g. *reliabilism*, *Brain-in-a-Vat argument*, *Occam's razor*); compress where the chapter is verbose.
+4. **Course bias.** When a course slug is supplied and a topic the chapter discusses also appears as a course module name or in `**Sources:**` / `**Readings:**`, prefer the course's wording so reverse-mode matches line up. The course bias never *adds* topics the chapter doesn't actually discuss — it only chooses between equivalent phrasings.
+5. **Skip the line entirely** if the chapter has no philosophical content (preface, acknowledgements, pure historical front-matter).
+6. Lowercase each keyword except for proper nouns and acronyms.
 
-1. **`-ism` / `-ist` words** (case-insensitive, ≥4 chars). Examples: reliabilism, foundationalism, coherentism, infinitism, scepticism, contextualism, expressivism, nihilism, fideism, disjunctivism, externalism, internalism, Bayesianism, Kantianism, empiricism, rationalism, positivism, dialetheism, deflationism, minimalism, supervaluationism, epistemicism, libertarianism, compatibilism, naturalism, intuitionism, evidentialism, dualism, monism, materialism, idealism, realism, anti-realism, behaviourism, functionalism, intentionalism, particularism, generalism.
-2. **Eponymous adjectives** — capitalized word ending in `-ian`, `-ean`, `-onian`. Examples: Wittgensteinian, Lockean, Sellarsian, Bayesian, Kantian, Goodmanian, Cartesian, Aristotelian, Humean, Russellian, Fregean, Quinean, Tarskian, Davidsonian, Gricean, Berkeleyan, Putnamian, Kripkean, Moorean.
-3. **Possessive philosopher names** — `\b[A-Z]\w+'s\b` (e.g. `Hume's`, `Quine's`, `Bayes'`, `Goodman's`, `Occam's`, `Anselm's`, `Donnellan's`, `Frege's`, `Russell's`, `Pascal's`).
-4. **Named arguments / paradoxes / theories / theorems / principles / theses / hypotheses / views / problems / dilemmas / wagers / razors** — heading contains one of those nouns preceded by capitalized words. Examples: Brain-in-a-Vat Argument, Liar Paradox, Sorites, Open Question Argument, Sellarsian Dilemma, Newcomb's Problem, Sleeping Beauty, Doomsday Argument, Ontological Argument, Cosmological Argument, Argument from Design, Fine Tuning Argument, Argument from Disagreement, Categorical Imperative, Doctrine of Double Effect, Equivalence Schema, T-schema, KK Thesis, Closure Principle, Principle of Indifference, Principle of Sufficient Reason, Principle of Charity, Inference to the Best Explanation, Twin Earth, Trolley Problem.
-5. **Standalone capitalized noun-phrase technical terms** — `Reliabilism`, `Falsifiability`, `Coherentism`, `Disjunctivism`, `Internalism`, `Externalism`, `Intuitionism`, etc. (overlaps with rule 1; either match suffices.)
+### What the indexer does NOT generate
 
-### Stop list (skip these headings even if they contain a candidate)
+- **No `- Use <ref> for <topic>` bullets, ever.** Those are the exclusive output of `accept-canonical-chapters` and represent a deliberate user judgement that a specific section is the canonical text for a topic. The indexer cannot make that judgement and does not try.
+- **No prose annotations under section headings.** Section-level prose is fully user-owned.
 
-`Introduction`, `Conclusion`, `Conclusions`, `Background`, `Overview`, `Summary`, `Notes`, `Questions`, `Further Reading`, `Reply`, `Rejoinder`, `Comment`, `Comments`, `Objections` (alone — `Objection 1` etc. are skipped too), `Examples`, `A Solution`, `Solutions`, `The Paradox`, `The Argument`, `The Theory`, `The Issue`, generic `Section <N>`, generic `Subsection <N>`. Match case-insensitively. If the heading is *only* a stop-list phrase, skip; if it contains a real topic plus a stop word, keep.
+### Topics is scaffold-only
 
-### Bullet generation
+Refresh mode never re-runs Topics extraction. Once written, the `**Topics:**` line is user-owned (whether the user kept the scaffolded version, edited it, or replaced it). To regenerate Topics for a chapter — perhaps because a course has been added to scope — the user explicitly asks ("regenerate topics for ch 14 against the epistemology course") and the indexer reads that one chapter, regenerates only its `**Topics:**` line, and leaves everything else (chapter prose, `Use` bullets, section headings, ranges) intact.
 
-For each section heading that earned a topic match:
-
-- Emit `- Use <ref> for <topic-phrase>`.
-- `<topic-phrase>` is the heading name with normalisation:
-  - Strip the leading `<ref>` and any leading numeric prefix.
-  - Lowercase the first character if it's an article (`The`/`A`/`An`) followed by another word.
-  - Otherwise preserve original casing (proper nouns survive).
-  - Trim trailing punctuation.
-
-Example transformations:
-
-| Source heading | Bullet |
-|---|---|
-| `### 2.5.2 Reliabilism` | `- Use 2.5.2 for reliabilism` |
-| `### 8.2.2 The Brain-in-a-Vat Argument` | `- Use 8.2.2 for the Brain-in-a-Vat Argument` |
-| `### 10.4 Quine's Radical Empiricism` | `- Use 10.4 for Quine's radical empiricism` |
-| `### 12.7 Inference to the Best Explanation` | `- Use 12.7 for inference to the best explanation` |
-| `### 14.3.1 Occam's Razor and the Burden of Proof` | `- Use 14.3.1 for Occam's razor` |
-
-### Topics line
-
-Aggregate the detected keyword phrases per chapter into the `**Topics:**` line:
-
-- Pull the matched lexical item (`reliabilism`, `Hume`, `Brain-in-a-Vat`, `Occam's razor`) from each bullet.
-- Lowercase except for proper nouns and acronyms.
-- Dedup, comma-separated, in source order.
-- Skip if the chapter has no detected topics (no Topics line, no bullets).
-
-The Topics line is a denormalised quick-scan companion to the bullets. Editing the bullets does not auto-update Topics — the user owns both after scaffold.
-
-### Auto-extraction is scaffold-only
-
-Refresh mode never re-runs auto-extraction. Once written, bullets and Topics are user-owned. To regenerate them for a chapter, the user explicitly asks ("regenerate auto-topics for ch 14") and the indexer overwrites that chapter's `**Topics:**` line and bullet list (only).
-
-When refresh detects a new section in the source not present in any per-chapter file, it appends the new section heading to the chapter file — but it does NOT auto-add a bullet. The user adds bullets manually if wanted.
+Existing `- Use <ref> for <topic>` bullets are preserved verbatim through every refresh — same handling as chapter prose, frontmatter `tags`, and the book-level `**Usage:**` block. When refresh detects a new section in the source not present in any per-chapter file, it appends the new section heading to the chapter file but never adds a Use bullet for it.
 
 ## Two modes (plus migration)
 
@@ -246,17 +237,23 @@ The skill picks the mode automatically per book.
 Used when a book is new to the library.
 
 1. List all chapter files in `/sources/<book>/` (excluding `index.md` itself).
-2. For each MD file, extract numbered headings via grep:
-   ```bash
-   grep -nE '^#{2,6}[[:space:]]+[0-9]+(\.[0-9]+)*([[:space:]]|$)' "$file"
-   ```
-   Output looks like:
-   ```
-   45:## 2.1 The Problem
-   78:## 2.3 Counterexamples
-   221:### 2.3.4 The Zebra and the Mule
-   ```
-   Parse each line: split on `:`, count the leading `#` characters for level, extract the dotted ref (first whitespace-separated token after the hashes), the rest is the name.
+2. **For each MD file, detect the heading convention and extract sections.**
+
+   Pull all heading lines with `grep -nE '^#{1,6}[[:space:]]+' "$file"`. From those:
+
+   - **Chapter number** — parse from the H1 line (e.g. `# 5 Truth: ...` → `5`) or from the filename (`05-...md` → `5`). The chapter number is needed for ref composition.
+   - **End-matter stop list** — drop trailing blocks whose heading text matches `Notes`, `References`, `Bibliography`, or `Index` (case-insensitive, exact match) before picking the section level. A single trailing `## Notes` shouldn't fool the detector.
+   - **Section level** — among the remaining headings, pick the smallest `#`-count that occurs ≥2 times. If only one heading appears below H1, use its level. Sub-section levels are one deeper, and so on.
+   - **Style detection** at the section level:
+     - `prefixed` — every section line matches `/^#+ \d+(\.\d+)+ /` (dotted ref, e.g. `## 2.5 ...`).
+     - `local` — every section line matches `/^#+ \d+ /` with no dotted tail (e.g. `## 2 ...` restarting per chapter).
+     - `unnumbered` — anything else (e.g. `## Introduction`, `## Three Distinctions`).
+   - **Compose refs.** Always emit `<chapter>.<local>` in the index regardless of style:
+     - `prefixed`: pass the dotted ref through verbatim.
+     - `local`: prepend chapter number → source `## 2 Foo` in chapter 5 becomes index `### 5.2 Foo`.
+     - `unnumbered`: number sections in source order (1, 2, 3, …) and prepend chapter → first section in chapter 5 becomes index `### 5.1 ...`. The leading number is cosmetic; the heading name is the stable identifier.
+   - **Strip the leading number from the heading text** when composing the index entry. Source `## 2 The Argument` produces index `### 5.2 The Argument` (not `### 5.2 2 The Argument`).
+   - **Sub-sections** at the next level deeper follow the same rule recursively. For unnumbered books, synthesise `5.1.1`, `5.1.2`, etc. from source order.
 3. Compute ranges per section:
    - Sort headings by line number.
    - Each section runs from its own heading line through the line before the next equal-or-higher-level heading.
@@ -265,34 +262,41 @@ Used when a book is new to the library.
    - For PDFs, attempt to extract bookmarks first; if found, use those.
    - Otherwise ask the user (via AskUserQuestion) for the chapter's TOC and explicit page/line ranges.
 5. Decide layout (split vs inline) using the threshold rule.
-6. Run auto-topic extraction per chapter.
-7. Write files:
-   - **Inline layout:** one `index.md` with frontmatter, the H1, an empty `**Usage:**` placeholder line right after the H1 intro paragraph (`**Usage:** _(unfilled — add a one-line policy describing how to deploy this book)_`), then per-chapter blocks (metadata line, optional empty prose, **Topics:** line, bullets, then section H3/H4/H5 with ranges).
-   - **Split layout:** one short `index.md` (frontmatter, H1, empty `**Usage:**` placeholder, per-chapter blocks with metadata + Topics + bullets, no section listings) plus one `index-ch<NN>.md` per chapter (lightweight frontmatter, chapter H2 + metadata, section H3/H4/H5 with ranges).
+6. If one or two `<course-slug>` arguments were supplied, read each `/courses/<course>/index.md` so its module names + `**Sources:**` / `**Readings:**` are in context for Topics generation.
+7. Generate `**Topics:**` per chapter by *reading the chapter* (with course MD in context if supplied) — see "Topics extraction" above.
+8. Write files:
+   - **Inline layout:** one `index.md` with frontmatter, the H1, an empty `**Usage:**` placeholder line right after the H1 intro paragraph (`**Usage:** _(unfilled — add a one-line policy describing how to deploy this book)_`), then per-chapter blocks (metadata line, optional empty prose, **Topics:** line, then composed-ref section headings with ranges). **No `- Use ...` bullets are emitted.**
+   - **Split layout:** one short `index.md` (frontmatter, H1, empty `**Usage:**` placeholder, per-chapter blocks with metadata + Topics, no section listings, no Use bullets) plus one `index-ch<NN>.md` per chapter (lightweight frontmatter, chapter H2 + metadata, composed-ref section headings with ranges).
    - Suggest a default `cite` per chapter (e.g. `huemer-uk-ch02`).
-8. Regenerate `/sources/catalog.yaml`.
+9. Regenerate `/sources/catalog.yaml`.
+10. Print the run summary (see below). If the user wants to add canonical `Use` marks for the new book, point them to `accept-canonical-chapters`.
 
 ### Refresh mode — `/sources/<book>/index.md` already exists
 
 Used when a book already has an index and the user wants to pick up changes.
 
-1. Load the existing `index.md`. Read `chapter-indexes` from frontmatter (`split` or `inline`; default to `inline` if missing for back-compat).
-2. Preserve all prose, including the book-level `**Usage:**` block. The only thing that gets updated is the range marker `[<a>-<b>]` in section headings, and possibly the chapter metadata line (`file:` if a file was renamed). If the existing index has no `**Usage:**` block (older book scaffolded before the slot existed), insert an empty placeholder in the right spot — but never overwrite an existing one.
+1. Load the existing `index.md`. Read `chapter-indexes` from frontmatter (`split` or `inline`; default to `inline` if missing).
+2. Preserve all prose, including the book-level `**Usage:**` block, every `**Topics:**` line, and every `- Use <ref> for <topic>` bullet. The only thing that gets updated is the range marker `[<a>-<b>]` in section headings, and possibly the chapter metadata line (`file:` if a file was renamed). If the existing index has no `**Usage:**` block (older book scaffolded before the slot existed), insert an empty placeholder in the right spot — but never overwrite an existing one.
 3. **Inline layout:**
-   - For each MD chapter, re-run the heading-extraction grep.
-   - Match by section ref; replace the bracket range.
-   - Append new sections present in source but missing from index, with empty prose, after the last existing section in the chapter.
+   - For each MD chapter, re-run the detection algorithm (scaffold step 2) on the source to recover the convention (`prefixed` / `local` / `unnumbered`) — no stored signal.
+   - **Match index entries to source headings by convention:**
+     - `prefixed`: match by full ref string (index `5.2.1` ↔ source `## 5.2.1 ...`).
+     - `local`: strip the chapter prefix from the index ref, match against source bare local ref (index `5.2` ↔ source `## 2 ...`).
+     - `unnumbered`: match by **normalised heading name** (case-insensitive, whitespace-collapsed). The leading number in the index is cosmetic and re-derives from source order on every refresh — so reordering source sections updates the cosmetic numbers, while Topics, prose, and any attached metadata follow the section by name.
+   - Replace the bracket range. For `unnumbered`, also rewrite the cosmetic ref prefix when source order has changed.
+   - Append new sections present in source but missing from index, with empty prose, after the last existing section in the chapter. Never auto-add a `Use` bullet for a new section — `accept-canonical-chapters` does that.
    - Flag (warning) sections present in index but missing from source.
-   - Never touch `**Topics:**`, bullets, chapter prose, section prose, summary, cite, frontmatter `tags`.
+   - Never touch `**Topics:**`, `Use` bullets, chapter prose, section prose, summary, cite, frontmatter `tags`.
    - For non-MD chapters, leave page/line ranges untouched. Update only `file:` if renamed.
 4. **Split layout:**
    - For each chapter listed in the short index, expect an `index-ch<NN>.md` file. Warn if missing; do not auto-create (user may have deleted intentionally — explicit migrate-to-inline path resolves this).
    - For each `index-ch<NN>.md`:
-     - Re-derive ranges (same logic as inline).
-     - Append new sections.
+     - Re-detect the convention from source and re-derive ranges + match entries (same per-style logic as inline).
+     - Append new sections (no `Use` bullet auto-add).
      - Sync the chapter metadata line (`file:` only) with the short index if needed.
-   - Short index: never touch chapter prose, **Topics:**, or bullets.
-5. Regenerate `/sources/catalog.yaml`.
+   - Short index: never touch chapter prose, `**Topics:**`, or `Use` bullets.
+5. Course argument(s) on refresh — accepted but a no-op for Topics by default. The user must explicitly request "regenerate topics for ch <N> against <course>" for that single chapter's `**Topics:**` line to be overwritten.
+6. Regenerate `/sources/catalog.yaml`.
 
 ### Migration mode
 
@@ -302,9 +306,9 @@ On user request: "split the understanding-knowledge index" / "merge the truth-ho
 
 1. Read existing `index.md`.
 2. For each `## Chapter <N> ·` block, extract the section listing + per-section prose into a fresh `index-ch<NN>.md` (with lightweight frontmatter).
-3. Run auto-topic extraction on the chapter's section headings (the section headings are now in the new per-chapter file). Write `**Topics:**` line + bullets into the chapter block in the short index, **only if** the chapter does not already have them.
+3. If the chapter has no existing `**Topics:**` line, generate one by reading the chapter source (same procedure as scaffold). Existing `**Topics:**` lines and existing `- Use ...` bullets are preserved verbatim. Never auto-generate Use bullets here.
 4. Preserve chapter prose verbatim in the short index.
-5. Strip section headings (H3/H4/H5) and per-section prose from the short index.
+5. Strip section headings (the section level — typically H3/H4/H5) and per-section prose from the short index.
 6. Update frontmatter: `chapter-indexes: split`.
 7. Regenerate catalog.
 
@@ -322,7 +326,9 @@ Migration preserves all prose, all topics, all bullets. Only structural arrangem
 
 When refreshing, parse the index files line by line and treat as a sequence of segments:
 - Frontmatter (between `---` markers): preserve everything; update `generated` to today.
-- Body: walk lines tracking the current chapter (last `^## ` heading) and section (last `^#{3,6} ` heading). For each section heading, regex-replace the `\[(pp\. )?[0-9]+-[0-9]+\]` marker with the new range. Everything between section headings is prose to preserve verbatim.
+- Body: walk lines tracking the current chapter (last `^## ` heading) and section (last heading at the index's section level — typically H3, but the section level is whatever the indexer emitted at scaffold and stays consistent within a book). For each section heading, regex-replace the `\[(pp\. )?[0-9]+-[0-9]+\]` marker with the new range. Everything between section headings is prose to preserve verbatim.
+
+For `unnumbered` books, the cosmetic leading number in the index ref may also need rewriting if source order changed; the heading name is the match key.
 
 In code:
 ```bash
@@ -374,14 +380,18 @@ Warnings: ch. 14 in understanding-knowledge lists "14.5" with no matching headin
 - Never edits source files (`.md`, `.pdf`, etc.).
 - Never deletes or modifies user prose in any index file.
 - Never overwrites the book-level `**Usage:**` block on refresh — only inserts an empty placeholder if missing entirely.
-- Never re-runs auto-topic extraction on refresh (only on scaffold or explicit request).
-- Never modifies `/courses/*/index.md` (so it never touches a course's `**Books usage:**` block either).
+- Never re-runs Topics extraction on refresh (only on scaffold or explicit per-chapter regenerate request).
+- **Never emits or modifies `- Use <ref> for <topic>` bullets** — those are the exclusive output of `accept-canonical-chapters`. The indexer preserves any it finds, but creating, removing, or rewriting them is out of scope.
+- Never writes prose annotations under section headings.
+- Never modifies `/courses/*/index.md` (so it never touches a course's `**Books usage:**` block, `**Sources:**` lists, or `books:` field — even when invoked with course arguments). Course arguments are read-only inputs to Topics extraction.
+- Never modifies `/positions/*/`.
 - Never writes essays or modifies prompts.
 
 ## Implementation notes
 
-- For MD heading extraction, use `grep -nE` (the regex above). It's a deterministic, fast, well-tested approach.
-- For range update on refresh, prefer line-aware editing over a regex sweep of the whole file: walk lines, identify section headings, update only those.
+- For MD heading extraction, pull all heading lines first with `grep -nE '^#{1,6}[[:space:]]+'`, then apply the per-style detection logic in scaffold step 2 to decide which level is the section level and which style is in use. Don't pre-filter to numbered headings — that excludes `unnumbered` books.
+- For range update on refresh, prefer line-aware editing over a regex sweep of the whole file: walk lines, identify section headings (at the index's section level), update only those.
+- For `unnumbered`-style books on refresh, always re-derive the cosmetic local number from current source order before computing matches; the heading name is the stable match key.
 - When parsing YAML frontmatter, accept loose formatting (lists may be inline `[a, b]` or block-style).
 - Keep diffs small: don't reflow prose, don't reorder sections that are already present, don't normalize whitespace beyond what's necessary.
 - For split layout, when reading a per-chapter file in isolation (e.g. forward-mode resolution), the resolver computes the path as `sources/<slug>/index-ch<NN>.md` from the chapter number — no lookup needed.

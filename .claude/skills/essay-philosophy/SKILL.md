@@ -10,8 +10,8 @@ Write clear, well-argued analytic philosophy essays at undergraduate level for a
 ## Before Writing
 
 1. **Read context profiles**:
-   - `/context/voice-dna.json` — match voice throughout.
-   - `/context/icp.json` — understand what the examiner values and penalises.
+   - `/context/voice-dna.md` — match voice throughout.
+   - `/context/icp.md` — understand what the examiner values and penalises.
    - `/positions/<course-slug>/index.md` — if the prompt names a course and this directory exists, read the index. Each position has a `## <Name>` heading, a `` `file: <slug>.md` `` pointer, and a denormalized `**Applicable to:**` line. Match each position's `**Applicable to:**` keywords and module refs against the prompt topic / module. For matched positions, open the named position file for the body. While reading the position file, also check for an optional `**Usage:**` line — a one-line plain-English hint about how to deploy the position (e.g. "present as an alternative theory after the analytical canon, not as the conclusion"). If present, honour it when planning the essay structure (see priority order below).
 
 2. **Resolve sources** — see the dedicated section below. Sources can be referenced from three places (exam prompt, course MD, book index notes); free text everywhere; only the cited line/page ranges enter context, never whole books.
@@ -27,7 +27,7 @@ Write clear, well-argued analytic philosophy essays at undergraduate level for a
 
 ## Format
 
-- **Word count**: ~1200 words (unless specified otherwise)
+- **Word count**: target ~1000 words, **hard cap 1200**. Models tend to overshoot — aim low and trim. If a draft lands above 1200, trim before delivery (see Step 5).
 - **Thesis**: State clearly in the opening paragraph. This is a significant bonus.
 - **Structure**: Introduction (with thesis) → body sections → conclusion. Follow provided outline when one is given.
 
@@ -53,7 +53,7 @@ This is a timed essay context — no full formal referencing required.
 
 ## Writing Style
 
-- **Use voice DNA** from `/context/voice-dna.json` throughout.
+- **Use voice DNA** from `/context/voice-dna.md` throughout.
 - **Weave formal arguments with accessible explanations** — do not sustain dry, purely formal academic prose for long stretches. A formal argument (numbered premises, conclusion) should be followed or preceded by a clear explanation of what it shows and why it matters.
 - **Show understanding of WHY** — not just what positions exist, but what supports them and what can be said against them.
 - **Inclusive "we"** — reason alongside the examiner ("We can see that...", "Suppose we accept...") rather than addressing them as "you".
@@ -219,8 +219,8 @@ STEP 1.5: RESOLVE SOURCES
   □ Note unresolved refs in a one-line preface before writing
 
 STEP 2: LOAD CONTEXT
-  □ Read /context/voice-dna.json
-  □ Read /context/icp.json
+  □ Read /context/voice-dna.md
+  □ Read /context/icp.md
 
 STEP 3: PLAN THE ARGUMENT
   □ Identify the thesis (provided or mainstream default)
@@ -236,8 +236,13 @@ STEP 4: WRITE
   □ Mention relevant philosophers naturally
   □ Close with a conclusion that ties back to the thesis
 
-STEP 5: CHECK
-  □ ~1200 words?
+STEP 5: CHECK & TRIM
+  □ Word count: aim ~1000, hard cap 1200. Count words.
+  □ If over 1200: trim before delivery. Cut redundant restatement,
+    over-explained background, and any objection/reply that doesn't
+    materially change the verdict. Do not cut the thesis, the
+    decisive objection on each rejected theory, or the conclusion.
+    Re-count after trimming.
   □ Thesis stated at the beginning?
   □ Arguments supported with reasons, not just asserted?
   □ No suspicious advanced material?
@@ -264,5 +269,5 @@ Before delivering:
 - [ ] Authors of provided sources are mentioned in the relevant section
 - [ ] Resolved-source content was actually used (paraphrased), not just cited
 - [ ] No source was loaded that wasn't referenced
-- [ ] ~1200 words
+- [ ] ~1000 words, hard cap 1200 — trimmed if over
 - [ ] Follows provided outline if one was given

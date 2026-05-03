@@ -80,62 +80,139 @@ Combine analysis across all samples to identify:
 
 ### Step 4: Generate Voice DNA
 
-Create the profile following this structure:
+Create the profile as a Markdown file with YAML frontmatter following this structure:
 
-```json
-{
-  "voice_dna": {
-    "version": "1.0",
-    "last_updated": "YYYY-MM-DD",
-    "core_essence": {
-      "identity": "",
-      "primary_role": "",
-      "unique_angle": ""
-    },
-    "personality_traits": {
-      "primary": [],
-      "how_it_shows": {}
-    },
-    "emotional_palette": {
-      "dominant_emotions": [],
-      "emotional_range": {},
-      "energy_level": ""
-    },
-    "communication_style": {
-      "formality": "",
-      "complexity": "",
-      "sentence_structure": {},
-      "paragraph_style": ""
-    },
-    "language_patterns": {
-      "signature_phrases": [],
-      "power_words": [],
-      "words_to_avoid": [],
-      "transitions": []
-    },
-    "never_say": {
-      "phrases": [],
-      "tones": [],
-      "approaches": []
-    },
-    "formatting_preferences": {},
-    "content_philosophy": {},
-    "voice_examples": {
-      "opening_lines": [],
-      "closing_lines": [],
-      "transitional_phrases": []
-    }
-  }
-}
+```markdown
+---
+version: 1.0
+last_updated: YYYY-MM-DD
+---
+
+# Voice DNA
+
+## Core Essence
+
+- **Identity**:
+- **Primary role**:
+- **Unique angle**:
+
+## Personality Traits
+
+### Primary
+
+- (list)
+
+### How it shows
+
+- **Trait**: description
+
+## Emotional Palette
+
+### Dominant emotions
+
+- (list)
+
+### Emotional range
+
+- **Emotion**: description
+
+### Energy level
+
+(description)
+
+## Communication Style
+
+- **Formality**:
+- **Complexity**:
+- **Addressing the audience**:
+
+### Sentence structure
+
+- **Preferred length**:
+- **Patterns**:
+    - (list)
+
+### Paragraph style
+
+(description)
+
+## Language Patterns
+
+### Signature phrases
+
+- (list)
+
+### Power words
+
+- (list)
+
+### Words to avoid
+
+- (list)
+
+### Transitions
+
+- (list)
+
+## Never Say
+
+### Phrases
+
+- (list)
+
+### Tones
+
+- (list)
+
+### Approaches
+
+- (list)
+
+## Formatting Preferences
+
+- **Uses emojis**:
+- **Emoji style**:
+- **Uses lists**:
+- **List style**:
+- **Uses headers**:
+- **Header style**:
+- **Uses bold**:
+- **Bold for**:
+- **Uses parentheticals**:
+- **Parenthetical style**:
+
+## Content Philosophy
+
+- **Core belief**:
+- **Value delivery**:
+- **Relationship with audience**:
+
+## Voice Examples
+
+### Opening lines
+
+- (list)
+
+### Closing lines
+
+- (list)
+
+### Transitional phrases
+
+- (list)
+
+## Distinctive Techniques
+
+- **Technique**: description
 ```
 
 ## Output Instructions
 
 1. After analysis, present key findings in a summary
 
-2. Generate the complete JSON voice profile
+2. Generate the complete Markdown voice profile
 
-3. Save to `/context/voice-dna.json`
+3. Save to `/context/voice-dna.md`
 
 4. Provide 3 example sentences written in the captured voice for validation
 

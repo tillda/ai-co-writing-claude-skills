@@ -71,66 +71,126 @@ Ask these questions one at a time:
 
 ## Output Format
 
-After gathering responses, generate a JSON file following this structure:
+After gathering responses, generate a Markdown file with YAML frontmatter following this structure:
 
-```json
-{
-  "ideal_client_profile": {
-    "version": "1.0",
-    "last_updated": "YYYY-MM-DD",
-    "demographics": {
-      "age_range": "",
-      "gender": "",
-      "location": "",
-      "income_level": "",
-      "education": ""
-    },
-    "professional_profile": {
-      "job_titles": [],
-      "industries": [],
-      "company_size": "",
-      "experience_level": "",
-      "decision_making_power": ""
-    },
-    "psychographics": {
-      "values": [],
-      "beliefs": [],
-      "personality_traits": []
-    },
-    "problems_and_pain_points": {
-      "primary_problems": [],
-      "frustrations": [],
-      "fears": [],
-      "failed_solutions": []
-    },
-    "goals_and_desires": {
-      "immediate_goals": [],
-      "long_term_aspirations": [],
-      "dream_outcome": ""
-    },
-    "language_patterns": {
-      "words_they_use": [],
-      "phrases_they_say": [],
-      "questions_they_ask": [],
-      "jargon_they_know": []
-    },
-    "content_consumption": {
-      "platforms": [],
-      "content_formats": [],
-      "consumption_time": "",
-      "attention_span": ""
-    },
-    "objections": {
-      "common_objections": [],
-      "trust_barriers": []
-    },
-    "buying_triggers": {
-      "emotional_triggers": [],
-      "logical_triggers": [],
-      "timing_triggers": []
-    }
-  }
-}
+```markdown
+---
+version: 1.0
+last_updated: YYYY-MM-DD
+---
+
+# Ideal Client Profile
+
+## Demographics
+
+- **Age range**:
+- **Gender**:
+- **Location**:
+- **Income level**:
+- **Education**:
+
+## Professional Profile
+
+- **Job titles**: (list)
+- **Industries**: (list)
+- **Company size**:
+- **Experience level**:
+- **Decision making power**:
+
+## Psychographics
+
+### Values
+
+- (list)
+
+### Beliefs
+
+- (list)
+
+### Personality traits
+
+- (list)
+
+## Problems and Pain Points
+
+### Primary problems
+
+- (list)
+
+### Frustrations
+
+- (list)
+
+### Fears
+
+- (list)
+
+### Failed solutions
+
+- (list)
+
+## Goals and Desires
+
+### Immediate goals
+
+- (list)
+
+### Long-term aspirations
+
+- (list)
+
+### Dream outcome
+
+(description)
+
+## Language Patterns
+
+### Words they use
+
+- (list)
+
+### Phrases they say
+
+- (list)
+
+### Questions they ask
+
+- (list)
+
+### Jargon they know
+
+- (list)
+
+## Content Consumption
+
+- **Platforms**: (list)
+- **Content formats**: (list)
+- **Consumption time**:
+- **Attention span**:
+
+## Objections
+
+### Common objections
+
+- (list)
+
+### Trust barriers
+
+- (list)
+
+## Buying Triggers
+
+### Emotional triggers
+
+- (list)
+
+### Logical triggers
+
+- (list)
+
+### Timing triggers
+
+- (list)
 ```
 
 ## Instructions
@@ -143,9 +203,9 @@ After gathering responses, generate a JSON file following this structure:
 
 4. Use their own words in the final profile when possible
 
-5. After all questions, generate the complete JSON
+5. After all questions, generate the complete Markdown file
 
-6. Save the output to `/context/icp.json`
+6. Save the output to `/context/icp.md`
 
 7. Provide a one-paragraph summary of the ideal client
 

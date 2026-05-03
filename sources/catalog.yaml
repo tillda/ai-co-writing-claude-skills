@@ -2,7 +2,7 @@
 # This file is the assistant's first read when resolving a source reference.
 # Hand edits are tolerated but the indexer will overwrite on next run.
 version: 1
-generated: "2026-05-02"
+generated: "2026-05-03"
 books:
   - slug: knowledge-reality-value
     title: "Knowledge, Reality, and Value: A Mostly Common Sense Guide to Philosophy"

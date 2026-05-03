@@ -56,12 +56,14 @@ In `/.claude/skills/`. Read the full SKILL.md when invoking.
 | Skill | Triggers | Output |
 |-------|----------|--------|
 | **essay-philosophy** | Any philosophy essay, exam question, philosophical topic | ~1200-word essay |
+| **prepare-course** | "build/redo the &lt;course&gt; index", new syllabus PDF in `/courses/<slug>/`, "the course index is too verbose / out of date" | Updated `/courses/<slug>/index.md` |
 | **source-indexer** | "reindex sources", "scaffold an index", new chapter added | Updated `/sources/<book>/index.md` and `/sources/catalog.yaml` |
 | **source-ingestor** | "ingest the file in inbox", new PDF dropped in `/sources/_inbox/` | File moved into `/sources/<book>/`, indexer invoked |
+| **curate-source** | "curate &lt;book&gt; against the &lt;course&gt; course" | Plan of position updates + topic-keyed source annotations + course-MD updates |
 | **voice-dna-creator** | "update my voice profile" | New `voice-dna.md` |
 | **icp-creator** | "update my examiner profile" | New `icp.md` |
 
-Selection: philosophy always matches → essay-philosophy. Library housekeeping → indexer / ingestor. Profile updates → voice-dna-creator / icp-creator.
+Selection: philosophy always matches → essay-philosophy. Course housekeeping → prepare-course. Library housekeeping → indexer / ingestor / curate-source. Profile updates → voice-dna-creator / icp-creator.
 
 ---
 

@@ -3,7 +3,7 @@ slug: logic
 name: Logic (PY1070)
 code: PY1070
 style: analytic
-books: [paradox-lost, knowledge-reality-value]
+books: [paradox-lost, philosophical-logic, philosophy-of-language, dummett-justification-of-deduction, haack-justification-of-deduction,haack-dummetts-justification-of-deduction]
 ---
 
 # Logic (PY1070)
@@ -47,6 +47,7 @@ The PY1070 subject guide (R.M. Sainsbury, University of London, 2012) is the syl
 **Sources:**
 
 - Sainsbury *Logical Forms: An Introduction to Philosophical Logic* (Blackwell, 1991; 2nd ed. 2001)
+- Grayling *An Introduction to Philosophical Logic*, chapter 1 (philosophical logic vs philosophy of logic; formal vs philosophical logic)
 
 **Readings:**
 
@@ -85,6 +86,9 @@ The PY1070 subject guide (R.M. Sainsbury, University of London, 2012) is the syl
 
 - Glanzberg 'Truth' (Stanford Encyclopedia of Philosophy)
 - Horwich *Truth* (Blackwell, 1990)
+- Grayling *An Introduction to Philosophical Logic*, chapter 5 (pragmatic, coherence, and correspondence theories of truth)
+- Grayling *An Introduction to Philosophical Logic*, chapter 6 (Tarski's semantic conception, T-schema, language hierarchy, deflationism, the Liar)
+- Lycan *Philosophy of Language: A Contemporary Introduction* (Routledge, 2nd ed. 2008), chapter 9 (Davidson's truth-conditional semantics, Tarski biconditionals, deflationism, minimalism)
 
 **Readings:**
 
@@ -100,6 +104,7 @@ The PY1070 subject guide (R.M. Sainsbury, University of London, 2012) is the syl
 - Priest & Berto 'Dialetheism' (Stanford Encyclopedia of Philosophy)
 - Huemer *Knowledge, Reality, and Value* §§5.2.1-5.2.2 (the law of non-contradiction and the law of excluded middle, derived from the meaning of negation)
 - Huemer *Knowledge, Reality, and Value* §§5.5.1-5.5.2 (correspondence and the equivalence-schema rejection of pragmatism, coherence, verificationism)
+- Huemer *Paradox Lost* (Palgrave Macmillan, 2018), chapter 2 (the Liar)
 
 ## 3. Modality
 
@@ -126,6 +131,8 @@ The PY1070 subject guide (R.M. Sainsbury, University of London, 2012) is the syl
 **Sources:**
 
 - Melia *Modality* (Acumen, 2003)
+- Grayling *An Introduction to Philosophical Logic*, §§3.6-3.12 (necessity, *de re* / *de dicto*, possible worlds, transworld identity, unactualized possibilia)
+- Lycan *Philosophy of Language: A Contemporary Introduction* (Routledge, 2nd ed. 2008), chapter 10 (possible-worlds semantics, intensions as functions from worlds to extensions, modal operators, rigid designation)
 
 **Readings:**
 
@@ -166,6 +173,7 @@ The PY1070 subject guide (R.M. Sainsbury, University of London, 2012) is the syl
 - Stalnaker 'Indicative conditionals', *Philosophia* 5 (1975), pp.269–86
 - Jackson 'On assertion and indicative conditionals', *Philosophical Review* 88 (1979), pp.565–89
 - Grice 'Logic and conversation' in Cole & Morgan (eds) *Syntax and Semantics, Vol. 3: Speech Acts* (Academic Press, 1975), pp.41–58
+- Lycan *Philosophy of Language: A Contemporary Introduction* (Routledge, 2nd ed. 2008), chapter 13 (Grice's conversational implicature, Cooperative Principle, maxims — background for the Gricean defence)
 
 ## 5. Reference – Names and Descriptions
 
@@ -193,7 +201,11 @@ The PY1070 subject guide (R.M. Sainsbury, University of London, 2012) is the syl
 - Evans on pretence and existential statements
 
 **Sources:**
-- William G. Lycan *Philosophy of Language: A Contemporary Introduction*
+- Lycan *Philosophy of Language: A Contemporary Introduction* (Routledge, 2nd ed. 2008), chapter 2 (Russell's theory of descriptions, Strawson on presupposition, Donnellan, anaphora)
+- Lycan *Philosophy of Language: A Contemporary Introduction* (Routledge, 2nd ed. 2008), chapter 3 (description theory of proper names)
+- Lycan *Philosophy of Language: A Contemporary Introduction* (Routledge, 2nd ed. 2008), chapter 4 (direct reference, rigid designation, Kripke's modal argument, causal-historical theory, Twin Earth)
+- Grayling *An Introduction to Philosophical Logic*, chapter 4 (Russell's theory of descriptions, Strawson on presupposition, Donnellan's referential / attributive distinction)
+- Grayling *An Introduction to Philosophical Logic*, §§7.2-7.3 (denotative theory of meaning; causal theory of reference, Kripke's modal argument, Gödel/Schmidt)
 
 **Readings:**
 
@@ -230,6 +242,7 @@ The PY1070 subject guide (R.M. Sainsbury, University of London, 2012) is the syl
 **Sources:**
 
 - Forbes 'Intensional Transitive Verbs' (Stanford Encyclopedia of Philosophy)
+- Grayling *An Introduction to Philosophical Logic*, chapter 2 (propositions, sense/reference, referential opacity, Cicero/Tully cases, hyperintensional contexts)
 
 **Readings:**
 
@@ -258,6 +271,7 @@ The PY1070 subject guide (R.M. Sainsbury, University of London, 2012) is the syl
 
 **Sources:**
 
+- Huemer *Paradox Lost* (Palgrave Macmillan, 2018), chapter 3 (the Sorites)
 - Keefe *Theories of Vagueness* (Cambridge University Press, 2000)
 - Sainsbury *Paradoxes* (Cambridge University Press, 3rd ed. 2009), chapter 3
 
@@ -265,6 +279,7 @@ The PY1070 subject guide (R.M. Sainsbury, University of London, 2012) is the syl
 
 - Edgington 'Vagueness by degrees' in Keefe & Smith (eds) *Vagueness: A Reader* (MIT Press, 1997), pp.294–316
 - Keefe & Smith (eds) *Vagueness: A Reader* (MIT Press, 1997)
+- Huemer *Paradox Lost* (Palgrave Macmillan, 2018), chapter 3 (the Sorites)
 
 ## 8. Essentialism
 
@@ -295,6 +310,8 @@ The PY1070 subject guide (R.M. Sainsbury, University of London, 2012) is the syl
 - rigid designation in modal contexts (cross-reference Module 5)
 
 **Sources:**
+
+- Grayling *An Introduction to Philosophical Logic*, §§3.2-3.5 (analyticity, Two Dogmas, Defending a Dogma) and §§3.13-3.16 (essentialism, mathematical cyclist, origin/structure essentialism, necessity-analyticity-apriority)
 
 - Quine *Word and Object* (MIT / Wiley, 1960)
 - Neale 'On a milestone of empiricism' in Orenstein & Kotatko (eds) *Knowledge, Language and Logic* (Kluwer, 2000), pp.237–346
@@ -334,8 +351,11 @@ The PY1070 subject guide (R.M. Sainsbury, University of London, 2012) is the syl
 **Sources:**
 
 - Dummett 'The Justification of Deduction', *Proceedings of the British Academy* (1973); reprinted in Dummett *Truth and Other Enigmas* (Harvard University Press, 1978), pp.290–318
+- Haack 'The Justification of Deduction', *Mind* 85 (1976), pp.112–19
 - Rumfitt 'Meaning and possibilities: the semantic justification of logical laws', Inaugural lecture at Birkbeck College (2008)
 - Tennant 'Rule-Circularity and the Justification of Deduction', *Philosophical Quarterly* 55 (2005), pp.625–48
+- Haack 'Dummett's Justification of Deduction', *Mind* 91 (1982), pp.216–39
+- Grayling *An Introduction to Philosophical Logic*, chapter 8 (Davidson's truth-theoretic programme, Dummett's anti-realism, bivalence under anti-realism, intuitionist logic)
 
 **Readings:**
 

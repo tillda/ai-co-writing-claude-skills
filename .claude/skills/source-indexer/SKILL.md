@@ -1,6 +1,6 @@
 ---
 name: source-indexer
-description: Build /sources/<book>/index.md by walking each chapter .md file in the book directory and emitting a block with the chapter heading, subheadings with line ranges, and a `**Topics:**` keyword line. Optionally accepts one or more course slugs; when supplied, each course's /courses/<course>/index.md is passed as context to the per-chapter pass so course-relevant topics are not omitted from Topics. Concatenates the per-chapter blocks into one flat index.md per book. Use when a new book is added, when source files are edited, or to re-index against a course.
+description: Build /sources/<book>/index.md by walking each chapter .md file in the book directory and emitting a block with the chapter heading, subheadings with line ranges, and a `**Topics:**` bulleted list. Optionally accepts one or more course slugs; when supplied, each course's /courses/<course>/index.md is passed as context to the per-chapter pass so course-relevant topics are not omitted from Topics. Concatenates the per-chapter blocks into one flat index.md per book. Use when a new book is added, when source files are edited, or to re-index against a course.
 ---
 
 # Source Indexer
@@ -34,13 +34,16 @@ For each chapter file in `/sources/<book>/` (sorted by filename, excluding `inde
    ### <ref> <Subheading> [<a>-<b>]
    ### <ref> <Subheading> [<a>-<b>]
 
-   **Topics:** <comma-separated keywords>
+   **Topics:**
+   - <topic>
+   - <topic>
+   - <topic>
    ```
 
    - **Chapter number and name** — from the H1 in the source (e.g. `# 5 Truth` → `Chapter 5 · Truth`); fall back to leading digits in the filename if no H1.
    - **Subheadings** — every H2 and H3 in the source. Compose the ref as `<chapter>.<local>`: if the source heading has a number, use it; otherwise number sections in source order. Recurse for sub-subheadings (`<chapter>.<local>.<sub>`).
    - **Line range `[<a>-<b>]`** — the heading's own line through the line before the next equal-or-higher-level heading (or EOF for the last one). Use `[pp. <a>-<b>]` for PDF.
-   - **Topics line** — the philosophical concepts, theories, named figures, paradoxes, and arguments *actually discussed* in the chapter. Aim for 5–15 items, comma-separated, lowercase except for proper nouns and acronyms. When a course is supplied, prefer course terminology where it overlaps with the chapter's content; never add topics the chapter does not cover.
+   - **Topics block** — the philosophical concepts, theories, named figures, paradoxes, and arguments *actually discussed* in the chapter. Emit as a bulleted list directly under the `**Topics:**` label, one item per line. Aim for 5–15 items, lowercase except for proper nouns and acronyms. When a course is supplied, prefer course terminology where it overlaps with the chapter's content; never add topics the chapter does not cover.
 
 Concatenate every chapter block — separated by a blank line — into `/sources/<book>/index.md`, prefixed with frontmatter and the book H1:
 

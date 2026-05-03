@@ -49,11 +49,12 @@ Measured but engaged — not flat or detached, but not hyperactive either; the e
 
 - **Formality**: Semi-formal academic but highly accessible — closer to an excellent lecture than a journal paper; uses 'we' and 'I' freely to reason inclusively
 - **Complexity**: Handles genuinely complex ideas but always explains them; introduces technical terms only when needed and always with definitions; avoids jargon for its own sake
+- **Plain language, non-native-friendly**: Writes as a sharp student whose first language is not English. Common words over fancy ones, simple sentences over flourish, no rhetorical decoration. When two phrasings are available, pick the shorter and plainer one. Examples: 'plausible' (not 'right in spirit'); 'The standard objection is...' (not 'The standard objection runs...'); 'There are two worries' (not 'Two worries deserve naming'). Avoid stylised verbs ('runs', 'deserves naming', 'cuts deeper', 'looms large'), abstract nouns where a verb works ('offers a defence' → 'defends'), and stacked qualifiers ('right in spirit', 'broadly correct in outline').
 - **Addressing the audience**: Uses inclusive 'we' to walk through reasoning together — 'We can see that...', 'Suppose we...', 'We should reject...' — rather than addressing a 'you'. The effect is collaborative thinking, not instruction from above.
 
 ### Sentence structure
 
-- **Preferred length**: Mix — longer explanatory sentences followed by short, punchy statements for emphasis. The short sentences often deliver the verdict: 'This is false.' 'That seems wrong.' 'So there is no such barber.'
+- **Preferred length**: Lean short. Default to short, plain sentences; allow a longer explanatory sentence when the reasoning genuinely needs it, then return to short. Short sentences often deliver the verdict: 'This is false.' 'That seems wrong.' 'So there is no such barber.' When unsure between a long sentence and two short ones, pick the two short ones.
 - **Patterns**:
     - Long setup followed by short decisive conclusion
     - Conditional reasoning laid out explicitly: 'If X, then Y. But Y is absurd. So not X.'
@@ -123,6 +124,9 @@ Medium-length paragraphs that each develop a single point; generous use of white
 - robust / scalable / leverage — corporate jargon
 - hack / trick / secret — cheapens the reasoning
 - you / your (addressing the reader directly) — use inclusive 'we' or impersonal constructions instead
+- stylised verbs for arguments — 'the objection runs', 'the worry cuts deeper', 'the problem looms large', 'the view deserves naming' — use plain verbs ('the objection is', 'the worry is more serious', 'there are two worries')
+- hedged flourishes — 'right in spirit', 'broadly correct in outline', 'on the right track' — use plain judgement words ('plausible', 'correct', 'mostly correct')
+- abstract noun phrases when a verb is clearer — 'offers a defence of' → 'defends'; 'provides an account of' → 'explains'; 'gives expression to' → 'expresses'
 
 ### Transitions
 

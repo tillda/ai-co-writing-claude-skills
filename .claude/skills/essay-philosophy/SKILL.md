@@ -33,16 +33,15 @@ Write clear, well-argued analytic philosophy essays at undergraduate level for a
 
 ## Referencing
 
-This is a timed essay context — no full formal referencing required.
+This is a timed essay, not a research paper. Referencing is light, narrative, and one-shot — write **as a student would from memory, without any materials at hand**.
 
+- **Always informal, student-from-memory style.** Phrasings like "Smith writes in a book that...", "Horwich argues somewhere that...", "On Tarski's account...", "As Quine puts it..." are the model. Never write as if consulting a reference. No formal citations, no parentheticals, no footnotes, no bibliographies.
+- **No academic-lineage chains.** Never write things like "A second theory, going back to Smith and developed by Jones and Barley..." or "the view originally due to X, refined by Y, and defended in its modern form by Z". A student writing from memory does not track scholarly genealogies. Attribute a view to one figure if attribution is needed, and otherwise just present the view.
+- **NEVER mention specific chapters, chapter numbers, section numbers, or page numbers from any book.** This includes "ch. 14", "chapter 10", "§3.5", "section 2.4", "10.4.2", "(p. 221)", "in the third chapter", "early in the book", or any positional reference within a text. The section refs in the source index are for *you* to read the right passage — they never appear in the prose. A student writing from memory does not know where in a book something appeared.
+- **Cite each source ONCE, in narrative form, at the first place where its view comes up.** After the first mention, continue engaging with the idea without re-citing the author or the book. Do not repeat "as Horwich argues..." every time the view recurs.
 - **Mentioning philosophers**: Name major figures when relevant (e.g., Tarski, Horwich, Quine), but only when their view is actually being engaged with — do not name-drop without purpose.
-- **Provided sources**: Each named author MUST be mentioned at least once.
-   - General sources: name the author in the introduction or first body section.
-   - Per-bullet sources: name the author in the section that uses that source.
-   - Multiple sources for one bullet: name each author at first use.
-   - Paraphrase from the resolved range; quote only when the phrasing matters.
-- **Direct quotes**: Enclose in quotation marks and mention the author. But direct quoting is rarely necessary — paraphrase instead.
-- **Format**: Informal in-text mentions are sufficient (e.g., "As Horwich argues, ..." or "On Tarski's account, ...").
+- **Provided sources**: Each named author MUST be mentioned exactly once, in narrative form, at the first place that source's view enters the essay. Paraphrase from the resolved range; quote only when the phrasing matters.
+- **Direct quotes**: Enclose in quotation marks and mention the author (author only — no chapter/section/page). Quoting is rarely necessary — paraphrase instead.
 
 ## Depth and Scope
 
@@ -54,6 +53,11 @@ This is a timed essay context — no full formal referencing required.
 ## Writing Style
 
 - **Use voice DNA** from `/context/voice-dna.md` throughout.
+- **Plain, simple language. Short sentences where possible.** Write as a sharp student whose first language is not English: clear common words, no flourish, no rhetorical filler. Prefer short declaratives over hedged or stylised phrasings.
+  - BAD: "The criterion is right in spirit" → GOOD: "The criterion is plausible"
+  - BAD: "The standard objection runs" → GOOD: "The standard objection is"
+  - BAD: "Two worries deserve naming" → GOOD: "There are two worries"
+  - Avoid stylised verbs ("runs", "deserves naming", "cuts deeper", "looms large"), abstract nouns where a verb works ("offers a defence" → "defends"), and stacked qualifiers ("right in spirit", "broadly correct in outline"). When unsure, pick the simpler word.
 - **Weave formal arguments with accessible explanations** — do not sustain dry, purely formal academic prose for long stretches. A formal argument (numbered premises, conclusion) should be followed or preceded by a clear explanation of what it shows and why it matters.
 - **Show understanding of WHY** — not just what positions exist, but what supports them and what can be said against them.
 - **Inclusive "we"** — reason alongside the examiner ("We can see that...", "Suppose we accept...") rather than addressing them as "you".
@@ -246,7 +250,9 @@ STEP 5: CHECK & TRIM
   □ Thesis stated at the beginning?
   □ Arguments supported with reasons, not just asserted?
   □ No suspicious advanced material?
-  □ Every named source's author mentioned in its section?
+  □ Every named source's author mentioned exactly ONCE, at first use, in informal student-from-memory form ("Smith writes in a book that...")?
+  □ No chapter/section/page refs ANYWHERE in the prose — no "ch. 14", "10.4.2", "§3.5", "p. 221", "in the third chapter", "early in the book", or any positional reference within any book?
+  □ No academic-lineage chains ("going back to X, developed by Y and Z")?
   □ Resolved-source content actually used (paraphrased), not just cited?
   □ No source loaded that wasn't referenced?
   □ Voice DNA matched?
@@ -266,7 +272,10 @@ Before delivering:
 - [ ] No advanced or obscure material unless the question explicitly calls for it
 - [ ] Formal arguments are explained, not left as dry notation
 - [ ] Voice matches voice DNA
-- [ ] Authors of provided sources are mentioned in the relevant section
+- [ ] Plain language, short sentences — no stylised verbs ("runs", "deserves naming"), no hedged flourishes ("right in spirit"), no abstract nouns where a verb works
+- [ ] Each source's author named exactly ONCE, narratively, at first mention — informal student-from-memory phrasing ("Smith writes in a book that...", "Horwich argues somewhere that...")
+- [ ] No chapter/section/page refs ANYWHERE in the prose — "ch. 14", "10.4.2", "§3.5", "p. 221", "in the third chapter", "early in the book", or any positional reference within any book is forbidden
+- [ ] No academic-lineage chains ("a view going back to X, developed by Y and Z") — attribute to one figure if needed, otherwise just present the view
 - [ ] Resolved-source content was actually used (paraphrased), not just cited
 - [ ] No source was loaded that wasn't referenced
 - [ ] ~1000 words, hard cap 1200 — trimmed if over

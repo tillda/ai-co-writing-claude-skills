@@ -1,11 +1,11 @@
 ---
 name: accept-canonical-chapters
-description: Walk an ingested book against its `**Topics:**` lines (and optionally a course's module vocabulary), propose `- Use <ref> for <topic>` bullets that mark specific sections as the canonical text for a topic, and — when a course is supplied — also propose course-MD updates (`books:` scope, per-module `**Sources:**`). Iterates as a structured plan with the user; applies approved items only on explicit signal. Never emits free-prose annotations, never edits positions, never edits source files.
+description: Walk an ingested book against its `**Topics:**` blocks (and optionally a course's module vocabulary), propose `- Use <ref> for <topic>` bullets that mark specific sections as the canonical text for a topic, and — when a course is supplied — also propose course-MD updates (`books:` scope, per-module `**Sources:**`). Iterates as a structured plan with the user; applies approved items only on explicit signal. Never emits free-prose annotations, never edits positions, never edits source files.
 ---
 
 # Accept Canonical Chapters
 
-Turns an indexed book into a curated one. The indexer's `**Topics:**` lines are a *soft* surface — they say "this chapter mentions X." This skill produces the *hard* surface: `- Use <ref> for <topic>` bullets that authoritatively bind a topic to a specific section, telling the resolver to read that range as canonical evidence whenever the topic matches the prompt.
+Turns an indexed book into a curated one. The indexer's `**Topics:**` blocks are a *soft* surface — they say "this chapter mentions X." This skill produces the *hard* surface: `- Use <ref> for <topic>` bullets that authoritatively bind a topic to a specific section, telling the resolver to read that range as canonical evidence whenever the topic matches the prompt.
 
 `Use` marks are load-bearing — a match steers the essay's argumentation toward a specific passage as canonical — so they should be earned, not heuristically generated. This skill is the only path to creating them, and only ever after explicit user approval.
 
@@ -27,7 +27,7 @@ Required:
 Optional:
 - **course**: slug of a course (e.g. `logic`). Must exist as `/courses/<course>/index.md`. When supplied, the plan also includes course-MD update proposals (the skill's bucket B). Without a course, only Use-mark proposals are produced (bucket A only).
 - **chapters**: chapter numbers to focus on (e.g. `[1, 2, 3]`). Default: all chapters.
-- **topics**: topics to focus on (e.g. `["liar", "vagueness"]`). Default: every topic appearing in any in-scope chapter's `**Topics:**` line.
+- **topics**: topics to focus on (e.g. `["liar", "vagueness"]`). Default: every topic appearing in any in-scope chapter's `**Topics:**` block.
 
 If the book is large, prefer narrowing `chapters` or `topics` over producing a sprawling plan.
 
@@ -52,7 +52,7 @@ Detection heuristics — apply before Phase 1:
 1. Read `/sources/<book>/index.md`:
    - Frontmatter (slug, tags, layout).
    - Chapter list with metadata lines (file, format).
-   - Per-chapter `**Topics:**` lines (the candidate vocabulary).
+   - Per-chapter `**Topics:**` blocks (the candidate vocabulary — bulleted list under the `**Topics:**` label).
    - Existing `- Use <ref> for <topic>` bullets — never propose duplicates of these.
 2. For split-layout books, read each in-scope chapter's `index-ch<NN>.md` to get section headings with line ranges.
 3. If `<course>` was supplied, read `/courses/<course>/index.md`: module list (numbered), each module's `**Sources:**` and `**Readings:**`, current frontmatter `books:`. Note any module's existing `**Books:**` override.
@@ -61,7 +61,7 @@ Detection heuristics — apply before Phase 1:
 
 ### Phase 2 · Match
 
-For each in-scope section, ask: **is this section the canonical text for any topic appearing in the chapter's `**Topics:**` line (or, if course given, in any module's vocabulary)?**
+For each in-scope section, ask: **is this section the canonical text for any topic appearing in the chapter's `**Topics:**` block (or, if course given, in any module's vocabulary)?**
 
 Canonical means more than "discusses X" — the section should be (a) a developed argument or definitive treatment, (b) the strongest section in the chapter for that topic (one section per topic per chapter is the typical pattern, occasionally two), and (c) something the user would actually want the resolver to auto-read whenever a prompt mentions the topic.
 
@@ -79,7 +79,7 @@ Produce a structured markdown plan in chat with two or three sections (A, option
 ### Survey
 - Book: <title> by <author>; <N> chapters in scope, <M> existing Use bullets
 - Course (if supplied): <name>; <N> modules
-- Topics in scope: <comma list> (drawn from per-chapter Topics lines)
+- Topics in scope: <comma list> (drawn from per-chapter Topics blocks)
 
 ### A. Canonical-chapter Use marks
 
@@ -98,7 +98,7 @@ B.2 Module <M> · <Module Name>: append `<free-text ref>` to **Sources:**
 
 ### C. Considered, no action
 
-C.1 §<ref> <heading> — <one-line reason>: e.g. "passing mention only", "covered better by §<other-ref>", "topic not in any chapter's Topics line"
+C.1 §<ref> <heading> — <one-line reason>: e.g. "passing mention only", "covered better by §<other-ref>", "topic not in any chapter's Topics block"
 
 ---
 
@@ -127,8 +127,8 @@ Never apply changes without an explicit execute signal.
 Apply the approved items in this order:
 
 1. **Book index** (`/sources/<book>/index.md`)
-   - For each approved A item: insert the bullet under the matching `## Chapter <N> · <Name>` block, after the `**Topics:**` line. If the chapter already has bullets, append in section-ref order. Never duplicate an existing `(ref, topic-phrase)` pair (case-insensitive on the topic phrase).
-   - Never modify chapter headings, metadata lines, frontmatter, prose, `**Topics:**` lines, section headings, or range markers. Use marks are the only writable target.
+   - For each approved A item: insert the bullet under the matching `## Chapter <N> · <Name>` block, after the entire `**Topics:**` block (the label plus all its `- <topic>` bullets). If the chapter already has Use bullets, append in section-ref order. Never duplicate an existing `(ref, topic-phrase)` pair (case-insensitive on the topic phrase).
+   - Never modify chapter headings, metadata lines, frontmatter, prose, the `**Topics:**` block (label or its bullets), section headings, or range markers. Use marks are the only writable target.
 
 2. **Course MD** (`/courses/<course>/index.md`) — only if `<course>` was supplied
    - For B items adding the book to `books:`: edit the frontmatter list. Append the slug if not already present. Preserve list style (inline `[a, b]` or block).
@@ -147,7 +147,7 @@ After execution, report:
 - Never re-derives section ranges or modifies the structural skeleton of the book index (that's `source-indexer`).
 - Never edits source files (`/sources/<book>/<chapter>.*`).
 - Never writes prose annotations under section headings (Use bullets are the only authoritative annotation surface).
-- Never edits `**Topics:**` lines (that's the indexer's surface).
+- Never edits `**Topics:**` blocks (that's the indexer's surface).
 - Never edits `/positions/*/` (that's `accept-canonical-positions`).
 - Never writes essays.
 - Never applies any item without explicit user approval.
@@ -158,7 +158,7 @@ After execution, report:
 - Use the section ref (e.g. `3.5.7`) as the stable identifier when matching candidates to existing bullets and when writing new ones — heading text can drift, refs cannot.
 - Read sparingly: use `index.md` (or `index-ch<NN>.md`) line ranges to load only relevant sections.
 - A section being canonical for a topic does NOT mean other sections can't also discuss it. The bar is "the resolver should auto-read this when the topic matches" — typically one or two sections per topic per book.
-- Topic-phrase casing: lowercase except for proper nouns (`Hume`, `Bayes`, `Wittgenstein`, `T-schema`) and acronyms. Match the casing already used in the chapter's `**Topics:**` line where possible.
-- If a candidate topic doesn't appear in any chapter's `**Topics:**` line and no course is supplied, do not propose it — the indexer's Topics line is the gate. With a course supplied, course-vocabulary terms can override this gate (the user can later regenerate Topics for the chapter via the indexer).
+- Topic-phrase casing: lowercase except for proper nouns (`Hume`, `Bayes`, `Wittgenstein`, `T-schema`) and acronyms. Match the casing already used in the chapter's `**Topics:**` block where possible.
+- If a candidate topic doesn't appear in any chapter's `**Topics:**` block and no course is supplied, do not propose it — the indexer's Topics block is the gate. With a course supplied, course-vocabulary terms can override this gate (the user can later regenerate Topics for the chapter via the indexer).
 - The plan lives in chat. If the user wants to defer for a session, they can ask for the plan to be saved to a temp file.
 - When proposing course-MD `**Sources:**` additions, prefer the per-module list whose topic the section actually matches; do not blanket-add the book to every module.

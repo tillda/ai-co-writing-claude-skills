@@ -192,6 +192,9 @@ The PY1070 subject guide (R.M. Sainsbury, University of London, 2012) is the syl
 - knowledge by acquaintance vs by description
 - Evans on pretence and existential statements
 
+**Sources:**
+- William G. Lycan *Philosophy of Language: A Contemporary Introduction*
+
 **Readings:**
 
 - Russell 'On denoting', *Mind* 14 (1905), pp.479–93

@@ -1,11 +1,11 @@
 ---
 name: source-ingestor
-description: File a raw source from /sources/_inbox/ (PDF/HTML/TXT/MD) into /sources/<book>/, optionally converting to MD. Then invokes source-indexer to scaffold or refresh the book's index.md. Curated metadata (cite, summary, notes) is added later by editing index.md directly.
+description: File a raw source from /sources/_inbox/ (PDF/HTML/TXT/MD) into /sources/<book>/, optionally converting to MD. Does NOT run source-indexer — invoke that separately when ready. Curated metadata (cite, summary, notes) is added later by editing index.md directly.
 ---
 
 # Source Ingestor
 
-Takes raw material the user dropped into `/sources/_inbox/` and files it into the bibliographic library at `/sources/<book>/`. The skill is deliberately minimal — it gathers only the identifying metadata needed to file the source, then hands off to `source-indexer` for everything else.
+Takes raw material the user dropped into `/sources/_inbox/` and files it into the bibliographic library at `/sources/<book>/`. The skill is deliberately minimal — it gathers only the identifying metadata needed to file the source. Indexing is a separate step: this skill never invokes `source-indexer`. The user runs the indexer when they're ready.
 
 ## When to invoke
 
@@ -46,12 +46,11 @@ Takes raw material the user dropped into `/sources/_inbox/` and files it into th
 
 7. **Move/write the file** into the book directory.
 
-8. **Invoke `source-indexer`** for the affected book. If the book is new, the indexer runs in scaffold mode and creates `/sources/<book-slug>/index.md`; otherwise refresh mode picks up the new chapter.
-
-9. **Report**: name the new file, the book directory it landed in, and the indexer mode that ran. Remind the user of three optional next steps:
+8. **Report**: name the new file(s) and the book directory it landed in. Remind the user of the next steps they may want to run (each is a separate, explicit invocation — never auto-run any of these):
+   - `source-indexer <book>` — scaffold or refresh `/sources/<book>/index.md`. Required before the book can be cited.
    - Hand-edit `index.md` to fill in `cite`, the book-level `**Usage:**` policy, chapter-level notes, and per-section notes (just open it and write prose under the headings).
-   - Run `accept-canonical-chapters <book>` (optionally with a course slug) to propose authoritative `- Use <ref> for <topic>` marks via the approval loop.
-   - Run `accept-canonical-positions <book> <course>` to propose new or strengthened user positions for that course.
+   - `accept-canonical-chapters <book>` (optionally with a course slug) — propose authoritative `- Use <ref> for <topic>` marks via the approval loop.
+   - `accept-canonical-positions <book> <course>` — propose new or strengthened user positions for that course.
 
 ## What this skill does NOT do
 

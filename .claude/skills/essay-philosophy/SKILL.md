@@ -123,12 +123,12 @@ Analytic philosophy essays typically follow a tree structure that surveys compet
 
 ## Source Resolution
 
-Sources can come from three layers. **Layers merge — they do not override.** Layer 1 always reads, layer 2 Sources always merge, layer 2 School Readings merge selectively, layer 3 surfaces additional candidates from in-scope books.
+Sources can come from three layers. **Layers merge — they do not override.** Layer 1 always reads. Layer 2 Sources always load (or trigger the canonical-knowledge fallback when the module has none). Layer 2 Readings load when present and become argumentation branches in the essay. Layer 3 surfaces additional candidates from in-scope books.
 
 1. **Exam prompt (must-read)** — explicit free-text refs in the prompt MD or chat (e.g. `(Huemer UK 10.4.2)`). **Always resolved and read.**
 2. **Course MD, per-module** — `/courses/<course>/index.md` carries two distinct lists:
-   - `**Sources:**` — what the user has indicated they will use. **Always merged with layer 1.** Resolve every entry as a candidate.
-   - `**School Readings:**` — school-suggested bibliography. Loaded only if (a) the prompt names them explicitly, or (b) layers 1 + Sources don't cover the topic and a School Reading clearly fits. **If a School Reading is unresolvable (book not in `/sources/`) but the named author's position is canonical/well-known philosophy, it is acceptable to invoke the standard interpretation of their view from general knowledge — but never hallucinate quotes, page numbers, specific arguments, or invented positions.** When in doubt, omit the unresolved School Reading rather than risk fabrication.
+   - `**Sources:**` — the canonical backbone for the module: well-structured texts presenting the canonical arguments. **Always loaded.** Lead with these. **If the module lists no Sources, fall back to the canonical analytic position from the relevant field invoked from general knowledge — the standard interpretation only, never fabricated quotes, page numbers, or specific arguments.**
+   - `**Readings:**` — specific deepening additions on top of the canonical answer. Each Reading typically elaborates an argument that Sources cover in short form. **Loaded when present**; each becomes one branch of argumentation in the essay. **If a Reading is unresolvable (book not in `/sources/`) but the named author's position is canonical/well-known philosophy, it is acceptable to invoke the standard interpretation of their view from general knowledge — but never hallucinate quotes, page numbers, specific arguments, or invented positions.** When in doubt, omit the unresolved Reading rather than risk fabrication.
 3. **Book index notes** — chapter-level prose and per-section prose in each in-scope book's `/sources/<book>/index.md` (reverse-mode "use for X" annotations). Topic-matched: when the annotation hits the prompt topic, the passage is pulled in.
 
 ### Format reminders
@@ -140,9 +140,9 @@ Sources can come from three layers. **Layers merge — they do not override.** L
   - `### <ref> <Name> [<a>-<b>]` per section (use `[pp. <a>-<b>]` for PDF), followed by optional prose for the section note.
 - **`/courses/<course>/index.md`** is markdown:
   - Frontmatter: `slug`, `name`, `style`, `books: [...]`.
-  - `## <N>. <Module Name>` per module (numbered 1-10, with optional `## 0. Introduction` for preamble), followed by prose for module notes, optionally `**Sources:**` and/or `**School Readings:**` bullet lists, optional `**Books:** [override]`.
-  - **Sources** = user-indicated working set; always merged with prompt refs.
-  - **School Readings** = school-suggested bibliography; loaded only on explicit reference or as fallback; canonical-author fallback allowed when unresolved (no fabrication).
+  - `## <N>. <Module Name>` per module (numbered 1-10, with optional `## 0. Introduction` for preamble), followed by prose for module notes, optionally `**Sources:**` and/or `**Readings:**` bullet lists, optional `**Books:** [override]`.
+  - **Sources** = canonical backbone; always loaded. If a module has none, fall back to the canonical analytic position from general knowledge (no fabrication).
+  - **Readings** = specific deepening additions; loaded when present and used as argumentation branches. Canonical-author fallback allowed when a Reading is unresolved (no fabrication).
   - The number is the module identifier; the name is documentation. Prompts may reference a module by either number ("module 3") or by name ("module: Tragedy") — match whichever is supplied.
 
 ### Resolution algorithm
@@ -166,7 +166,7 @@ If the prompt names a topic without naming a source, aggregate candidates from a
 
 - Layer 1: explicit prompt refs (none, by hypothesis).
 - Layer 2 Sources: read the matching module's `**Sources:**` list in `/courses/<course>/index.md` (resolve each via the algorithm above). All Sources are merged in.
-- Layer 2 School Readings: read the matching module's `**School Readings:**` list. Surface only the entries that clearly fit the topic; the rest are background bibliography. For School Readings that do not resolve to any ingested book, skip the lookup but note the named author — if their canonical position is genuinely well-known and clearly relevant, the author and view may be invoked from general knowledge in the essay (no fabrication of quotes, page refs, or specific arguments).
+- Layer 2 Readings: read the matching module's `**Readings:**` list. Each Reading present is a deepening branch — load it and use it as one branch of argumentation. For Readings that do not resolve to any ingested book, skip the lookup but note the named author — if their canonical position is genuinely well-known and clearly relevant, the author and view may be invoked from general knowledge in the essay (no fabrication of quotes, page refs, or specific arguments).
 - Layer 3: scan in-scope books' `index.md` files for chapter-level prose and per-section prose matching the topic / module slug / module name. The index is short — a full read of one book's `index.md` is cheap.
 
 Deduplicate, propose to the user (showing which layer each candidate came from — Source / Reading / book-note), confirm, then read the resolved ranges.

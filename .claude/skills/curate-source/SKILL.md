@@ -54,7 +54,7 @@ If any of these triggers fire and `course` was not supplied (or was supplied but
 ### Phase 1 · Survey
 
 1. Read `/sources/<book>/index.md` — frontmatter (tags), chapter list, any existing prose under chapter/section headings (prior annotations).
-2. Read `/courses/<course>/index.md` — module list, frontmatter `books:`, per-module `**Sources:**` and `**School Readings:**`, any module-level prose.
+2. Read `/courses/<course>/index.md` — module list, frontmatter `books:`, per-module `**Sources:**` and `**Readings:**`, any module-level prose.
 3. Read `/positions/<course>/index.md` if it exists for the catalog of positions and their `**Applicable to:**` triggers. For each candidate position, open the named position file (`/positions/<course>/<slug>.md`) for the body. If the directory does not exist yet, treat the course as having no stated positions.
 4. If `chapters` or `topics` was given, narrow accordingly.
 5. Read in-scope chapters at section granularity using line ranges from the book's `index.md` (`offset` + `limit` for MD/TXT/HTML; `pages` for PDF). Never read whole books or whole chapters when section-level reading suffices.

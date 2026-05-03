@@ -60,6 +60,8 @@ chapter-indexes: split
 
 <optional book-level prose intro>
 
+**Usage:** <one-line policy on how to deploy this book by default — e.g. "Canonical reference; prefer over school readings", "Lay introduction; reinforces but does not override academic positions", "Skip technical chapters 5-7 unless prompt demands depth". Leave the placeholder text in to signal "unfilled"; replace it when the policy is decided.>
+
 ## Chapter 2 · What is Knowledge?
 `cite: huemer-uk-ch02 · file: 02-what-is-knowledge.md · format: md`
 

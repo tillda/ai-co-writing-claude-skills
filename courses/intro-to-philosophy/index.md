@@ -12,6 +12,9 @@ Single-textbook course built around *Reading Philosophy* (Guttenplan, Hornsby, J
 
 **Essay scope:** textbook-bound. *Reading Philosophy* is the canonical reading and is sufficient on its own to answer any exam question on this course. Essays should stay within the textbook's selections and the authors named in this index's `**Sources:**` lists. Reaching beyond — to other primary texts, secondary literature, or general philosophical knowledge — is allowed only when (a) the exam prompt explicitly invites it, or (b) the user explicitly asks for it. Going beyond may earn a small bonus when handled well, but it is never necessary, and an essay that surveys outside material at the cost of the textbook authors will lose more than it gains. When in doubt, stick to the textbook.
 
+**Books usage:**
+- *Reading Philosophy* (Guttenplan, Hornsby, Janaway, Schwenkler) — canonical for this course; lead with it on every prompt.
+
 **Topic emphasis:** ★★★ exam-heavy / ★★ recurrent / ★ peripheral. Stars reflect frequency in past papers (2019-2024) and the supplementary question bank, not philosophical importance — they are a rough guide for time allocation in revision, not for the depth of any individual essay.
 
 ## 0. Introduction

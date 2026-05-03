@@ -60,7 +60,7 @@ chapter-indexes: split
 
 <optional book-level prose intro>
 
-**Usage:** <one-line policy on how to deploy this book by default — e.g. "Canonical reference; prefer over school readings", "Lay introduction; reinforces but does not override academic positions", "Skip technical chapters 5-7 unless prompt demands depth". Leave the placeholder text in to signal "unfilled"; replace it when the policy is decided.>
+**Usage:** <one-line policy on how to deploy this book by default — e.g. "Canonical reference; prefer over Readings where they overlap", "Lay introduction; reinforces but does not override academic positions", "Skip technical chapters 5-7 unless prompt demands depth". Leave the placeholder text in to signal "unfilled"; replace it when the policy is decided.>
 
 ## Chapter 2 · What is Knowledge?
 `cite: huemer-uk-ch02 · file: 02-what-is-knowledge.md · format: md`
@@ -94,6 +94,15 @@ The short index has **no line ranges**. Line ranges live in per-chapter files. T
 - **Bullet list** of `- Use <ref> for <topic-phrase>` annotations. Each bullet binds a section ref (e.g. `2.5.2`) to a topic phrase. The resolver matches the topic phrase against the prompt; on a match, parses the ref and looks it up in the matching `index-ch<NN>.md`.
 - **No section headings.** All H3/H4/H5 headings live in per-chapter files.
 - **Per-chapter file pointer is implicit by convention:** `index-ch<NN>.md` where `<NN>` is the chapter number zero-padded to 2 digits (`index-ch02.md`, `index-ch14.md`). The chapter heading's `<N>` supplies the number. No explicit pointer field needed.
+
+### Book-level `**Usage:**` block
+
+A short hand-authored hint describing how the book should be deployed by default whenever the resolver loads it. Lives near the top of the index, after the H1 intro paragraph(s) and before the first `## Chapter`.
+
+- **Scaffold writes a placeholder** — the indexer emits a single `**Usage:**` line with placeholder text (e.g. `**Usage:** _(unfilled — add a one-line policy describing how to deploy this book)_`). The block is always present so the structural slot exists; the user fills the text in.
+- **Refresh never touches it** — once written, the line is user-owned. Refresh mode preserves it verbatim, exactly like chapter prose, **Topics:**, and bullets. There is no auto-regeneration mode for `**Usage:**`.
+- **One line, prose** — no list, no nested formatting. Same shape as a single bullet from the course-level `**Books usage:**` block, minus the leading dash and book name.
+- **Course override** — a `**Books usage:**` line in `/courses/<course>/index.md` that names the same book overrides this hint within that course. The book-level hint is the cross-course default. The indexer does not maintain or validate this relationship — it only writes the book-level slot.
 
 ## Format — per-chapter `index-ch<NN>.md` (split layout)
 
@@ -258,8 +267,8 @@ Used when a book is new to the library.
 5. Decide layout (split vs inline) using the threshold rule.
 6. Run auto-topic extraction per chapter.
 7. Write files:
-   - **Inline layout:** one `index.md` with frontmatter + per-chapter blocks (metadata line, optional empty prose, **Topics:** line, bullets, then section H3/H4/H5 with ranges).
-   - **Split layout:** one short `index.md` (frontmatter, per-chapter blocks with metadata + Topics + bullets, no section listings) plus one `index-ch<NN>.md` per chapter (lightweight frontmatter, chapter H2 + metadata, section H3/H4/H5 with ranges).
+   - **Inline layout:** one `index.md` with frontmatter, the H1, an empty `**Usage:**` placeholder line right after the H1 intro paragraph (`**Usage:** _(unfilled — add a one-line policy describing how to deploy this book)_`), then per-chapter blocks (metadata line, optional empty prose, **Topics:** line, bullets, then section H3/H4/H5 with ranges).
+   - **Split layout:** one short `index.md` (frontmatter, H1, empty `**Usage:**` placeholder, per-chapter blocks with metadata + Topics + bullets, no section listings) plus one `index-ch<NN>.md` per chapter (lightweight frontmatter, chapter H2 + metadata, section H3/H4/H5 with ranges).
    - Suggest a default `cite` per chapter (e.g. `huemer-uk-ch02`).
 8. Regenerate `/sources/catalog.yaml`.
 
@@ -268,7 +277,7 @@ Used when a book is new to the library.
 Used when a book already has an index and the user wants to pick up changes.
 
 1. Load the existing `index.md`. Read `chapter-indexes` from frontmatter (`split` or `inline`; default to `inline` if missing for back-compat).
-2. Preserve all prose. The only thing that gets updated is the range marker `[<a>-<b>]` in section headings, and possibly the chapter metadata line (`file:` if a file was renamed).
+2. Preserve all prose, including the book-level `**Usage:**` block. The only thing that gets updated is the range marker `[<a>-<b>]` in section headings, and possibly the chapter metadata line (`file:` if a file was renamed). If the existing index has no `**Usage:**` block (older book scaffolded before the slot existed), insert an empty placeholder in the right spot — but never overwrite an existing one.
 3. **Inline layout:**
    - For each MD chapter, re-run the heading-extraction grep.
    - Match by section ref; replace the bracket range.
@@ -364,8 +373,9 @@ Warnings: ch. 14 in understanding-knowledge lists "14.5" with no matching headin
 
 - Never edits source files (`.md`, `.pdf`, etc.).
 - Never deletes or modifies user prose in any index file.
+- Never overwrites the book-level `**Usage:**` block on refresh — only inserts an empty placeholder if missing entirely.
 - Never re-runs auto-topic extraction on refresh (only on scaffold or explicit request).
-- Never modifies `/courses/*/index.md`.
+- Never modifies `/courses/*/index.md` (so it never touches a course's `**Books usage:**` block either).
 - Never writes essays or modifies prompts.
 
 ## Implementation notes

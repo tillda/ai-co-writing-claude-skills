@@ -1,0 +1,25 @@
+---
+course: logic
+---
+
+# Primitive Modality (Worlds-as-Idiom)
+
+Modal facts are real and primitive. It is genuinely true that I could have had an accident on the motorcycle, that the coin could have landed heads, that water might never have evaporated. "Could have been otherwise" is a basic feature of how things stand — not a description of anything in addition to the actual world. **Possible-worlds talk is useful idiom for these modal facts, not an extra layer of ontology.** When we say "there is a possible world where p," we are saying, in convenient shorthand, that p could have been the case. That is all.
+
+This commits me against three views: Lewis's modal realism (no concrete pluriverse), heavy-duty abstractionism (no Platonic heaven of worlds-as-objects), and fictionalism (modal facts are real, not pretence).
+
+The argumentative path:
+
+- **Modal claims express real truths.** "I could have died on the motorcycle" is true. The modal fact is genuine. Any account of modality has to vindicate this much.
+- **Lewis's modal realism overpays.** To get a non-modal reduction of modality, Lewis populates reality with an infinity of concrete, spatiotemporally isolated universes — flesh-and-blood doctor-mes, dragon-worlds, every consistent way things could have been. The "incredulous stare" is the right response. We are being asked to swallow an enormous ontology for the sake of a methodological convenience (reducing "possibly" to ordinary existential quantification). The price vastly exceeds the gain. We can do the work modal logic needs without committing to a pluriverse.
+- **Heavy abstractionism reifies without need.** Plantinga-style accounts say there is, in addition to the modal fact, an *abstract object* — a maximal state of affairs, a maximal set of propositions — whose obtaining or not obtaining tracks the modal fact. But the modal fact was already what we wanted to vindicate. Adding an abstract "world" alongside it is a roundabout duplication. If "I could have died" is true, that truth is what we mean; we don't gain explanatory grip by also positing an abstract entity that *represents* it.
+- **Fictionalism gives up too much.** The modal fictionalist (Rosen) says world-talk is useful pretence and there are no modal facts behind it. But there are. The accident really was possible. Pretence is the wrong category for something we straightforwardly believe to be true.
+- **Primitive modality keeps what we wanted and drops what we don't.** "Could have been" is basic — not analysable into non-modal vocabulary. We don't owe a reduction. We owe only an honest account of what modal claims say (they say *that* things could have been otherwise) and what makes them true (the modal fact itself, taken at face value).
+- **Lewis's circularity charge misses.** Lewis accuses abstractionists of smuggling modality into their definition of "world" (a "maximal state of affairs that *could* have obtained"). On my view this is not a bug. I am not trying to reduce modality; I accept it as primitive. Worlds-talk is shorthand for modal facts, so of course modality shows up in it.
+- **Counterpart theory falls away.** Lewis needed counterparts because his concrete worlds were spatiotemporally isolated — the same individual could not literally inhabit two of them. On primitive modality there is no second concrete location for me to be missing from. "I could have been a sailor" is true of *me* — same person, different unrealised possibility. Trans-world identity is unproblematic because there is no separate layer of "worlds" for entities to be distributed across.
+
+Crucial qualification: this position is a framework about what modal claims *say* and what kind of fact makes them true. It does not by itself tell us *which* claims are necessary or possible — that work is done by specific debates (essentialism, the analytic / synthetic distinction, mathematical truth, the necessary *a posteriori*). Primitive modality is compatible with a range of substantive modal theories at the next level down.
+
+**Applicable to:** modality, possible worlds, existence of possible worlds, ways things might have been, possible worlds as propositions, Lewis modal realism, Plantinga abstractionism, Stalnaker on modality, modal fictionalism, Rosen fictionalism, primitive modality, modal primitivism, counterpart theory, trans-world identity, accessibility relation, K / M / S4 / S5 modal logics, necessity of identity, modal idioms in English, whether possible worlds explain or presuppose modality, *logic / 3. Modality*
+
+**Usage:** Default conclusion when the prompt asks what possible worlds are, whether modal realism is defensible, what makes modal claims true, or whether possible worlds explain modality. When the prompt is on a specific downstream question (necessity of identity, essentialism, counterfactual semantics), this position is background — set out the framework in one or two sentences, then engage the substantive question. Do not invoke this position to answer questions about *which* claims are necessary; that is for the relevant first-order debate.

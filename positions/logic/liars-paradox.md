@@ -15,6 +15,4 @@ Why Tarski's hierarchy is not the right solution. Tarski rejects a general truth
 - **The theory cannot state itself.** A theory that talks about the whole hierarchy of orders has no order itself, so no truth predicate applies to it. Tarski's solution cannot claim to be true on its own terms.
 - **The truth_N patch is insufficient.** Quantifying over the n's gives us a predicate covering all ordered sentences, but Liar-style sentences would simply migrate to that level. The hierarchy never closes.
 
-In detail: see Michael Huemer's *Paradox Lost*, Chapter 2 — esp. §2.5 (against Tarski) and §2.6 (the inconsistent-language solution).
-
 **Applicable to:** The Liar paradox, Tarski's hierarchy, semantic conception of truth, T-schema

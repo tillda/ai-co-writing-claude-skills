@@ -4,7 +4,7 @@ course: logic
 
 # Sorites Paradox
 
-My solution follows Huemer's "moderate nihilism": vague sentences fail to express propositions. The underlying reality is that mental states have continuous **satisfaction profiles** — they fit the world to a degree, not in a binary "satisfied / unsatisfied" way. Imputing a propositional content to such a state is loose talk; the proposition is at best an approximation. The sorites is what happens when we try to force a continuous fit into the discrete categories of true and false.
+My solution is "moderate nihilism": vague sentences fail to express propositions. The underlying reality is that mental states have continuous **satisfaction profiles** — they fit the world to a degree, not in a binary "satisfied / unsatisfied" way. Imputing a propositional content to such a state is loose talk; the proposition is at best an approximation. The sorites is what happens when we try to force a continuous fit into the discrete categories of true and false.
 
 The argumentative path:
 
@@ -13,7 +13,5 @@ The argumentative path:
 - **Classical logic is preserved.** Logic applies only to proposition-expressing sentences. LEM and bivalence are not threatened by sentences that fail to express propositions — just as "Blug or not blug" is no counterexample to LEM.
 - **Ordinary use of "true" is loose.** "There is a heap of sand in the yard" is "truthy" — close enough to expressing a true proposition for practical purposes. We use this loose sense ubiquitously without confusion. The sorites trick exploits the gap: it applies the logical rules valid for strict truth to mere approximations, and the approximation breaks down under iteration.
 - **Why I reject the rivals.** Embracing the conclusion (no heaps, or every quantity a heap) is absurd. Epistemicism (a precise hidden cutoff) cannot explain what would *make* a particular cutoff correct, given that meaning is fixed by usage and our usage settles no such cutoff. Supervaluationism fails for the reasons given above. Deviant logic is the wrong move.
-
-In detail: see Michael Huemer's *Paradox Lost*, Chapter 3 — esp. §3.5 (the moderate nihilist solution) and §3.5.11 (strict truth vs. truthiness). For an intro-level parallel to the "fail to express a proposition" framing, see *Knowledge, Reality, and Value* §5.2.2 — Huemer's "All blugs are torf" example shows the same scope-restriction move at work for nonsense terms, which is the underlying mechanism for vague borderline sentences.
 
 **Applicable to:** The Sorites paradox, vagueness, borderline cases, propositional content, degrees of truth, epistemicism

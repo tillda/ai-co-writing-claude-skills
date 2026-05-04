@@ -17,6 +17,4 @@ Further problems with supervaluationism:
 - **The theory is self-undermining.** On any acceptable precisification, "heap" is precise — that is what precisification means. So "'heap' is precise" is supertrue, hence true on the theory. But supervaluationists themselves think "heap" is vague. The theory judges its own central claim false.
 - **It requires deviant logic** (rejection of bivalence), which I independently reject (see *Classical Logic* above).
 
-In detail: see Michael Huemer's *Paradox Lost*, Chapter 3 §3.3.
-
 **Applicable to:** The Sorites paradox, Supervaluationism, vagueness, borderline cases, excluded middle under vagueness

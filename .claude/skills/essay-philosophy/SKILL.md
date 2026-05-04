@@ -31,6 +31,28 @@ Write clear, well-argued analytic philosophy essays at undergraduate level for a
 - **Thesis**: State clearly in the opening paragraph. This is a significant bonus.
 - **Structure**: Introduction (with thesis) → body sections → conclusion. Follow provided outline when one is given.
 
+## Output
+
+The finished essay is written to disk **and** printed to chat.
+
+**Path template**: `/courses/<course>/essays/<moduleId>-<moduleName>/<questionSlug>.txt`
+
+- `<course>` — the course slug (frontmatter `course:` in the prompt; matches `/courses/<course>/`).
+- `<moduleId>` — the module number from the matching `## <N>. <Name>` heading in `/courses/<course>/index.md`. If the prompt names the module by name only, look it up to find the number.
+- `<moduleName>` — the module name from the same heading, slugified: lowercase, non-alphanumerics replaced with `-`, collapsed and trimmed (e.g. `Tragedy and the Tragic` → `tragedy-and-the-tragic`).
+- `<questionSlug>` — frontmatter `slug:` from the exam prompt. If absent, derive a 2–5 word slug from the question (lowercase, hyphenated).
+- Extension is `.txt`. Plain text — no frontmatter, no markdown wrapper. Just the essay prose.
+
+**Worked example**: course `aesthetics`, module `## 4. Tragedy and the Tragic`, slug `nietzsche-on-tragedy` → `/courses/aesthetics/essays/4-tragedy-and-the-tragic/nietzsche-on-tragedy.txt`.
+
+**Required: `course:` must be set in the prompt.** A course is what makes the path resolvable. If the prompt has no `course:`, do not write the essay and do not prompt the user for one — reply with a single line stating that the essay needs a `course:` in the prompt frontmatter, then stop. No draft, no chat-only fallback, no clarifying question.
+
+**Fallback for missing module**: course set but no module resolvable → save to `/courses/<course>/essays/_unfiled/<questionSlug>.txt`.
+
+**Existing file at the target path → overwrite.** Re-running the same prompt replaces the previous draft; the path is the canonical location for that question's current essay.
+
+After saving, print the essay to chat as well, and report the saved path on a final line: `Saved to: <path>`.
+
 ## Referencing
 
 This is a timed essay, not a research paper. Referencing is light, narrative, and one-shot — write **as a student would from memory, without any materials at hand**.
@@ -258,6 +280,21 @@ STEP 5: CHECK & TRIM
   □ Voice DNA matched?
   □ Not too dry for sustained stretches?
   □ Follows provided outline (if any)?
+
+STEP 6: SAVE & DELIVER
+  □ Construct the output path per the Output section:
+    /courses/<course>/essays/<moduleId>-<moduleName-slug>/<questionSlug>.txt
+  □ Look up <moduleId> and <moduleName> from /courses/<course>/index.md
+    if the prompt named the module by name or by number alone.
+  □ If a file already exists at the target path, overwrite it. The path
+    is the canonical location for that question's current draft.
+  □ If no course is set in the prompt, do NOT write the essay. Reply
+    with a single line ("This skill requires `course:` in the prompt
+    frontmatter.") and stop. Do not prompt the user; do not draft.
+  □ If no module resolvable, save under .../essays/_unfiled/<questionSlug>.txt
+  □ Write the essay (plain text, no frontmatter, no MD wrapper).
+  □ Print the essay to chat.
+  □ Final line of the chat reply: `Saved to: <path>` (or note that nothing was saved and why).
 ```
 
 ## Quality Checklist
@@ -280,3 +317,4 @@ Before delivering:
 - [ ] No source was loaded that wasn't referenced
 - [ ] ~1000 words, hard cap 1200 — trimmed if over
 - [ ] Follows provided outline if one was given
+- [ ] Essay written to `/courses/<course>/essays/<moduleId>-<moduleName-slug>/<questionSlug>.txt` (or fallback path), printed to chat, and final reply line reports `Saved to: <path>` (or explains why nothing was saved)

@@ -89,9 +89,9 @@ Selection: philosophy always matches → essay-philosophy. Course housekeeping �
 
 ## Output behaviour
 
-**Default: print the essay to chat.** No automatic disk write — Claude is acting as a Unix-ish utility here.
+**Default: write to disk and print to chat.** Path template: `/courses/<course>/essays/<moduleId>-<moduleName-slug>/<questionSlug>.txt` (plain text, no frontmatter). If a file already exists at the path, **overwrite it** — re-runs of the same prompt should replace the previous draft, not pile up. Final reply line reports `Saved to: <path>`. Full rules — module lookup, slugification, fallbacks — live in the essay-philosophy SKILL.md "Output" section.
 
-If I want it saved, I'll say so explicitly ("save it to /drafts/induction.md"). Then write the file.
+**`course:` is required.** If the prompt has no `course:`, the skill replies with a single line saying so and stops — no draft, no clarifying question. If I want a different path explicitly ("save it to /drafts/induction.md"), say so in the prompt.
 
 ---
 

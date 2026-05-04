@@ -1,13 +1,22 @@
 ---
 name: essay-topic
-description: Walk a question-bank file at /courses/<course>/Q-<N>-<topic>.md and write one philosophy essay per H1 section by running essay-philosophy once per section. Each H1 is the topic; the **Question(s)**: block lists variants (one essay per H1, merging variants); any other content under the H1 is passed forward as additional notes. Use when the user points at a Q-*.md file and asks to write essays for all the questions, batch-answer a question file, or "do the whole revision sheet".
+description: Write philosophy essays from a question-bank file at /courses/<course>/Q-<N>-<topic>.md — either one per H1 section in batch mode, or a single named H1 in single-section mode. Each H1 is the topic; the **Question(s):** block lists variants (one essay per H1, merging variants); any other content under the H1 is passed forward as additional notes. Use when the user points at a Q-*.md file and asks to write/answer all the questions ("do the whole revision sheet"), OR when the user asks to write/rewrite a specific essay identified by course + module name + H1 (e.g. "write the essay in Logic course module Truth '# Tarski's T-Schema...'").
 ---
 
-# Batch Essays From a Q-File
+# Essays From a Q-File
 
-Take a question-bank file at `/courses/<course-slug>/Q-<N>-<topic>.md`, parse each H1 section into one synthesised exam prompt, and run the **essay-philosophy** flow once per section.
+Take a question-bank file at `/courses/<course-slug>/Q-<N>-<topic>.md`, parse the targeted H1 section(s) into synthesised exam prompts, and run the **essay-philosophy** flow once per section.
 
-This skill is an orchestrator. The actual essay writing — voice, sources, structure, save path — is delegated to essay-philosophy. Read `/.claude/skills/essay-philosophy/SKILL.md` once at the start of a batch so its rules are loaded, then apply them to each section.
+This skill is an orchestrator. The actual essay writing — voice, sources, structure, save path — is delegated to essay-philosophy. Read `/.claude/skills/essay-philosophy/SKILL.md` once at the start so its rules are loaded, then apply them to each section.
+
+## Modes
+
+Two invocation modes share all the per-section work below; they differ only in (a) how the Q-file is identified, (b) how many sections are written, and (c) whether the essay text is printed to chat.
+
+- **Batch mode** — user points at a Q-file directly (path or "do all the questions in `Q-2-Truth.md`"). Write **one essay per H1** that has a `**Question(s)**:` block. Disk-only output; chat gets a one-line status per section plus a summary.
+- **Single-section mode** — user names a course + module + H1, e.g. *"write the essay in Logic course module Truth '# Tarski's T-Schema and the concept of truth'"* or *"rewrite … "*. Write **one essay** for the named H1. Disk **and** chat output, matching essay-philosophy's default. "Write" and "rewrite" trigger the same flow — the canonical path is overwritten either way.
+
+If the request is ambiguous (e.g. a Q-file path with no H1 quoted, but only one H1 in the file), default to batch mode and proceed. If a course + module is named with no H1, ask which H1.
 
 ## Input format
 
@@ -47,9 +56,21 @@ Use judgment to decide whether two variants are paraphrases or materially differ
 
 ## Process
 
-1. **Resolve metadata.**
+1. **Resolve the Q-file and target section(s).**
+
+   **Batch mode** (Q-file path given directly):
    - Parse the file path: `/courses/<course>/Q-<N>-<topic>.md` → `course = <course>`, `module = <N>`.
-   - Read `/courses/<course>/index.md` once. Find the `## <N>. <Name>` heading. Capture `<Name>`.
+   - Target sections = every H1 in the file with a `**Question(s)**:` block.
+
+   **Single-section mode** (course + module name + H1 quoted):
+   - Resolve the course slug: match the course name (e.g. "Logic") against directories under `/courses/` case-insensitively. One match → `course = <slug>`. Zero or multiple → stop and ask.
+   - Resolve the module: read `/courses/<course>/index.md`, find the `## <N>. <Name>` heading whose `<Name>` matches the user-supplied module name (case-insensitive, allow trivial fuzziness — "Truth" matches "Truth" or "Truth and Falsity"). One match → `module = <N>`. Zero or multiple → stop and ask.
+   - Locate the Q-file: glob `/courses/<course>/Q-<N>-*.md`. Exactly one file is expected.
+   - Resolve the H1: parse all H1 headings in the Q-file. Match the user-supplied heading (with or without leading `#`, case-insensitive, fuzzy on whitespace and punctuation). Exactly one match required; otherwise stop and ask.
+   - Target sections = the single matched H1.
+
+   **Common to both modes:**
+   - Read `/courses/<course>/index.md` once. Find the `## <N>. <Name>` heading. Capture `<Name>` for the output path.
    - If the path doesn't match the expected shape, or the module number isn't found in the course index, **stop and ask the user** — don't guess and don't fall back to `_unfiled/`.
 
 2. **Load shared context once.**
@@ -104,7 +125,9 @@ Use judgment to decide whether two variants are paraphrases or materially differ
 
    Where `<name-slug>` is the slugified module name from step 1.
 
-6. **Report.** After each section, emit one short line in chat:
+6. **Report.**
+
+   **Batch mode** — after each section, emit one short line in chat:
    - `✓ <heading> → <path>` on success
    - `– <heading> (skipped: <reason>)` if skipped
    - `✗ <heading> (failed: <reason>)` if a section couldn't be written (don't abort the batch — record and continue)
@@ -112,6 +135,8 @@ Use judgment to decide whether two variants are paraphrases or materially differ
    **Do not print the full essay text in chat for a batch run.** The essays go to disk; the user opens them. End the reply with a summary line:
 
    `Wrote N essays to /courses/<course>/essays/<N>-<name-slug>/` (plus a count of skipped/failed if any).
+
+   **Single-section mode** — fall through to essay-philosophy's default: write to disk, print the full essay to chat, end with `Saved to: <path>`. No batch-style status line, no summary count.
 
 ## Doing the batch efficiently
 
@@ -123,19 +148,19 @@ Use judgment to decide whether two variants are paraphrases or materially differ
 ## Safety
 
 - If the file has no H1 sections at all, stop and tell the user the file looks empty.
-- If a section's heading exists but has no `**Question(s)**:` block, skip it (don't invent a question) and report it in the summary.
-- If the course directory or module number can't be resolved, abort the whole batch and tell the user — don't silently fall back to `_unfiled/`.
+- If a section's heading exists but has no `**Question(s)**:` block, skip it (don't invent a question) — report in the summary (batch) or refuse with a one-line explanation (single-section).
+- If the course directory or module number can't be resolved, abort and tell the user — don't silently fall back to `_unfiled/`.
+- **Single-section mode resolution failures** (any of: course slug ambiguous, module name not found in course index, multiple Q-files matched the module, H1 not found in Q-file, multiple H1s fuzzy-matched) — stop and ask the user to disambiguate. Do not guess.
 - If essay-philosophy would refuse a section's prompt (e.g. no `course:`), that's a bug in this skill's prompt construction — fix the synthesised prompt, don't paper over it.
 
 ## Quality checklist
 
 Before reporting completion:
 
-- [ ] One essay file written per H1 section that had a Question(s) block
+- [ ] One essay file written per targeted H1 section (every H1 with a Question(s) block in batch mode; the single named H1 in single-section mode)
 - [ ] Each essay is at `/courses/<course>/essays/<moduleId>-<moduleName-slug>/<heading-slug>.md`
 - [ ] Each essay individually passes the essay-philosophy quality checklist (voice, structure, length cap, no chapter/page refs, single-mention authors)
 - [ ] Each essay's first line is a single `# <Q-file H1 text> — <variant>` H1 — Q-file label always prefixed, em-dash ` — ` separator (not hyphen, en-dash, or colon). Variant chosen per the rule: single → that variant; paraphrase → longest; materially different → shortest
 - [ ] All variants under each H1 are folded into one essay; materially different angles each got a paragraph
 - [ ] Free-text notes under each H1 were respected
-- [ ] Final chat reply lists each saved file with a status mark and ends with a count summary
-- [ ] No full essay prose printed to chat (disk only for batch mode)
+- [ ] Chat output matches the mode: batch → status line per section + summary count, no essay prose; single-section → essay prose printed, ending with `Saved to: <path>`

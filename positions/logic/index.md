@@ -41,7 +41,12 @@ When the prompt directs a specific position or argument, follow the prompt; thes
 ## Liars Paradox
 `file: liars-paradox.md`
 
-**Applicable to:** the Liar paradox, Tarski's hierarchy, semantic conception of truth, T-schema, "can a language contain its own truth predicate", no-proposition view of the Liar, content-defect diagnosis of the Liar, *logic / 2. Truth*
+**Applicable to:** the Liar paradox, semantic conception of truth, T-schema, "can a language contain its own truth predicate", no-proposition view of the Liar, content-defect diagnosis of the Liar, *logic / 2. Truth*
+
+## Tarski's Hierarchy (against)
+`file: tarskis-hierarchy.md`
+
+**Applicable to:** Tarski's hierarchy, Tarskian theory of truth, hierarchical truth predicate, truth_1 / truth_2 / truth_n, indexed truth predicates, object language vs metalanguage, no general truth predicate, semantic conception of truth, Tarski on the Liar, Tarski's solution to the Liar, parallel paradoxes for "refer" / "ascribe" / "assert", "can a language contain its own truth predicate", *logic / 2. Truth*
 
 ## Kripke's Fixed-Point Theory of Truth (better than Tarski, still wrong)
 `file: liars-paradox-kripke-fixed-point.md`

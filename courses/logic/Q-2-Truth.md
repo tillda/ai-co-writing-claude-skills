@@ -8,6 +8,10 @@
 **Question(s)**:
     Is there any more to the concept of truth than what is captured by Tarski's T-Schema: 's' is true if and only if p, where "s" is a name of the sentence in the object language that is translated by 'p' in the metalanguage?
 
+**Note**:
+    This question is weirdly phrased, because it has two distinct parts. The "is there any more to truth T-schema" part is best served by roughly Mimimalist conception (include all the counterarguments).
+    However the Tarski's hierarchy deserves critique because it fails concept of truth prediate and other referencing words(specified in our Position). 
+
 # Truth as a property
 
 **Question(s)**:
@@ -21,6 +25,9 @@
     What is the Liar Paradox, and what is the best solution to it?
     What is the problem with saying 'This sentence is false'? Can it be solved?
     What does the Liar Paradox tell us about truth?
+
+**Notes**:
+    Closely follow argumentation (incl. conclusion) here: Huemer *Paradox Lost* (Palgrave Macmillan, 2018), chapter 2 (the Liar)
 
 # Correspondence theory of truth
 

@@ -59,7 +59,7 @@ In `/.claude/skills/`. Read the full SKILL.md when invoking.
 | Skill | Triggers | Output |
 |-------|----------|--------|
 | **essay-philosophy** | Any philosophy essay, exam question, philosophical topic | ~1200-word essay |
-| **essay-topic** | "write essays for &lt;Q-file&gt;", "answer all questions in `Q-N-X.md`", batch-answer a question bank | One ~1200-word essay per H1 section in the Q-file, saved to canonical paths |
+| **essay-topic** | Batch: "write essays for &lt;Q-file&gt;", "answer all questions in `Q-N-X.md`", "do the whole revision sheet". Single-section: "write/rewrite the essay in &lt;course&gt; module &lt;name&gt; '# &lt;H1&gt;'" — course + module name + quoted H1 inside a Q-file | Batch → one essay per H1 in the Q-file. Single-section → one essay for the named H1. Both saved to canonical paths (existing files overwritten) |
 | **prepare-course** | "build/redo the &lt;course&gt; index", new syllabus PDF in `/courses/<slug>/`, "the course index is too verbose / out of date" | Updated `/courses/<slug>/index.md` |
 | **source-indexer** | "reindex sources", "scaffold an index", new chapter added; "index &lt;book&gt; against &lt;course&gt;" for course-aware Topics | Updated `/sources/<book>/index.md` (and `index-ch<NN>.md` for split layout); `/sources/catalog.yaml` |
 | **source-ingestor** | "ingest the file in inbox", new PDF dropped in `/sources/_inbox/` | File moved into `/sources/<book>/`, indexer invoked |
@@ -68,7 +68,7 @@ In `/.claude/skills/`. Read the full SKILL.md when invoking.
 | **voice-dna-creator** | "update my voice profile" | New `voice-dna.md` |
 | **icp-creator** | "update my examiner profile" | New `icp.md` |
 
-Selection: single philosophy essay → essay-philosophy. Batch essays from a `Q-N-<topic>.md` question bank → essay-topic (orchestrates essay-philosophy per H1). Course housekeeping → prepare-course. Library housekeeping → ingestor (file the source) → indexer (Topics + structure) → accept-canonical-chapters (`Source` marks; course-MD when relevant) → accept-canonical-positions (the user's stances). Profile updates → voice-dna-creator / icp-creator.
+Selection: ad-hoc philosophy essay (free-text question, no Q-file) → essay-philosophy. Anything keyed to a Q-file H1 — whether the whole bank or one named H1 (course + module + heading) → essay-topic (orchestrates essay-philosophy). Course housekeeping → prepare-course. Library housekeeping → ingestor (file the source) → indexer (Topics + structure) → accept-canonical-chapters (`Source` marks; course-MD when relevant) → accept-canonical-positions (the user's stances). Profile updates → voice-dna-creator / icp-creator.
 
 ---
 

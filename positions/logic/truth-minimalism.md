@@ -36,6 +36,8 @@ Each rival inflates the schema with extraneous content while still relying on it
 
 These are the genuine worries, not strawmen.
 
+IMPORTAN: if applicable, genuine objections must be discussed!
+
 1. **Adequacy worry.** Can an infinite list of biconditionals really explain everything we want to say about truth — its role in inquiry, its normative pull, the link between true belief and successful action? The standard reply is that the schema explains these *in combination with* theories of belief, action, and the rest. Whether that combinatorial story actually goes through for every case is an empirical question about explanatory completeness; it is not something the schema alone can settle.
 2. **Incompleteness about relations.** The schema is silent on the connections between truth and verification, reference, validity, assertion. That silence is a feature only if separate, independently adequate theories of those phenomena are available. Where they aren't, minimalism has handed off the problem rather than solving it.
 3. **Cumbersomeness.** No finite axiomatisation captures all instances of the schema. The minimalist concedes this and argues that every adequate theory of truth has the same feature (correspondence and coherence accounts equally need infinite resources once spelled out). Concession granted; but the resulting theory is, strictly, unformulable — only implicitly specifiable.
@@ -55,6 +57,8 @@ What I leave open:
 - Compositional and referential principles relating truth to sentential structure can be legitimate extensions of the basic theory — supplements that hold true without constituting what truth is.
 - Whether the schema-plus-other-theories programme genuinely discharges every explanatory demand is to be checked case by case, not declared in advance.
 
-The right slogan is *deflationism with humility*. The metaphysical extravagance of correspondence and the epistemic over-reach of coherence are both wrong directions; the schema captures the predicate's essential job. But "essential" is not "exhaustive", and the theory of truth may need supplementation. Just not in the directions the rival theories propose.
+The right slogan is *deflationism with humility*. The metaphysical extravagance of correspondence and the epistemic over-reach of coherence are both wrong directions; the schema captures the predicate's essential job. But "essential" is not "exhaustive", and the theory of truth may need supplementation. Just not in the directions the rival theories propose. 
+
+Many questions ask about if T-schema is exhaustive, truth redundant etc. The honest objection must be mentioned (thats the whole point of the question), eventhough we weigh on side of minimalism overall.
 
 **Applicable to:** truth, T-schema, deflationism, disquotationalism, redundancy theory, "is truth a property", correspondence theory of truth, coherence theory of truth, pragmatist theory of truth, the Liar paradox, *logic / 2. Truth*

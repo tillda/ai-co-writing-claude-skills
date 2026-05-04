@@ -23,6 +23,11 @@ When the prompt directs a specific position or argument, follow the prompt; thes
 
 **Applicable to:** truth, T-schema, deflationism, disquotationalism, redundancy theory, "is truth a property", correspondence theory of truth, coherence theory of truth, pragmatist theory of truth, the Liar paradox, *logic / 2. Truth*
 
+## Truth-Makers (Modest Anti-Maximalism)
+`file: truth-makers.md`
+
+**Applicable to:** truth-makers, truth-maker theory, truthmaker theory, truth-maker maximalism, truth-maker necessitarianism, what makes a truth true, in virtue of what is a truth true, negative existentials, negative truths, absences, totality facts, truth-maker problem for negative truths, Armstrong on truth-makers, *logic / 2. Truth*
+
 ## Coherence Theory of Truth (against)
 `file: coherence-theory-of-truth.md`
 
@@ -36,7 +41,37 @@ When the prompt directs a specific position or argument, follow the prompt; thes
 ## Liars Paradox
 `file: liars-paradox.md`
 
-**Applicable to:** The Liar paradox, Tarski's hierarchy, semantic conception of truth, T-schema
+**Applicable to:** the Liar paradox, Tarski's hierarchy, semantic conception of truth, T-schema, "can a language contain its own truth predicate", no-proposition view of the Liar, content-defect diagnosis of the Liar, *logic / 2. Truth*
+
+## Kripke's Fixed-Point Theory of Truth (better than Tarski, still wrong)
+`file: liars-paradox-kripke-fixed-point.md`
+
+**Applicable to:** Kripke fixed-point theory of truth, Kripke's *Outline of a Theory of Truth*, fixed-point construction for truth, ungrounded sentences, partial truth predicate, monotonic jump operator, Kleene three-valued logic, three-valued treatment of the Liar, "can a language coherently contain its own truth predicate", Kripke vs Tarski on truth, "does Kripke's fixed-point construction give a better treatment of the Liar than Tarski's hierarchy", *logic / 2. Truth*
+
+## Liar's Paradox: Revenge and the Limits of Formal Solutions
+`file: liars-paradox-revenge.md`
+
+**Applicable to:** revenge paradox, revenge problem, strengthened Liar, expressive completeness, limits of formal solutions to the Liar, "any consistent theory of truth that is expressively rich enough to be interesting will face a revenge paradox", "do all formal solutions to the Liar paradox face revenge versions", expressive richness vs paradox-immunity, Field on revenge, Beall on revenge, *logic / 2. Truth*
+
+## Slingshot Argument (against, but sympathetic to its target)
+`file: slingshot-argument.md`
+
+**Applicable to:** slingshot argument, Davidson on facts, Frege-Gödel slingshot, Quine's slingshot, collapse of correspondence theory, fact-individuation, structured facts, coarse-grained vs fine-grained facts, "all true sentences correspond to the same fact", "if every true sentence corresponds to a fact then every true sentence corresponds to the same fact", *logic / 2. Truth*
+
+## Identity Theory of Truth (against)
+`file: identity-theory-of-truth.md`
+
+**Applicable to:** identity theory of truth, McDowell on truth, Frege identity reading of truth, "true thought is the fact", "a true thought is identical with the fact that makes it true", thought-fact identity, identity vs correspondence, McDowell's *Mind and World*, identity theory as notational variant of correspondence, *logic / 2. Truth*
+
+## Truth as the Aim of Assertion and Belief (deflationary recovery)
+`file: truth-as-norm.md`
+
+**Applicable to:** truth as the aim of assertion, truth as the aim of belief, norm of assertion, norm of belief, constitutive norm of belief, "to assert is to present as true", deflationism and normativity, Williamson on assertion, Boghossian on belief norms, Wright on deflationism and normativity, normativity of truth, primitive normativity of truth, *logic / 2. Truth*
+
+## Semantic Anti-Realism (against)
+`file: semantic-anti-realism.md`
+
+**Applicable to:** Dummett's anti-realism, semantic anti-realism, manifestation argument, acquisition argument, knowability principle, recognition-transcendent truth, Dummett on meaning and use, verificationism, proof-conditional semantics, "a statement can be true only if it is in principle knowable to be true", anti-realism and bivalence, anti-realism and rejection of bivalence, Wright on anti-realism, intuitionism as general semantics, *logic / 2. Truth*
 
 ## Supervaluationism
 `file: supervaluationism.md`

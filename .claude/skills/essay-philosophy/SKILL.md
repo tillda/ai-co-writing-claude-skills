@@ -30,24 +30,25 @@ Write clear, well-argued analytic philosophy essays at undergraduate level for a
 - **Word count**: target ~1000 words, **hard cap 1200**. Models tend to overshoot — aim low and trim. If a draft lands above 1200, trim before delivery (see Step 5).
 - **Thesis**: State clearly in the opening paragraph. This is a significant bonus.
 - **Structure**: Introduction (with thesis) → body sections → conclusion. Follow provided outline when one is given.
+- **H1 title**: The first line of the essay file MUST be a single H1 containing the question itself, verbatim as received in the prompt's `# Question` body (a single question, or the composed string when the orchestrator supplies one — see qfile-essays). No reformulation, no shortening, no added commentary. One blank line, then the essay prose begins.
 
 ## Output
 
 The finished essay is written to disk **and** printed to chat.
 
-**Path template**: `/courses/<course>/essays/<moduleId>-<moduleName>/<questionSlug>.txt`
+**Path template**: `/courses/<course>/essays/<moduleId>-<moduleName>/<questionSlug>.md`
 
 - `<course>` — the course slug (frontmatter `course:` in the prompt; matches `/courses/<course>/`).
 - `<moduleId>` — the module number from the matching `## <N>. <Name>` heading in `/courses/<course>/index.md`. If the prompt names the module by name only, look it up to find the number.
 - `<moduleName>` — the module name from the same heading, slugified: lowercase, non-alphanumerics replaced with `-`, collapsed and trimmed (e.g. `Tragedy and the Tragic` → `tragedy-and-the-tragic`).
 - `<questionSlug>` — frontmatter `slug:` from the exam prompt. If absent, derive a 2–5 word slug from the question (lowercase, hyphenated).
-- Extension is `.txt`. Plain text — no frontmatter, no markdown wrapper. Just the essay prose.
+- Extension is `.md`. No frontmatter. The file starts with a single `# <question>` H1 (see Format above), one blank line, then plain prose. No other markdown structure (no `##` sub-sections, no bullet lists, no fences) — paragraph breaks only.
 
-**Worked example**: course `aesthetics`, module `## 4. Tragedy and the Tragic`, slug `nietzsche-on-tragedy` → `/courses/aesthetics/essays/4-tragedy-and-the-tragic/nietzsche-on-tragedy.txt`.
+**Worked example**: course `aesthetics`, module `## 4. Tragedy and the Tragic`, slug `nietzsche-on-tragedy` → `/courses/aesthetics/essays/4-tragedy-and-the-tragic/nietzsche-on-tragedy.md`.
 
 **Required: `course:` must be set in the prompt.** A course is what makes the path resolvable. If the prompt has no `course:`, do not write the essay and do not prompt the user for one — reply with a single line stating that the essay needs a `course:` in the prompt frontmatter, then stop. No draft, no chat-only fallback, no clarifying question.
 
-**Fallback for missing module**: course set but no module resolvable → save to `/courses/<course>/essays/_unfiled/<questionSlug>.txt`.
+**Fallback for missing module**: course set but no module resolvable → save to `/courses/<course>/essays/_unfiled/<questionSlug>.md`.
 
 **Existing file at the target path → overwrite.** Re-running the same prompt replaces the previous draft; the path is the canonical location for that question's current essay.
 
@@ -283,7 +284,7 @@ STEP 5: CHECK & TRIM
 
 STEP 6: SAVE & DELIVER
   □ Construct the output path per the Output section:
-    /courses/<course>/essays/<moduleId>-<moduleName-slug>/<questionSlug>.txt
+    /courses/<course>/essays/<moduleId>-<moduleName-slug>/<questionSlug>.md
   □ Look up <moduleId> and <moduleName> from /courses/<course>/index.md
     if the prompt named the module by name or by number alone.
   □ If a file already exists at the target path, overwrite it. The path
@@ -291,8 +292,8 @@ STEP 6: SAVE & DELIVER
   □ If no course is set in the prompt, do NOT write the essay. Reply
     with a single line ("This skill requires `course:` in the prompt
     frontmatter.") and stop. Do not prompt the user; do not draft.
-  □ If no module resolvable, save under .../essays/_unfiled/<questionSlug>.txt
-  □ Write the essay (plain text, no frontmatter, no MD wrapper).
+  □ If no module resolvable, save under .../essays/_unfiled/<questionSlug>.md
+  □ Write the essay: first line is `# <question>` (verbatim from the prompt), one blank line, then prose. No frontmatter, no other markdown structure.
   □ Print the essay to chat.
   □ Final line of the chat reply: `Saved to: <path>` (or note that nothing was saved and why).
 ```
@@ -301,6 +302,7 @@ STEP 6: SAVE & DELIVER
 
 Before delivering:
 
+- [ ] First line is a single `# <question>` H1, verbatim from the prompt's `# Question` body, followed by one blank line and then prose
 - [ ] Thesis is clearly stated in the opening paragraph
 - [ ] Essay addresses the question directly — not a related-but-different topic
 - [ ] Arguments are supported with reasons, not just asserted
@@ -317,4 +319,4 @@ Before delivering:
 - [ ] No source was loaded that wasn't referenced
 - [ ] ~1000 words, hard cap 1200 — trimmed if over
 - [ ] Follows provided outline if one was given
-- [ ] Essay written to `/courses/<course>/essays/<moduleId>-<moduleName-slug>/<questionSlug>.txt` (or fallback path), printed to chat, and final reply line reports `Saved to: <path>` (or explains why nothing was saved)
+- [ ] Essay written to `/courses/<course>/essays/<moduleId>-<moduleName-slug>/<questionSlug>.md` (or fallback path), printed to chat, and final reply line reports `Saved to: <path>` (or explains why nothing was saved)

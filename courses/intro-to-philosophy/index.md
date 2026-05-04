@@ -14,6 +14,7 @@ Single-textbook course built around *Reading Philosophy* (Guttenplan, Hornsby, J
 
 **Usage:**
 - *Reading Philosophy* (Guttenplan, Hornsby, Janaway, Schwenkler) — canonical for this course; lead with it on every prompt.
+- Huemer *Knowledge, Reality, and Value* — authoritative but supplemental: never lead with it, and never cite it where *Reading Philosophy* covers the same ground. Bring it in only when (a) the prompt invites depth beyond the textbook, (b) *Reading Philosophy* under-treats a point and Huemer fills the gap (e.g. modern brain-in-a-vat framing, certainty vs. justification distinction, the formal Moorean shift), or (c) the essay needs a positive epistemology to land on (phenomenal conservatism). Per-module `**Sources:**` bullets list the specific sections; this line sets the policy on how to deploy them.
 
 **Topic emphasis:** ★★★ exam-heavy / ★★ recurrent / ★ peripheral. Stars reflect frequency in past papers (2019-2024) and the supplementary question bank, not philosophical importance — they are a rough guide for time allocation in revision, not for the depth of any individual essay.
 

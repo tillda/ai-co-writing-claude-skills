@@ -4,7 +4,7 @@ course: logic
 
 # Classical Logic
 
-I am committed to classical logic. The law of non-contradiction, the law of excluded middle, and bivalence are self-evident, near-trivial truths. They reflect the meanings of "and", "or", "not", and "true" — anyone who denies them has misunderstood those words.
+I am committed to laws of classical logic: law of non-contradiction, the law of excluded middle, and bivalence are self-evident, near-trivial truths. They reflect the meanings of "and", "or", "not", and "true" — anyone who denies them has misunderstood those words.
 
 The argumentative path:
 
@@ -17,4 +17,4 @@ Crucial qualification: bivalence and LEM apply only to **proposition-expressing 
 
 In detail: see Michael Huemer's *Paradox Lost*, Introduction §1.3 and Chapter 3 §3.5.7. For an intro-level statement of the same arguments, see Huemer's *Knowledge, Reality, and Value* §§5.2.1-5.2.2 — including the closing caveat at §5.2.2 that LEM/LNC apply only to proposition-expressing sentences ("All blugs are torf" is no counterexample to LEM), which is the canonical statement of the scope-restriction move.
 
-**Applicable to:** classical logic, deviant logics, paraconsistent logic, three-valued logic, dialetheism, law of non-contradiction, law of excluded middle, bivalence, justification of deduction, justification of specific logical laws, *logic / 1. What is Logic?*, *logic / 2. Truth*, *logic / 7. Vagueness*, *logic / 9. The Justification of Deduction*
+**Applicable to:** classical logic, deviant logics, paraconsistent logic, three-valued logic, dialetheism, law of non-contradiction, law of excluded middle, bivalence, *logic / 1. What is Logic?*, *logic / 2. Truth*, *logic / 7. Vagueness*

@@ -11,7 +11,12 @@ When the prompt directs a specific position or argument, follow the prompt; thes
 ## Classical Logic
 `file: classical-logic.md`
 
-**Applicable to:** classical logic, deviant logics, paraconsistent logic, three-valued logic, dialetheism, law of non-contradiction, law of excluded middle, bivalence, justification of deduction, justification of specific logical laws, *logic / 1. What is Logic?*, *logic / 2. Truth*, *logic / 7. Vagueness*, *logic / 9. The Justification of Deduction*
+**Applicable to:** classical logic, deviant logics, paraconsistent logic, three-valued logic, dialetheism, law of non-contradiction, law of excluded middle, bivalence, *logic / 1. What is Logic?*, *logic / 2. Truth*, *logic / 7. Vagueness*
+
+## Phenomenal Conservatism (Justification of Deduction)
+`file: phenomenal-conservatism.md`
+
+**Applicable to:** justification of deduction, justification of deductive laws, justification of specific logical laws, justifying modus ponens, justifying excluded middle, Carroll's tortoise, Lewis Carroll's regress, Haack's regress, Haack's dilemma, vicious vs rule-circular justification, circularity of any justification of deduction, regress of premises and rules, Phenomenal Conservatism, intellectual seemings, rational seemings, foundationalism in logic, BonJour rational insight, reliabilism about deduction, Dummett's proof-theoretic justification, Rumfitt on semantic justification, *logic / 9. The Justification of Deduction*
 
 ## Truth Minimalism (Horwich)
 `file: truth-minimalism.md`

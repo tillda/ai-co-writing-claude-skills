@@ -18,6 +18,12 @@ When the prompt directs a specific position or argument, follow the prompt; thes
 
 **Applicable to:** Moorean response, Moorean shift, G.E. Moore shift, Moore's proof of an external world, "here is one hand", common-sense reply to skepticism, common-sense response to scepticism, reply to Cartesian skepticism, reply to the dreaming argument, reply to the malicious demon, BIV reply, brain-in-a-vat reply, initial plausibility, *intro-to-philosophy / 1. Doubt*
 
+## Skeptical Scenarios Are Bad Theories (Unfalsifiability)
+`file: skeptical-scenarios-bad-theories.md`
+`role: closing rider, not the conclusion — Module 1 Doubt default. Lead with Reading Philosophy; attach Huemer KRV §6.3.4 in the final paragraph. See the file's Usage line.`
+
+**Applicable to:** skeptical scenarios, skeptical scenario, skeptical hypotheses, skeptical hypothesis, sceptical scenarios, sceptical hypotheses, brain in a vat, brain-in-a-vat, BIV, BIV hypothesis, BIVH, Real World Hypothesis, dreaming argument, dream argument, Descartes' dream argument, Descartes' dreaming argument, dreaming hypothesis, Descartes' supposition that he is dreaming, dreaming and the deceiving God, malicious demon, evil demon, Cartesian demon, deceiver, deceiving God, deceiving God argument, First Meditation, First Meditation doubts, sceptical doubts of the First Meditation, skeptical doubts of the First Meditation, Cartesian doubt, Cartesian skepticism, Cartesian scepticism, philosophical skepticism, philosophical scepticism, radical doubt, methodological doubt, method of doubt, rationality of doubt, doubt everything, doubt all his beliefs, former beliefs about which a doubt may not properly be raised, external world skepticism, scepticism about the external world, are Descartes' arguments persuasive, is the skeptical argument persuasive, Descartes' First Meditation argument, falsifiability, unfalsifiability, bad theory, theory-comparison response to skepticism, predictive content, *intro-to-philosophy / 1. Doubt*
+
 ## Phenomenal Conservatism (Foundationalism)
 `file: phenomenal-conservatism.md`
 `role: supporting epistemology — not a conclusion. See the file's Usage line.`

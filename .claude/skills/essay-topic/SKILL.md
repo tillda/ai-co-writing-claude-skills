@@ -84,15 +84,15 @@ Use judgment to decide whether two variants are paraphrases or materially differ
    <one-line variant-handling note if multiple distinct angles need their own paragraphs>
    ```
 
-   **Canonical-question rule** — this string becomes the essay's H1 verbatim (essay-philosophy's H1 rule), so construct it deliberately. **Every qfile-essays H1 is prefixed with the Q-file H1 label**, then a single space, then the chosen variant text. The Q-file H1 label gives the reader a short topical entry-point before the long exam-style question; without it the file opens straight into a paragraph-length sentence with no orientation.
+   **Canonical-question rule** — this string becomes the essay's H1 verbatim (essay-philosophy's H1 rule), so construct it deliberately. **Every qfile-essays H1 is prefixed with the Q-file H1 label, then ` — ` (space, em-dash U+2014, space), then the chosen variant text.** The Q-file H1 label gives the reader a short topical entry-point before the long exam-style question; without it the file opens straight into a paragraph-length sentence with no orientation.
 
-   The shape is always: `<Q-file H1 text> <chosen variant>`. The choice of variant depends on the section:
+   The shape is always: `<Q-file H1 text> — <chosen variant>`. The choice of variant depends on the section:
 
-   - **Single variant**: use that variant. The H1 will be `# <Q-file H1 text> <variant>`.
-   - **Paraphrase variants** (same question reworded): use the longest / most explicit variant. The H1 will be `# <Q-file H1 text> <longest variant>`.
-   - **Materially different variants** (multiple distinct angles under one Q-file H1, i.e. a *grouped* section): use the **shortest** variant verbatim (measured by character count; on a tie, take the earliest in the list). The H1 will be `# <Q-file H1 text> <shortest variant>`. Follow this with a bulleted list of the remaining distinct angles to cover in the question body (not the H1).
+   - **Single variant**: use that variant. The H1 will be `# <Q-file H1 text> — <variant>`.
+   - **Paraphrase variants** (same question reworded): use the longest / most explicit variant. The H1 will be `# <Q-file H1 text> — <longest variant>`.
+   - **Materially different variants** (multiple distinct angles under one Q-file H1, i.e. a *grouped* section): use the **shortest** variant verbatim (measured by character count; on a tie, take the earliest in the list). The H1 will be `# <Q-file H1 text> — <shortest variant>`. Follow this with a bulleted list of the remaining distinct angles to cover in the question body (not the H1).
 
-   Punctuation: do not insert a colon, em-dash, or other separator between the Q-file label and the variant — single space only. If the Q-file label already ends with terminal punctuation (`?`, `.`), keep it; the variant follows after one space.
+   Separator: always the em-dash ` — ` (with one space before and one after). Do not substitute a hyphen `-`, en-dash `–`, or colon `:`. If the Q-file label ends with terminal punctuation (`?`, `.`), keep it as-is — the em-dash still follows: e.g. `# Why does it matter? — <full question>`.
 
    Other rules:
    - `slugify(heading)` matches essay-philosophy's question-slug rule: lowercase, non-alphanumerics → `-`, collapse repeated dashes, trim.
@@ -134,7 +134,7 @@ Before reporting completion:
 - [ ] One essay file written per H1 section that had a Question(s) block
 - [ ] Each essay is at `/courses/<course>/essays/<moduleId>-<moduleName-slug>/<heading-slug>.md`
 - [ ] Each essay individually passes the essay-philosophy quality checklist (voice, structure, length cap, no chapter/page refs, single-mention authors)
-- [ ] Each essay's first line is a single `# <Q-file H1 text> <variant>` H1 — Q-file label always prefixed, single space separator. Variant chosen per the rule: single → that variant; paraphrase → longest; materially different → shortest
+- [ ] Each essay's first line is a single `# <Q-file H1 text> — <variant>` H1 — Q-file label always prefixed, em-dash ` — ` separator (not hyphen, en-dash, or colon). Variant chosen per the rule: single → that variant; paraphrase → longest; materially different → shortest
 - [ ] All variants under each H1 are folded into one essay; materially different angles each got a paragraph
 - [ ] Free-text notes under each H1 were respected
 - [ ] Final chat reply lists each saved file with a status mark and ends with a count summary

@@ -1,5 +1,5 @@
 ---
-name: qfile-essays
+name: essay-topic
 description: Walk a question-bank file at /courses/<course>/Q-<N>-<topic>.md and write one philosophy essay per H1 section by running essay-philosophy once per section. Each H1 is the topic; the **Question(s)**: block lists variants (one essay per H1, merging variants); any other content under the H1 is passed forward as additional notes. Use when the user points at a Q-*.md file and asks to write essays for all the questions, batch-answer a question file, or "do the whole revision sheet".
 ---
 
@@ -84,7 +84,7 @@ Use judgment to decide whether two variants are paraphrases or materially differ
    <one-line variant-handling note if multiple distinct angles need their own paragraphs>
    ```
 
-   **Canonical-question rule** — this string becomes the essay's H1 verbatim (essay-philosophy's H1 rule), so construct it deliberately. **Every qfile-essays H1 is prefixed with the Q-file H1 label, then ` — ` (space, em-dash U+2014, space), then the chosen variant text.** The Q-file H1 label gives the reader a short topical entry-point before the long exam-style question; without it the file opens straight into a paragraph-length sentence with no orientation.
+   **Canonical-question rule** — this string becomes the essay's H1 verbatim (essay-philosophy's H1 rule), so construct it deliberately. **Every essay-topic H1 is prefixed with the Q-file H1 label, then ` — ` (space, em-dash U+2014, space), then the chosen variant text.** The Q-file H1 label gives the reader a short topical entry-point before the long exam-style question; without it the file opens straight into a paragraph-length sentence with no orientation.
 
    The shape is always: `<Q-file H1 text> — <chosen variant>`. The choice of variant depends on the section:
 

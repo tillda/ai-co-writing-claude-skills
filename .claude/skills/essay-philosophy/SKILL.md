@@ -30,7 +30,7 @@ Write clear, well-argued analytic philosophy essays at undergraduate level for a
 - **Word count**: target ~1000 words, **hard cap 1200**. Models tend to overshoot — aim low and trim. If a draft lands above 1200, trim before delivery (see Step 5).
 - **Thesis**: State clearly in the opening paragraph. This is a significant bonus.
 - **Structure**: Introduction (with thesis) → body sections → conclusion. Follow provided outline when one is given.
-- **H1 title**: The first line of the essay file MUST be a single H1 containing the question itself, verbatim as received in the prompt's `# Question` body (a single question, or the composed string when the orchestrator supplies one — see qfile-essays). No reformulation, no shortening, no added commentary. One blank line, then the essay prose begins.
+- **H1 title**: The first line of the essay file MUST be a single H1 containing the question itself, verbatim as received in the prompt's `# Question` body (a single question, or the composed string when the orchestrator supplies one — see essay-topic). No reformulation, no shortening, no added commentary. One blank line, then the essay prose begins.
 
 ## Output
 

@@ -128,7 +128,7 @@ Use judgment to decide whether two variants are paraphrases or materially differ
    Separator: always the em-dash ` — ` (with one space before and one after). Do not substitute a hyphen `-`, en-dash `–`, or colon `:`. If the Q-file label ends with terminal punctuation (`?`, `.`), keep it as-is — the em-dash still follows: e.g. `# Why does it matter? — <full question>`.
 
    Other rules:
-   - `slugify(heading)` matches essay-philosophy's question-slug rule: lowercase, non-alphanumerics → `-`, collapse repeated dashes, trim.
+   - `slugify(heading)` matches essay-philosophy's question-slug rule: lowercase, non-alphanumerics → `-`, collapse repeated dashes, trim. **If the heading starts with `Extra:` (case-insensitive), the slug must keep `extra-` as its leading token** — slugify the full heading including the `Extra:` prefix, do not strip it.
    - Omit `# Notes for the writer` entirely if the section had no notes and only one variant (or only paraphrase variants).
 
 5. **Run essay-philosophy on the synthesised prompt.** Apply its full flow per section: resolve sources for that topic, plan argument, write the essay, run its quality checklist, save to disk at the canonical path:

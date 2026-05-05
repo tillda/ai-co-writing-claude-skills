@@ -36,7 +36,7 @@ The finished essay is written to disk **and** printed to chat.
 
 - `<course>` — frontmatter `course:` (matches `/courses/<course>/`).
 - `<moduleId>` and `<moduleName>` — looked up from the matching `## <N>. <Name>` heading in `/courses/<course>/index.md`. Slugify the name: lowercase, non-alphanumerics → `-`, collapse, trim. E.g. `Tragedy and the Tragic` → `tragedy-and-the-tragic`.
-- `<questionSlug>` — frontmatter `slug:`; if absent, derive a 2–5 word slug from the question.
+- `<questionSlug>` — frontmatter `slug:`; if absent, derive a 2–5 word slug from the question. **If the question's H1 (or the Q-file H1 it was derived from) starts with `Extra:` (case-insensitive), the slug must keep `extra-` as its leading token** — do not strip the `Extra:` qualifier when slugifying.
 
 The file has no frontmatter. First line is `# <question>`, blank line, then plain prose. No `##` sub-sections, no bullets, no fences — paragraph breaks only.
 

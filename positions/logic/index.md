@@ -88,10 +88,10 @@ When the prompt directs a specific position or argument, follow the prompt; thes
 
 **Applicable to:** The Sorites paradox, vagueness, borderline cases, propositional content, degrees of truth, epistemicism
 
-## Names and Conventional Content
+## Names and Conventional Content (Use-Theory for the Borderline Cases)
 `file: names-conventional-content.md`
 
-**Applicable to:** Frege's puzzle, sense and reference, Millian vs. descriptive theories of proper names, names and meaning, substitutivity failure, propositional attitude reports, *logic / 5. Reference – Names and Descriptions*, *logic / 6. Non-extensional Language*
+**Applicable to:** Frege's puzzle, sense and reference, Millian vs. descriptive theories of proper names, names and meaning, substitutivity failure, propositional attitude reports, empty names, non-referring names, non-denoting definite descriptions, Vulcan, Santa Claus, the present king of France, fictional names, Pegasus, Sherlock Holmes, conventional content, role-based content, two-tier semantics for names, use-theory of naming, *logic / 5. Reference – Names and Descriptions*, *logic / 6. Non-extensional Language*
 
 ## The Analytic/Synthetic Distinction
 `file: analytic-synthetic.md`
@@ -108,10 +108,10 @@ When the prompt directs a specific position or argument, follow the prompt; thes
 
 **Applicable to:** conceptual analysis, definitional analysis, JTB analysis of knowledge, justified true belief analysis, Gettier cases, failure of conceptual analysis, "define your terms" demand, Lockean theory of concepts, Wittgensteinian theory of concepts, family resemblance, meaning as use, dispositions to apply words, linguistic intuition as evidence, methodology of conceptual analysis, ordinary vs technical concepts, ostensive definition, broken concepts, deficient concepts, empty names with rich content, Vulcan, Santa Claus, phlogiston, ether, chlorosis, sense and reference (foundational treatment), use-theory of meaning, *logic / 5. Reference – Names and Descriptions*, *logic / 6. Non-extensional Language*, *logic / 8. Essentialism*
 
-## Conventional Reference (Against Natural-Kind and Origin Essentialism)
+## Kripkean Rigid Designation (with Use-Theory for Borderline Cases)
 `file: conventional-reference.md`
 
-**Applicable to:** rigid designation, Kripke's modal argument, Naming and Necessity, Saul Kripke on names, descriptivism about names, descriptivism about natural-kind terms, causal-historical theory of reference, baptism theory of names, Frege-Russell descriptivism, Donnellan referential / attributive distinction, Searle's cluster theory, natural-kind terms, water = H2O, Hesperus = Phosphorus, gold and atomic number, Twin Earth, Putnam on natural kinds, semantic externalism, necessary a posteriori, contingent a posteriori, contingent a priori, necessity of identity, origin essentialism, natural-kind essentialism, Aristotelian essentialism, Quine on essentialism, the necessity / apriority / analyticity triad, Kripke on the standard meter, two-tier semantics for names, *logic / 5. Reference – Names and Descriptions*, *logic / 8. Essentialism*
+**Applicable to:** rigid designation, Kripke's modal argument, Naming and Necessity, Saul Kripke on names, descriptivism about names, descriptivism about natural-kind terms, causal-historical theory of reference, baptism theory of names, Frege-Russell descriptivism, Donnellan referential / attributive distinction, Searle's cluster theory, natural-kind terms, water = H2O, Hesperus = Phosphorus, gold and atomic number, Twin Earth, Putnam on natural kinds, semantic externalism, necessary a posteriori, contingent a posteriori, contingent a priori, necessity of identity, origin essentialism, natural-kind essentialism, Aristotelian essentialism, Quine on essentialism, the necessity / apriority / analyticity triad, Kripke on the standard meter, two-tier semantics for names, empty names, Vulcan, borderline cases of naming, use-theory of naming, *logic / 5. Reference – Names and Descriptions*, *logic / 8. Essentialism*
 
 ## Conditionals (Selective Non-Propositionalism)
 `file: conditionals.md`

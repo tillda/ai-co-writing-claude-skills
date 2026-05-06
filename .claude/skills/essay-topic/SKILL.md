@@ -1,6 +1,6 @@
 ---
 name: essay-topic
-description: Write philosophy essays from question-bank files at /courses/<course>/Q-<N>-<topic>.md in three modes — (a) batch mode: one essay per H1 in a single Q-file; (b) multi-module batch: batch mode looped across a list of modules given as numbers or names; (c) single-section mode: one essay for a named H1. Each H1 is a topic; the **Question(s):** block lists variants (one essay per H1, merging variants); other content under the H1 becomes additional notes. Use when the user points at a Q-*.md file ("do the whole revision sheet"), names a list of modules ("write essays for topics: 1, 2, 3" or "topics: Essentialism, Truth"), or names a specific course + module + H1 ("write the essay in Logic course module Truth '# Tarski's T-Schema...'").
+description: Write philosophy essays from question-bank files at /courses/<course>/Q-<N>-<topic>.md in three modes — (a) batch mode: one essay per H1 in a single Q-file; (b) multi-module batch: batch mode looped across a list of modules given as numbers or names; (c) single-section mode: one essay for a named H1. Each H1 is the essay's topic and becomes the essay's H1 verbatim; the **Question(s):** block lists *specifics* — possible exam-question formulations of that topic, all of which the essay must explain. One essay per H1 covers every specific. Other content under the H1 becomes additional notes. Use when the user points at a Q-*.md file ("do the whole revision sheet"), names a list of modules ("write essays for topics: 1, 2, 3" or "topics: Essentialism, Truth"), or names a specific course + module + H1 ("write the essay in Logic course module Truth '# Tarski's T-Schema...'").
 ---
 
 # Essays From a Q-File
@@ -25,35 +25,35 @@ If the request is ambiguous (e.g. a Q-file path with no H1 quoted, but only one 
 # <Topic A>
 
 **Question(s)**:
-    <variant 1>
-    <variant 2>
-    <variant 3>
+    <specific 1 — one way the exam might phrase the topic>
+    <specific 2 — another phrasing>
+    <specific 3 — yet another phrasing>
 
 <optional free-text notes / instructions for this topic>
 
 # <Topic B>
 
 **Question(s)**:
-    <variant 1>
+    <specific 1>
 
 # <Topic C>
 ...
 ```
 
 - File path: `/courses/<course-slug>/Q-<N>-<topic>.md`. The parent directory is the course slug; the leading `Q-<N>-` of the filename is the module number.
-- Each `# <heading>` starts a new section. Sections end at the next `# ` or EOF.
-- `**Question(s)**:` is followed by indented variant lines (one per line). Strip leading whitespace; drop blank lines.
+- Each `# <heading>` starts a new section. **The H1 is the essay's topic** — what the essay is about (e.g. "Nozick's entitlement theory of justice"). It becomes the essay file's H1 verbatim. Sections end at the next `# ` or EOF.
+- `**Question(s)**:` is followed by indented lines, one per line. Each line is a **specific** — a way the topic might be formulated as an exam question. Strip leading whitespace; drop blank lines. The essay is written about the H1 topic and **must explain anything raised across the specifics**, since any of them could be the actual exam wording. A topic like "Nozick's entitlement theory of justice" can take many forms ("What does Nozick mean by 'liberty upsets patterns'?", "Is his argument persuasive?", "Explain his conception of a *just* situation"); the essay needs to cover all of them.
 - Anything else under an H1 (besides the Question(s) block) is **additional notes** — direction, scope, focus, what to address. Pass it forward to essay-philosophy as the `# Notes for the writer` body.
 
-## Variant handling
+## Specifics handling
 
-One H1 → exactly one essay, regardless of how many variants are listed.
+One H1 → exactly one essay, regardless of how many specifics are listed under **Question(s)**. The essay is about the H1 topic; each specific is a way the exam might phrase a question on that topic, and **the essay must explain anything raised across the specifics**.
 
-- **Paraphrase variants** (same question reworded): pick the most explicit/longest phrasing as the canonical question. Write one essay that addresses it. The other variants are absorbed silently — they don't change the structure.
-- **Materially different variants** (e.g. one asks "what is X?", another asks "is X right?", another asks about a specific sub-claim): write one essay that **covers all the angles raised across variants**, typically by giving each distinct angle its own paragraph or sub-section in the body. Flag this explicitly in `# Notes for the writer` so the essay writer knows to allocate paragraphs.
+- **Paraphrase specifics** (same probe reworded): one comprehensive treatment of the topic addresses them all. No special structuring needed.
+- **Materially different specifics** (e.g. one asks "what does X mean?", another asks "is X right?", another asks about a specific sub-claim of X): allocate distinct paragraphs or sub-sections in the body so every specific is explained — none silently dropped. Flag this explicitly in `# Notes for the writer` so the essay writer knows to allocate paragraphs.
 - **Never write multiple essays for the same H1.**
 
-Use judgment to decide whether two variants are paraphrases or materially different — if they would produce overlapping body paragraphs, they're paraphrases; if they'd produce non-overlapping content, they're materially different.
+Use judgment to decide whether two specifics are paraphrases or materially different — if they would produce overlapping body paragraphs, they're paraphrases; if they'd produce non-overlapping content, they're materially different.
 
 ## Process
 
@@ -93,8 +93,8 @@ Use judgment to decide whether two variants are paraphrases or materially differ
    - Cache these for the whole batch — do not re-read them per section.
 
 3. **Parse the file into sections.**
-   - Split on top-level `# ` (H1) headings. Each section yields `{ heading, variants[], notes }`.
-   - `variants[]` = lines under `**Question(s)**:`, leading whitespace stripped, blank lines dropped.
+   - Split on top-level `# ` (H1) headings. Each section yields `{ heading, specifics[], notes }`.
+   - `specifics[]` = lines under `**Question(s)**:`, leading whitespace stripped, blank lines dropped.
    - `notes` = any other prose under the H1 that isn't part of the Question(s) block.
    - If a section has no Question(s) block, skip it and remember to mention it in the final summary.
 
@@ -109,27 +109,36 @@ Use judgment to decide whether two variants are paraphrases or materially differ
 
    # Question
 
-   <canonical question — see rule below>
+   <Q-file H1 text>
+
+   # Specifics
+
+   The exam may pose this topic in any of the following forms. The essay must explain anything raised across them:
+
+   - <specific 1, verbatim>
+   - <specific 2, verbatim>
+   - <specific 3, verbatim>
+   ...
 
    # Notes for the writer
 
-   <free-text notes from the section>
-   <one-line variant-handling note if multiple distinct angles need their own paragraphs>
+   <free-text notes from the section, if any>
+   <one-line specifics-handling note if the specifics are materially different and each needs its own paragraph>
    ```
 
-   **Canonical-question rule** — this string becomes the essay's H1 verbatim (essay-philosophy's H1 rule), so construct it deliberately. **Every essay-topic H1 is prefixed with the Q-file H1 label, then ` — ` (space, em-dash U+2014, space), then the chosen variant text.** The Q-file H1 label gives the reader a short topical entry-point before the long exam-style question; without it the file opens straight into a paragraph-length sentence with no orientation.
+   **Topic-as-question rule** — the body of `# Question` is the **Q-file H1 text verbatim**. This becomes the essay's H1 verbatim (per essay-philosophy's H1 rule). Do **not** append a chosen specific, do **not** insert an em-dash, do **not** reformulate the topic as a sentence. The H1 names what the essay is about; the specifics live in their own section.
 
-   The shape is always: `<Q-file H1 text> — <chosen variant>`. The choice of variant depends on the section:
+   Examples:
+   - Q-file `# Nozick's entitlement theory of justice` → essay H1 `# Nozick's entitlement theory of justice`.
+   - Q-file `# Williams on need vs merit and the irrationality of wealth-based distribution` → essay H1 `# Williams on need vs merit and the irrationality of wealth-based distribution`.
 
-   - **Single variant**: use that variant. The H1 will be `# <Q-file H1 text> — <variant>`.
-   - **Paraphrase variants** (same question reworded): use the longest / most explicit variant. The H1 will be `# <Q-file H1 text> — <longest variant>`.
-   - **Materially different variants** (multiple distinct angles under one Q-file H1, i.e. a *grouped* section): use the **shortest** variant verbatim (measured by character count; on a tie, take the earliest in the list). The H1 will be `# <Q-file H1 text> — <shortest variant>`. Follow this with a bulleted list of the remaining distinct angles to cover in the question body (not the H1).
+   **Specifics rule** — always include `# Specifics` whenever the section has at least one entry under `**Question(s)**`, even if there is only one. List every specific verbatim as a bullet, in the order they appear in the Q-file. The leader sentence (`The exam may pose this topic in any of the following forms…`) is fixed — it tells essay-philosophy that each bullet is an exam-question candidate the essay must address, not a reading note.
 
-   Separator: always the em-dash ` — ` (with one space before and one after). Do not substitute a hyphen `-`, en-dash `–`, or colon `:`. If the Q-file label ends with terminal punctuation (`?`, `.`), keep it as-is — the em-dash still follows: e.g. `# Why does it matter? — <full question>`.
+   For materially different specifics (the *grouped* case), add a one-line note in `# Notes for the writer` reminding the writer to allocate distinct paragraphs or sub-sections so each specific is explained — none silently dropped.
 
    Other rules:
    - `slugify(heading)` matches essay-philosophy's question-slug rule: lowercase, non-alphanumerics → `-`, collapse repeated dashes, trim. **If the heading starts with `Extra:` (case-insensitive), the slug must keep `extra-` as its leading token** — slugify the full heading including the `Extra:` prefix, do not strip it.
-   - Omit `# Notes for the writer` entirely if the section had no notes and only one variant (or only paraphrase variants).
+   - Omit `# Notes for the writer` entirely only if the section had no free-text notes **and** the specifics are all paraphrases of one another (no distinct-paragraph reminder needed).
 
 5. **Run essay-philosophy on the synthesised prompt.** Apply its full flow per section: resolve sources for that topic, plan argument, write the essay, run its quality checklist, save to disk at the canonical path:
 
@@ -177,8 +186,8 @@ Before reporting completion:
 - [ ] One essay file written per targeted H1 section (every H1 with a Question(s) block in batch / multi-module batch; the single named H1 in single-section mode)
 - [ ] Each essay is at `/courses/<course>/essays/<moduleId>-<moduleName-slug>/<heading-slug>.md`
 - [ ] Each essay individually passes the essay-philosophy quality checklist (voice, structure, length cap, no chapter/page refs, single-mention authors)
-- [ ] Each essay's first line is a single `# <Q-file H1 text> — <variant>` H1 — Q-file label always prefixed, em-dash ` — ` separator (not hyphen, en-dash, or colon). Variant chosen per the rule: single → that variant; paraphrase → longest; materially different → shortest
-- [ ] All variants under each H1 are folded into one essay; materially different angles each got a paragraph
+- [ ] Each essay's first line is a single `# <Q-file H1 text>` H1 — the topic, verbatim from the Q-file, with no em-dash, no specific appended, no reformulation
+- [ ] Every specific listed under `**Question(s)**` for the H1 is explained somewhere in the essay; materially different specifics each got their own paragraph or sub-section
 - [ ] Free-text notes under each H1 were respected
 - [ ] Multi-module batch: every token in the user's list resolved to a module before any writing began; status lines grouped by module; aggregated summary at the end
 - [ ] Chat output matches the mode: batch / multi-module batch → status line per section + summary count, no essay prose; single-section → essay prose printed, ending with `Saved to: <path>`

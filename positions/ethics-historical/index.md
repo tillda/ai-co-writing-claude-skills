@@ -11,7 +11,7 @@ The course is primarily about the historical philosophers themselves. Each posit
 **Deployment ratio:**
 - *Direct prompts* — the question is about the position itself or about the philosopher's claim that the position directly engages (e.g. "Is hedonism defensible?", "Does Mill successfully reconcile justice with utility?", "Is reason a slave of the passions?"): roughly half the essay is canonical exposition of the historical philosopher's view, the other half develops and defends the position.
 - *Indirect prompts* — the question is about the philosopher more broadly and the position is only obliquely relevant (e.g. a general "Assess Mill's ethics" or a question about a topic the position does not directly target): roughly two-thirds canonical, one-third position as addition. When in doubt about which mode applies, prefer the indirect ratio.
-- Each position's `**Usage:**` line carries a `**Cases:**` sub-line listing case names that supply ready-made content for the position's argumentative half. Case names are usually the most efficient way to make the modern critique vivid in the essay.
+- Each position's body uses **case-headed bullets** (Cookie, Trolley vs. Footbridge, Murderer at the door, Alien Threat, etc.) — each case-bullet supplies a ready-made vivid argument for the position's half. Reach for the case names in the body; they are the most efficient route from "modern critique" to landed essay paragraph.
 
 When the prompt directs a specific position or argument, follow the prompt; these defaults apply only when the prompt is silent.
 
@@ -55,3 +55,44 @@ When the prompt directs a specific position or argument, follow the prompt; thes
 `file: moderate-deontology.md`
 
 **Applicable to:** hypothetical vs categorical imperatives, are all moral requirements categorical, absolute deontology, moderate deontology, absolutism in ethics, agent-centred constraints, absolute rights, prima facie rights, extreme consequences objection to absolutism, aggregation problem, arbitrary cutoffs in deontology, pluralism in ethics, *ethics-historical / 4. Kant*
+
+---
+
+## Extras — Huemer-derived (provisional)
+
+These six positions are derived from Michael Huemer's *Ethical Intuitionism* (a modern metaethical work), proposed as additions to the historical course. Each is provisional and may be deleted; their files are prefixed `extra-`.
+
+## The Is-Ought Gap Is Genuine, but It Cuts Toward Intuitionism
+`file: extra-is-ought-gap-genuine.md`
+`role: addition to Hume essays that engage the gap directly. Independent of the Argument-from-Motivation position.`
+
+**Applicable to:** is-ought gap, Hume's Law, no ought from is, fact-value distinction, Searle's challenge, Geach's challenge, Prior's challenge, Karmo's proof, deriving morality from facts, *ethics-historical / 3. Hume*
+
+## Humeanism Cannot Account for Akrasia; Aristotle Has the Resources
+`file: extra-humeanism-fails-on-akrasia.md`
+`role: vindicates the broad Aristotelian framework against Humean reduction. Cross-tagged for Hume essays on adequacy of his moral psychology.`
+
+**Applicable to:** akrasia, weakness of will, acting contrary to best practical judgment, Aristotle on incontinence, Socrates' denial of akrasia, reason vs desire in Aristotle, Humean moral psychology, *ethics-historical / 2. Aristotle*, *ethics-historical / 3. Hume*
+
+## Hume Cannot Explain Morality's Authority over Prudence and Desire
+`file: extra-morality-trumps-prudence.md`
+`role: structural reply to the sensible knave; also serves Mill demandingness when posed as "why sacrifice my preferences".`
+
+**Applicable to:** authority of morality, why be moral, sentimentalism, sympathy as foundation of morality, the sensible knave, Hume on obligation, Hume's account of obligation, demandingness in utilitarianism, *ethics-historical / 3. Hume*, *ethics-historical / 5. Mill*
+
+## The Open Question Argument Sinks Mill's Proof of Utility
+`file: extra-open-question-against-mills-proof.md`
+
+**Applicable to:** Mill's proof of the principle of utility, of what kind of proof utility is susceptible, naturalistic fallacy, Open Question Argument, fact-value gap in Mill, desire and desirability, hedonism as definition of good, *ethics-historical / 5. Mill*
+
+## Sentimentalism Cannot Be the Foundation of Morality
+`file: extra-against-sentimentalism.md`
+`role: complements against-humean-motivation-argument.md, which leaves Hume's first-order sentimentalism for a separate verdict. This is that verdict.`
+
+**Applicable to:** Hume's moral sentimentalism, moral judgments do not arise from reason, the relation between virtue and pleasure, convergence in moral judgments, subjectivism, cultural relativism, ideal observer theory, *ethics-historical / 3. Hume*
+
+## Moral Knowledge Is Prior to the Categorical Imperative
+`file: extra-intuition-prior-to-the-CI.md`
+`role: takes a stance on Kant's foundational story (which the existing Kant positions don't). Compatible with universal-law-formula.md and humanity-formula.md.`
+
+**Applicable to:** Kant's foundational project, deriving morality from pure reason, freedom and morality, Groundwork III, the source of moral knowledge in Kant, the categorical imperative as test vs source, *ethics-historical / 4. Kant*

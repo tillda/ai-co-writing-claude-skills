@@ -1,0 +1,764 @@
+# Notes
+
+## Chapter 1 Introduction
+
+1. A few stipulations about my use of ‘evaluative statement’: First, I use the term broadly, so that it includes both deontic and axiological statements. Second, ‘evaluative statement’ is to refer to the sorts of phrases most people would think of as evaluative statements, such as ‘Pleasure is good’ and ‘Barney is evil’, regardless of whether (as the non-cognitivists dispute) those things express genuine propositions. Third, I shall also count those phrases as ‘evaluative statements’ when they appear embedded in larger sentences; thus, in ‘If pleasure is good, then heroin is good’, I call the phrase ‘pleasure is good’ an evaluative statement, even though it is not, strictly speaking, functioning as a statement there. Fourth, I include as ‘evaluative’ statements that apply thick evaluative predicates, such as ‘just’ or ‘vicious’, whose meaning includes an evaluation in addition to a descriptive claim.
+
+2. Haidt, Koller, and Diaz (1993) have discussed the putative wrongness of eating the family dog after it has been hit by a car.
+
+3. This is using ‘awareness’ in its relational sense, that in which one speaks of awareness of something. See my (2001, pp. 51–7) for more on the concept of awareness.
+
+4. Compare Hume’s ([1739] 1992, p. 469) remark that the viciousness of an action ‘lies in yourself, not in the object’. See Fumerton (1990, pp. 35–8) for a similar definition.
+
+5. Where ‘F’ is any predicate. This definition is meant to capture how the word is usually used in debates over the ‘objectivity’ of value, though not everyone uses the word this way. Hare (1999, p. 11) says an objective moral principle would be one ‘that no rational person who knew the facts could disagree with’, and Adams (1981, p. 91) says an objective fact is one that does not depend upon whether any human being thinks it obtains. Hare’s definition seems to me too narrow (some physical facts might turn out to be ‘subjective’ on his view), while Adams’ seems too broad (it seems to make everything ‘objective’).
+
+Admittedly, my definition does not tell the whole story. We are more likely to call ‘Jon Stewart is funny’ subjective than ‘Jon Stewart is well-liked’, even though both sentences describe people’s attitudes towards Jon Stewart. Perhaps the difference is that only the former sentence superficially appears to attribute a non-relational property to Stewart; since ‘liked’ is the past participle of ‘like’, the latter sentence explicitly refers to an attitude towards Stewart.
+
+256 Notes
+
+6 Here and throughout, I distinguish between ‘purported reference’ and ‘successful reference’ (or just ‘reference’). A predicate ‘F’ purportedly refers to a kind of property if statements of the form ‘a is F’ mean that, or would standardly be used to assert that, a has a property of that kind. ‘F’ (successfully) refers to a kind of property if it purportedly refers to a property of that kind and in fact there is a unique property of that kind that satisfies the meaning of the predicate.
+
+7 We’ll see exceptions to this in chapter 2 when we come to discuss Hare’s and Blackburn’s views. But the present characterization of non-cognitivism will do for now.
+
+8 That is, evaluative statements that imply that something has an evaluative property. A nihilist may accept the truth of such apparently evaluative statements as ‘It is not the case that burning cats is wrong’ and ‘Burning cats is wrong, or it is not.’
+
+9 There is also the possibility that one of these views holds for some evaluative statements, while another holds for others. And on a subjectivist view, there will undoubtedly be some false moral utterances (such as, ‘Eating babies is obligatory’), so that one could say nihilism is true of these.
+
+10 In this discussion, ‘the world’ means the world apart from our language and concepts; similarly, ‘non-evaluative facts’ means non-evaluative facts other than those about language and concepts. Hence, disputes about ‘the world’ and ‘the non-evaluative facts’ are contradistinguished from semantic disputes.
+
+11 Lewis (1986, p. 133).
+
+12 By ‘skepticism’, I mean the view that we have no justified beliefs about the external world, or perhaps about anything at all. See my (2001) for an extended treatment of this view.
+
+## Chapter 2 Non-Cognitivism
+
+1 This is not the only view of the function of ‘good’ consistent with cognitivism. Cognitivists with nominalist sympathies might reject the account, thinking that no word refers to a property. Even cognitivists who accept that some terms denote properties might deny that ‘good’ does so, following Armstrong’s (1978b) sparse view of properties. Either sort of cognitivist would maintain nevertheless that ‘Pleasure is good’ is assertive in the same way that ‘The sky is red’ is.
+
+2 Ayer (1952, chapter 6).
+
+3 See Hare (1952) for a classic statement of prescriptivism, although Hare claims that moral statements can be true or false. See the discussion below, section 2.4.
+
+4 Hare (1952).
+
+5 Stevenson (1963, pp. 16, 64–5) attributes to moral statements the
+
+functions both of expressing the speaker's attitudes and of influencing the audience's attitudes.
+
+6 Gibbard (1990, chapter 4) posits a *sui generis*, non-cognitive mental state of ‘norm acceptance’, which is neither a kind of belief nor a kind of emotion.
+
+7 But see below, section 2.7: Timmons might disagree with this characterization.
+
+8 Ayer (1952, p. 106-8).
+
+9 As Blackburn concedes, ‘Nobody denies that the surface phenomena of language—the fact that we use moral predicates, and apply truth or falsity to the judgments we make when we use them—pose a problem for projectivism. This is why they tempt people into realism.’ (1984, p. 196)
+
+10 Points (a)-(e) are discussed in Glassen (1959). Jackson, Oppy, and Smith (2004) argue that the sort of syntactic criteria employed in the present section are insufficient for showing a sentence to be truth-apt, essentially because the sentence must also have a sufficiently rich pattern of usage and must be used for expressing beliefs. I do not claim here that any combination of points (a)-(g) alone entails that ethical statements are cognitive. Rather, I claim that (a)-(g) render non-cognitivist accounts (such as emotivism and prescriptivism) of the meanings of evaluative statements highly implausible, and that a cognitivist account is the only remaining plausible alternative. It is not, for example, plausible that ethical statements lack a sufficiently rich pattern of usage to be truth-apt, or that they express neither beliefs nor non-cognitive attitudes.
+
+11 Possible exceptions are the so-called ‘performatives’ (Austin 1975, pp. 4-6), such as ‘I hereby sentence you to death by electrocution’ (said by a judge in a courtroom), but note that these utterances nevertheless express propositions, though they serve to make those propositions true rather than assert that they are true (Searle 1979, p. 16).
+
+12 The problem is elaborated in Geach (1965), who derives it from a point in Frege. Searle (1969, pp. 136-41) provides an especially clear statement.
+
+13 I focus on what can appear as the antecedent of a conditional. Non-cognitive clauses *may* appear as consequents, as in, ‘If you see Barney, hit him’. (Compare Brighouse [1990, pp. 230-1].) This is because one may issue a conditional command, a command that takes effect conditional on some fact obtaining. One cannot, however, have a fact that is in a similar way conditional on a command, which is why an imperative cannot appear in the antecedent.
+
+14 Compare Geach (1965, pp. 463-4).
+
+15 The following theorem of probability underwrites this: If $P(e|h) &gt; P(e|\sim h)$, then $P(h|\sim e) &lt; P(h)$. Plug in ‘non-cognitivism’ for $h$ and ‘We find the sentences listed in (4) odd, malformed, or confused’ for $e$.
+
+16 Hare (1963, pp. 21, 27-8; 1999, pp. 24-5).
+
+17 This is a simplification of Hare’s view of prescriptive meaning, since I have not mentioned the universalizability or consistency constraints on imperatives. But this is not important to my present concern.
+
+18 To ensure relevance to Hare's view, assume that the presence of weapons of mass destruction is thought to be part of the *supervenience base* for the rightness of invasion. Naturally, the whole supervenience base, if George has remotely plausible ethical views, would have to be a much more complex state of affairs; this only serves to render Hare's thesis that George is describing the supervenience base even less plausible.
+
+19 But see below for Hare's other theory of moral truth (the endorsement theory), which would enable Jean-Pierre to call George's statement 'false'.
+
+20 Hare (1999, p. 25).
+
+21 Hare (1999, p. 18); emphasis Hare's.
+
+22 The last example is from Geach, who refutes the endorsement theory of truth in the same breath as the non-cognitivist theory of ethics (1965, pp. 457, 462-5).
+
+23 Compare above, pp. 22-3. Note also that such a subjectivist theory of truth would be singularly implausible, implying among other things that 'Whatever I endorse is automatically true' is a tautology, rather than being the expression of egotistical dogmatism that it appears to be. See also the arguments against ethical subjectivism in chapter 3.
+
+24 Hare (1999, p. 18); emphasis Hare's.
+
+25 Gibbard (1990, pp. 94-9). Gibbard actually formulates his theory as a theory of *rationality*. A complete set of norms would be one that delivers a verdict (rationally required, rationally optional, or irrational) on every possible action, belief, feeling, or other object of rational evaluation. Technically, in Gibbard's view, the norms do not directly specify whether an action is morally right or wrong; they specify whether it is rational to have certain moral emotions towards an action. However, this distinction is not relevant to the question of whether Gibbard can escape the Frege-Geach problem, and I shall continue to speak as though the norms directly specify what is morally right or wrong.
+
+26 Lewis (1986, pp. 40-50). There are objections to this view of meaning, notably the problem of logically equivalent statements that have different meanings, such as $2 + 2 = 4$ and 'All spinsters are unmarried'. Though the latter problem may well refute the possible-worlds account of meaning, I will suppose for the sake of argument that the account is acceptable. Here I only want to discuss problems with Gibbard's view that have something special to do with morality.
+
+27 I read the conditional here materially, so $(p - q) \equiv \sim (p \&amp; \sim q)$. If one takes a stronger reading of the conditional, I think the problems for Gibbard are even greater, but it will suffice in this section to show that Gibbard cannot interpret even a material conditional of this kind.
+
+28 Blackburn (1998, p. 71). Hare (1970, pp. 16-19) gave a similar analysis, holding that the meaning of the 'if-then' connective is exhausted by its logical properties. Blackburn's proposal is more initially satisfactory, since Blackburn tells us *what mental state is expressed* by a conditional containing an evaluative component. In my view, Dreier's (1996, pp.
+
+42–3) example involving the speech act of ‘accosting’ demonstrates the inadequacy of Hare’s proposal.
+
+29 Van Rooijen (1996, pp. 333–4) makes a similar point, about disjunctions.
+
+30 Blackburn (1998, p. 71); second emphasis added.
+
+31 Blackburn (1984, pp. 191–6).
+
+32 This and the following quotation about wondering are from Blackburn (1998, p. 70).
+
+33 Berkeley ([1710] 1965, sections 33–40).
+
+34 Timmons (1999, chapter 4). See especially pp. 143, 153, 129, 138, and 149–50. Timmons (pp. 143–4) repudiates the label ‘non-cognitivist’, but this is a merely verbal point; he clearly belongs with the others discussed in this chapter.
+
+35 Timmons (p. 116) takes over this convention from Putnam. Though Timmons speaks in terms of mind-independent facts, it would be more accurate to speak in terms of facts that are independent of their being represented.
+
+36 Compare Hare’s endorsement theory of truth, discussed in section 2.4.
+
+37 Dreier (2002, p. 165) has pointed this out.
+
+38 Timmons (1999, pp. 71, 167).
+
+39 Or, to anticipate possible responses on Timmons’ part, consider ‘Some fundamental values of mine might be mistaken’ and ‘My moral outlook might be mistaken in ways that I would not recognize even after thorough reflection’. Both of these are clearly intelligible.
+
+40 Timmons (1999, p. 116).
+
+41 I propose this as a sufficient but not a necessary condition on mind-independence. Suppose that it is wrong to burn your next door neighbor in effigy in your front yard, because this would hurt his feelings. It is plausible that if your next door neighbor had entirely different attitudes towards the action—say, he strongly desired to be burned in effigy and would consider it an honor—then the action would no longer be wrong. This example, I take it, fails to show that wrongness is mind-dependent in the intended sense, showing that condition (a) in the text is not necessary for mind-independence. But as long as there is at least one case of a wrong action that would be wrong even if we had entirely different attitudes about it in relevant respects, wrongness is mind-independent. See section 1.2 above for a more complete characterization of objectivity, which I take to be essentially equivalent to mind-independence.
+
+42 Timmons (1999, pp. 145–6). On pp. 149–50, he disavows relativism.
+
+43 The quotation is from Dreier (2002, p. 166), who presses the present point that Timmons’ descriptions of his view threaten to collapse into moral realism.
+
+44 Wright, though a minimalist about truth, lists ‘to be true is to correspond to the facts’ as a platitude partly definitive of ‘true’ (1992, p. 34). Timmons (1999, p. 153) agrees.
+
+45 Thomson (1971); Marquis (1989); Tooley (1972).
+
+200 Notes
+
+# Chapter 3 Subjectivism
+
+1. Really, the ‘=’ sign is meant to stand for whatever philosophers mean when we talk about something’s being ‘reducible to’ something. It cannot stand for synonymy or the definability relation, since that would leave the synthetic reductionists out of account. It cannot stand for identity, since identity is symmetric, whereas reducibility is supposed to be asymmetric—the things on the left hand side are being reduced to the things on the right hand side, but the things on the right are not being reduced to the things on the left. The ‘... explains what it is...’ locution in the text is my gloss on this puzzling relation.
+
+2. On (b), see Westermark (1960, pp. 114–16); Hume ([1739] 1992, p. 469); and Hobbes ([1651] 1996, p. 39), though Hobbes substitutes desire for approval. On (c), see Benedict (1934, p. 73); Harman (1977, p. 94); and Sumner (1907, pp. 29, 58–9, 418). On (d), see Quinn (2002) and Adams (1981; 1999).
+
+3. The problems for subjectivism and relativism involving Nazis, disagreement, and fallibility are well-known and are commonly presented in college philosophy courses and textbooks. See James Rachels (2003, pp. 21–3, 35–6) for a particularly well-known and clear example. The problem involving disagreement is sometimes credited to G. E. Moore (1947, pp. 62–4), although it goes back at least to Thomas Reid ([1788] 1986, pp. 367–8), who deploys it to great effect against Hume.
+
+4. By this, I mean that my moral attitudes track the moral truth infallibly, not that my beliefs about my moral attitudes are always correct. Conceivably, I could be mistaken about what I approve of, though I should think even this sort of error would be difficult to come by.
+
+5. Goldhagen (1996) argues that antisemitism, even to the point of endorsing the murder of Jews, was a central element of German culture at the time, leading hundreds of thousands of ordinary Germans to participate in the Holocaust willingly. Goldhagen’s thesis is controversial among historians (see the papers in Shandley 1998), but we may suppose for the sake of argument that his version of the history is correct. The relevant philosophical point is that the truth of Goldhagen’s view would not render German participation in the holocaust less evil; if anything, quite the reverse.
+
+6. G. E. Moore (1947, pp. 68–9).
+
+7. I assume that the ‘if-then’ here is something stronger than the material conditional. Even if ‘if-then’ in English sometimes or always means the material conditional, theory (c) clearly licenses asserting something stronger than a material conditional here, something along the lines that society’s approval of abortion would be enough to make it right.
+
+8. Analogous points apply to proponents of theory (b). The name ‘rigidifying move’ indicates that the subjectivist proposes to treat evaluative terms as rigid designators (see Kripke 1972, p. 48). Vallentyne (1996, p. 105–9) discusses the rigidifying move as a way of avoiding
+
+problems such as the objection from Nazis; however, Vallentyne takes this move to convert the theory into a form of objectivism.
+
+9 This is, of course, the reason why I phrased my third objection to relativism using indicative conditionals in the first place.
+
+10 This response derives from Harman (1977, pp. 94–5).
+
+11 This is a paraphrase of Ivan Karamozov’s views in *The Brothers Karamozov*.
+
+12 See Adams (1981); Quinn (2002); Alston (1990); but note that Adams’ theory of the good (1999, chapter 1), taking goodness to consist in resemblance to God, is not strictly a form of the divine command theory as I define the latter, since Adams does not take goodness to depend constitutively on God’s (or anyone’s) commands or attitudes. See Carson (2000, pp. 239–56) for a variant involving divine preferences, rather than commands.
+
+13 As Quinn (2002, p. 673) proposes. An alternative would be to attempt, through historical research, to determine when errors first appeared in the accepted versions of the Bible. But I doubt that the approach of attributing Biblical errancy to human error would yield the desired results, such as allowing us to condemn slavery, unless we supposed that some of the original receivers of alleged revelation themselves made errors about God’s will.
+
+14 Quinn (2002, p. 676).
+
+15 These points appear in Layman (1991, pp. 38–9).
+
+16 Adams (1981, pp. 86–8). This is a slight simplification; Adams says that God’s lovingness is not explicitly asserted as part of the meaning of a moral statement but is instead presupposed by moral statements. But this distinction does not affect my reply.
+
+17 Here I am thinking of the Divine Command theory as a form of analytic reductionism, as I believe most who see a necessary connection between ethics and God have. See chapter 4 for more on the distinction between analytic and synthetic reductionism.
+
+18 As God reportedly told Abraham (Genesis 22:2). The context of the story makes clear that Abraham is to be praised for his willingness to follow this command. Quinn (2002, p. 678) concurs on the rightness of sacrificing Isaac in such a situation.
+
+19 Adams (1999, p. 281) confirms this, affirming that ‘the goodness of God’ is ‘important in accrediting God’s commands for their role in constituting obligation’.
+
+20 This is sometimes called ‘the Euthyphro Problem’ because of its similarity to the problem raised in the *Euthyphro* (Plato 1996, pp. 14–15).
+
+21 Carson (2000, pp. 245–6) gives this reply, but phrased in terms of preferences rather than commands.
+
+22 See Firth (1952) and Brandt (1979; 1996). Brandt (1979, pp. 225–8) distinguishes his view from the ‘ideal observer theory’; this reflects a merely terminological difference between myself and Brandt.
+
+23 Firth (1952, pp. 322–4) disagrees with this classification, on the ground
+
+that his theory makes value independent of any actual being's attitudes; but this is a merely terminological dispute.
+
+24 This list is a composite of Firth (1952, pp. 333–45) and Brandt (1979, p. 14–15).
+
+25 Firth (1952, p. 320).
+
+26 Brandt (1979, pp. 227–8) discusses but does not endorse this proposal.
+
+27 Brandt (1996, pp. 12, 60, 113).
+
+28 Brandt (1996, pp. 51–8) lists several ways a desire can be irrational. I see no reason why my imagined sadistic desire must be irrational in any of those ways. In any event, I will argue in chapter 7 that Brandt is wrong about what makes desires irrational.
+
+29 I except professional philosophers, such as Harman, who are generally too sophisticated to commit the Subjectivist Fallacy overtly. But it is the only kind of argument offered by Benedict (1934), Sumner (1907), and legions of undergraduates.
+
+## Chapter 4 Reductionism
+
+1. G. E. Moore (1960, p. 40) and Michael Smith (1994, p. 17) characterize natural phenomena as those that belong to the subject matter of natural science and/or psychology. But this seems backwards: presumably it is the naturalness of a phenomenon that makes the study of it count as ‘natural science’, rather than the other way around. Elsewhere, Moore defines ‘natural’ phenomena as those that exist *in time* (pp. 40–1), but it is unclear why Moore thought that goodness was outside time while physical properties were in time. In any case, I do not believe that either of these characterizations captures the essence of the dispute between reductionists and intuitionists in metaethics.
+
+2. I intend this characterization of the reductionist’s view to include the possibility that there exists only a very complex and disjunctive—perhaps even infinitely complex—account of the nature of goodness. I also intend to include the view that goodness should be defined in terms of some other evaluative notion (such as ‘reason’), provided that it is held that the fundamental evaluative concept or concepts are reducible to non-evaluative ones. Note that, for example, Scanlon’s buck-passing account of value does not count as a form of ethical reductionism on my characterization, since he does not take the normative notion of ‘reasons’ to be reducible (1998, pp. 57–8, 95–100).
+
+3. Self-proclaimed naturalists such as Railton (1986, pp. 171–2), Michael Moore (1992, pp. 2498), and Sturgeon (1985, p. 51) have made the possibility of empirical moral knowledge a central tenet of their metaethical views.
+
+4. The arguments of sections 4.2 and 4.4 below are paraphrased from my (2000a).
+
+5. G. E. Moore (1960, pp. 17–19, 15–16) discusses both of these forms of
+
+naturalism, attributing the former to Jeremy Bentham (see Bentham [1781] 1996, p. 13).
+
+6 Moore (1960, pp. 5–21).
+
+7 This point derives from James Rachels (in conversation). See above, section 3.5, for further exposition and criticism of ideal observer theories.
+
+8 Frankena (1973, pp. 99–100); Harman (1977, pp. 19–20).
+
+9 The argument is from Gettier (1963). To my knowledge, Weatherson (2003) is the only philosopher who argues that the justified-true-belief analysis may yet be correct. Moreover, probably no philosopher has maintained that Gettier’s argument fails due to question-begging.
+
+10 Frankena (1973, p. 99); Darwall, Gibbard, and Railton (1992, p. 115).
+
+11 The point here is that, while the hedonistic analysis of ‘good’ might seem plausible when stated in the abstract, we can identify specific applications of that analysis in the light of which the analysis becomes implausible—much as Gettier was able to identify a specific application of the justified-true-belief analysis of knowledge in the light of which that analysis became much less plausible. Thus, it might seem credible that the goodness of friendship consists in its conduciveness to pleasure; but it is not credible that the goodness of pleasure consists in its conduciveness to pleasure. Of course, the analogy with Gettier should not be pushed too far—the Moorean argument does not, like Gettier’s, involve finding a case in which the analysans applies to something while the analysandum does not.
+
+12 There is a tricky question that I cannot fully address here, namely, why open question arguments cannot be used to refute all definitions. For instance, it seems that ‘Is a bachelor the same as an unmarried man?’ is not synonymous with ‘Is a bachelor the same as a bachelor?’ Why does this not prove that ‘bachelor’ does not mean ‘unmarried man’? I think that the answer has to do with the fact that some sentences obliquely refer to expressions, even though they do not employ the most obvious markers of mentioning expressions, such as enclosing the relevant expressions in quotation marks. I think that ‘Is a bachelor the same as an unmarried man?’ does something like mentioning (either instead of or in addition to using) the expressions ‘bachelor’ and ‘unmarried man’, and that blocks the substitution of ‘bachelor’ for ‘unmarried man’. But I do not think that ‘Is it good to do what increases the amount of enjoyment in the world?’ mentions the expression ‘good’ or ‘what increases the amount of enjoyment in the world’. In any event, the Open Question Argument must be formulated in terms of sentences that do not mention (but only use) the relevant evaluative expression and the phrase in the proposed naturalistic definition.
+
+13 This proposal is from Rand (1964, p. 17).
+
+14 Hume ([1739] 1992, p. 469).
+
+15 I assume that the negation of any evaluative claim is an evaluative claim, and that every evaluative claim is a part of some value system. Here and elsewhere, I consider only evaluative claims and value systems that are
+
+204 Notes
+
+consistent and non-tautological. Here, nihilism is the view that nothing is good, bad, right, or wrong (this differs from the usage in section 4.3.5).
+
+16 As Stuart Rachels has pointed out (personal communication), one might, rather than positing one or more evaluative suppressed premises, construe the argument as relying on an evaluative rule of inference, along the lines of, 'From the premise that $x$ causes great suffering, infer that $x$ is pro tanto bad'. Perhaps this is a valid rule. Even so, I take it that we would still face the problem of how we are in a position to judge that rule to be valid. I take the issue of import here to be one of how we know moral truths, and it seems that inference rules of the kind in question do not put us in a position to know moral truths unless we are in some sense in a position to justifiably judge them to be valid. On this last point, see BonJour (2005, pp. 102, 116); Fumerton (forthcoming, chapter 3).
+
+17 Pigden (1991, p. 424) states the principle more generally and precisely: '[N]o non-logical expression can occur non-vacuously in the conclusion of a valid inference unless it appears in the premises', where an expression is said to occur 'vacuously' if it can be replaced uniformly with any other expression of the same grammatical type without affecting the validity of the inference. Pigden (1989, pp. 136-7) offers a proof of the principle so stated.
+
+18 Pigden (1991, pp. 424-5) has shown that Hume's Law is consistent with reductionism.
+
+19 Searle (1964, pp. 44-8).
+
+20 Perhaps Searle would challenge this; he represents the existence of obligations as 'institutional facts' created in part by social rules that determine what counts as placing oneself under an obligation, just as the rules of baseball determine, for example, what counts as a 'home run' (1964, pp. 54-8). I think the arguments against cultural relativism in section 3.3 above render this position implausible. Zaibert (2003, p. 77) argues, however, that Searle did not intend to discuss moral obligations at all.
+
+21 From Geach (1977) (with slight simplification).
+
+22 See Borowski (1980) and Hurka (1980) for further criticisms of Geach, though I find only Hurka's compelling.
+
+23 Prior (1976, pp. 90-1). It is in response to these examples that Pigden introduces the qualification to Hume's Law mentioned in note 17.
+
+24 Karmo (1988). I have slightly modified Karmo's argument below for ease of exposition, and I have added the Determinacy Assumption, which I think Karmo needs.
+
+25 I elide the distinction between the law of excluded middle and the principle of bivalence, a distinction that is not important here. The Determinacy Assumption could be challenged by means of general objections to the law of excluded middle, such as those deriving from the problems of vagueness or of empty names; however, such challenges are not relevant in the metaethical context. If one likes, one could stipulate that $S$ should contain no vague expressions, empty names, or other
+
+phenomena not peculiar to ethical sentences that might create exceptions to the law of excluded middle. Though some deny in general that evaluative statements can be true or false, this is irrelevant here, as ethical reductionists accept the truth-aptness of evaluative statements, and it is to them that the present chapter is addressed.
+
+My statement of the Determinacy principle includes the phrase 'at most one', rather than 'exactly one', because a possible world may be inconsistent with a value system. For instance, a value system that holds that all $F$'s are good and all $G$'s are bad is inconsistent with a possible world according to which some $F$'s are $G$'s, even though the value system and the possible world are each internally consistent.
+
+26 Maitzen (1998).
+
+27 Maitzen (1998, p. 356).
+
+28 Maitzen himself (1998, p. 358) recognizes this fact, though he does not draw the correct conclusion that nihilism is impossible.
+
+29 But see Horgan and Timmons (1992) for a new and, to my mind, persuasive version of the Open Question Argument that applies to synthetic reductionism.
+
+30 For defenses of this view, see Railton (1986), Sturgeon (1985), Boyd (1988), and Michael Moore (1992).
+
+31 Stuart Rachels (2003, p. 19) suggests that one may observe an instance of pain in oneself to be bad. While this is plausible, I believe Rachels' sense of 'observe' is different from mine in this section: I mean that evaluative facts cannot be observed by the five senses, that is, that they cannot be seen, heard, tasted, touched, or smelled. I suspect that Rachels' 'observation' is what I would call an intuition.
+
+McGrath (2004) has also apparently disputed my thesis here; she proposes that we sometimes know moral truths by perception. But again, I am not sure that what she has in mind is perception in my sense, rather than intuition. See especially her illustrative example on pp. 224-5.
+
+32 Harman (1977, pp. 4-5).
+
+33 Harman (1977, p. 5): '[P]erception involves forming a belief as a fairly direct result of observing something. . . . If we say that observation has occurred whenever an opinion is a direct result of perception, we must allow that there is moral observation. . . .'
+
+34 Two qualifications: a) There may be several distinctive ways $F$ things look. b) It is also sufficient that there be a way that non-$F$ things look, and that the observed object fail to look that way.
+
+This is only one necessary condition on observation. For more on the nature of observation, see my (2001, pp. 57-65, 93).
+
+35 A second objection to Harman's implicit account of observation is that observation does not require belief. Suppose I see a pink rat, but I mistakenly think I am hallucinating. Then I observe a pink rat but do not believe there is a pink rat. See my (2001, p. 93).
+
+36 Moore (1992, p. 2517).
+
+37 In technical language, the point is that Michael Moore's argument is
+
+200 Notes
+
+fallacious because ‘S perceives that x is ____’ is referentially opaque. There is some irony in a synthetic reductionist’s committing this fallacy, the very fallacy of which reductionists often accuse G. E. Moore (see Harman 1977, p. 19; Putnam 1981, pp. 206–8).
+
+38 Sturgeon (1985, pp. 52, 54, 65).
+
+39 Moore (1992, p. 2517).
+
+40 Sturgeon (1985, p. 66).
+
+41 The electrolysis of water was discovered by William Nicholson in 1800. Lavoisier, Cavendish, and others had already argued in the 1780s that water is a compound of hydrogen and oxygen, on the basis of experiments in which combustion of hydrogen in oxygen produces pure water. I have focused on the electrolysis experiment in the text for its picturesque effect.
+
+42 Sturgeon (1985, pp. 51–2).
+
+43 I have slightly modified Sturgeon’s (1991, p. 29) example.
+
+44 The example is from Putnam (1975, pp. 295–7).
+
+45 Moore (1992, pp. 2530–1); compare Railton (1998, pp. 179–80).
+
+46 For the purposes of this argument, we may wish to restrict attention to paradigm evaluative properties, such as badness, and paradigm natural properties, such as weighing 130 pounds. These are properties whose status as evaluative or natural is clear and uncontroversial. In contrast, such properties as being pleasurable, being healthy, and being illogical are not paradigmatic; it is unclear whether they are evaluative, natural, both, or neither. The restriction to paradigms seems fair, since naturalists would undoubtedly like to reduce paradigm moral properties to paradigm natural properties.
+
+47 Compare Searle’s objection to the causal theory of reference (1983, pp. 249–50) and my (2001, pp. 54, 60–2). Bealer (1999, section 3) makes a related point, roughly to the effect that genuine understanding of a concept requires dispositions to have generally correct intuitions involving the concept. My view is that it is one’s dispositions to have intuitions that are crucial to one’s grasp of a concept, rather than actual intuitions or beliefs. However, beliefs may play a crucial role in one’s reference to particulars.
+
+48 Sturgeon (1986, p. 73). Railton (1986, p. 190) is an exception, proposing a quasi-utilitarian reduction of rightness.
+
+## Chapter 5 Moral Knowledge
+
+1. See my (2001, pp. 98–115) and (forthcoming). See BonJour (2004) for objections to the principle. The English ‘phenomenon’ derives from the Greek *phainomenon*, meaning ‘appearance’; hence, Phenomenal Conservatism is a conservatism with respect to appearances. That is, it holds that we should avoid departing from the appearances unnecessarily.
+
+2 The third one is a bit *odd*; normally, one would simply report that one has a headache. Reporting that one *seems* to have a headache is odd because of the conversational implicature that you are in a position to say nothing stronger. Nonetheless, though odd, I think the ‘seems’ report would be true. This need not mean that the appearance that one is in pain is a *separate* mental state from the pain; perhaps, rather, some mental states have awareness of themselves built in.
+
+3 A person can believe what doesn’t seem true by exercising self-deception or taking a leap of faith; see my (2001, pp. 108–10). But these ways of believing are epistemically irrational.
+
+4 Compare Bealer’s (1992, pp. 101–2) conception of intuition. This is not the only conception of intuition; in contrast to Bealer and myself, some philosophers see intuitions as a species of belief (Audi 2004, pp. 33–6).
+
+Note that I count unconscious and implicit inferences as a kind of ‘reasoning’, although I would not count information processing that is in principle inaccessible to reflection, such as the pre-conscious processing done by the visual system, as a form of ‘reasoning’.
+
+5 Fumerton (1990, p. 6) has ‘no idea what these intuitions are supposed to be’. Ayer (1956, p. 31) says that to say someone knew something by intuition ‘is to assert no more than that he did know it but that we could not say how’. See also note 8 below.
+
+6 Tara Smith (2000, p. 24).
+
+7 Whether the two ‘if . . . then’ statements should count as evaluative statements is a debatable, but merely semantic point; in any case, they would be of use in further reasoning in normative ethics.
+
+8 Hudson (1967, p. 57; 1983, pp. 103–4); Brandt (1979, pp. 17, 20); Bennett (1995, p. 12).
+
+9 Example 1 derives originally from James Rachels (in informal conversations in the 1960’s) and is discussed further in Harman (1977, pp. 3–4). Example 2 is from Foot (1967).
+
+10 Compare Smart (1973, pp. 69–72), confronting a similar example and admitting that some consequences of his utilitarianism are very unpalatable.
+
+11 Popper (2001, pp. 49–50). The ‘what we have seen to be true must indeed be true’ remark is misleading; Popper could not be objecting to this, since it is a tautology, since ‘see’ is factive. Rather, what he doubts is that all intuitions count as seeing something to be true.
+
+12 Among intuitionists, Moore (1960, p. x), Audi (1997, pp. 46, 55; 2004, pp. 30–2), Rashdall (1907, p. 85) and Lemos (1994, pp. 144–52) explicitly reject infallibility. Ross affirms the certainty of some moral principles (1988, pp. 29–30) but goes on to deny that judgments about particular acts are ever certain (pp. 30–1) and later allows that moral convictions sometimes need to be corrected (p. 41). Sterling (1994, pp. 130–1) claims that intuitions are necessarily true, since they are a kind of direct acquaintance, but that nevertheless, all ethical beliefs are fallible. Prichard calls ethical principles ‘self-evident’ but defines this only as meaning they
+
+are not derivative (1957, p. 8); he allows the possibility of failures to see moral truths (pp. 9–10n). Shafer-Landau considers *some* moral principles unrevisable but denies that this is required for a principle to count as ‘self-evident’ (2003, p. 249).
+
+13 Sinnott-Armstrong (1996, p. 10).
+
+14 Stratton-Lake (2002a, p. xiii); Shafer-Landau (2003, pp. 247–50); Sterling (1994, p. 128).
+
+15 These misunderstandings appear in Tara Smith (2000, pp. 25–6), who writes, ‘The Intuitionists’ assertion of the irrelevance of argument is plausible only as long as the examples invoked are carefully selected’, apparently granting that *some* moral knowledge *is* plausibly regarded as intuitive.
+
+16 But see above, note 12. I can find no intuitionist who claims moral infallibility.
+
+17 The passage appears in ‘Does Moral Philosophy Rest on a Mistake?’ (Prichard 1957, p. 16), which, despite some exaggerated claims, is one of the most insightful papers in the field. Note that despite the sweeping ‘self-evidence’ claim I have quoted, Prichard maintains that certain ‘preliminaries’ may be required to see that one has a particular obligation in a particular case, which may include further gathering of non-moral information (pp. 7–8).
+
+18 The idea that foundationalism requires incorrigibility is refuted by Audi (1983). Alston (1976) also refutes objections to foundationalism that depend upon this misunderstanding.
+
+19 Tara Smith (2000, p. 24); Brandt (1996, p. 5).
+
+20 Alston (1993) argues that it is impossible to give a non-circular argument for the reliability of sense perception. See especially (1993, pp. 115–19), where he applies the argument to all ways of forming beliefs.
+
+21 For defenses of coherentism, see Davidson (1990) and BonJour (1985), but note that BonJour accepted coherentism only for empirical knowledge, not *a priori* knowledge (p. 193). For objections, see Foley and Fumerton (1985); Huemer (1997); and Fumerton (1995, pp. 144–7).
+
+22 Hudson (1983, pp. 104–5); Ayer (1952, pp. 106, 118–20).
+
+23 Sterling (1994, p. 79) makes the point about introspection. See my (1999, pp. 347–8) on the problem with memory. See Hume ([1758] 1975, pp. 32–9) on the problem of induction.
+
+24 Thomson (1971).
+
+25 Sinnott-Armstrong (1996, p. 10). Sextus Empiricus (1964, p. 74) levels the same charge against foundationalism in general.
+
+26 Mackie (1977, pp. 38, 39).
+
+27 As Sterling (1994, p. 67) observes.
+
+28 See also my discussion of the argument from weirdness in section 8.1 below.
+
+29 See BonJour’s excellent *In Defense of Pure Reason* (1998) and Bealer (1992).
+
+30 Crane and Piantanida (1983) claim to have produced sensory experiences of reddish green, or of a color that seems to be between red and green.
+
+Some philosophers believe that this shows that one can have an experience of something being both entirely red and entirely green. For these philosophers, I note that ‘x is reddish’ does not imply ‘x is red’, nor does ‘x is between A and B’ imply ‘x is both A and B’.
+
+31 Essentially this point appears in Russell ([1912] 1997, pp. 72–4) and BonJour (1998, pp. 43–4).
+
+32 As an aside, this criterion implies that typical ‘analytic’ truths such as ‘All dodecahedrons have 12 faces’ are not convention-dependent in any interesting sense. I think this is right. The fact that all dodecahedrons have 12 faces would remain even if we had no language, although the sentence ‘All dodecahedrons have 12 faces’ obviously would not. See Quine (1976) for related criticisms of the notion of truth by convention.
+
+33 This is just what Mackie does (1977, p. 35).
+
+34 Mackie (1977, pp. 35, 40); Joyce (2001, pp. 17–27).
+
+35 Nelson (2003, pp. 76–7) makes a similar observation, inspired by Chisholm’s (1982) remarks about the problem of the criterion, but Nelson grants that both arguments beg the question. My view is that neither does (insofar as begging the question is a fallacy), Chisholm similarly held that his own solution to the problem of the criterion begged the question, but excused this with the observation that every solution begs the question. Again, I would deny that any of the positions he discusses (particularism, methodism, and skepticism) begs the question. See my remarks about begging the question in section 4.2 above. James Rachels (1974, pp. 310–13) makes similar observations about ‘begging the question’ against ethical egoism.
+
+36 The argument here is analogous to those found in Moore (1953, pp. 119–20), DePaul (1988, p. 85), and Huemer (2001, pp. 31–44). In the last, I argue that every form of philosophical skepticism is unjustified; the argument presented here is a special case of that argument.
+
+37 Compare Chisholm’s (1982) discussion of methodism and particularism, though Chisholm neglects the reflective equilibrium approach. The term ‘reflective equilibrium’ is from Rawls (1971, p. 48). DePaul (1988) defends this general approach to moral theory, which he calls ‘coherentism’. In my view, the approach is not properly called coherentist, since some degree of foundational justification must be accorded to the initial appearances. See my (1997) and Olsson (2005) for the justification of this requirement.
+
+38 This is something of a simplification of my view, however, since it implies that ‘coherence’ is an all-or-nothing property. A more precise statement would incorporate the notion of degrees of coherence, where these are partly determined by probabilistic relations among beliefs. In addition, the statement in the text implies that the absolute number of initially plausible beliefs that are held true is what matters. A more precise statement would take account of the fact that some pairs of initially plausible beliefs are so related that, if one of them is false, the other is almost certainly also false, so that giving up the latter belief
+
+270 Notes
+
+should not be counted as an additional cost of a theory that requires giving up the former belief. But I do not think these refinements are important for the present point, simply because nihilism on its face is so far from achieving any reasonable variant of reflective equilibrium.
+
+39 This is a popular conception of epistemic justification; see BonJour (1985, pp. 7–8).
+
+40 Compare Hare (1989, pp. 82–3).
+
+41 See my (2001, pp. 11–16, 178–81); Hume ([1758] 1975, pp. 151–3). Global skepticism is the view that no one can be justified in believing anything.
+
+42 A sensory experience of $x$ is, roughly, the experience of seeming to perceive $x$; note that the having of such an experience does not entail that $x$ actually exists. ‘Memory experience’ should be understood analogously.
+
+43 My showing something to be true is of course compatible with some readers failing to see it. But if, upon reading my work carefully, most competent judges would not find that any of my premises seemed true, then, even if all my statements were in fact true, I would not count as having shown anything.
+
+44 Nagel (1986, p. 146) appears to endorse this inferential conception of the role of ethical intuition: ‘[I]n ethics, one infers from appearances of value to their most plausible explanation in a theory of what there is reason to do or want.’ This remark is, however, ambiguous; ‘appearance’ can refer either to the mental state of something’s appearing to be the case or to the content of that mental state, that which appears to be the case. On one interpretation, Nagel counsels us to adopt the best explanation for why certain things appear to be valuable. On the other interpretation, he advises us to adopt the best explanation for why certain things are valuable, where these are the things that appear to us to be valuable. It is the former doctrine that I object to as a misunderstanding of the epistemological role of intuition.
+
+45 Note that (1) may be a reason why belief in (2) is justified, in the sense of a condition that justification for believing (2) supervenes on, without being one’s reason or even a reason one has for believing (2), in the sense of something from which one does or could legitimately infer (2). See my (2003, pp. 148–51) on this distinction.
+
+46 Harman (1990) and Tye (2002) defend the transparency thesis. Reid (1983) provides an early form of direct realism. I elaborate and defend the view in my (2001). See especially pp. 81–5 on the skeptic’s mistaken conception of the relationship between consciousness and its objects.
+
+47 See my (2001, pp. 51–5) on the nature of awareness. Roughly, intuitions (sometimes) count as awareness of moral facts because (sometimes) moral facts correspond to the propositional contents of the intuitions, the intuitions represent their contents as actual, and it is non-accidental that these intuitions are true.
+
+48 This follows if one accepts physicalism. But even mind/body dualists will probably accept that moral properties don’t cause mental events. Note
+
+that the arguments of this section should all be taken to concern fundamental moral facts, of the form 'F is good-making', 'G is wrong-making', and so forth.
+
+49 In fact, I would prefer to regard them as principles about what are good-making, right-making, etc., features; see below, section 8.2.3.
+
+50 Goldman (1967); Benacerraf (1973, p. 671). The present objection to moral knowledge is modeled on Benacerraf's objection to Platonism in mathematics.
+
+51 See Nozick's (1981, pp. 172ff.) analysis of knowledge.
+
+52 The objections I have in mind include the causal theory's difficulty in accounting for knowledge by induction, and the failures of closure implied by Nozick's theory. The alternative accounts of knowledge I have in mind include reliabilism, the defeasibility analysis, Plantinga's 'proper function' analysis, the relevant alternatives theory, and various forms of contextualism.
+
+53 See Armstrong (1978a; 1978b) for more arguments in defense of universals and (1978a, pp. 60-1) on the difficulty sentences like (Y) pose for nominalists; but note that Armstrong accepts far fewer universals than I do. Bealer (1993) provides arguments supporting a premise analogous to my (2), concerning statements about the properties of propositions. But I doubt that either of these philosophers would agree with me that the existence of universals is a trivial truth.
+
+54 Berkeley ([1710] 1965, introduction, sections 11-16); Hume ([1739] 1992, pp. 17-25). There are other forms of nominalism that I don't discuss here, particularly what Armstrong calls 'class nominalism' and 'resemblance nominalism'. I think they can be refuted similarly; see Armstrong (1978a, chapters 4, 5).
+
+55 Similar views of a priori knowledge are provided by Bealer (1999) and Russell ([1912] 1997, chapters 9-10). I take Russell's notion of having 'acquaintance' with universals and Bealer's notion of possessing a concept 'in the full sense' to be essentially equivalent to my notion of 'adequately grasping' a universal. Lemos (1994, pp. 155-60) and Audi (1997, p. 28; 2004, p. 48) apply a similar conception of a priori knowledge to the case of ethics, but note that I do not, with Audi and Lemos, locate the justification for a priori beliefs in the understanding of their contents. Rather, I locate justification for belief in the state of something's seeming to be the case.
+
+56 Since writing the remarks in the text, I have come to the conclusion that these conditions are necessary but not sufficient for adequate grasping of a universal, roughly because, for example, the concept of a simultaneously red and green object does not count as a grasp of any universal. I am uncertain as to what further conditions must be added.
+
+57 In the philosophers' sense, a definition must state necessary and sufficient conditions for the application of a concept in all possible worlds.
+
+58 But this does not require the existence of disjunctive universals. If one
+
+disjoins two concepts, each concept may refer to a universal without the disjunction referring to one.
+
+59 The ‘cannot’ adverts at least to all possible worlds whose intelligent beings are roughly like us psychologically. I suspect it applies to all possible worlds whatsoever—I reject the Humean supposition that ‘anything can cause anything’. But I think the weaker modal claim is all that my account of *a priori* knowledge requires.
+
+60 In other words, I take the Benacerraf problem to concern *warrant* in Plantinga’s sense (1993, p. 3) rather than *justification*.
+
+## Chapter 6 Disagreement and Error
+
+1. Brandt (1996, p. 5); what he proposes to ignore is the idea that intuitions are reliable guides to moral questions about specific cases. Non-naturalism is dismissed in a few sentences on the preceding page. Among those who offer general theories of the nature of morality and ignore intuitionism are Joyce (2001), Blackburn (1993), and Harman (1977). James Rachels’ (2003) excellent and widely used textbook contains no mention of intuitionism, though it includes sections on other metaethical theories. Liszka’s textbook opines that ‘the flaws with this approach are obvious’ before glibly recounting the problem of disagreement (2002, p. 312). Jackson (2003, p. 562) observes, ‘It seems that we know enough about what our world is like to know that there is no such property’ as Moore’s non-natural property of goodness; he gives no further elaboration. Jackson, Pettit, and Smith (2004, p. 221) dismiss Moore’s non-naturalism as ‘jejune’, again with no further elaboration.
+
+However, intuitionism has gained renewed interest in some quarters in recent years (Stratton-Lake 2002b; Audi 1997 and 2004; Dancy 1993; Shafer-Landau 2003).
+
+2. See Howard and Dunaif-Hattis (1992, pp. 314–15, 461, 573). Some anthropologists deny the authenticity of most alleged cases of cannibalism; see Arens (1979) and Howard and Dunaif-Hattis (1992, p. 489).
+
+3. Rachels (2003, pp. 24–5).
+
+4. Hare (1999, pp. 5–6) argues that because intuitions can differ, intuitionism entails relativism. But see note 5 below.
+
+5. This is Hare’s notion of objectivity (1999, p. 11).
+
+6. Mackie (1977, pp. 36–8); Hudson (1967, pp. 58–60); Layman (1991, pp. 179–80).
+
+7. Nowell-Smith (1954, pp. 46–7), Hudson (1967, p. 58), Liszka (2002, p. 312), Popper (2001, pp. 49–50), and Tara Smith (2000, pp. 25–6) all attribute the claim of infallibility to intuitionism. Smith explicitly attributes the claim of the irrelevance of reasoning, while the others seem to imply it. Claim (iii) is not explicitly mentioned but seems required by
+
+the argument. Brandt (1944, p. 477) implies that intellectual insights must be infallible, under appropriate conditions.
+
+8 See chapter 5, note 12. I can find no clear endorsement of the general infallibility claim in all of the intuitionist literature.
+
+9 Clarke ([1705] 1964, p. 6). Quoted in Nowell-Smith (1954, p. 47). I have abridged the quotation.
+
+10 Clarke ([1705] 1964, pp. 4–5). His other examples are similar, being generally along the lines of: it is better to help people than to cause misery and destruction for no reason.
+
+11 Brandt (1944, p. 483).
+
+12 Arens (1979); Mead (2001); Freeman (1983; 1999). See Gardner (1998) for a review of the cannibalism controversy. See Hellman (1998, chapter 10) for a review of the Mead-Freeman controversy. Hellman also reviews nine other great disputes in science.
+
+13 Murray (1984).
+
+14 See Newport and Strausberg (2001) on ESP and astrology and Gallup and Newport (1991, pp. 138, 141) on ESP, astrology, and telepathic experiences. Newport and Strausberg report that in 2001, 36 per cent of Americans believed in telepathy, though Newport and Strausberg did not determine how many believe they have actually had a telepathic experience.
+
+15 Nowell-Smith (1954, p. 46); Hudson (1967, pp. 58–60).
+
+16 See my (n.d.) on irrationality and bias.
+
+17 This is the ‘young Earth’ position held by many creationists, such as Thompson (1999). The 6000 figure is arrived at by adding ages of people mentioned in the Bible, particularly in Genesis.
+
+18 Compare Shafer-Landau (2003, p. 220).
+
+19 Nowell-Smith (1954, pp. 44–6).
+
+20 Sterling (1994, p. 130) and Brink (1984, p. 117) make similar points. For examples of rational arguments about abortion, see Thomson (1971), Tooley (1972), and Marquis (1989). Though these arguments have not succeeded in resolving the dispute to everyone’s satisfaction, they are a step in the right direction.
+
+21 Brink (1984, p. 116) argues similarly, though he seems to mistakenly think the point requires a coherent theory of justification. My view resembles what Haack (1983) dubs ‘foundherentism’, but note that I do not, like Haack, assume that all foundational beliefs are fallible. Compare BonJour’s (1985, pp. 26–9) notions of ‘moderate’ and ‘weak foundationalism’, both of which allow coherence to raise or lower the justification of foundational beliefs.
+
+22 The point does not depend on witness dishonesty. Studies have found that the reliability of eyewitness testimony is greatly overrated, witnesses may be highly confident even when wrong, and many people convicted on the basis of such testimony have since been exonerated. See Wells and Olson (2003) for a review.
+
+23 Sinnott-Armstrong (1996, pp. 26-7); Layman (1991, pp. 179-80); Ayer (1952, p. 106).
+
+24 Nowell-Smith (1954, p. 47) purports to speak for intuitionists: ‘[T]hose who disagree with us on a moral issue must be insincere. It is force, not argument that they need.’
+
+25 Singer (1993, pp. 169-73). He agrees that we ‘should certainly put very strict conditions on permissible infanticide’ (p. 173).
+
+26 The latter principle is criticized by Stuart Rachels (1998), but I am unpersuaded.
+
+27 Stuart Rachels (2003) lists nine ways of arguing for claims about intrinsic value, seven of which seem viable. None of the viable ones conflict with my thesis that intuition is the ultimate source of justification for all ethical claims.
+
+28 Remarks to this effect are common; see Rawls (1971, p. 21); Timmons (1999, p. 7); Smith (1994, pp. 201-2).
+
+29 This is Stevenson’s (1963, pp. 26-7) explanation of moral disagreement.
+
+30 Joyce (2001, chapter 6).
+
+31 See Singer (1993, p. 327); Hare (1999, pp. 24, 58-9); Ruse (1998, p. 255).
+
+32 Singer (1993, pp. 229-30). There is further discussion, of course, but the appeal to intuition is essential.
+
+33 See above, pp. 145-7.
+
+34 Singer and Posner (2001, opening letter). For further suggestions about our biases, see Singer (1974, p. 516).
+
+35 Among anti-realists, only Scanlon seems to recognize this point: ‘If, however, it is charged that our judgments about reasons for action as a whole are “merely” due to habituation, what conception of reasons backs up this “merely”? “Merely” as opposed to what? If the content of judgments about reasons suggested that they were supposed to reveal to us the facts about some “external” reality, then this charge might at least gain a foothold’ (1998, p. 72).
+
+36 The quotation is from Singer (1999, p. 316), referring approvingly to Peter Unger’s arguments. Unger (1996, p. 101) gives several examples of obviously false moral claims that he thinks our intuitions depend on, though he does not claim that moral intuitions about cases are unreliable in general (p. 10). Singer (1999, p. 317) declares, ‘These factors just cannot be morally significant’—end of argument.
+
+See also Singer (1993, pp. 232, 254) on the physical proximity bias. Singer (1974, pp. 516-17; 1999, p. 270) recommends that we rely on ‘self-evident axioms’ instead of intuitions about cases.
+
+## Chapter 7 Practical Reasons
+
+1. I use the term ‘normative reasons’ because I take it that the concept of rationality is a central normative concept. I take moral reasons to be a proper subset of normative reasons.
+
+2 Hume ([1739] 1992, pp. 413–17). More precisely, in (a), we should read ‘that you believe A will or might accomplish’ as ‘such that your subjective probability of its occurring given that you do A is greater than your unconditional subjective probability of its occurring’. In (b), we should read ‘that you have reason to believe A will or might accomplish’ as ‘such that the epistemic probability, on your total evidence, of its occurring given that you do A is greater than the unconditional epistemic probability, on your total evidence, of its occurring’.
+
+3 The argument derives from Hume ([1739] 1992, pp. 413–18, 455–70) and is discussed at length by Michael Smith (1994, esp. p. 12). One of the most popular arguments in all of philosophy, it has been endorsed by Mackie (1977, pp. 40–1), Gibbard (1990, p. 33), Hare (1999, p. 1), Nowell-Smith (1954, pp. 39–42), Joyce (2001), and Fumerton (1990, chapter 3), among others.
+
+4 Kant ([1785] 1959) and Nagel (1970) reject the Humean Conception. McDowell (1978) rejects the Belief/Desire Gap. Ross ([1930] 1988, pp. 157–8, 163) rejects and Frankena (1958) calls into question the Magnetism of Values.
+
+5 I take this to be true for any sense of ‘should’, not just the moral ‘should’.
+
+6 To have an available motivation for doing A is to have a mental state (possibly dispositional or subconscious) such that either it motivates one towards doing A, or one can bring it about that it so motivates one.
+
+7 A variant is the idea that we should interpret others as having generally true beliefs (Davidson 1990, pp. 129–30); however, this version of the principle of charity is inferior to the one I discuss. We are justified in attributing false beliefs to others, provided that it would make the most sense for them to be holding those false beliefs. We are also justified in attributing false statements to others (including lies), when it would be most rational (perhaps for practical reasons) for them to make such false statements.
+
+8 The term ‘physical pleasure’ is something of a misnomer—sensory pleasures are really no more physical than emotional pleasures. If physicalism in the philosophy of mind is true, both are physical; if dualism is true, both are non-physical.
+
+9 Bentham ([1781] 1996, p. 11); Hume ([1739] 1992, p. 414). Compare von Mises’ (1996, pp. 13–15) contention that all action aims at removing felt uneasiness and achieving happiness.
+
+10 Compare the observation, in section 5.6, that our perceptions and intuitions are focused on the world. The mistake of treating awareness as being primarily directed at inner states is of a piece with the mistake of treating our goals as being primarily about inner states.
+
+11 Hubin (1980, p. 75) deploys a similar example, to make the related point that self-interest does not consist in desire-satisfaction. See also Nozick’s ‘Experience Machine’ example (1974, pp. 42–5), which shows that the objects of our desires are typically not internal states. Most people would not plug into the machine for the same reason they would not sell their
+
+children into slavery: that would not get them what they want.
+
+12 Compare Butler's ([1729] 1964, pp. 20-5) classic refutation of psychological egoism.
+
+13 Michael Smith (1994, p. 114) treats desires this way. Nagel (1970, p. 29) suggests that we may ascribe a desire to someone by virtue of the fact that he is motivated in a certain way.
+
+14 This need not amount to what Michael Smith (1994, pp. 104-111) calls the 'phenomenological conception of desire', since we need not assume that appetites and emotions must always have occurrent qualia. Compare: we can introspectively identify our beliefs, even though on the received view, beliefs have no qualia.
+
+15 Few of the philosophers of this stripe would use the word 'intuition', or even the word 'obvious', in making this appeal. Rather, they would simply assert the Humean conception without argument, and it is this that leads me to construe them as relying on intuition.
+
+16 Hume ([1739] 1992, p. 458).
+
+17 The example is Anscombe's (1963, pp. 56-7). The 'direction of fit' terminology is from Searle (1979, pp. 3-4; 1983, pp. 7-9), who may have gotten it from J. L. Austin.
+
+18 Michael Smith (1994, pp. 111-16).
+
+19 Paraphrased from Michael Smith (1994, p. 116). Smith actually says that any mental state with world-to-mind direction of fit is a desire, and thus that motivation requires desire. I have slightly weakened Smith's claims to give the argument its best chance of succeeding.
+
+20 Interestingly, Smith thinks that (2) is 'unassailable' and only (3) is open to challenge.
+
+21 A normative reading of (2) is suggested by Smith's use of the phrase 'state with which the world must fit' (1994, p. 116; emphasis mine). However, since the argument concerns motivating reasons, rather than normative reasons, it seems that a descriptive reading is required. This reading is supported by Smith's remark that a state with mind-to-world direction of fit 'tends to go out of existence' when one perceives that the world fails to match it (p. 118). Shafer-Landau (2003, p. 35) argues that the notion of direction of fit should be understood normatively, along the lines of: a state with mind-to-world direction of fit is one that ought to go out of existence in the face of a perception that its content is unsatisfied. Note that the equivocation of which I accuse Smith in the text would arise whether one takes a normative or a descriptive interpretation of direction of fit.
+
+22 Scanlon (1998, pp. 33-5) makes a similar claim, to the effect that a normative judgment can constitute a motivation, which I take to be roughly equivalent to the claim that making a normative judgment can constitute having a goal. The notion of 'having a goal' might, instead, be taken to require an intention to pursue the goal, but on that interpretation, Smith's argument would fail, since the presence of a
+
+motivating reason to pursue $x$ does not entail the presence of an intention to pursue $x$.
+
+23 Hume ([1739] 1992, p. 458).
+
+24 Hume ([1739] 1992, p. 416). As the context confirms, Hume’s point is that no preference can be rationally criticized.
+
+25 ‘Rational’ is itself an evaluative term, about which a Humean might adopt an anti-realist theory (Gibbard 1990, pp. 6–7). It is natural to wonder how this would affect my subsequent arguments. The answer is that it should not affect them, provided the anti-realist view in question is plausible. For anti-realism about values is plausible only if it allows for the possibility of cogent reasoning, of roughly the sort that our actual discourse involves, about first-order evaluative questions. My arguments in the following sections about what is practically rational, then, would simply be instances of such evaluative reasoning.
+
+26 Brandt (1996, pp. 51–3).
+
+27 Brandt (1979, pp. 14–15); Williams (1981, pp. 104–5).
+
+28 Michael Smith (1994, pp. 159–60). Smith considers himself an anti-Humean about normative reasons; I, however, call him a Neo-Humean.
+
+29 Williams (1981, pp. 106–9).
+
+30 Nagel (1970, pp. 39–41) takes this point to reveal a serious deficiency in the Humean account of practical rationality.
+
+31 If a large set of beliefs is inconsistent, each individual belief may be sufficiently probable that one should not give it up. See Foley (1979).
+
+32 Suppose, for example, that the atheist succeeds in showing that the concept of omnipotence is incoherent, that omnipotence is inconsistent with omnibenevolence, or the like.
+
+33 Stuart Rachels (personal communication) suggests that it might be reasonable only to wish that world hunger would end, rather than to desire that it end. Perhaps there is a sense of ‘desire’ in which the having of a desire implies something like the belief that the object of desire has a reasonable chance of being attained. But I do not use ‘desire’ in such a sense here. I use ‘desire’ in a broad sense that includes wishes. On a similar note, my sense of ‘desire’ also allows one to desire what one already has.
+
+34 BonJour (1985, pp. 169–79). See Olsson (2005) for criticisms of coherence on grounds of its inability to secure likelihood of truth.
+
+35 I take epistemic justification to be a matter of likelihood of truth, in one sense of ‘likelihood’.
+
+36 Ryan (2003) defends such a position persuasively, though she is swimming against the current here.
+
+37 Scanlon (1998, pp. 62–3). I have taken some liberties—where I speak of ‘evaluative judgments’, Scanlon speaks of ‘conclusions about reasons’ (which he takes as the most fundamental kind of evaluative judgment). This distinction does not affect my criticisms of him in the text.
+
+38 I assume that $x$ is what makes $y$ true’ is transitive, so that if $B$ is what makes $A$ true, and $C$ is what makes $B$ true, then $C$ is what makes $A$ true.
+
+The conditions become ever more complex as the series proceeds, since each condition mentions the previous one.
+
+39 Unless ethical egoism is true.
+
+40 Hume ([1751] 1975, pp. 285–6).
+
+41 These individuals at least have Plato on their side. See the *Meno* (77d-e) and the *Protagoras* (345d).
+
+42 Hume ([1739] 1992, pp. 399–407) rejects free will, as, I think, should anyone who holds his view of motivation.
+
+43 One might also introduce, as a second factor determining the force of motivations, the confidence of the agent’s belief that a given action will satisfy a given desire. The point made in the text will still hold, however, provided that the two factors can be combined into a single factor—for instance, by multiplying the degree of belief by the strength of the desire, as in standard expected-utility calculations.
+
+Richard Fumerton (personal communication) suggests that features of desires other than their strength might be relevant to their motivational efficacy. Perhaps desires for immediate pleasures tend to have more motivational force than desires for distant benefits due simply to their content, rather than their strength. Though this is a theoretical possibility, it seems false introspectively: desires for immediate pleasures feel stronger than desires for comparable but more distant benefits, and this seems the most natural explanation for why the former desires often have more motivating force.
+
+44 There is a large literature on whether that conflict is genuine, which I cannot go into here. See my (2000b) for more.
+
+45 If a variable has a continuous infinity of possible values, then its probability of taking on any given one of those values must be zero; otherwise the total probability for all the possibilities would be infinite. So if there are continuum many possible degrees of strength, then the probability of any desire having any given exact degree of strength must be zero. Consequently, the probability of two different desires just happening to have the same degree of strength (assuming there is not some logical connection between them that requires them to have the same degree of strength) is zero.
+
+Rather than saying the probabilities are zero, some people would wish to posit ‘infinitesimal’ probabilities here, where an infinitesimal number is one that is less than any real number but greater than zero. I do not believe in such quantities. Nevertheless, I take it that the fact that a theory implied that something which happens quite frequently has an infinitesimal probability of occurring would be extremely strong evidence against that theory, albeit perhaps not *quite* as strong as it would be if the theory implied that the event had probability zero.
+
+46 Mackie (1977, p. 35).
+
+47 Mackie (1977, chapter 5).
+
+48 Mackie (1977, p. 43).
+
+49 Ruse (1998, p. 253). Compare Joyce (2001, chapter 6). Ruse goes on to
+
+express strong doubts that we could ever escape morality's influence. I do not know how to reconcile that with his remarks about the importance of the sense of objectivity to morality's function—unless he doubts (despite his own arguments) that we could ever accept anti-realism.
+
+50 See Singer (1993, chapter 8); Unger (1996).
+
+51 Singer (1993, chapter 12) in fact argues this way, several chapters after presenting his moral argument.
+
+52 Admittedly, I have never given away the huge amounts of money that Singer requires. But I anticipate that the enjoyment derived from that would not be so much greater that that derived from donating smaller amounts.
+
+53 Mackie (1977, p. 106) says this about our 'sense of justice'.
+
+54 Dancy (1993, p. 29) and Scanlon (1998, pp. 33–5) defend this point.
+
+55 See Butchvarov (1989, pp. 48–52). The view is traditionally ascribed to Prichard, though the attribution is hard to justify; see his (1957, pp. 111–12).
+
+56 I do not here mean to rule out that moral philosophy may discover that traditional moral beliefs call for significant revision. In fact, I think moral philosophy has discovered precisely that. But for the sake of argument, suppose that the 'Why be moral?' question is asked in regard to a moral system that has already been subjected to the kind of reflection and criticism that a sophisticated intuitionist would endorse.
+
+57 Fumerton (1990, p. 85) makes a related point: 'Why should I do $x$?' is a request for a reason to do $x$. But 'x is rational' just means that $x$ is what one has the most reason to do. So 'Why should I be rational?' amounts to a bizarre request for a reason for doing what one has the most reason to do.
+
+58 Quinn (1993, pp. 236–7, 246–7) make a similar point, arguing that a mere urge unconnected to any tendency to see something as good does not provide a reason for action. Scanlon (1998, p. 38) denies that such an urge even qualifies as a genuine desire.
+
+## Chapter 8 Further Objections
+
+1. Mackie (1977, pp. 38–42). I have changed the argument’s name from ‘the argument from queerness’ to ‘the argument from weirdness’. Jackson’s appeal to ‘metaphysical plausibility’ (2003, p. 562) is a version of this argument.
+
+2. Other things commonly rejected on grounds of weirdness include: minds (if not identical with brains), universals, abstract objects in general, a priori knowledge, and libertarian free will.
+
+3. In particular, Mackie finds ‘queer’ the connection between moral properties and non-moral ones, the motivating power of moral properties, and our knowledge of moral properties. I discuss these in section 8.2, chapter 7, and section 5.4, respectively.
+
+4 Mackie (1977, p. 38).
+5 Mackie (1977, pp. 31-5).
+6 I have used the effort to define 'table' as an exercise in classes; no one has ever succeeded. Consider one initially plausible definition: 'A table is an item of furniture consisting of a flat, level surface and supports, intended to support other, smaller objects' (Rand 1990, p. 41). But a table need not contain supports: I once saw a table at Fallingwater attached directly to the wall. The table was supported, but no supports were part of the table. Suppose we modify the definition to say merely that the surface must be supported off the ground. The definition still implies that a bed or a stool is a table. Suppose we insert 'other than people' after 'objects.' Then the definition falsely implies that an operating table is not a table. It also implies (still) that desks and bookshelves are tables. Obviously, I cannot consider every possible modification, but this is enough to evidence that our understanding of the concept does not guarantee our ability to define it. Again, none of this gives me the least doubt that tables exist.
+7 Supervenience (more specifically, 'strong supervenience') is usually defined as follows: A-properties supervene on B-properties iff: no two possible objects can differ in their A-properties without differing in their B-properties (Kim 1993, p. 65). However, the relation I intend to refer to in the text is stronger than this; I intend supervenience to also imply that A-properties depend on B-properties. Note also that we may want to weaken the thesis of the supervenience of the evaluative realm to a global supervenience claim: that the world as a whole could not have differed in the distribution of evaluative properties without also differing in the distribution of natural properties (Kim 1993, p. 68). For simplicity, I consider only strong supervenience in the text.
+8 Mackie (1977, p. 41).
+9 Ross ([1930] 1988, pp. 19-20).
+10 Strawson (1949, pp. 29-30).
+11 Gay (1985, p. 255) and Dancy (1993, p. 99) make similar observations.
+12 Dancy (1993, pp. 100-4) discusses and criticizes this sort of analogy, but note that the analogy does not, as Dancy supposes, have anything to do with the propensity theory of probability (Newtonian physics makes no use of probabilities).
+13 Most philosophers seem to agree with this, but see Stuart Rachels (2004) for interesting arguments to the contrary.
+14 Dancy (1993, pp. 60-1, 102); McNaughton (1988, pp. 200-1).
+15 Importantly, I am not seeking to refute particularism of the sort defended by Dancy or McNaughton. The 'liberalized' notion of prima facie rightness I have just suggested in the text is compatible with particularism, though it does not entail it.
+16 For example, it makes sense to try to control the center of the board, since from there, one can attack more other places.
+17 One qualification to this: the propriety of the rules depends on the players' calculating abilities. A player who could see the entire tree of
+
+possible games and could calculate at unlimited speed could play a perfect game without recourse to these rules. I maintain nevertheless that the rules are necessarily correct in some sense: it is necessary that they approximate to how the perfect player would play. Perhaps something similar holds for an agent with perfect moral knowledge—perhaps there is a complete, precise moral theory that would obviate the need for principles of mere prima facie rightness. But if there is, we don't know it; hence our need for such principles.
+
+Stuart Rachels has pointed out (personal communication) that what constitutes good play depends on the cognitive abilities of one's opponent, in the sense that, other things being equal, it is better to make a move that it would be more difficult for one's particular opponent to see an appropriate response to. I note, as an appeal to authority, that Rachels (1989 U.S. Chess Champion) has also endorsed my remarks about chess in the text.
+
+18 More precisely, $N$ is $A$'s maximal natural property—the property formed by conjoining all of $A$'s natural properties, including negative properties (such as 'not being red'), such that nothing with $N$ can have any natural properties not entailed by $N$.
+
+19 This is a composite of Blackburn (1993, pp. 114–19) and (p. 137).
+
+20 Blackburn (1993, p. 137); compare p. 122, arguing that where we take an attitude towards something because of certain properties, we will take that attitude towards anything that has those properties.
+
+21 Strictly, instead of 'total set of natural features', I should say 'maximal natural feature'; see note 18. If $A$'s maximal natural feature is good-making, then $A$ is good simpliciter, since there can then be no other features that defeat $A$'s prima facie goodness.
+
+22 There are two technical problems with this formulation of the argument: one, it assumes that either there exist infinitely long predicates, or there are only finitely many ways for a thing to be good; two, it assumes in any case that the possible ways for a thing to be good are countable. But we should waive these objections in order to get to more interesting replies to Jackson's argument.
+
+23 Jackson (2003, pp. 562–3).
+
+24 Jackson (2003, p. 565); see also (p. 562).
+
+25 There is no consistent, complete formal system capable of deriving all the truths of arithmetic. This entails that there is no algorithm capable of generating all the arithmetical truths (without also generating contradictions). See Nagel and Newman (2001) for exposition of Godel's Theorem.
+
+26 I owe this point to Richard Fumerton (personal communication).
+
+27 Brandt (1996, p. 4) and Abraham (1933) raise this problem. The argument of this paragraph is from Abraham (p. 39).
+
+28 Tara Smith (2000, pp. 27–8).
+
+29 Hare (1989, p. 83) accuses Rawls of this sin, for Rawls' reliance on reflective equilibrium.
+
+30 Nelson (1991) makes a similar point.
+31 This objection was suggested to me by Brian Doherty and Bryan Caplan (personal communications).
+32 Scientists have recently determined that the following is the world's funniest joke:
+
+A couple of New Jersey hunters are out in the woods when one of them falls to the ground. He doesn't seem to be breathing, and his eyes are rolled back in his head. The other guy whips out his cell phone and calls the emergency services. He gasps to the operator: 'My friend is dead! What can I do?' The operator, in a calm soothing voice, says: 'Just take it easy. I can help. First, let's make sure he's dead.' There is a silence, then a shot is heard. The guy's voice comes back on the line. He says: 'OK, now what?' (LaughLab n.d.).
+
+However, I find my joke in the text funnier.
+
+33 For more on these sorts of explanations, see Dawkins (1989, chapter 12), Wright (1995, esp. chapter 10), and Ruse (1998, pp. 218-22).
+34 These arguments appear in Ruse (1985, pp. 237-8), Joyce (2001, chapter 6), and perhaps Wilson (2000, p. 562), though Wilson is obscure. See also Ruse (1998, pp. 252-4).
+35 Compare Pinker's (2002, pp. 192-3) analogy between mathematics and ethics. Just as our evolved capacity to understand numbers leads us to correctly apprehend independently existing arithmetical truths, perhaps our evolved capacity to understand right and wrong leads us to correctly apprehend independently existing moral truths.
+36 Nozick (1981, p. 345) makes this point. Compare James Rachels' (1990, pp. 78-9) example of 'mathobiology', a hypothetical field that would study the biological basis of mathematical thinking; this field would add nothing to mathematics. Ruse (1985, pp. 236-7) seems aware of the point but oddly unconcerned by it.
+37 See above, p. 103.
+38 See Ruse (1998, p. 222).
+39 Allen et al. (1977, pp. 145-6).
+40 Ruse (1988, chapter 6) discusses (without endorsing) this view.
+41 Something like this explanation derives from David Friedman (informal communication). Friedman (1994) gives a similar account of the benefits of respecting rights.
+42 Haidt (2001) and Haidt and Hersh (2001) present evidence of what I would call irrationality in moral judgment, though they do not describe it that way. Haidt and Hersh's evidence indicates that moral judgments are often caused more by emotions than by rational reflection and reasoning. As a case in point, about half of Americans believe that homosexual relationships are morally wrong (Haidt and Hersh 2001, p. 192; Gallup n.d.).
+43 In 2005, 92 per cent of Americans thought that polygamy is wrong (Gallup n.d.).
+
+44 Haidt (2001) reports that individuals confronted with a story involving harmless brother-sister incest commonly invent rationalizations for judging the action wrong (for instance, appealing to the dangers of inbreeding). When confronted with the falsity of their explanations (for instance, by being reminded that the story specified that the brother and sister used two forms of birth control), subjects commonly insist that the action is still wrong though they cannot explain why.
+
+45 Ruse (1998, pp. 145–7).
+
+46 See, for example, Richard Posner’s contribution in Singer and Posner (2001): ‘I do not feel obliged to defend this reaction; it is a moral intuition deeper than any reason that could be given for it and impervious to any reason that you or anyone could give against it. Membership in the human species is not a “morally irrelevant fact,” as the race and sex of human beings has come to seem.’
+
+47 Mackie (1977, pp. 36–7).
+
+48 More precisely, it is determined by competent speakers’ *dispositions* to apply the word—including applying it only in thought—to various possible things.
+
+49 The last example is from Haidt, Koller, and Dias (1993), who have studied attitudes towards harmless, offensive actions such as cleaning the toilet with the flag, having intercourse with a chicken carcass, and eating the family dog when it dies. Haidt and Hersh (2001) have studied attitudes towards cases of harmless incest. In general, many judgments of moral wrongness seem to be based on emotions, are difficult to justify, and are unrelated to any harm done or believed to be done.
+
+## Chapter 9 Conclusion
+
+1. This objection assumes that the subjectivist endorses analytic reductionism. If the identity between wrongness and being forbidden by God is synthetic, then it would be *consistent* to think ‘Stealing is wrong, but God does not forbid it’. Similarly, if the identity between wrongness and being forbidden by society is synthetic, then one could consistently think that polygamy is permissible but society forbids it, so two people could disagree about the permissibility of polygamy while agreeing that society forbids it. A similar point applies to individual subjectivism.
+
+2. This argument assumes the principle of bivalence (every proposition is true or false) and the correspondence theory of truth (truth is correspondence to facts). There are important objections to bivalence, such as those deriving from vagueness and from empty names, but none of them are relevant here.
+
+3. Van Inwagen (1983, p. 215).
+
+4. See BonJour (1998, pp. 203–6) for a partial explanation of why this is so.
+
+5. See Mackie (1977, pp. 30–5).
+
+6. Joyce (2001).
+
+284 Notes
+
+7 See Stuart Rachels (2003, pp. 17–22) for further discussion of this point.
+
+8 The move to an obligation not to harm others is controversial. See Parfit (1984, chapters 6, 7, and 9) and Nagel (1970) for more sophisticated defenses of this kind of move. But the simple thought in the text is what moves me.
+
+9 Ross ([1930] 1988, pp. 21, 30–1).
+
+10 See above, p. 103.
+
+11 The following is a simplified version of one part of Davidson’s views of the mental; see Davidson (1991).

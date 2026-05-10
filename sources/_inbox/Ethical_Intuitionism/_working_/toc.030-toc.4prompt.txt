@@ -1,0 +1,22 @@
+Analyze the attached scanned table of contents and extract a clean two-level table of contents.
+
+The table of contents page may use various titles, not just "Table of Contents". Look for any of these common headings: "Contents", "Table of Contents", "Analytic Contents", "Analytical Contents", "Detailed Contents", "Summary", "Sommaire", "Inhalt", "Inhaltsverzeichnis", "Índice", or similar headings in any language that indicate a structured listing of chapters and sections.
+
+If a book has both a brief "Contents" and a detailed "Analytic Contents" (or "Analytical Contents", "Detailed Contents"), then the detailed one is the one for this task as it contains both top level chapters AND subchapters. It also has subchapters in great detail, read them in full.
+
+
+Output as a nested list WITH OR WITHOUT numbering as it is in the table of content
+
+// Example where numbering is only at main chapter headings
+1. Chapter Title
+   - Section Title
+   - Section Title
+2. Chapter Title
+   - Section Title
+
+// Example where numbering is both at main chapter headings and at subchapter headings
+1. Chapter Title
+   1.1 Section Title
+   1.2 Another section Title
+2. Chapter Title
+   2.1 Section Title

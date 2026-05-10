@@ -1,0 +1,396 @@
+Forms changes for chapter3
+Repaired 21 section(s)
+======================================================================
+
+Lines 22-30:
+  BEFORE: G. E. Moore’s Open Question Argument refutes analytic reductionism.⁶ Suppose ‘N’ is an expression containing only non-evaluative terms that denotes some property. ‘Are things that have N good?’ is an open question. What this means is that a person could coherently give either answer to the question. But ‘Are good things good?’ is not an open question; a person could not coherently give either answer to that question. Therefore, the two questions are not equivalent. Therefore, ‘good things’ is not synonymous with ‘things that have N’. To illustrate, consider the theory that ‘x is good’ means ‘x increases the amount of enjoyment in the world’. Moore would argue:
+
+1. ‘Is it good to do what increases the amount of enjoyment in the world?’ is an open question.
+
+2. ‘Is it good to do what is good?’ is not an open question.
+
+3. Therefore, the questions in (1) and (2) are not synonymous.
+
+4. Therefore, 'increases the amount of enjoyment in the world' is not synonymous with 'is good'.
+  AFTER:  G. E. Moore’s Open Question Argument refutes analytic reductionism.⁶ Suppose ‘N’ is an expression containing only non-evaluative terms that denotes some property. ‘Are things that have N good?’ is an open question. What this means is that a person could coherently give either answer to the question. But ‘Are good things good?’ is not an open question; a person could not coherently give either answer to that question. Therefore, the two questions are not equivalent. Therefore, ‘good things’ is not synonymous with ‘things that have N’. To illustrate, consider the theory that ‘x is good’ means ‘x increases the amount of enjoyment in the world’. Moore would argue:
+
+1. ‘Is it good to do what increases the amount of enjoyment in the world?’ is an open question.
+
+2. ‘Is it good to do what is good?’ is not an open question.
+
+3. Therefore, the questions in (1) and (2) are not synonymous.
+
+4. Therefore, 'increases the amount of enjoyment in the world' is not synonymous with 'is good'.
+----------------------------------------------------------------------
+
+Lines 71-88:
+  BEFORE: **Proposed Analysis**
+
+$x$ is good = God approves of $x$.
+
+**Moorean Premise** 'God is good' does not mean 'God approves of himself'.
+
+$x$ is right = $x$ is in accord with the prevailing social customs.
+
+‘Is it right to obey social customs?’ does not mean ‘Does obeying social customs accord with social customs?’
+
+$x$ is good = I approve of $x$.
+
+‘Are the things I approve of really good?’ does not mean ‘Do I really approve of the things I approve of?’
+
+$x$ is good = $x$ promotes life.¹³
+
+‘Is life good?’ does not mean ‘Does life promote itself?’
+
+  AFTER:  **Proposed Analysis**
+
+$x$ is good = God approves of $x$.
+
+**Moorean Premise** 'God is good' does not mean 'God approves of himself'.
+
+$x$ is right = $x$ is in accord with the prevailing social customs.
+
+‘Is it right to obey social customs?’ does not mean ‘Does obeying social customs accord with social customs?’
+
+$x$ is good = I approve of $x$.
+
+‘Are the things I approve of really good?’ does not mean ‘Do I really approve of the things I approve of?’
+
+$x$ is good = $x$ promotes life.¹³
+
+‘Is life good?’ does not mean ‘Does life promote itself?’
+----------------------------------------------------------------------
+
+Lines 115-125:
+  BEFORE: John Searle asks us to consider the following sequence of statements:
+
+1. Jones uttered the words, 'I hereby promise to pay you, Smith, five dollars'.
+
+2. Jones promised to pay Smith five dollars.
+
+3. Jones placed himself under (undertook) an obligation to pay Smith five dollars.
+
+4. Jones is under an obligation to pay Smith five dollars.
+
+5. Jones ought to pay Smith five dollars.
+  AFTER:  John Searle asks us to consider the following sequence of statements:
+
+1. Jones uttered the words, 'I hereby promise to pay you, Smith, five dollars'.
+
+2. Jones promised to pay Smith five dollars.
+
+3. Jones placed himself under (undertook) an obligation to pay Smith five dollars.
+
+4. Jones is under an obligation to pay Smith five dollars.
+
+5. Jones ought to pay Smith five dollars.
+----------------------------------------------------------------------
+
+Lines 142-152:
+  BEFORE: Peter Geach proposes the following alleged counter-example to Hume’s Law:
+
+1. If Evan were to promise to adopt some practice then he would adopt it. (Premise.)
+
+2. If Evan were to utter sentence W, he would be promising to adopt the practice of doing something wrong twice a day. (Premise.)
+
+3. Nobody should adopt the practice of doing something wrong twice a day. (Premise.)
+
+4. If Evan were to utter W, he would adopt the practice of doing something wrong twice a day. (From 1, 2.)
+
+5. Therefore, Evan should not utter W. (From 3, 4.)^{21}
+  AFTER:  Peter Geach proposes the following alleged counter-example to Hume’s Law:
+
+1. If Evan were to promise to adopt some practice then he would adopt it. (Premise.)
+
+2. If Evan were to utter sentence W, he would be promising to adopt the practice of doing something wrong twice a day. (Premise.)
+
+3. Nobody should adopt the practice of doing something wrong twice a day. (Premise.)
+
+4. If Evan were to utter W, he would adopt the practice of doing something wrong twice a day. (From 1, 2.)
+
+5. Therefore, Evan should not utter W. (From 3, 4.)^{21}
+----------------------------------------------------------------------
+
+Lines 157-163:
+  BEFORE: Geach's example has at least two flaws.²² First, the argument is invalid. I assume that the inference from (3) and (4) to (5) is valid only if the following is a valid form of inference:
+
+6. S ought not to do A.
+
+7. If S did B, S would do A.
+
+8. Therefore, S ought not to do B.
+  AFTER:  Geach's example has at least two flaws.²² First, the argument is invalid. I assume that the inference from (3) and (4) to (5) is valid only if the following is a valid form of inference:
+
+6. S ought not to do A.
+
+7. If S did B, S would do A.
+
+8. Therefore, S ought not to do B.
+----------------------------------------------------------------------
+
+Lines 165-172:
+  BEFORE: To see the problem with this, imagine the following scenario. Jon is a judge about to pass sentence on Mary, a convicted marijuana dealer. Mary's crime is minor at worst; John, however, has an intense, irrational hatred for all drug users, as a result of which he is determined to sentence Mary to either life imprisonment or death. He could sentence Mary to only a brief prison term, but he would not in fact do so. Now consider the following inference:
+
+9. John ought not to sentence Mary to life imprisonment.
+
+10. If John were to refrain from sentencing Mary to death, then he would sentence Mary to life imprisonment.
+
+11. Therefore, John ought not to refrain from sentencing Mary to death (that is, he ought to sentence Mary to death).
+
+  AFTER:  To see the problem with this, imagine the following scenario. Jon is a judge about to pass sentence on Mary, a convicted marijuana dealer. Mary's crime is minor at worst; John, however, has an intense, irrational hatred for all drug users, as a result of which he is determined to sentence Mary to either life imprisonment or death. He could sentence Mary to only a brief prison term, but he would not in fact do so. Now consider the following inference:
+
+9. John ought not to sentence Mary to life imprisonment.
+
+10. If John were to refrain from sentencing Mary to death, then he would sentence Mary to life imprisonment.
+
+11. Therefore, John ought not to refrain from sentencing Mary to death (that is, he ought to sentence Mary to death).
+----------------------------------------------------------------------
+
+Lines 175-177:
+  BEFORE: The second problem with Geach's example is that the premise, 'If Evan were to promise to adopt some practice then he would adopt it', is evaluative. The relevant reading of (1) is:
+
+$$(\forall x)(Evan \ promises\ to\ do\ x\ \Box\rightarrow\ Evan\ does\ x)$$
+  AFTER:  The second problem with Geach's example is that the premise, 'If Evan were to promise to adopt some practice then he would adopt it', is evaluative. The relevant reading of (1) is:
+
+$$(\forall x)(Evan \ promises\ to\ do\ x\ \Box\rightarrow\ Evan\ does\ x)$$
+----------------------------------------------------------------------
+
+Lines 189-191:
+  BEFORE: (A) 1. Tea-drinking is common in England.
+
+2. Therefore, tea-drinking is common in England, or all New Zealanders ought to be shot.²³
+  AFTER:  (A) 1. Tea-drinking is common in England.
+
+2. Therefore, tea-drinking is common in England, or all New Zealanders ought to be shot.²³
+----------------------------------------------------------------------
+
+Lines 197-201:
+  BEFORE: (A') 1. Tea-drinking is not common in England.
+
+2. Tea-drinking is common in England, or all New Zealanders ought to be shot.
+
+3. Therefore, all New Zealanders ought to be shot.
+  AFTER:  (A') 1. Tea-drinking is not common in England.
+
+2. Tea-drinking is common in England, or all New Zealanders ought to be shot.
+
+3. Therefore, all New Zealanders ought to be shot.
+----------------------------------------------------------------------
+
+Lines 240-258:
+  BEFORE: Now assume for reductio that there is an argument satisfying conditions (i)-(v). Let $P_{1}, P_{2}, \ldots$ be the premises of this argument, and let $C$ be its conclusion. Let $w$ be the actual world. Then we have the following:
+
+1. $P_{1}, P_{2}, \ldots$ entail C. (Condition (iii).)
+
+2. $C$ is non-trivial and evaluative in $w$. (Conditions (iv) and (v).)
+
+3. There exist value systems $v_{1}$ and $v_{2}$ such that $(w \&amp; v_{1})$ entails $C$ and $(w \&amp; v_{2})$ entails $\sim C$. (From 2.)
+
+4. $\sim C$ entails that at least one of $\{P_1, P_2, \ldots\}$ is false. (From 1.)
+
+5. $(w \&amp; v_{2})$ entails that at least one of $\{P_1, P_2, \ldots\}$ is false. (From 3, 4.)
+
+6. There is a specific premise in $\{P_1, P_2, \ldots\}$, call it $P_i$, such that $(w \&amp; v_2)$ entails $\sim P_i$. (From 5 and Determinacy.)
+
+7. $w$ conjoined with the correct value system entails $P_{i}$. (From condition (i) and Determinacy.)
+
+8. $P_{i}$ is evaluative in $w$. (From 6, 7.)
+
+Conclusion (8) follows from (6) and (7) because, given $w$, the truth of $P_{i}$ turns on what the correct value system is—$P_{i}$ is true according to the correct value system but would be false according to $v_{2}$. But (8) contradicts condition (ii). Thus, there is no argument satisfying all of conditions (i)-(v).
+  AFTER:  Now assume for reductio that there is an argument satisfying conditions (i)-(v). Let $P_{1}, P_{2}, \ldots$ be the premises of this argument, and let $C$ be its conclusion. Let $w$ be the actual world. Then we have the following:
+
+1. $P_{1}, P_{2}, \ldots$ entail C. (Condition (iii).)
+
+2. $C$ is non-trivial and evaluative in $w$. (Conditions (iv) and (v).)
+
+3. There exist value systems $v_{1}$ and $v_{2}$ such that $(w \&amp; v_{1})$ entails $C$ and $(w \&amp; v_{2})$ entails $\sim C$. (From 2.)
+
+4. $\sim C$ entails that at least one of $\{P_1, P_2, \ldots\}$ is false. (From 1.)
+
+5. $(w \&amp; v_{2})$ entails that at least one of $\{P_1, P_2, \ldots\}$ is false. (From 3, 4.)
+
+6. There is a specific premise in $\{P_1, P_2, \ldots\}$, call it $P_i$, such that $(w \&amp; v_2)$ entails $\sim P_i$. (From 5 and Determinacy.)
+
+7. $w$ conjoined with the correct value system entails $P_{i}$. (From condition (i) and Determinacy.)
+
+8. $P_{i}$ is evaluative in $w$. (From 6, 7.)
+
+Conclusion (8) follows from (6) and (7) because, given $w$, the truth of $P_{i}$ turns on what the correct value system is—$P_{i}$ is true according to the correct value system but would be false according to $v_{2}$. But (8) contradicts condition (ii). Thus, there is no argument satisfying all of conditions (i)-(v).
+----------------------------------------------------------------------
+
+Lines 267-275:
+  BEFORE: 1. Nihilism is logically possible. (Premise.)
+
+2. Nihilism entails (B). (By V-introduction.)
+
+3. Therefore, it is possible that nihilism and (B) both hold. (From 1, 2.)
+
+4. In any possible world in which nihilism and (B) both hold, (B) is non-evaluative. (In such a world, every evaluative statement is false, since nihilism holds. But (B) also holds, so (B) must not be an evaluative statement.)
+
+5. So there is at least one possible world in which (B) is non-evaluative. (From 3, 4.)
+  AFTER:  1. Nihilism is logically possible. (Premise.)
+
+2. Nihilism entails (B). (By V-introduction.)
+
+3. Therefore, it is possible that nihilism and (B) both hold. (From 1, 2.)
+
+4. In any possible world in which nihilism and (B) both hold, (B) is non-evaluative. (In such a world, every evaluative statement is false, since nihilism holds. But (B) also holds, so (B) must not be an evaluative statement.)
+
+5. So there is at least one possible world in which (B) is non-evaluative. (From 3, 4.)
+----------------------------------------------------------------------
+
+Lines 290-294:
+  BEFORE: &gt; For a thing to be hot is for its molecules to have high average kinetic energy.
+
+&gt; For a substance to be water is for it to consist of H₂O molecules.
+
+&gt; For a thing to make a sound is for it to cause a compression wave in the surrounding medium.
+  AFTER:  &gt; For a thing to be hot is for its molecules to have high average kinetic energy.
+
+&gt; For a substance to be water is for it to consist of H₂O molecules.
+
+&gt; For a thing to make a sound is for it to cause a compression wave in the surrounding medium.
+----------------------------------------------------------------------
+
+Lines 305-309:
+  BEFORE: Suppose we are speaking to a synthetic reductionist who holds that for a thing to be good is for it to be $N$, where $N$ is some natural property, or for short:
+
+$$
+\mathrm{Good} = N.
+$$
+  AFTER:  Suppose we are speaking to a synthetic reductionist who holds that for a thing to be good is for it to be $N$, where $N$ is some natural property, or for short:
+
+$$
+\mathrm{Good} = N.
+$$
+----------------------------------------------------------------------
+
+Lines 313-317:
+  BEFORE: - Heat = Molecular kinetic energy.
+
+- Water = $\mathrm{H}_2\mathrm{O}$.
+
+- Sound = Compression waves.
+  AFTER:  - Heat = Molecular kinetic energy.
+
+- Water = $\mathrm{H}_2\mathrm{O}$.
+
+- Sound = Compression waves.
+----------------------------------------------------------------------
+
+Lines 333-339:
+  BEFORE: Consider another argument for the possibility of moral observation. Michael Moore argues that since moral properties are natural properties (per his ethical naturalist stance), and since we may be able to perceive the relevant natural properties, we can therefore perceive moral properties. In short, Moore takes the following argument to be valid:
+
+I can perceive $N$.
+
+Good $= N$
+
+Therefore, I can perceive goodness.[36]
+  AFTER:  Consider another argument for the possibility of moral observation. Michael Moore argues that since moral properties are natural properties (per his ethical naturalist stance), and since we may be able to perceive the relevant natural properties, we can therefore perceive moral properties. In short, Moore takes the following argument to be valid:
+
+I can perceive $N$.
+
+Good $= N$
+
+Therefore, I can perceive goodness.[36]
+----------------------------------------------------------------------
+
+Lines 341-347:
+  BEFORE: Before addressing this, I must make a small correction: the relevant question is not whether one can perceive goodness; it is whether one can perceive that a particular thing is good. These are two different questions, and only the latter bears on the problem of moral knowledge. To illustrate, compare this case: I can see your car (your car reflects light to my eyes, and so on) without being in a position to know that the car is yours. If I could see that it is your car, that would enable me to know that it is yours, but merely seeing your car doesn't give me that knowledge. So let us modify Moore's argument as follows:
+
+I can perceive that $x$ is $N$.
+
+Good $= N$
+
+Therefore, I can perceive that $x$ is good.
+  AFTER:  Before addressing this, I must make a small correction: the relevant question is not whether one can perceive goodness; it is whether one can perceive that a particular thing is good. These are two different questions, and only the latter bears on the problem of moral knowledge. To illustrate, compare this case: I can see your car (your car reflects light to my eyes, and so on) without being in a position to know that the car is yours. If I could see that it is your car, that would enable me to know that it is yours, but merely seeing your car doesn't give me that knowledge. So let us modify Moore's argument as follows:
+
+I can perceive that $x$ is $N$.
+
+Good $= N$
+
+Therefore, I can perceive that $x$ is good.
+----------------------------------------------------------------------
+
+Lines 349-355:
+  BEFORE: If this inference were valid, Moore would have a viable account of how we can know moral truths. But in fact, the inference is invalid. It has the same form as the following inference:
+
+I can perceive that $x$ is hot.
+
+Heat = Molecular kinetic energy.
+
+Therefore, I can perceive that $x$'s molecules have high average kinetic energy.
+  AFTER:  If this inference were valid, Moore would have a viable account of how we can know moral truths. But in fact, the inference is invalid. It has the same form as the following inference:
+
+I can perceive that $x$ is hot.
+
+Heat = Molecular kinetic energy.
+
+Therefore, I can perceive that $x$'s molecules have high average kinetic energy.
+----------------------------------------------------------------------
+
+Lines 366-371:
+  BEFORE: 
+1. Moral claims help explain observable facts. For instance, Hitler’s depravity helps explain why he ordered the Final Solution.
+
+2. If a claim helps to explain observable facts, then we have empirical justification for believing that claim.
+
+3. Therefore, we have empirical justification for believing some moral claims, such as that Hitler was depraved.
+  AFTER:  1. Moral claims help explain observable facts. For instance, Hitler’s depravity helps explain why he ordered the Final Solution.
+
+2. If a claim helps to explain observable facts, then we have empirical justification for believing that claim.
+
+3. Therefore, we have empirical justification for believing some moral claims, such as that Hitler was depraved.
+----------------------------------------------------------------------
+
+Lines 423-427:
+  BEFORE: Now, suppose the property of goodness is identical with some disjunction of natural properties, that is,
+
+$$
+\mathrm{Good} = (F \text{ or } G \text{ or } H),
+$$
+  AFTER:  Now, suppose the property of goodness is identical with some disjunction of natural properties, that is,
+
+$$
+\mathrm{Good} = (F \text{ or } G \text{ or } H),
+$$
+----------------------------------------------------------------------
+
+Lines 440-445:
+  BEFORE: 
+1. Value properties are radically different from natural properties.⁴⁶
+
+2. If two things are radically different, then one is not reducible to the other.
+
+3. So value properties are not reducible to natural properties.
+  AFTER:  1. Value properties are radically different from natural properties.⁴⁶
+
+2. If two things are radically different, then one is not reducible to the other.
+
+3. So value properties are not reducible to natural properties.
+----------------------------------------------------------------------
+
+Lines 462-472:
+  BEFORE: I claim to have shown, in sections 4.2 and 4.5, that evaluative properties cannot be reduced to natural properties. In sections 4.3 and 4.4, I have shown that moral knowledge is not empirical. The structure of this latter argument was as follows:
+
+1. Moral claims are known empirically only if they are known by observation or by either deductive or scientific reasoning from observations. (Premise.)
+
+2. Moral claims are not known by observation. (§4.4.1)
+
+3. Moral claims are not known by deduction from non-moral premises. (§4.3)
+
+4. Moral claims are not known by scientific reasoning from non-moral premises. (§4.4)
+
+5. Therefore, moral claims are not known empirically. (From 1, 2, 3, 4.)
+  AFTER:  I claim to have shown, in sections 4.2 and 4.5, that evaluative properties cannot be reduced to natural properties. In sections 4.3 and 4.4, I have shown that moral knowledge is not empirical. The structure of this latter argument was as follows:
+
+1. Moral claims are known empirically only if they are known by observation or by either deductive or scientific reasoning from observations. (Premise.)
+
+2. Moral claims are not known by observation. (§4.4.1)
+
+3. Moral claims are not known by deduction from non-moral premises. (§4.3)
+
+4. Moral claims are not known by scientific reasoning from non-moral premises. (§4.4)
+
+5. Therefore, moral claims are not known empirically. (From 1, 2, 3, 4.)
+----------------------------------------------------------------------

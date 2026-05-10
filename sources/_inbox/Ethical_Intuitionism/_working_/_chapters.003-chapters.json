@@ -1,0 +1,206 @@
+{
+  "detected": [
+    {
+      "page": 1,
+      "heading": "Cover",
+      "type": "cover"
+    },
+    {
+      "page": 5,
+      "heading": "© Michael Huemer 2005",
+      "type": "copyright"
+    },
+    {
+      "page": 6,
+      "heading": "For my students",
+      "type": "dedication"
+    },
+    {
+      "page": 8,
+      "heading": "Contents",
+      "type": "toc"
+    },
+    {
+      "page": 10,
+      "heading": "Analytical Contents",
+      "type": "toc"
+    },
+    {
+      "page": 23,
+      "heading": "Preface",
+      "type": "preface"
+    },
+    {
+      "page": 28,
+      "heading": "1 Introduction",
+      "type": "introduction"
+    },
+    {
+      "page": 42,
+      "heading": "Part I Alternative Metaethical Theories",
+      "type": "part"
+    },
+    {
+      "page": 44,
+      "heading": "2 Non-Cognitivism",
+      "type": "chapter"
+    },
+    {
+      "page": 75,
+      "heading": "3 Subjectivism",
+      "type": "chapter"
+    },
+    {
+      "page": 93,
+      "heading": "4 Reductionism",
+      "type": "chapter"
+    },
+    {
+      "page": 124,
+      "heading": "Part II Ethical Intuitionism",
+      "type": "part"
+    },
+    {
+      "page": 126,
+      "heading": "5 Moral Knowledge",
+      "type": "chapter"
+    },
+    {
+      "page": 155,
+      "heading": "6 Disagreement and Error",
+      "type": "chapter"
+    },
+    {
+      "page": 182,
+      "heading": "7 Practical Reasons",
+      "type": "chapter"
+    },
+    {
+      "page": 226,
+      "heading": "8 Further Objections",
+      "type": "chapter"
+    },
+    {
+      "page": 251,
+      "heading": "9 Conclusion",
+      "type": "conclusion"
+    },
+    {
+      "page": 282,
+      "heading": "Notes",
+      "type": "notes"
+    },
+    {
+      "page": 312,
+      "heading": "References",
+      "type": "references"
+    },
+    {
+      "page": 324,
+      "heading": "Index",
+      "type": "index"
+    }
+  ],
+  "chapters": [
+    {
+      "name": "cover",
+      "startPage": 1,
+      "heading": "Cover"
+    },
+    {
+      "name": "copyright1",
+      "startPage": 5,
+      "heading": "© Michael Huemer 2005"
+    },
+    {
+      "name": "dedication1",
+      "startPage": 6,
+      "heading": "For my students"
+    },
+    {
+      "name": "toc",
+      "startPage": 8,
+      "heading": "Contents"
+    },
+    {
+      "name": "toc2",
+      "startPage": 10,
+      "heading": "Analytical Contents"
+    },
+    {
+      "name": "preface",
+      "startPage": 23,
+      "heading": "Preface"
+    },
+    {
+      "name": "introduction",
+      "startPage": 28,
+      "heading": "1 Introduction"
+    },
+    {
+      "name": "part1",
+      "startPage": 42,
+      "heading": "Part I Alternative Metaethical Theories"
+    },
+    {
+      "name": "chapter1",
+      "startPage": 44,
+      "heading": "2 Non-Cognitivism"
+    },
+    {
+      "name": "chapter2",
+      "startPage": 75,
+      "heading": "3 Subjectivism"
+    },
+    {
+      "name": "chapter3",
+      "startPage": 93,
+      "heading": "4 Reductionism"
+    },
+    {
+      "name": "part2",
+      "startPage": 124,
+      "heading": "Part II Ethical Intuitionism"
+    },
+    {
+      "name": "chapter4",
+      "startPage": 126,
+      "heading": "5 Moral Knowledge"
+    },
+    {
+      "name": "chapter5",
+      "startPage": 155,
+      "heading": "6 Disagreement and Error"
+    },
+    {
+      "name": "chapter6",
+      "startPage": 182,
+      "heading": "7 Practical Reasons"
+    },
+    {
+      "name": "chapter7",
+      "startPage": 226,
+      "heading": "8 Further Objections"
+    },
+    {
+      "name": "conclusion1",
+      "startPage": 251,
+      "heading": "9 Conclusion"
+    },
+    {
+      "name": "notes1",
+      "startPage": 282,
+      "heading": "Notes"
+    },
+    {
+      "name": "bibliography",
+      "startPage": 312,
+      "heading": "References"
+    },
+    {
+      "name": "index",
+      "startPage": 324,
+      "heading": "Index"
+    }
+  ]
+}

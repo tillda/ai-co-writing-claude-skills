@@ -1,0 +1,4 @@
+{
+  "text": "```json\n[\n  {\n    \"id\": 0,\n    \"source\": \"Ethical non-cognitivists say that '$x$ is wrong' does not assert anything that can be true or false. Instead, it just expresses an emotion or issues an imperative. It is thus comparable to 'Boo on $x$!' or 'Don't do $x$!'.\"\n  },\n  {\n    \"id\": 1,\n    \"source\": \"There is no linguistic evidence to support this. Every objective test that anyone has come up with for distinguishing assertions from imperatives or expressions of emotion gives the result that '$x$ is wrong' is an assertion. Thus, consider the sentences (and pseudosentences) in the following table:\"\n  }\n]\n```",
+  "isError": false
+}

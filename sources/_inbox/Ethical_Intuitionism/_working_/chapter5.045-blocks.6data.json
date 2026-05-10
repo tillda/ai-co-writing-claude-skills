@@ -1,0 +1,16 @@
+{
+  "blocks": [
+    {
+      "id": 1,
+      "kind": "list"
+    },
+    {
+      "id": 2,
+      "kind": "paragraph"
+    },
+    {
+      "id": 3,
+      "kind": "list"
+    }
+  ]
+}

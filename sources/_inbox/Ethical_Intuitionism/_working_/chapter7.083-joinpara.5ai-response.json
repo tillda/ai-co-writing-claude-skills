@@ -1,0 +1,4 @@
+{
+  "text": "{\"merges\":[{\"id\":1,\"reason\":\"The word 'differing' is split across the paragraph break ('dif' and 'differing').\"},{\"id\":2,\"reason\":\"Paragraph B is a direct grammatical continuation ('appropriately asserted') of the sentence started in Paragraph A.\"},{\"id\":3,\"reason\":\"Paragraph B is a direct grammatical continuation ('ethical beliefs') of the sentence started in Paragraph A.\"},{\"id\":4,\"reason\":\"Paragraph A ends with a fragment ('Science te') that is completed by Paragraph B (likely 'Science tells us' or 'teaches').\"}]}",
+  "isError": false
+}

@@ -1,0 +1,15 @@
+→ JoinPara: chapter3
+  [joinpara chapter3] Sending 7 candidates to AI
+  [joinpara chapter3] AI confirmed 2 merges out of 7 candidates
+--- AI Output ---
+merges:
+  - {"id": 1, "reason": "Paragraph A ends mid-sentence and B completes the thought about an evaluative property."}
+  - {"id": 7, "reason": "Paragraph A ends mid-clause and B completes the grammatical structure of the sentence."}
+
+--- End AI Output ---
+  [joinpara chapter3] Merge #1 [107+108]: "...ur action, nor does it entail that anything actually has any" + "evaluative property. The conclusion of (A'), on the other ha..." (Paragraph A ends mid-sentence and B completes the thought about an evaluative property.)
+  [joinpara chapter3] Merge #7 [211+212]: "...you are tempted to object that neither moral claim by itself" + "entails any testable predictions, Nicholas Sturgeon reminds ..." (Paragraph A ends mid-clause and B completes the grammatical structure of the sentence.)
+  [joinpara chapter3] Applied 2 merges
+  Wrote: chapter3.083-joinpara.9after.md
+
+--- Completed in 101.8s ---

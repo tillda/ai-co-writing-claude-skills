@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Fira+Sans:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* Screen-readable document stylesheet.
+   Headings in Cormorant Garamond, body in Fira Sans.
+   Math rendered by MathJax in Computer Modern (LaTeX-like). */
+
+body {
+  max-width: 48rem;
+  margin: 2rem auto;
+  padding: 0 1.5rem 0 3.5rem;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #222;
+  background: #fff;
+}
+
+/* Headings */
+h1 { font-size: 1.8rem; margin: 2rem 0 1rem; }
+h2 { font-size: 1.45rem; margin: 1.8rem 0 0.8rem; }
+h3 { font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+h4 { font-size: 1.05rem; margin: 1.3rem 0 0.5rem; font-style: italic; }
+h1, h2, h3, h4 { line-height: 1.3; }
+
+/* Subchapter split: chapter-wide H1 shown smaller and grey on parts 2+ */
+h1.split-chapter:not(.subchapter_1) {
+  font-size: 1.1rem;
+  color: #999;
+  margin-bottom: 0.2rem;
+}
+h1.split-chapter:not(.subchapter_1) + h1.subchapter {
+  margin-top: 0;
+}
+
+/* Paragraphs */
+p { margin: 0.8rem 0; }
+
+/* Lists */
+ul, ol { margin: 0.8rem 0; padding-left: 1.8rem; }
+li { margin: 0.3rem 0; }
+
+/* Blockquotes */
+blockquote {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border-left: 3px solid #ccc;
+  color: #444;
+}
+blockquote p { margin: 0.4rem 0; }
+
+/* Horizontal rules */
+hr {
+  margin: 2rem 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+/* Code */
+code {
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  font-size: 0.9em;
+  background: #f5f5f5;
+  padding: 0.15em 0.35em;
+  border-radius: 3px;
+}
+pre {
+  background: #f5f5f5;
+  padding: 1em;
+  overflow-x: auto;
+  border-radius: 3px;
+  line-height: 1.4;
+}
+pre code { background: none; padding: 0; }
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  margin: 1.2rem 0;
+  width: 100%;
+  font-size: 0.95em;
+}
+th, td {
+  padding: 0.45rem 0.75rem;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+th {
+  font-weight: bold;
+  border-bottom: 2px solid #999;
+}
+thead + tbody tr:last-child td { border-bottom: 2px solid #999; }
+
+/* Images */
+img { max-width: 100%; height: auto; }
+
+/* Footnotes / Notes section */
+section.footnotes,
+div.footnotes {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ccc;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+/* Links */
+a { color: #1a0dab; }
+a:visited { color: #681da8; }
+
+/* Emphasis in italic (used for simple math variables) */
+em { font-style: italic; }
+
+/* MathJax display math: centered block with generous spacing */
+mjx-container[display="true"] {
+  margin: 1.5rem 0 !important;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+/* MathJax inline math: slightly larger than body for clarity */
+mjx-container:not([display="true"]) {
+  font-size: 1.05em;
+}
+
+/* Paragraph numbering (simplify step) — pops into the left margin via ::before (invisible to screen readers) */
+p[data-n]::before {
+  content: attr(data-n);
+  display: inline-block;
+  width: 4em;
+  margin-left: -5em;
+  margin-right: 1em;
+  text-align: right;
+  font-size: 0.65em;
+  color: #d5d5d5;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  vertical-align: baseline;
+}

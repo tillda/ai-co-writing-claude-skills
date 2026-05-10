@@ -1,0 +1,674 @@
+You are analyzing the upper portions of 10 book pages (pages 132 to 141). Each image shows the top third of a page and is preceded by a text label "Page N:" indicating its scan file sequence number.
+
+**Important:** The "Page N:" labels are scan file sequence numbers — the order of scanned files — NOT the printed page numbers inside the book. Use exactly the label number from the image label in your response, regardless of any printed page number visible on the page itself.
+
+## Your Task: Match These Known Chapters to Pages
+
+The Table of Contents of this book has been analyzed and its **chapter-level** entries (chapters, parts, and structural sections) have been extracted for you:
+
+Table of Contents
+Analytical Contents
+Preface
+1 Introduction
+PART I Alternative Metaethical Theories
+2 Non-Cognitivism
+3 Subjectivism
+4 Reductionism
+PART II Ethical Intuitionism
+5 Moral Knowledge
+6 Disagreement and Error
+7 Practical Reasons
+8 Further Objections
+9 Conclusion
+Notes
+References
+Index
+
+This list contains chapters, parts, and structural sections — sub-chapters and sub-sections have already been excluded. It is complete and authoritative. Your task is to find the starting page of each entry in this list.
+
+## Rules
+
+- **ONLY report chapters from the list above** — do not report headings that are not on this list
+- Do NOT match sub-sections or any headings that are not on this list
+- Report a chapter when you see its title as a large, prominent heading with little or no body text above it
+- Minor wording/capitalization differences are acceptable ("CHAPTER ONE" matches "Chapter 1", "THE BEGINNING" matches "The Beginning")
+- Ignore running headers (small repeated text at the very top of the page — book title, author name repeated across many pages)
+- Most pages will NOT start a chapter — that is completely normal
+- Additionally, always report these structural pages even if they are NOT in the TOC list:
+  - Copyright page (look for copyright symbol ©, publisher info, ISBN)
+  - Dedication page
+
+
+## Your Task: Match These Known Chapters to Pages
+
+The Table of Contents of this book has been analyzed and its **chapter-level** entries (chapters, parts, and structural sections) have been extracted for you:
+
+Table of Contents
+Analytical Contents
+Preface
+1 Introduction
+PART I Alternative Metaethical Theories
+2 Non-Cognitivism
+3 Subjectivism
+4 Reductionism
+PART II Ethical Intuitionism
+5 Moral Knowledge
+6 Disagreement and Error
+7 Practical Reasons
+8 Further Objections
+9 Conclusion
+Notes
+References
+Index
+
+This list contains chapters, parts, and structural sections — sub-chapters and sub-sections have already been excluded. It is complete and authoritative. Your task is to find the starting page of each entry in this list.
+
+## Rules
+
+- **ONLY report chapters from the list above** — do not report headings that are not on this list
+- Do NOT match sub-sections or any headings that are not on this list
+- Report a chapter when you see its title as a large, prominent heading with little or no body text above it
+- Minor wording/capitalization differences are acceptable ("CHAPTER ONE" matches "Chapter 1", "THE BEGINNING" matches "The Beginning")
+- Ignore running headers (small repeated text at the very top of the page — book title, author name repeated across many pages)
+- Most pages will NOT start a chapter — that is completely normal
+- Additionally, always report these structural pages even if they are NOT in the TOC list:
+  - Copyright page (look for copyright symbol ©, publisher info, ISBN)
+  - Dedication page
+
+
+## Your Task: Match These Known Chapters to Pages
+
+The Table of Contents of this book has been analyzed and its **chapter-level** entries (chapters, parts, and structural sections) have been extracted for you:
+
+Table of Contents
+Analytical Contents
+Preface
+1 Introduction
+PART I Alternative Metaethical Theories
+2 Non-Cognitivism
+3 Subjectivism
+4 Reductionism
+PART II Ethical Intuitionism
+5 Moral Knowledge
+6 Disagreement and Error
+7 Practical Reasons
+8 Further Objections
+9 Conclusion
+Notes
+References
+Index
+
+This list contains chapters, parts, and structural sections — sub-chapters and sub-sections have already been excluded. It is complete and authoritative. Your task is to find the starting page of each entry in this list.
+
+## Rules
+
+- **ONLY report chapters from the list above** — do not report headings that are not on this list
+- Do NOT match sub-sections or any headings that are not on this list
+- Report a chapter when you see its title as a large, prominent heading with little or no body text above it
+- Minor wording/capitalization differences are acceptable ("CHAPTER ONE" matches "Chapter 1", "THE BEGINNING" matches "The Beginning")
+- Ignore running headers (small repeated text at the very top of the page — book title, author name repeated across many pages)
+- Most pages will NOT start a chapter — that is completely normal
+- Additionally, always report these structural pages even if they are NOT in the TOC list:
+  - Copyright page (look for copyright symbol ©, publisher info, ISBN)
+  - Dedication page
+
+
+## Your Task: Match These Known Chapters to Pages
+
+The Table of Contents of this book has been analyzed and its **chapter-level** entries (chapters, parts, and structural sections) have been extracted for you:
+
+Table of Contents
+Analytical Contents
+Preface
+1 Introduction
+PART I Alternative Metaethical Theories
+2 Non-Cognitivism
+3 Subjectivism
+4 Reductionism
+PART II Ethical Intuitionism
+5 Moral Knowledge
+6 Disagreement and Error
+7 Practical Reasons
+8 Further Objections
+9 Conclusion
+Notes
+References
+Index
+
+This list contains chapters, parts, and structural sections — sub-chapters and sub-sections have already been excluded. It is complete and authoritative. Your task is to find the starting page of each entry in this list.
+
+## Rules
+
+- **ONLY report chapters from the list above** — do not report headings that are not on this list
+- Do NOT match sub-sections or any headings that are not on this list
+- Report a chapter when you see its title as a large, prominent heading with little or no body text above it
+- Minor wording/capitalization differences are acceptable ("CHAPTER ONE" matches "Chapter 1", "THE BEGINNING" matches "The Beginning")
+- Ignore running headers (small repeated text at the very top of the page — book title, author name repeated across many pages)
+- Most pages will NOT start a chapter — that is completely normal
+- Additionally, always report these structural pages even if they are NOT in the TOC list:
+  - Copyright page (look for copyright symbol ©, publisher info, ISBN)
+  - Dedication page
+
+
+## Your Task: Match These Known Chapters to Pages
+
+The Table of Contents of this book has been analyzed and its **chapter-level** entries (chapters, parts, and structural sections) have been extracted for you:
+
+Table of Contents
+Analytical Contents
+Preface
+1 Introduction
+PART I Alternative Metaethical Theories
+2 Non-Cognitivism
+3 Subjectivism
+4 Reductionism
+PART II Ethical Intuitionism
+5 Moral Knowledge
+6 Disagreement and Error
+7 Practical Reasons
+8 Further Objections
+9 Conclusion
+Notes
+References
+Index
+
+This list contains chapters, parts, and structural sections — sub-chapters and sub-sections have already been excluded. It is complete and authoritative. Your task is to find the starting page of each entry in this list.
+
+## Rules
+
+- **ONLY report chapters from the list above** — do not report headings that are not on this list
+- Do NOT match sub-sections or any headings that are not on this list
+- Report a chapter when you see its title as a large, prominent heading with little or no body text above it
+- Minor wording/capitalization differences are acceptable ("CHAPTER ONE" matches "Chapter 1", "THE BEGINNING" matches "The Beginning")
+- Ignore running headers (small repeated text at the very top of the page — book title, author name repeated across many pages)
+- Most pages will NOT start a chapter — that is completely normal
+- Additionally, always report these structural pages even if they are NOT in the TOC list:
+  - Copyright page (look for copyright symbol ©, publisher info, ISBN)
+  - Dedication page
+
+
+## Your Task: Match These Known Chapters to Pages
+
+The Table of Contents of this book has been analyzed and its **chapter-level** entries (chapters, parts, and structural sections) have been extracted for you:
+
+Table of Contents
+Analytical Contents
+Preface
+1 Introduction
+PART I Alternative Metaethical Theories
+2 Non-Cognitivism
+3 Subjectivism
+4 Reductionism
+PART II Ethical Intuitionism
+5 Moral Knowledge
+6 Disagreement and Error
+7 Practical Reasons
+8 Further Objections
+9 Conclusion
+Notes
+References
+Index
+
+This list contains chapters, parts, and structural sections — sub-chapters and sub-sections have already been excluded. It is complete and authoritative. Your task is to find the starting page of each entry in this list.
+
+## Rules
+
+- **ONLY report chapters from the list above** — do not report headings that are not on this list
+- Do NOT match sub-sections or any headings that are not on this list
+- Report a chapter when you see its title as a large, prominent heading with little or no body text above it
+- Minor wording/capitalization differences are acceptable ("CHAPTER ONE" matches "Chapter 1", "THE BEGINNING" matches "The Beginning")
+- Ignore running headers (small repeated text at the very top of the page — book title, author name repeated across many pages)
+- Most pages will NOT start a chapter — that is completely normal
+- Additionally, always report these structural pages even if they are NOT in the TOC list:
+  - Copyright page (look for copyright symbol ©, publisher info, ISBN)
+  - Dedication page
+
+
+## Your Task: Match These Known Chapters to Pages
+
+The Table of Contents of this book has been analyzed and its **chapter-level** entries (chapters, parts, and structural sections) have been extracted for you:
+
+Table of Contents
+Analytical Contents
+Preface
+1 Introduction
+PART I Alternative Metaethical Theories
+2 Non-Cognitivism
+3 Subjectivism
+4 Reductionism
+PART II Ethical Intuitionism
+5 Moral Knowledge
+6 Disagreement and Error
+7 Practical Reasons
+8 Further Objections
+9 Conclusion
+Notes
+References
+Index
+
+This list contains chapters, parts, and structural sections — sub-chapters and sub-sections have already been excluded. It is complete and authoritative. Your task is to find the starting page of each entry in this list.
+
+## Rules
+
+- **ONLY report chapters from the list above** — do not report headings that are not on this list
+- Do NOT match sub-sections or any headings that are not on this list
+- Report a chapter when you see its title as a large, prominent heading with little or no body text above it
+- Minor wording/capitalization differences are acceptable ("CHAPTER ONE" matches "Chapter 1", "THE BEGINNING" matches "The Beginning")
+- Ignore running headers (small repeated text at the very top of the page — book title, author name repeated across many pages)
+- Most pages will NOT start a chapter — that is completely normal
+- Additionally, always report these structural pages even if they are NOT in the TOC list:
+  - Copyright page (look for copyright symbol ©, publisher info, ISBN)
+  - Dedication page
+
+
+## Your Task: Match These Known Chapters to Pages
+
+The Table of Contents of this book has been analyzed and its **chapter-level** entries (chapters, parts, and structural sections) have been extracted for you:
+
+Table of Contents
+Analytical Contents
+Preface
+1 Introduction
+PART I Alternative Metaethical Theories
+2 Non-Cognitivism
+3 Subjectivism
+4 Reductionism
+PART II Ethical Intuitionism
+5 Moral Knowledge
+6 Disagreement and Error
+7 Practical Reasons
+8 Further Objections
+9 Conclusion
+Notes
+References
+Index
+
+This list contains chapters, parts, and structural sections — sub-chapters and sub-sections have already been excluded. It is complete and authoritative. Your task is to find the starting page of each entry in this list.
+
+## Rules
+
+- **ONLY report chapters from the list above** — do not report headings that are not on this list
+- Do NOT match sub-sections or any headings that are not on this list
+- Report a chapter when you see its title as a large, prominent heading with little or no body text above it
+- Minor wording/capitalization differences are acceptable ("CHAPTER ONE" matches "Chapter 1", "THE BEGINNING" matches "The Beginning")
+- Ignore running headers (small repeated text at the very top of the page — book title, author name repeated across many pages)
+- Most pages will NOT start a chapter — that is completely normal
+- Additionally, always report these structural pages even if they are NOT in the TOC list:
+  - Copyright page (look for copyright symbol ©, publisher info, ISBN)
+  - Dedication page
+
+
+## Your Task: Match These Known Chapters to Pages
+
+The Table of Contents of this book has been analyzed and its **chapter-level** entries (chapters, parts, and structural sections) have been extracted for you:
+
+Table of Contents
+Analytical Contents
+Preface
+1 Introduction
+PART I Alternative Metaethical Theories
+2 Non-Cognitivism
+3 Subjectivism
+4 Reductionism
+PART II Ethical Intuitionism
+5 Moral Knowledge
+6 Disagreement and Error
+7 Practical Reasons
+8 Further Objections
+9 Conclusion
+Notes
+References
+Index
+
+This list contains chapters, parts, and structural sections — sub-chapters and sub-sections have already been excluded. It is complete and authoritative. Your task is to find the starting page of each entry in this list.
+
+## Rules
+
+- **ONLY report chapters from the list above** — do not report headings that are not on this list
+- Do NOT match sub-sections or any headings that are not on this list
+- Report a chapter when you see its title as a large, prominent heading with little or no body text above it
+- Minor wording/capitalization differences are acceptable ("CHAPTER ONE" matches "Chapter 1", "THE BEGINNING" matches "The Beginning")
+- Ignore running headers (small repeated text at the very top of the page — book title, author name repeated across many pages)
+- Most pages will NOT start a chapter — that is completely normal
+- Additionally, always report these structural pages even if they are NOT in the TOC list:
+  - Copyright page (look for copyright symbol ©, publisher info, ISBN)
+  - Dedication page
+
+
+## Your Task: Match These Known Chapters to Pages
+
+The Table of Contents of this book has been analyzed and its **chapter-level** entries (chapters, parts, and structural sections) have been extracted for you:
+
+Table of Contents
+Analytical Contents
+Preface
+1 Introduction
+PART I Alternative Metaethical Theories
+2 Non-Cognitivism
+3 Subjectivism
+4 Reductionism
+PART II Ethical Intuitionism
+5 Moral Knowledge
+6 Disagreement and Error
+7 Practical Reasons
+8 Further Objections
+9 Conclusion
+Notes
+References
+Index
+
+This list contains chapters, parts, and structural sections — sub-chapters and sub-sections have already been excluded. It is complete and authoritative. Your task is to find the starting page of each entry in this list.
+
+## Rules
+
+- **ONLY report chapters from the list above** — do not report headings that are not on this list
+- Do NOT match sub-sections or any headings that are not on this list
+- Report a chapter when you see its title as a large, prominent heading with little or no body text above it
+- Minor wording/capitalization differences are acceptable ("CHAPTER ONE" matches "Chapter 1", "THE BEGINNING" matches "The Beginning")
+- Ignore running headers (small repeated text at the very top of the page — book title, author name repeated across many pages)
+- Most pages will NOT start a chapter — that is completely normal
+- Additionally, always report these structural pages even if they are NOT in the TOC list:
+  - Copyright page (look for copyright symbol ©, publisher info, ISBN)
+  - Dedication page
+
+
+## Your Task: Match These Known Chapters to Pages
+
+The Table of Contents of this book has been analyzed and its **chapter-level** entries (chapters, parts, and structural sections) have been extracted for you:
+
+Table of Contents
+Analytical Contents
+Preface
+1 Introduction
+PART I Alternative Metaethical Theories
+2 Non-Cognitivism
+3 Subjectivism
+4 Reductionism
+PART II Ethical Intuitionism
+5 Moral Knowledge
+6 Disagreement and Error
+7 Practical Reasons
+8 Further Objections
+9 Conclusion
+Notes
+References
+Index
+
+This list contains chapters, parts, and structural sections — sub-chapters and sub-sections have already been excluded. It is complete and authoritative. Your task is to find the starting page of each entry in this list.
+
+## Rules
+
+- **ONLY report chapters from the list above** — do not report headings that are not on this list
+- Do NOT match sub-sections or any headings that are not on this list
+- Report a chapter when you see its title as a large, prominent heading with little or no body text above it
+- Minor wording/capitalization differences are acceptable ("CHAPTER ONE" matches "Chapter 1", "THE BEGINNING" matches "The Beginning")
+- Ignore running headers (small repeated text at the very top of the page — book title, author name repeated across many pages)
+- Most pages will NOT start a chapter — that is completely normal
+- Additionally, always report these structural pages even if they are NOT in the TOC list:
+  - Copyright page (look for copyright symbol ©, publisher info, ISBN)
+  - Dedication page
+
+
+## Your Task: Match These Known Chapters to Pages
+
+The Table of Contents of this book has been analyzed and its **chapter-level** entries (chapters, parts, and structural sections) have been extracted for you:
+
+Table of Contents
+Analytical Contents
+Preface
+1 Introduction
+PART I Alternative Metaethical Theories
+2 Non-Cognitivism
+3 Subjectivism
+4 Reductionism
+PART II Ethical Intuitionism
+5 Moral Knowledge
+6 Disagreement and Error
+7 Practical Reasons
+8 Further Objections
+9 Conclusion
+Notes
+References
+Index
+
+This list contains chapters, parts, and structural sections — sub-chapters and sub-sections have already been excluded. It is complete and authoritative. Your task is to find the starting page of each entry in this list.
+
+## Rules
+
+- **ONLY report chapters from the list above** — do not report headings that are not on this list
+- Do NOT match sub-sections or any headings that are not on this list
+- Report a chapter when you see its title as a large, prominent heading with little or no body text above it
+- Minor wording/capitalization differences are acceptable ("CHAPTER ONE" matches "Chapter 1", "THE BEGINNING" matches "The Beginning")
+- Ignore running headers (small repeated text at the very top of the page — book title, author name repeated across many pages)
+- Most pages will NOT start a chapter — that is completely normal
+- Additionally, always report these structural pages even if they are NOT in the TOC list:
+  - Copyright page (look for copyright symbol ©, publisher info, ISBN)
+  - Dedication page
+
+
+## Your Task: Match These Known Chapters to Pages
+
+The Table of Contents of this book has been analyzed and its **chapter-level** entries (chapters, parts, and structural sections) have been extracted for you:
+
+Table of Contents
+Analytical Contents
+Preface
+1 Introduction
+PART I Alternative Metaethical Theories
+2 Non-Cognitivism
+3 Subjectivism
+4 Reductionism
+PART II Ethical Intuitionism
+5 Moral Knowledge
+6 Disagreement and Error
+7 Practical Reasons
+8 Further Objections
+9 Conclusion
+Notes
+References
+Index
+
+This list contains chapters, parts, and structural sections — sub-chapters and sub-sections have already been excluded. It is complete and authoritative. Your task is to find the starting page of each entry in this list.
+
+## Rules
+
+- **ONLY report chapters from the list above** — do not report headings that are not on this list
+- Do NOT match sub-sections or any headings that are not on this list
+- Report a chapter when you see its title as a large, prominent heading with little or no body text above it
+- Minor wording/capitalization differences are acceptable ("CHAPTER ONE" matches "Chapter 1", "THE BEGINNING" matches "The Beginning")
+- Ignore running headers (small repeated text at the very top of the page — book title, author name repeated across many pages)
+- Most pages will NOT start a chapter — that is completely normal
+- Additionally, always report these structural pages even if they are NOT in the TOC list:
+  - Copyright page (look for copyright symbol ©, publisher info, ISBN)
+  - Dedication page
+
+
+## Your Task: Match These Known Chapters to Pages
+
+The Table of Contents of this book has been analyzed and its **chapter-level** entries (chapters, parts, and structural sections) have been extracted for you:
+
+Table of Contents
+Analytical Contents
+Preface
+1 Introduction
+PART I Alternative Metaethical Theories
+2 Non-Cognitivism
+3 Subjectivism
+4 Reductionism
+PART II Ethical Intuitionism
+5 Moral Knowledge
+6 Disagreement and Error
+7 Practical Reasons
+8 Further Objections
+9 Conclusion
+Notes
+References
+Index
+
+This list contains chapters, parts, and structural sections — sub-chapters and sub-sections have already been excluded. It is complete and authoritative. Your task is to find the starting page of each entry in this list.
+
+## Rules
+
+- **ONLY report chapters from the list above** — do not report headings that are not on this list
+- Do NOT match sub-sections or any headings that are not on this list
+- Report a chapter when you see its title as a large, prominent heading with little or no body text above it
+- Minor wording/capitalization differences are acceptable ("CHAPTER ONE" matches "Chapter 1", "THE BEGINNING" matches "The Beginning")
+- Ignore running headers (small repeated text at the very top of the page — book title, author name repeated across many pages)
+- Most pages will NOT start a chapter — that is completely normal
+- Additionally, always report these structural pages even if they are NOT in the TOC list:
+  - Copyright page (look for copyright symbol ©, publisher info, ISBN)
+  - Dedication page
+
+
+## Your Task: Match These Known Chapters to Pages
+
+The Table of Contents of this book has been analyzed and its **chapter-level** entries (chapters, parts, and structural sections) have been extracted for you:
+
+Table of Contents
+Analytical Contents
+Preface
+1 Introduction
+PART I Alternative Metaethical Theories
+2 Non-Cognitivism
+3 Subjectivism
+4 Reductionism
+PART II Ethical Intuitionism
+5 Moral Knowledge
+6 Disagreement and Error
+7 Practical Reasons
+8 Further Objections
+9 Conclusion
+Notes
+References
+Index
+
+This list contains chapters, parts, and structural sections — sub-chapters and sub-sections have already been excluded. It is complete and authoritative. Your task is to find the starting page of each entry in this list.
+
+## Rules
+
+- **ONLY report chapters from the list above** — do not report headings that are not on this list
+- Do NOT match sub-sections or any headings that are not on this list
+- Report a chapter when you see its title as a large, prominent heading with little or no body text above it
+- Minor wording/capitalization differences are acceptable ("CHAPTER ONE" matches "Chapter 1", "THE BEGINNING" matches "The Beginning")
+- Ignore running headers (small repeated text at the very top of the page — book title, author name repeated across many pages)
+- Most pages will NOT start a chapter — that is completely normal
+- Additionally, always report these structural pages even if they are NOT in the TOC list:
+  - Copyright page (look for copyright symbol ©, publisher info, ISBN)
+  - Dedication page
+
+
+## Your Task: Match These Known Chapters to Pages
+
+The Table of Contents of this book has been analyzed and its **chapter-level** entries (chapters, parts, and structural sections) have been extracted for you:
+
+Table of Contents
+Analytical Contents
+Preface
+1 Introduction
+PART I Alternative Metaethical Theories
+2 Non-Cognitivism
+3 Subjectivism
+4 Reductionism
+PART II Ethical Intuitionism
+5 Moral Knowledge
+6 Disagreement and Error
+7 Practical Reasons
+8 Further Objections
+9 Conclusion
+Notes
+References
+Index
+
+This list contains chapters, parts, and structural sections — sub-chapters and sub-sections have already been excluded. It is complete and authoritative. Your task is to find the starting page of each entry in this list.
+
+## Rules
+
+- **ONLY report chapters from the list above** — do not report headings that are not on this list
+- Do NOT match sub-sections or any headings that are not on this list
+- Report a chapter when you see its title as a large, prominent heading with little or no body text above it
+- Minor wording/capitalization differences are acceptable ("CHAPTER ONE" matches "Chapter 1", "THE BEGINNING" matches "The Beginning")
+- Ignore running headers (small repeated text at the very top of the page — book title, author name repeated across many pages)
+- Most pages will NOT start a chapter — that is completely normal
+- Additionally, always report these structural pages even if they are NOT in the TOC list:
+  - Copyright page (look for copyright symbol ©, publisher info, ISBN)
+  - Dedication page
+
+
+## Your Task: Match These Known Chapters to Pages
+
+The Table of Contents of this book has been analyzed and its **chapter-level** entries (chapters, parts, and structural sections) have been extracted for you:
+
+Table of Contents
+Analytical Contents
+Preface
+1 Introduction
+PART I Alternative Metaethical Theories
+2 Non-Cognitivism
+3 Subjectivism
+4 Reductionism
+PART II Ethical Intuitionism
+5 Moral Knowledge
+6 Disagreement and Error
+7 Practical Reasons
+8 Further Objections
+9 Conclusion
+Notes
+References
+Index
+
+This list contains chapters, parts, and structural sections — sub-chapters and sub-sections have already been excluded. It is complete and authoritative. Your task is to find the starting page of each entry in this list.
+
+## Rules
+
+- **ONLY report chapters from the list above** — do not report headings that are not on this list
+- Do NOT match sub-sections or any headings that are not on this list
+- Report a chapter when you see its title as a large, prominent heading with little or no body text above it
+- Minor wording/capitalization differences are acceptable ("CHAPTER ONE" matches "Chapter 1", "THE BEGINNING" matches "The Beginning")
+- Ignore running headers (small repeated text at the very top of the page — book title, author name repeated across many pages)
+- Most pages will NOT start a chapter — that is completely normal
+- Additionally, always report these structural pages even if they are NOT in the TOC list:
+  - Copyright page (look for copyright symbol ©, publisher info, ISBN)
+  - Dedication page
+
+
+## What to look for
+
+- **Large or bold text** that stands out from regular body text
+- **Chapter numbers** with or without titles (e.g., "3", "Chapter 3", "III", "CHAPTER THREE")
+- **Section titles** in larger or different font than body text
+- Pages that appear to start a new section (often with more whitespace at top, content starting lower on the page)
+- Copyright pages: look for small text with copyright symbol, year, publisher, ISBN — even without a heading
+
+## What to IGNORE
+
+- Running headers (small repeated text at the very top of pages, like the book title or author name repeated across many pages)
+- Page numbers (printed inside the book)
+- Regular body text paragraphs
+- Section subheadings within a chapter (smaller headings that subdivide chapter content)
+- Footnotes or endnote numbers
+
+## Important
+
+- Only report pages where a MAJOR new section begins
+- Most pages will NOT have a chapter start — that is normal
+- If none of the pages in this batch start a new section, return an empty array
+- If a page is a start of new first-level chapter, there usually is NONE normal text above this chapter heading. (Chapter Foo might have by coincidence second-level subchapter "Chapter Bar" which might also exist as main chapter)
+- If source is a book it ALMOST ALWAYS has one or two table of content!
+
+
+DO THIS: Sometimes first chapter's heading starts with "I" or "l" and the heading does not make sense (OCR mistake). Then first character of this heading is "1" instead — repair this in your output.
+
+Return JSON wrapped in <RESULT> tags:
+
+<RESULT>
+{
+  "chapters": [
+    {"page": 28, "heading": "Chapter 1", "type": "chapter"},
+    {"page": 44, "heading": "2  Some Title", "type": "chapter"}
+  ]
+}
+</RESULT>
+
+Only include pages where you detect a chapter/section start. The "heading" field should contain the actual text you see on the page.
+
+The "type" field is your best categorization — use one of: cover, halftitle, copyright, dedication, toc, preface, foreword, introduction, chapter, part, epilogue, conclusion, notes, appendix, bibliography, references, index, glossary, acknowledgments, about_author, or "other".

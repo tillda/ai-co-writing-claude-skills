@@ -1,0 +1,6 @@
+→ Blocks: chapter1
+  [blocks chapter1] Found 6 multi-line blocks, sending to AI...
+  [blocks chapter1] Classified 6 blocks: paragraph=1, other=1, list=3, math=1
+  [blocks chapter1] Merged 1 paragraph blocks
+
+--- Completed in 268.0s ---

@@ -1,0 +1,59 @@
+  PDF pathway: sampling pages from Ethical_Intuitionism_-_Michael_Huemer.pdf (338 pages)
+  Sampling 8 pages from chapter: chapter6
+  AI: header=true, footer=false, 8 pages analyzed
+
+  Computing provisional borders from sample pages...
+  (AI confirmed: no running footer — bottom crop will be 0%)
+    Sample 0: header matched "186 Ethical Intuitionism" → 116px (score=0.93)
+    Sample 1: header matched "Practical Reasons 157" → 111px (score=1.00)
+    Sample 2: header matched "158 Ethical Intuitionisur" → 114px (score=0.95)
+    Sample 3: header matched "Practical Reasons 159" → 115px (score=1.00)
+    Sample 4: header matched "160 Ethical Intuitionism" → 114px (score=1.00)
+    Sample 5: header matched "Practical Reasons 161" → 112px (score=1.00)
+    Sample 6: header matched "162 Ethical Intuitionisin" → 115px (score=0.95)
+    Sample 7: header matched "Practical Reasons 163" → 111px (score=1.00)
+
+  Provisional borders:
+    Top values: [9.0%, 8.7%, 8.9%, 8.9%, 8.9%, 8.7%, 8.9%, 8.7%] → median+1% = 8.9%
+    Bottom values: [] → median+1% = 0.0%
+    _lines-sample-0.png
+    _lines-sample-1.png
+    _lines-sample-2.png
+    _lines-sample-3.png
+    _lines-sample-4.png
+    _lines-sample-5.png
+    _lines-sample-6.png
+    _lines-sample-7.png
+  Wrote 8 debug images
+
+  === First-page analysis ===
+  Analyzing 7 first pages
+  AI: 7 first pages, 0 with header, 7 with footer
+    chapter1: no header, topmost content "2" at 143px
+    chapter1: footer NOT matched in bottom 20%
+    chapter2: no header, topmost content "3" at 149px
+    chapter2: footer matched → 1179px
+    chapter3: no header, topmost content "4" at 147px
+    chapter3: footer matched → 1175px
+    chapter4: no header, topmost content "5" at 144px
+    chapter4: footer matched → 1172px
+    chapter5: no header, topmost content "6" at 148px
+    chapter5: footer matched → 1174px
+    chapter6: no header, topmost content "7" at 147px
+    chapter6: footer matched → 1177px
+    chapter7: no header, topmost content "8" at 145px
+    chapter7: footer matched → 1176px
+
+  First-page provisional borders:
+    Top values: [10.7%, 11.1%, 10.9%, 10.8%, 11.0%, 11.0%, 10.8%] → median = 10.9%
+    Bottom values: [8.5%, 8.5%, 8.4%, 8.5%, 8.0%, 8.3%] → 9.4%
+    _lines-firstpage-0.png
+    _lines-firstpage-1.png
+    _lines-firstpage-2.png
+    _lines-firstpage-3.png
+    _lines-firstpage-4.png
+    _lines-firstpage-5.png
+    _lines-firstpage-6.png
+  Wrote 7 first-page debug images
+
+--- Completed in 96.6s ---

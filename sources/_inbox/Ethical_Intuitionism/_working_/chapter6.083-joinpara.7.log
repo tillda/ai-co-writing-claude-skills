@@ -1,0 +1,35 @@
+→ JoinPara: chapter6
+  [joinpara chapter6] Sending 16 candidates to AI
+  [joinpara chapter6] AI confirmed 12 merges out of 16 candidates
+--- AI Output ---
+merges:
+  - {"id": 1, "reason": "sentence split mid-phrase"}
+  - {"id": 2, "reason": "word split across paragraphs"}
+  - {"id": 3, "reason": "sentence split mid-conjunction"}
+  - {"id": 4, "reason": "sentence split mid-phrase"}
+  - {"id": 5, "reason": "word split across paragraphs"}
+  - {"id": 7, "reason": "sentence split mid-phrase"}
+  - {"id": 9, "reason": "word split across paragraphs"}
+  - {"id": 10, "reason": "sentence split mid-phrase"}
+  - {"id": 12, "reason": "sentence split mid-phrase"}
+  - {"id": 13, "reason": "sentence split mid-phrase"}
+  - {"id": 15, "reason": "sentence split at a comma"}
+  - {"id": 16, "reason": "sentence split mid-phrase"}
+
+--- End AI Output ---
+  [joinpara chapter6] Merge #1 [66+67]: "...fair, honest, and so on are both moral reasons and impartial" + "reasons for action. There may be other impartial reasons tha..." (sentence split mid-phrase)
+  [joinpara chapter6] Merge #2 [86+87]: "...ief.[14] But on introspecting, the only such mental states I" + "can find that might be called ‘desires’ are the appetites an..." (word split across paragraphs)
+  [joinpara chapter6] Merge #3 [102+103]: "...ction of fit’, meaning that beliefs aim to match reality. If" + "your belief fails to correspond to reality (that is, it is f..." (sentence split mid-conjunction)
+  [joinpara chapter6] Merge #4 [115+116]: "...al might consist simply in my believing that my happiness is" + "good.²² Now, the content of this belief—the thing I believe ..." (sentence split mid-phrase)
+  [joinpara chapter6] Merge #5 [129+130]: "... course of action *[25]*. This view is still broadly Humean," + "because the process of rational deliberation is not taken to..." (word split across paragraphs)
+  [joinpara chapter6] Merge #7 [150+151]: "...nsider an example: suppose my doctor has told me that I need" + "surgery to remove my appendix. I have just arrived at the ho..." (sentence split mid-phrase)
+  [joinpara chapter6] Merge #9 [164+165]: "...t a systematic and unified set of desires is to be preferred" + "on the grounds that it is more likely to be by and large sat..." (word split across paragraphs)
+  [joinpara chapter6] Merge #10 [182+183]: "... the constraint, if she fails to attach proper weight to her" + "future desire to pass her exam. To a Humean, this is paradox..." (sentence split mid-phrase)
+  [joinpara chapter6] Merge #12 [190+191]: "...canlon seems to provide an alternative to the intuitionist's" + "non-natural facts. He maintains that we can speak of evaluat..." (sentence split mid-phrase)
+  [joinpara chapter6] Merge #13 [215+216]: "...nother approach for a Humean might be to portray morality as" + "stemming from second-order desires, such as the desire to ac..." (sentence split mid-phrase)
+  [joinpara chapter6] Merge #15 [243+244]: "...some of the ways in which people behave towards one another," + "often in opposition to contrary inclinations. We therefore w..." (sentence split at a comma)
+  [joinpara chapter6] Merge #16 [251+252]: "...econd, suppose Jon, a married man, is considering whether to" + "cheat on his wife. He comes to his best friend, Sam, for adv..." (sentence split mid-phrase)
+  [joinpara chapter6] Applied 12 merges
+  Wrote: chapter6.083-joinpara.9after.md
+
+--- Completed in 101.8s ---

@@ -1,0 +1,198 @@
+Forms changes for chapter5
+Repaired 8 section(s)
+======================================================================
+
+Lines 49-56:
+  BEFORE: The second version of the Argument from Disagreement asserts that the evidence of moral disagreement strongly favors anti-realism over intuitionism, because anti-realists are better able to explain disagreement than intuitionists are. Anti-realists understand inter-cultural disagreements as being due to differing forms of life, together with the absence of any facts determining the ‘correct’ form of life. They understand interpersonal disagreements as arising from differing personal preferences, together with the absence of any facts determining the ‘correct’ preferences. The intuitionist, in contrast, must say people are subject to widespread error, but he has no account of why this would be so. In short:
+
+
+1. There is widespread disagreement about values.
+
+2. If intuitionism were true, there (probably) would not be widespread disagreement about values.
+
+3. Therefore (probably), intuitionism is false.⁶
+  AFTER:  The second version of the Argument from Disagreement asserts that the evidence of moral disagreement strongly favors anti-realism over intuitionism, because anti-realists are better able to explain disagreement than intuitionists are. Anti-realists understand inter-cultural disagreements as being due to differing forms of life, together with the absence of any facts determining the ‘correct’ form of life. They understand interpersonal disagreements as arising from differing personal preferences, together with the absence of any facts determining the ‘correct’ preferences. The intuitionist, in contrast, must say people are subject to widespread error, but he has no account of why this would be so. In short:
+
+1. There is widespread disagreement about values.
+
+2. If intuitionism were true, there (probably) would not be widespread disagreement about values.
+
+3. Therefore (probably), intuitionism is false.⁶
+----------------------------------------------------------------------
+
+Lines 82-100:
+  BEFORE: 
+I disagree. I don’t think the availability of moral knowledge is incompatible with frequent and persistent moral disagreements. This subsection brings out the first part of my case for this: the prevalence of non-moral disagreements with the same problematic features as moral disagreements. Consider some examples:
+
+1. Who shot JFK? Forty years after the assassination, many remain convinced that there was a conspiracy, possibly involving Cubans, the mafia, or the CIA. Others are equally certain that a lone gunman, Lee Harvey Oswald, was responsible.
+
+
+2. What is the best football team in America?
+
+3. How should quantum mechanics be interpreted? Einstein and Bohr debated whether the formalism of quantum mechanics was complete, without issue. To this day, there remain multiple interpretations of quantum mechanics, each with their own advocates.
+
+4. What are the actual practices of other cultures? Anthropologists for decades took there to have been many cultures in which cannibalism was common. In 1979, William Arens argued that this was a myth, that in fact no culture ever practiced widespread cannibalism. Anthropologists disagreed sharply in their assessments of Arens' work. Similarly, a heated debate arose when in 1983 Derek Freeman purported to show that Margaret Mead's famous account of life in Samoa was entirely inaccurate. Both controversies aroused strong emotions and continue to this day.[12]
+
+5. What are the economic effects of government social programs? Some think they have been essential in ameliorating the great poverty and suffering that would otherwise be the lot of the lower classes in a capitalist country. Others think those same programs actually harm the poor.[13]
+
+6. What religion, if any, is correct? We've had millennia to think about it, and we haven't even agreed on whether there is a God, let alone what He wants.
+
+7. Are there paranormal phenomena? I suspect most readers will answer no. But a quarter of Americans believe in astrology, half believe in ESP, and a quarter believe they have had a telepathic experience.[14]
+
+8. What causes illness? The same cultures that have very different moral beliefs from ours also accept very different answers to this question. Many think illnesses can be caused magically by others' ill will. Western society accepted for centuries that diseases were caused by imbalances of the body's four humors.
+  AFTER:  
+I disagree. I don’t think the availability of moral knowledge is incompatible with frequent and persistent moral disagreements. This subsection brings out the first part of my case for this: the prevalence of non-moral disagreements with the same problematic features as moral disagreements. Consider some examples:
+
+1. Who shot JFK? Forty years after the assassination, many remain convinced that there was a conspiracy, possibly involving Cubans, the mafia, or the CIA. Others are equally certain that a lone gunman, Lee Harvey Oswald, was responsible.
+
+2. What is the best football team in America?
+
+3. How should quantum mechanics be interpreted? Einstein and Bohr debated whether the formalism of quantum mechanics was complete, without issue. To this day, there remain multiple interpretations of quantum mechanics, each with their own advocates.
+
+4. What are the actual practices of other cultures? Anthropologists for decades took there to have been many cultures in which cannibalism was common. In 1979, William Arens argued that this was a myth, that in fact no culture ever practiced widespread cannibalism. Anthropologists disagreed sharply in their assessments of Arens' work. Similarly, a heated debate arose when in 1983 Derek Freeman purported to show that Margaret Mead's famous account of life in Samoa was entirely inaccurate. Both controversies aroused strong emotions and continue to this day.[12]
+
+5. What are the economic effects of government social programs? Some think they have been essential in ameliorating the great poverty and suffering that would otherwise be the lot of the lower classes in a capitalist country. Others think those same programs actually harm the poor.[13]
+
+6. What religion, if any, is correct? We've had millennia to think about it, and we haven't even agreed on whether there is a God, let alone what He wants.
+
+7. Are there paranormal phenomena? I suspect most readers will answer no. But a quarter of Americans believe in astrology, half believe in ESP, and a quarter believe they have had a telepathic experience.[14]
+
+8. What causes illness? The same cultures that have very different moral beliefs from ours also accept very different answers to this question. Many think illnesses can be caused magically by others' ill will. Western society accepted for centuries that diseases were caused by imbalances of the body's four humors.
+----------------------------------------------------------------------
+
+Lines 102-106:
+  BEFORE: Many more examples could be given. The disagreements in examples 1-7 have the following features:
+
+i) They are widespread among people who have an opinion about the issues; it isn't just a few people going against a consensus.
+
+ii) They are apparently unresolvable. Anyone who thinks they can resolve who shot JFK by 'just going in and looking at the facts' is invited to try. You may well figure out 'the answer' (by your lights), but only the uninitiated will imagine they have a chance of convincing the other side(s).
+  AFTER:  Many more examples could be given. The disagreements in examples 1-7 have the following features:
+
+i) They are widespread among people who have an opinion about the issues; it isn't just a few people going against a consensus.
+
+ii) They are apparently unresolvable. Anyone who thinks they can resolve who shot JFK by 'just going in and looking at the facts' is invited to try. You may well figure out 'the answer' (by your lights), but only the uninitiated will imagine they have a chance of convincing the other side(s).
+----------------------------------------------------------------------
+
+Lines 128-159:
+  BEFORE: Critics have charged that the intuitionist has available no account of moral error other than 'blindness', stupidity, or deliberate mendacity.[15] To better assess this charge, let us review some of the sources of error in general:
+
+1. Bias: People who are biased are moved by emotions and desires, other than the desire to have true beliefs and avoid false ones, to view some claims favorably and others unfavorably. In other words, there are some things we want to believe, and others we want not to believe. Often, we want to believe what is in our interests to believe, or to convince others of; what we would like to be true; what would be in the interests of the social group with which we identify to believe; and what coheres with the self- image we want to maintain. These are just some of the possible biases we may suffer from.¹⁶
+
+
+2. Miscalculation: While performing a calculation, I forget to carry a ‘1’, resulting in an incorrect answer. If no one points it out to me, I may never realize my error. I may fully understand the mathematical principles involved in the problem; be rational, unbiased, and intelligent; and yet still make a mistake.
+
+3. Confusion: This involves failure to distinguish two superficially similar things. For example, the student who thinks that because we cannot talk about anything without using language, we cannot talk about the language-independent world, is committing a confusion.
+
+4. Misunderstanding and lack of understanding: Concepts and theories can be misunderstood. A student who thinks that chaos theory makes room for free will suffers from a lack of understanding of the concept of chaos and perhaps of free will. The philosopher who finds intuitionism absurd because it makes no room for moral debate suffers from a misunderstanding of the theory.
+
+5. Oversight: People may fail to notice relevant considerations, including some of the implications of their statements. Someone asks me whether I think two solid objects can overlap in space. I answer ‘No’, based on my immediate impression—overlooking such examples as my hand and my body, or a statue and the mass of clay of which it is composed. Relatedly, people may exercise selective attention, that is, they may attend to only some of the relevant features of a situation, whether because of bias or simply because the situation is too complex to take everything in at once.
+
+6. Hasty judgments: People often make a judgment based on an initial appearance, when longer, more careful thought would have resulted in a different judgment.
+
+7. False or incomplete information: Sometimes people do not know all the facts that are relevant to making a judgment, and sometimes they make mistaken assumptions. For instance, two people arguing about gun control may have received radically different information, one by consulting NRA literature, the other by consulting literature from Handgun Control, Inc. Some of their information may be false, while neither has complete information.
+
+8. Unarticulated assumptions: Imagine two people arguing about whether abortion should be legal. One assumes that they are arguing about whether abortion should ever be allowed, while the other assumes they are arguing about whether it should always be allowed. Or perhaps neither of them really knows which of these questions, if either, they intend to discuss.
+
+
+9. Stubbornness: People may simply refuse to reconsider old beliefs, even when new, relevant evidence appears.
+
+10. Fallacies: These are illusions of reason—forms of reasoning that may superficially appear cogent but in fact are not; for example, equivocation, affirming the consequent, argument ad hominem. Especially important is misplaced trust in authority: people may believe a thing because others—parents, religious leaders, reporters, or other members of their society—have asserted it. But those others may not have known what they were talking about.
+
+11. Forgetfulness: People may forget or simply not notice their own reasons for holding a belief, and they may forget other relevant evidence. In this case, they are in a poor position to recognize when the belief has been undermined.
+
+12. Intrinsic difficulty of issues: Some issues, such as those that are particularly abstract or complex, are more difficult to grasp clearly and make judgments about than others.
+
+13. Inarticulate evidence: Sometimes we have grounds for belief that we cannot articulate. Suppose a friend has been accused of embezzling money from her company. Because I know her well, I know she would not do such a thing. But I could not prove this to a third party. This sort of inarticulate evidence can cause disagreement.
+
+14. Mental defects: Last and perhaps least, a few people lack cognitive capacities that most others have, or have cognitive capacities whose functioning is seriously distorted, as in the case of schizophrenics, autists, and psychopaths. Though a paranoid schizophrenic may otherwise appear a competent reasoner, you will have no luck reasoning him out of his delusions.
+
+  AFTER:  Critics have charged that the intuitionist has available no account of moral error other than 'blindness', stupidity, or deliberate mendacity.[15] To better assess this charge, let us review some of the sources of error in general:
+
+1. Bias: People who are biased are moved by emotions and desires, other than the desire to have true beliefs and avoid false ones, to view some claims favorably and others unfavorably. In other words, there are some things we want to believe, and others we want not to believe. Often, we want to believe what is in our interests to believe, or to convince others of; what we would like to be true; what would be in the interests of the social group with which we identify to believe; and what coheres with the self- image we want to maintain. These are just some of the possible biases we may suffer from.¹⁶
+
+2. Miscalculation: While performing a calculation, I forget to carry a ‘1’, resulting in an incorrect answer. If no one points it out to me, I may never realize my error. I may fully understand the mathematical principles involved in the problem; be rational, unbiased, and intelligent; and yet still make a mistake.
+
+3. Confusion: This involves failure to distinguish two superficially similar things. For example, the student who thinks that because we cannot talk about anything without using language, we cannot talk about the language-independent world, is committing a confusion.
+
+4. Misunderstanding and lack of understanding: Concepts and theories can be misunderstood. A student who thinks that chaos theory makes room for free will suffers from a lack of understanding of the concept of chaos and perhaps of free will. The philosopher who finds intuitionism absurd because it makes no room for moral debate suffers from a misunderstanding of the theory.
+
+5. Oversight: People may fail to notice relevant considerations, including some of the implications of their statements. Someone asks me whether I think two solid objects can overlap in space. I answer ‘No’, based on my immediate impression—overlooking such examples as my hand and my body, or a statue and the mass of clay of which it is composed. Relatedly, people may exercise selective attention, that is, they may attend to only some of the relevant features of a situation, whether because of bias or simply because the situation is too complex to take everything in at once.
+
+6. Hasty judgments: People often make a judgment based on an initial appearance, when longer, more careful thought would have resulted in a different judgment.
+
+7. False or incomplete information: Sometimes people do not know all the facts that are relevant to making a judgment, and sometimes they make mistaken assumptions. For instance, two people arguing about gun control may have received radically different information, one by consulting NRA literature, the other by consulting literature from Handgun Control, Inc. Some of their information may be false, while neither has complete information.
+
+8. Unarticulated assumptions: Imagine two people arguing about whether abortion should be legal. One assumes that they are arguing about whether abortion should ever be allowed, while the other assumes they are arguing about whether it should always be allowed. Or perhaps neither of them really knows which of these questions, if either, they intend to discuss.
+
+9. Stubbornness: People may simply refuse to reconsider old beliefs, even when new, relevant evidence appears.
+
+10. Fallacies: These are illusions of reason—forms of reasoning that may superficially appear cogent but in fact are not; for example, equivocation, affirming the consequent, argument ad hominem. Especially important is misplaced trust in authority: people may believe a thing because others—parents, religious leaders, reporters, or other members of their society—have asserted it. But those others may not have known what they were talking about.
+
+11. Forgetfulness: People may forget or simply not notice their own reasons for holding a belief, and they may forget other relevant evidence. In this case, they are in a poor position to recognize when the belief has been undermined.
+
+12. Intrinsic difficulty of issues: Some issues, such as those that are particularly abstract or complex, are more difficult to grasp clearly and make judgments about than others.
+
+13. Inarticulate evidence: Sometimes we have grounds for belief that we cannot articulate. Suppose a friend has been accused of embezzling money from her company. Because I know her well, I know she would not do such a thing. But I could not prove this to a third party. This sort of inarticulate evidence can cause disagreement.
+
+14. Mental defects: Last and perhaps least, a few people lack cognitive capacities that most others have, or have cognitive capacities whose functioning is seriously distorted, as in the case of schizophrenics, autists, and psychopaths. Though a paranoid schizophrenic may otherwise appear a competent reasoner, you will have no luck reasoning him out of his delusions.
+----------------------------------------------------------------------
+
+Lines 166-168:
+  BEFORE: Proponents of the argument from disagreement, all too eager in their rejections of intuitionism, have neglected to justify the crucial second premise of their argument—
+
+2. If intuitionism were true, there would not be widespread disagreement about values.
+  AFTER:  Proponents of the argument from disagreement, all too eager in their rejections of intuitionism, have neglected to justify the crucial second premise of their argument—
+
+2. If intuitionism were true, there would not be widespread disagreement about values.
+----------------------------------------------------------------------
+
+Lines 186-189:
+  BEFORE: 
+Third: Disagreement and error are common in areas where people defer to religion, another unreliable source of information. In section 3.4, I mentioned some false moral beliefs supported by the Bible. Here are some false factual beliefs also apparently supported by the Bible:
+
+Rabbits chew cud. (Deuteronomy 14:6-7) Some insects are four-legged. (Leviticus 11:20-22) The Earth is flat. (Matthew 4:8) $\pi = 3$. (1 Kings 7:23) The Earth is stationary and rests on a foundation. (Psalms 104:5) The Earth is about 6000 years old. (Allegedly supported by various parts of the Bible.¹⁷)
+  AFTER:  
+Third: Disagreement and error are common in areas where people defer to religion, another unreliable source of information. In section 3.4, I mentioned some false moral beliefs supported by the Bible. Here are some false factual beliefs also apparently supported by the Bible:
+
+Rabbits chew cud. (Deuteronomy 14:6-7)
+
+Some insects are four-legged. (Leviticus 11:20-22)
+
+The Earth is flat. (Matthew 4:8)
+
+$\pi = 3$. (1 Kings 7:23)
+
+The Earth is stationary and rests on a foundation. (Psalms 104:5)
+
+The Earth is about 6000 years old. (Allegedly supported by various parts of the Bible.¹⁷)
+----------------------------------------------------------------------
+
+Lines 197-203:
+  BEFORE: The final version of the Argument from Disagreement goes something like this:
+
+1. Intuitionism provides no way of resolving moral disagreements.
+
+2. If a metaethical theory provides no way of resolving moral disagreements, then it is false.
+
+3. Therefore, intuitionism is false.
+  AFTER:  The final version of the Argument from Disagreement goes something like this:
+
+1. Intuitionism provides no way of resolving moral disagreements.
+
+2. If a metaethical theory provides no way of resolving moral disagreements, then it is false.
+
+3. Therefore, intuitionism is false.
+----------------------------------------------------------------------
+
+Lines 254-258:
+  BEFORE: The argument from disagreement is double-edged: it can be turned against the views of its proponents as easily as it can be turned against intuitionism. To begin with, notice that proponents of other metaethical positions take their own views to be objectively true. In asserting their theories about the nature of moral claims, they are not purporting merely to express or describe their emotions, for example; they are purporting to state a fact that we have adequate grounds for believing (if there are no moral facts, it is a [non-moral] fact that there are no moral facts). But if the argument from disagreement is sound, then it refutes itself, since many people do not agree with the argument from disagreement. The argument would likewise refute any metaethical position, due to the nature of disagreement in metaethics. Recall the three versions of the argument from disagreement:
+
+1. *The Idiot’s Veto*: If someone’s disagreeing with a claim, in general, prevents that claim from being objectively true, then the disagreements in metaethics prevent any metaethical view from being objectively true. Similarly, some people reject the argument from disagreement, so it cannot be objectively correct.
+
+b) The problem of explaining disagreement: The disagreement over metaethical theories is at least as widespread and persistent as that over ethical theories. Should we explain this by denying the existence of any correct metaethical theory? Similarly, there is no general agreement on whether the argument from disagreement is correct; does this suggest that there is no fact about whether it is correct?
+  AFTER:  The argument from disagreement is double-edged: it can be turned against the views of its proponents as easily as it can be turned against intuitionism. To begin with, notice that proponents of other metaethical positions take their own views to be objectively true. In asserting their theories about the nature of moral claims, they are not purporting merely to express or describe their emotions, for example; they are purporting to state a fact that we have adequate grounds for believing (if there are no moral facts, it is a [non-moral] fact that there are no moral facts). But if the argument from disagreement is sound, then it refutes itself, since many people do not agree with the argument from disagreement. The argument would likewise refute any metaethical position, due to the nature of disagreement in metaethics. Recall the three versions of the argument from disagreement:
+
+1. *The Idiot’s Veto*: If someone’s disagreeing with a claim, in general, prevents that claim from being objectively true, then the disagreements in metaethics prevent any metaethical view from being objectively true. Similarly, some people reject the argument from disagreement, so it cannot be objectively correct.
+
+b) The problem of explaining disagreement: The disagreement over metaethical theories is at least as widespread and persistent as that over ethical theories. Should we explain this by denying the existence of any correct metaethical theory? Similarly, there is no general agreement on whether the argument from disagreement is correct; does this suggest that there is no fact about whether it is correct?
+----------------------------------------------------------------------

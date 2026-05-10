@@ -1,0 +1,25 @@
+---
+course: ethics-historical
+---
+
+# Justice Resists Utilitarian Reduction
+
+Mill in *Utilitarianism* ch. V argues that justice protects the security on which all utility ultimately rests, so the apparent conflict between justice and utility dissolves once justice is properly understood. The reconciliation does not work. The cleanest way to see this is to set Mill's account against the standard counter-example cases, then notice what work the talk of "security" and "rights" is actually doing in his own text.
+
+The argument:
+
+- **The counter-example pressure.** Three cases press the act-utilitarian hard. Organ Harvesting: a doctor with five patients needing different transplants has one healthy patient compatible with all five; killing the healthy one and distributing the organs maximises lives saved. Framing: a sheriff who cannot find the actual criminal can prevent a riot by framing an innocent person, where the framed person's suffering is less than the riot would cause. Deathbed Promise: a friend dying in Antarctica extracts a promise that his fortune go to his son; the son will waste it, charity would do far more good. The utility calculation favours killing the healthy patient, framing the innocent, and breaking the promise. Almost everyone judges all three actions wrong. Stipulating away "the doctor will get caught" or "the framed person will be discovered" doesn't dissolve the verdict — the verdicts are about the actions, not their long-run consequences.
+
+- **Mill's reconciliation either smuggles or bites bullets.** Mill writes that security is "the very groundwork of our existence" and that justice protects it. But security as Mill describes it has a pre-utilitarian shape: it is the assurance that one's person and property will not be violated *even when* a particular violation would be utility-maximising. That shape is exactly what an agent-centred constraint provides and what pure utility-maximisation lacks. Either Mill's appeal to security is doing genuine non-consequentialist work (in which case justice is not derived from utility, it is co-installed alongside it) or Mill's view collapses to act-utilitarianism and bites the bullet on Organ Harvesting and Framing. Both readings are bad for the reconciliation thesis.
+
+- **Rights-thinking handles the cases more cleanly.** A negative right to one's own body explains why the healthy patient may not be killed for parts; a right to fair process explains why an innocent may not be framed; a duty grounded in promise explains why the deathbed wish controls the inheritance. None of these is an artefact of long-run utility calculation — they are agent-centred constraints on what one may do, even when the numbers favour violating them. Once these are admitted, the reconciliation has been abandoned in fact while being defended in name.
+
+- **Honest qualification.** Rights-thinking carries its own counter-intuitive verdicts. In the standard Trolley case (divert a runaway trolley from five onto one), the diversion intentionally directs harm at the one and could plausibly be called a rights-violation. A fair number of people do find diversion troubling on exactly these grounds. So the rights account is not costless. But its cost is far smaller than the consequentialist's, because the cases where rights talk gives a hard verdict (Organ Harvesting, Framing, Promise) are cases where the consequentialist verdict is also widely judged wrong — whereas the case where rights talk hesitates (Trolley) is the one where there is genuine moral uncertainty.
+
+- **What Mill should have said.** The *Utilitarianism* ch. V move toward security and rights is the right *direction* of travel. The mistake is presenting it as derivation rather than as concession: utility is one moral consideration among several, and justice — security, rights, fairness in distribution — supplies others that constrain utility-maximising action. That is moderate deontology in everything but name.
+
+- **Why I reject the rivals.** Strict act-utilitarianism bites Organ Harvesting and is rightly rejected for that. Mill's reconciliation either collapses to strict act-utilitarianism or quietly imports rights, in which case it is not the unifying derivation it claims to be. The remaining option is to accept that justice has agent-centred structure and that utility is one consideration weighed against it.
+
+**Usage:** Additive to a Mill essay on justice and utility. Engage Mill's ch. V argument on its own terms first — security as groundwork, the close connection of justice to rights, the proposed reduction. The counter-example battery is the modern test of how well the reduction holds; the conclusion is that Mill's view is best read as *moderate deontology in disguise* rather than as a successful unification.
+
+**Applicable to:** justice and utility, Mill on justice, reconciliation of justice with utility, utilitarian account of justice, organ harvesting case, framing case, deathbed promise case, security as groundwork of utility, rights and utility, agent-centred constraints, *ethics-historical / 5. Mill*

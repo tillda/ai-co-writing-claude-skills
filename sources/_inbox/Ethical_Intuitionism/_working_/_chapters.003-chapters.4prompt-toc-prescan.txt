@@ -1,0 +1,70 @@
+You are looking at the first pages of a book. Some of these pages may contain a Table of Contents (TOC). Others may be title pages, copyright pages, or regular content pages.
+
+## Task
+
+1. Find any Table of Contents page(s) among the attached images
+2. Extract ONLY the first-level (top-level) entries from the TOC
+3. Return them as a JSON list
+
+## What counts as chapter-level
+
+We need entries at the **chapter** granularity — the units the book will be split into for processing.
+
+- **Chapters** are the primary target (e.g., "Chapter 1: Introduction", "1. The Beginning", "I. First Steps")
+- **Parts** — if the book has Part divisions (e.g., "Part I: Foundations"), include them too alongside the chapters they contain
+- Major structural sections (e.g., "Preface", "Introduction", "Appendix", "Bibliography", "Index", "Notes", "Glossary")
+
+**CRITICAL — Books with Parts AND Chapters:**
+Some books group chapters into Parts (e.g., "Part I: Foundations" containing "Chapter 1", "Chapter 2", "Chapter 3"). In this case:
+- Extract BOTH the Parts AND the Chapters inside them
+- Do NOT extract only Parts — Parts alone are too coarse (a Part may span 100+ pages)
+- Do NOT extract only Chapters — we need the Part boundaries too
+
+
+
+## What to EXCLUDE
+
+- Sub-sections within a chapter (indented or numbered as subsections like "1.1", "2.3", "Chapter 1.2")
+- Page numbers
+
+## Important
+
+- If you find NO table of contents among the pages, return an empty array
+- Copy chapter titles exactly as they appear in the TOC
+- Include structural sections (Preface, Appendix, Notes, etc.) ONLY if they appear as first-level entries in the TOC
+- If a book has "Contents" and "Analytic contents", then the "Contents" is the one for this task as it contains only the top-level chapters.
+- Remove page numbers from the titles
+
+DO THIS: If chapters have numbers in their headings and first chapter starts with "I" or "l" and the heading does not make sense, then heading of the first chapter might start with "1" instead - repair this in your output.
+
+## Additional Task: Extract Book Info
+
+While examining these pages, also look for:
+
+1. **Book title** — from the title page (usually one of the first pages, with large prominent text showing the book's name)
+2. **Author name** — from the title page (usually below the title)
+3. **Topics** — a short list of 3-5 high-level topics or themes the book covers, inferred from the table of contents chapter titles, any subtitle or description visible on the title page, and the general subject matter apparent from the pages. Provide short descriptive phrases (2-5 words each), not full sentences.
+
+If you cannot find a title page or author, set those fields to null.
+
+## Additional Task: Add "Table of Content" entry
+
+Content might not have itself in the TOC. Add it, with proper title and in right order
+
+Return JSON wrapped in <RESULT> tags:
+
+<RESULT>
+{
+  "chapters": [
+    "Preface",
+    "Chapter 1: The Beginning",
+    "Chapter 2: The Middle",
+    "Chapter 3: The End",
+    "Appendix A",
+    "Bibliography"
+  ],
+  "title": "A Great Book",
+  "author": "Jane Smith",
+  "topics": ["machine learning", "neural networks", "data science", "optimization"]
+}
+</RESULT>

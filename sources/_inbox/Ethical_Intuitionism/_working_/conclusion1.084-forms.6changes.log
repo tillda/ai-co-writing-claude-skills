@@ -1,0 +1,124 @@
+Forms changes for conclusion1
+Repaired 5 section(s)
+======================================================================
+
+Lines 49-55:
+  BEFORE: Ethical subjectivists say that ‘x is right’ is a statement about someone’s attitude towards x. Here are three common versions of subjectivism:
+
+Individual Subjectivism: $x$ is right $= I$ (the speaker) approve of $x$.
+
+Cultural Relativism: $x$ is right = Society approves of $x$.
+
+Divine Command Theory: $x$ is right = God approves of $x$.
+  AFTER:  Ethical subjectivists say that ‘x is right’ is a statement about someone’s attitude towards x. Here are three common versions of subjectivism:
+
+Individual Subjectivism: $x$ is right $= I$ (the speaker) approve of $x$.
+
+Cultural Relativism: $x$ is right = Society approves of $x$.
+
+Divine Command Theory: $x$ is right = God approves of $x$.
+----------------------------------------------------------------------
+
+Lines 128-144:
+  BEFORE: We have established so far:
+
+1. Evaluative statements assert propositions, which can be true or false. (Non-cognitivism is false.)
+
+2. They are not always false. (Nihilism is false.)
+
+3. The truth of an evaluative statement is not subjective or relative. (Subjectivism is false.)
+
+4. Evaluative facts cannot be reduced to non-evaluative facts, nor can they be known solely on the basis of observation. (Naturalism is false.)
+
+From these points, it follows that:
+
+5. Some evaluative statements are true. (From 1, 2.)
+
+6. Some evaluative statements are objectively true. (From 3, 5.)
+
+7. There are irreducible, objective, evaluative facts, which cannot be known on the basis of observation. (From 4, 6.)²
+  AFTER:  We have established so far:
+
+1. Evaluative statements assert propositions, which can be true or false. (Non-cognitivism is false.)
+
+2. They are not always false. (Nihilism is false.)
+
+3. The truth of an evaluative statement is not subjective or relative. (Subjectivism is false.)
+
+4. Evaluative facts cannot be reduced to non-evaluative facts, nor can they be known solely on the basis of observation. (Naturalism is false.)
+
+From these points, it follows that:
+
+5. Some evaluative statements are true. (From 1, 2.)
+
+6. Some evaluative statements are objectively true. (From 3, 5.)
+
+7. There are irreducible, objective, evaluative facts, which cannot be known on the basis of observation. (From 4, 6.)²
+----------------------------------------------------------------------
+
+Lines 150-158:
+  BEFORE: Some basic principles about good, bad, right, and wrong are self-evident, such as the following:
+
+Suffering is bad.
+
+If $A$ is better than $B$ and $B$ is better than $C$, then $A$ is better than $C$.
+
+If an action is wrong, then any qualitatively indistinguishable action (in identical circumstances) is also wrong.
+
+No person is blameworthy for an action they did not perform.
+  AFTER:  Some basic principles about good, bad, right, and wrong are self-evident, such as the following:
+
+Suffering is bad.
+
+If $A$ is better than $B$ and $B$ is better than $C$, then $A$ is better than $C$.
+
+If an action is wrong, then any qualitatively indistinguishable action (in identical circumstances) is also wrong.
+
+No person is blameworthy for an action they did not perform.
+----------------------------------------------------------------------
+
+Lines 160-174:
+  BEFORE: These principles are self-evident in the same sense that the following are:
+
+Nothing is both red and green.
+
+If $A$ is next to $B$, then $B$ is next to $A$.
+
+Yellow is a color.
+
+Everything is identical with itself.
+
+'Socrates is a man' and 'All men are inconsiderate' together entail 'Socrates is inconsiderate'.
+
+Time is one-dimensional.
+
+Seven is more than two.
+  AFTER:  These principles are self-evident in the same sense that the following are:
+
+Nothing is both red and green.
+
+If $A$ is next to $B$, then $B$ is next to $A$.
+
+Yellow is a color.
+
+Everything is identical with itself.
+
+'Socrates is a man' and 'All men are inconsiderate' together entail 'Socrates is inconsiderate'.
+
+Time is one-dimensional.
+
+Seven is more than two.
+----------------------------------------------------------------------
+
+Lines 200-204:
+  BEFORE: Third, the Humean conception of reasons cannot accommodate paradigmatic examples of rational and irrational actions, declaring instead that no action can ever be irrational. For example, the Humean is forced to say that the following are examples of equally rational actions:
+
+Odysseus: Odysseus knows that when he approaches the Sirens, he will feel an intense desire to join them, but he now desires that he not join them. Odysseus gives no weight to his future desire, and instead has himself tied to the mast so that he will be unable in the future to act on that desire.
+
+The Partying Student: A student decides to spend the night partying, knowing that this will result in her failing an important test the next day. Though she knows that tomorrow she will wish she had spent the night studying, she gives little or no weight to this future desire, and instead acts on her immediate desire to party.
+  AFTER:  Third, the Humean conception of reasons cannot accommodate paradigmatic examples of rational and irrational actions, declaring instead that no action can ever be irrational. For example, the Humean is forced to say that the following are examples of equally rational actions:
+
+Odysseus: Odysseus knows that when he approaches the Sirens, he will feel an intense desire to join them, but he now desires that he not join them. Odysseus gives no weight to his future desire, and instead has himself tied to the mast so that he will be unable in the future to act on that desire.
+
+The Partying Student: A student decides to spend the night partying, knowing that this will result in her failing an important test the next day. Though she knows that tomorrow she will wish she had spent the night studying, she gives little or no weight to this future desire, and instead acts on her immediate desire to party.
+----------------------------------------------------------------------

@@ -1,6 +1,6 @@
 ---
 name: essay-topic
-description: Write philosophy essays from question-bank files at /courses/<course>/Q-<N>-<topic>.md in three modes — (a) batch mode: one essay per H1 in a single Q-file; (b) multi-module batch: batch mode looped across a list of modules given as numbers or names; (c) single-section mode: one essay for a named H1. Each H1 is the essay's topic and becomes the essay's H1 verbatim; the **Question(s):** block lists *specifics* — possible exam-question formulations of that topic, all of which the essay must explain. One essay per H1 covers every specific. Other content under the H1 becomes additional notes. Use when the user points at a Q-*.md file ("do the whole revision sheet"), names a list of modules ("write essays for topics: 1, 2, 3" or "topics: Essentialism, Truth"), or names a specific course + module + H1 ("write the essay in Logic course module Truth '# Tarski's T-Schema...'").
+description: Write philosophy essays from question-bank files at /courses/<course>/Q-<N>-<topic>.md in three modes — (a) batch mode: one essay per H1 in a single Q-file; (b) multi-module batch: batch mode looped across a list of modules given as numbers or names; (c) single-section mode: one essay for a named H1. Each H1 is the essay's topic and becomes the essay's H1 verbatim; the **Question(s):** block lists *specifics* — possible exam-question formulations of that topic, all of which the essay must explain. One essay per H1 covers every specific. Each essay opens its body with one `**Question:** / **Answer:**` pair per specific (Answer = one-sentence bottom-line response) before the full prose begins. Other content under the H1 becomes additional notes. Use when the user points at a Q-*.md file ("do the whole revision sheet"), names a list of modules ("write essays for topics: 1, 2, 3" or "topics: Essentialism, Truth"), or names a specific course + module + H1 ("write the essay in Logic course module Truth '# Tarski's T-Schema...'").
 ---
 
 # Essays From a Q-File
@@ -120,6 +120,17 @@ Use judgment to decide whether two specifics are paraphrases or materially diffe
    - <specific 3, verbatim>
    ...
 
+   # Body opener
+
+   The essay body must open with one `**Question:** … / **Answer:** …` pair for each specific listed above, in the same order, before any other prose. Format each pair as two adjacent lines:
+
+   ```
+   **Question:** <specific verbatim>
+   **Answer:** <one sentence giving the essay's bottom-line response to that specific>
+   ```
+
+   Labels are bolded. `Question:` reproduces the specific exactly as listed. `Answer:` is a single sentence stating the essay's actual answer (the bottom-line claim — not a restatement of the question, not a hedge, not a summary of what the essay will discuss). After all pairs are written, leave a blank line and continue with the full essay text, which defends those answers in detail.
+
    # Notes for the writer
 
    <free-text notes from the section, if any>
@@ -135,6 +146,8 @@ Use judgment to decide whether two specifics are paraphrases or materially diffe
    **Specifics rule** — always include `# Specifics` whenever the section has at least one entry under `**Question(s)**`, even if there is only one. List every specific verbatim as a bullet, in the order they appear in the Q-file. The leader sentence (`The exam may pose this topic in any of the following forms…`) is fixed — it tells essay-philosophy that each bullet is an exam-question candidate the essay must address, not a reading note.
 
    For materially different specifics (the *grouped* case), add a one-line note in `# Notes for the writer` reminding the writer to allocate distinct paragraphs or sub-sections so each specific is explained — none silently dropped.
+
+   **Body-opener rule** — always include `# Body opener` with the fixed text shown above. This is a structural mandate, not optional guidance: essay-philosophy must lead the essay body with one `**Question:** … / **Answer:** …` pair per specific, in the same order as `# Specifics`, before any prose. `**Question:**` is the specific verbatim; `**Answer:**` is exactly one sentence stating the essay's bottom-line response (a real answer — not a restatement, not a hedge, not "this essay will argue…"). Pairs are separated by blank lines from each other and from the prose that follows. This block is part of the essay body, not a heading section — do not wrap it under an H2.
 
    Other rules:
    - `slugify(heading)` matches essay-philosophy's question-slug rule: lowercase, non-alphanumerics → `-`, collapse repeated dashes, trim. **If the heading starts with `Extra:` (case-insensitive), the slug must keep `extra-` as its leading token** — slugify the full heading including the `Extra:` prefix, do not strip it.
@@ -187,6 +200,7 @@ Before reporting completion:
 - [ ] Each essay is at `/courses/<course>/essays/<moduleId>-<moduleName-slug>/<heading-slug>.md`
 - [ ] Each essay individually passes the essay-philosophy quality checklist (voice, structure, length cap, no chapter/page refs, single-mention authors)
 - [ ] Each essay's first line is a single `# <Q-file H1 text>` H1 — the topic, verbatim from the Q-file, with no em-dash, no specific appended, no reformulation
+- [ ] The essay body opens with one `**Question:** <specific verbatim>` / `**Answer:** <one sentence>` pair per specific, in the same order as the Q-file, before any prose paragraphs begin. Answers are real bottom-line responses, not restatements or "this essay will argue…" hedges
 - [ ] Every specific listed under `**Question(s)**` for the H1 is explained somewhere in the essay; materially different specifics each got their own paragraph or sub-section
 - [ ] Free-text notes under each H1 were respected
 - [ ] Multi-module batch: every token in the user's list resolved to a module before any writing began; status lines grouped by module; aggregated summary at the end

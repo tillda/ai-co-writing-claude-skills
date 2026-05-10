@@ -1,0 +1,36 @@
+{
+  "merges": [
+    {
+      "id": 1,
+      "reason": "Sentence continues directly from A to B with an infinitive phrase ('to imagine')."
+    },
+    {
+      "id": 2,
+      "reason": "Paragraph A ends in a word fragment ('co') and B continues the sentence; clearly an OCR break."
+    },
+    {
+      "id": 3,
+      "reason": "Paragraph A ends mid-sentence and B starts with a lowercase letter, completing the thought about cognitive processes."
+    },
+    {
+      "id": 4,
+      "reason": "Grammatical continuation of a 'believe that' clause."
+    },
+    {
+      "id": 5,
+      "reason": "Continuation of a question split by an OCR artifact."
+    },
+    {
+      "id": 6,
+      "reason": "Paragraph A ends in a preposition and B starts lowercase; likely an OCR artifact where a word or line was dropped."
+    },
+    {
+      "id": 7,
+      "reason": "Paragraph A ends in a conjunction/complementizer ('or that') and B continues the clause."
+    },
+    {
+      "id": 8,
+      "reason": "Paragraph A ends in a word fragment ('con') and B continues the sentence flow."
+    }
+  ]
+}

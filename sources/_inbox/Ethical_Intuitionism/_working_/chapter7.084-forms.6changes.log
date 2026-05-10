@@ -1,0 +1,124 @@
+Forms changes for chapter7
+Repaired 7 section(s)
+======================================================================
+
+Lines 13-19:
+  BEFORE: Anti-realists may be right in pegging objective values as strange. But how would this be a reason for denying their existence? Perhaps the argument is:
+
+1. Objective values would be weird.
+
+2. If something would be weird, then it (probably) does not exist.
+
+3. Therefore, objective values (probably) do not exist.
+  AFTER:  Anti-realists may be right in pegging objective values as strange. But how would this be a reason for denying their existence? Perhaps the argument is:
+
+1. Objective values would be weird.
+
+2. If something would be weird, then it (probably) does not exist.
+
+3. Therefore, objective values (probably) do not exist.
+----------------------------------------------------------------------
+
+Lines 25-36:
+  BEFORE: Second: Perhaps to say  $x$  is weird is to say that  $x$  is very dissimilar from all or most other things that exist. In this case, premise (2) becomes: 'If something is very dissimilar from other things that exist, then it (probably) does not exist'. Why should we accept this? Consider this partial list of what exists:
+
+|  time | mental states  |
+| --- | --- |
+|  space | physical states  |
+|  numbers | aesthetic properties  |
+|  propositions | fields (e.g., the gravitational field)  |
+|  substances | the past  |
+|  properties | dispositional properties  |
+|  relationships | moral properties  |
+
+One could say of any item on that list that it is utterly different from everything else that exists. At least it seems that way, and yet all those things seem clearly to exist. This isn't just the trivial point that everything is different from everything else; the point here is that the above things are each very different, different in kind, from everything else. So, on the face of it, this version of the argument from weirdness goes nowhere.
+  AFTER:  Second: Perhaps to say  $x$  is weird is to say that  $x$  is very dissimilar from all or most other things that exist. In this case, premise (2) becomes: 'If something is very dissimilar from other things that exist, then it (probably) does not exist'. Why should we accept this? Consider this partial list of what exists:
+
+|  time | mental states  |
+| --- | --- |
+|  space | physical states  |
+|  numbers | aesthetic properties  |
+|  propositions | fields (e.g., the gravitational field)  |
+|  substances | the past  |
+|  properties | dispositional properties  |
+|  relationships | moral properties  |
+
+One could say of any item on that list that it is utterly different from everything else that exists. At least it seems that way, and yet all those things seem clearly to exist. This isn't just the trivial point that everything is different from everything else; the point here is that the above things are each very different, different in kind, from everything else. So, on the face of it, this version of the argument from weirdness goes nowhere.
+----------------------------------------------------------------------
+
+Lines 93-98:
+  BEFORE: Let $A$ be some act which is morally wrong. Let $N$ be the complete set of natural properties of $A$.¹⁸ According to Blackburn, proposition (2) below is analytically true, but (1) is not:
+
+1. If $A$ has $N$, it is wrong.
+
+2. If $A$ has $N$ and is wrong, then every action that has $N$ is wrong.
+
+  AFTER:  Let $A$ be some act which is morally wrong. Let $N$ be the complete set of natural properties of $A$.¹⁸ According to Blackburn, proposition (2) below is analytically true, but (1) is not:
+
+1. If $A$ has $N$, it is wrong.
+
+2. If $A$ has $N$ and is wrong, then every action that has $N$ is wrong.
+
+----------------------------------------------------------------------
+
+Line 111:
+  BEFORE: Frank Jackson argues that the supervenience of the moral on the non-moral is difficult to reconcile with the irreducibility of the moral. Assume that goodness supervenes on natural properties. There may be many possible ways for a thing to be good—many natural properties, that is, that would make a thing good. Let these natural properties be $N_1$, $N_2$, and so on. For each of them, it is necessary that anything that has them is good (that is the principle of supervenience). Since we are stipulating that $\{N_1, N_2, \ldots\}$ is a complete list of the possible ways for a thing to be good, it is also necessary that anything that is good has at least one of these properties. Therefore, there are two predicates, ‘good’ and ‘$N_1$ or $N_2$ or . . .’, that apply to exactly the same things in every possible situation.²² If these predicates refer to the same property, this is unproblematic. But the intuitionist holds that there are two different properties here, a natural property and a non-natural one, and that ‘good’ refers to the non-natural one. Jackson’s objection here is subtle: what a word refers to is normally determined by its usage—what sorts of things we apply it to, including which hypothetical situations we would apply it in. But ‘good’ and ‘$N_{1}$ or $N_{2}$ or . . .’ have the same usage in that sense. So, even if there were two properties there, what would make it the case that our word ‘good’ referred to the non-natural property, rather than the natural one? Furthermore, even if there was something that made the word refer to the non-natural property, how would children learning the language learn that ‘good’ was supposed to refer to the non-natural property instead of the natural one?^{23}
+  AFTER:  Frank Jackson argues that the supervenience of the moral on the non-moral is difficult to reconcile with the irreducibility of the moral. Assume that goodness supervenes on natural properties. There may be many possible ways for a thing to be good—many natural properties, that is, that would make a thing good. Let these natural properties be $N_1$, $N_2$, and so on. For each of them, it is necessary that anything that has them is good (that is the principle of supervenience). Since we are stipulating that $\{N_1, N_2, \ldots\}$ is a complete list of the possible ways for a thing to be good, it is also necessary that anything that is good has at least one of these properties. Therefore, there are two predicates, ‘good’ and ‘$N_1$ or $N_2$ or . . .’, that apply to exactly the same things in every possible situation.²² If these predicates refer to the same property, this is unproblematic. But the intuitionist holds that there are two different properties here, a natural property and a non-natural one, and that ‘good’ refers to the non-natural one. Jackson’s objection here is subtle: what a word refers to is normally determined by its usage—what sorts of things we apply it to, including which hypothetical situations we would apply it in. But ‘good’ and ‘$N_{1}$ or $N_{2}$ or . . .’ have the same usage in that sense. So, even if there were two properties there, what would make it the case that our word ‘good’ referred to the non-natural property, rather than the natural one? Furthermore, even if there was something that made the word refer to the non-natural property, how would children learning the language learn that ‘good’ was supposed to refer to the non-natural property instead of the natural one?^{23}
+----------------------------------------------------------------------
+
+Lines 182-189:
+  BEFORE: Sociobiologists (or ‘evolutionary psychologists’, in the current lingo) have offered explanations for moral behavior and moral beliefs, in terms of the theory of evolution. Since evolution generally leads us to expect selfishness, the main problem has been taken to be that of explaining why we often help others at some cost to ourselves. Proffered partial explanations include:
+
+Kin selection: We help members of our own families, often at great expense to ourselves, because family members share many of the same genes. Helping one’s family is thus an indirect way of increasing the reproduction of one’s genes.
+
+Reciprocal altruism: We help others because doing so tends to make them want to help us in return. Harming others or breaking agreements with them tends to make them angry and make them want to harm us.
+
+Reputation effects: We behave nicely because doing so improves our general reputation in our community, causing others to regard us as good trading partners, and so on. One who breaks agreements or attacks people is likely to be widely shunned.
+
+  AFTER:  Sociobiologists (or ‘evolutionary psychologists’, in the current lingo) have offered explanations for moral behavior and moral beliefs, in terms of the theory of evolution. Since evolution generally leads us to expect selfishness, the main problem has been taken to be that of explaining why we often help others at some cost to ourselves. Proffered partial explanations include:
+
+Kin selection: We help members of our own families, often at great expense to ourselves, because family members share many of the same genes. Helping one’s family is thus an indirect way of increasing the reproduction of one’s genes.
+
+Reciprocal altruism: We help others because doing so tends to make them want to help us in return. Harming others or breaking agreements with them tends to make them angry and make them want to harm us.
+
+Reputation effects: We behave nicely because doing so improves our general reputation in our community, causing others to regard us as good trading partners, and so on. One who breaks agreements or attacks people is likely to be widely shunned.
+
+----------------------------------------------------------------------
+
+Lines 194-199:
+  BEFORE: First: Since sociobiology provides adequate explanations for our moral beliefs, and these explanations do not appeal to objective values, there is no need to posit objective values. They do not help us explain anything, and our overall theory is simpler without them. Nor need we posit a special cognitive faculty of moral intuition, when we could explain moral beliefs by appeal to emotions, which in turn are explained evolutionarily.
+
+Second: Even if there are objective values, the evolutionary explanation of our moral beliefs gives us no reason to expect that our intuitions would tend to correspond to the moral truth. This stands in contrast to other cognitive faculties. An organism with poor vision will fare worse in terms of survival and reproduction than an organism with accurate vision. A person who mistakes tigers for peach trees will have diminished survival prospects. But we have no account of how reproductive fitness would be enhanced by correct moral beliefs.
+
+Third: Not only do we lack an account of why we should tend to have correct moral beliefs, but the sociobiological account of moral beliefs provides positive grounds for expecting our moral beliefs not to be reliable, assuming there is an objective moral truth. This is because evolution would tend to give us strong biases in favor of ourselves, our kin, and members of our own social group. Evolution would mold our moral attitudes towards its own purposes, to ensure behavior that increases reproductive fitness, regardless of what is actually morally right.
+
+  AFTER:  First: Since sociobiology provides adequate explanations for our moral beliefs, and these explanations do not appeal to objective values, there is no need to posit objective values. They do not help us explain anything, and our overall theory is simpler without them. Nor need we posit a special cognitive faculty of moral intuition, when we could explain moral beliefs by appeal to emotions, which in turn are explained evolutionarily.
+
+Second: Even if there are objective values, the evolutionary explanation of our moral beliefs gives us no reason to expect that our intuitions would tend to correspond to the moral truth. This stands in contrast to other cognitive faculties. An organism with poor vision will fare worse in terms of survival and reproduction than an organism with accurate vision. A person who mistakes tigers for peach trees will have diminished survival prospects. But we have no account of how reproductive fitness would be enhanced by correct moral beliefs.
+
+Third: Not only do we lack an account of why we should tend to have correct moral beliefs, but the sociobiological account of moral beliefs provides positive grounds for expecting our moral beliefs not to be reliable, assuming there is an objective moral truth. This is because evolution would tend to give us strong biases in favor of ourselves, our kin, and members of our own social group. Evolution would mold our moral attitudes towards its own purposes, to ensure behavior that increases reproductive fitness, regardless of what is actually morally right.
+
+----------------------------------------------------------------------
+
+Lines 258-267:
+  BEFORE: 1. If intuitionism is true, then wrongness exists and is an objective property that we are aware of by rational intuition. (Premise.)
+
+2. There is no objective property that we are aware of by rational intuition, that most of the things people typically call ‘wrong’ have in common. (Premise.)
+
+3. Therefore, if intuitionism is true, then wrongness exists, but most of the things people typically call ‘wrong’ do not have it. (From 1, 2.)
+
+4. It cannot be the case that wrongness exists but that most of the things people typically call ‘wrong’ do not have it. (Premise.)
+
+5. Therefore, intuitionism is false. (From 3, 4.)
+
+  AFTER:  1. If intuitionism is true, then wrongness exists and is an objective property that we are aware of by rational intuition. (Premise.)
+
+2. There is no objective property that we are aware of by rational intuition, that most of the things people typically call ‘wrong’ have in common. (Premise.)
+
+3. Therefore, if intuitionism is true, then wrongness exists, but most of the things people typically call ‘wrong’ do not have it. (From 1, 2.)
+
+4. It cannot be the case that wrongness exists but that most of the things people typically call ‘wrong’ do not have it. (Premise.)
+
+5. Therefore, intuitionism is false. (From 3, 4.)
+
+----------------------------------------------------------------------

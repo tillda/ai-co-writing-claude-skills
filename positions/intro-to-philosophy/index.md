@@ -29,3 +29,9 @@ When the prompt directs a specific position or argument, follow the prompt; thes
 `role: supporting epistemology — not a conclusion. See the file's Usage line.`
 
 **Applicable to:** phenomenal conservatism, foundationalism, foundationalism in epistemology, structure of justification, source of foundational justification, foundational beliefs, appearances and justification, seemings, initial plausibility, regress argument for foundationalism, why perception justifies, why intuitions justify, *intro-to-philosophy / 1. Doubt* (supporting epistemology only)
+
+## Against Axiomatic Libertarianism (Pro-Entitlement)
+`file: against-axiomatic-libertarianism.md`
+`role: pro-entitlement-conception, anti-Nozick-as-defender. Conclusion is *defeasible libertarianism* — not unqualified Nozickianism, not Williams-style egalitarianism. See the file's Usage line.`
+
+**Applicable to:** Nozick's entitlement theory, entitlement conception of justice, entitlement theory of justice, Wilt Chamberlain, Wilt Chamberlain example, the Wilt Chamberlain case, "liberty upsets patterns", liberty upsets patterns, Williams vs. Nozick, the Williams/Nozick exchange, distributive justice, libertarianism, axiomatic libertarianism, Robert Nozick on justice, Nozick on justice, *Anarchy, State, and Utopia*, distribution of medical care, distribution of medical care vs. barbering services, distribution-on-need vs. merit, distribution on need vs. merit, need vs. merit, patterned distribution, patterns of distribution, side-constraints, *intro-to-philosophy / 6. Equality*

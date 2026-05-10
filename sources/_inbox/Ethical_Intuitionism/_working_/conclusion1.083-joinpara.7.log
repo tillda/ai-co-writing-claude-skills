@@ -1,0 +1,27 @@
+→ JoinPara: conclusion1
+  [joinpara conclusion1] Sending 8 candidates to AI
+  [joinpara conclusion1] AI confirmed 8 merges out of 8 candidates
+--- AI Output ---
+merges:
+  - {"id": 1, "reason": "Sentence continues directly from A to B with an infinitive phrase ('to imagine')."}
+  - {"id": 2, "reason": "Paragraph A ends in a word fragment ('co') and B continues the sentence; clearly an OCR break."}
+  - {"id": 3, "reason": "Paragraph A ends mid-sentence and B starts with a lowercase letter, completing the thought about cognitive processes."}
+  - {"id": 4, "reason": "Grammatical continuation of a 'believe that' clause."}
+  - {"id": 5, "reason": "Continuation of a question split by an OCR artifact."}
+  - {"id": 6, "reason": "Paragraph A ends in a preposition and B starts lowercase; likely an OCR artifact where a word or line was dropped."}
+  - {"id": 7, "reason": "Paragraph A ends in a conjunction/complementizer ('or that') and B continues the clause."}
+  - {"id": 8, "reason": "Paragraph A ends in a word fragment ('con') and B continues the sentence flow."}
+
+--- End AI Output ---
+  [joinpara conclusion1] Merge #1 [64+65]: "...way of seeing the futility of the naturalist's project is to" + "imagine a perverse individual with exactly opposite values t..." (Sentence continues directly from A to B with an infinitive phrase ('to imagine').)
+  [joinpara conclusion1] Merge #2 [121+122]: "...ates and states of the real world, an assumption which would" + "require justification. But as I have urged above, this would..." (Paragraph A ends in a word fragment ('co') and B continues the sentence; clearly an OCR break.)
+  [joinpara conclusion1] Merge #3 [127+128]: "...ve philosopher indeed who thinks that intellectual processes" + "nearly always run smoothly and cleanly, with no defects or n..." (Paragraph A ends mid-sentence and B starts with a lowercase letter, completing the thought about cognitive processes.)
+  [joinpara conclusion1] Merge #4 [133+134]: "...ost likely to be correct. We may have reason to believe that" + "certain moral intuitions are unduly influenced by bias, indo..." (Grammatical continuation of a 'believe that' clause.)
+  [joinpara conclusion1] Merge #5 [141+142]: "...how would this tend to show that either moral facts or moral" + "intuition doesn't exist? We live in a diverse world: there a..." (Continuation of a question split by an OCR artifact.)
+  [joinpara conclusion1] Merge #6 [154+155]: "...er theories in metaethics. But in the ethics literature over" + "the past fifty years, intuitionism has been taken far less s..." (Paragraph A ends in a preposition and B starts lowercase; likely an OCR artifact where a word or line was dropped.)
+  [joinpara conclusion1] Merge #7 [171+172]: "...ism feel otherwise. Victims of scientism choose beliefs that" + "express their attitude of exaggerated respect for natural sc..." (Paragraph A ends in a conjunction/complementizer ('or that') and B continues the clause.)
+  [joinpara conclusion1] Merge #8 [189+190]: "...you were a moral realist and mistakenly thought that certain" + "moral principles were objectively true and provided good rea..." (Paragraph A ends in a word fragment ('con') and B continues the sentence flow.)
+  [joinpara conclusion1] Applied 8 merges
+  Wrote: conclusion1.083-joinpara.9after.md
+
+--- Completed in 27.3s ---

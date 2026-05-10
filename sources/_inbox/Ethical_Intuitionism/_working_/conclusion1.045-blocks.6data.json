@@ -1,0 +1,24 @@
+{
+  "blocks": [
+    {
+      "id": 1,
+      "kind": "list"
+    },
+    {
+      "id": 2,
+      "kind": "table"
+    },
+    {
+      "id": 3,
+      "kind": "table"
+    },
+    {
+      "id": 4,
+      "kind": "list"
+    },
+    {
+      "id": 5,
+      "kind": "list"
+    }
+  ]
+}

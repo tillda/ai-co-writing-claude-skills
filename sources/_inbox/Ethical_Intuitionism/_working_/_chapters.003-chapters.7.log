@@ -1,0 +1,155 @@
+  PDF: Ethical_Intuitionism_-_Michael_Huemer.pdf (338 pages)
+  Total pages to analyze: 337
+
+  ─── Phase 0: Preliminary TOC extraction ───
+  Extracted 17 chapter-level TOC entries
+      - Table of Contents
+      - Analytical Contents
+      - Preface
+      - 1 Introduction
+      - PART I Alternative Metaethical Theories
+      - 2 Non-Cognitivism
+      - 3 Subjectivism
+      - 4 Reductionism
+      - PART II Ethical Intuitionism
+      - 5 Moral Knowledge
+      - 6 Disagreement and Error
+      - 7 Practical Reasons
+      - 8 Further Objections
+      - 9 Conclusion
+      - Notes
+      - References
+      - Index
+    Skipped title: already set in book.json
+    Skipped name: already set in book.json
+    Skipped author: already set in book.json
+    Skipped topics: already set in book.json
+  Batch 1/34: pages 2-11
+  Batch 2/34: pages 12-21
+  Batch 3/34: pages 22-31
+  Batch 4/34: pages 32-41
+  Batch 5/34: pages 42-51
+    No chapter starts in this batch [batch 4]
+    ✓ page 42 → "Part I Alternative Metaethical Theories" (part) [batch 5, pages 42-51]
+    ✓ page 44 → "2 Non-Cognitivism" (chapter) [batch 5, pages 42-51]
+    ✓ page 23 → "Preface" (preface) [batch 3, pages 22-31]
+    ✓ page 28 → "1 Introduction" (introduction) [batch 3, pages 22-31]
+    ✓ page 5 → "© Michael Huemer 2005" (copyright) [batch 1, pages 2-11]
+    ✓ page 6 → "For my students" (dedication) [batch 1, pages 2-11]
+    ✓ page 8 → "Contents" (toc) [batch 1, pages 2-11]
+    ✓ page 10 → "Analytical Contents" (toc) [batch 1, pages 2-11]
+    No chapter starts in this batch [batch 2]
+  Batch 6/34: pages 52-61
+  Batch 7/34: pages 62-71
+  Batch 8/34: pages 72-81
+  Batch 9/34: pages 82-91
+  Batch 10/34: pages 92-101
+    ✓ page 75 → "3 Subjectivism" (chapter) [batch 8, pages 72-81]
+    ✓ page 93 → "4 Reductionism" (chapter) [batch 10, pages 92-101]
+    No chapter starts in this batch [batch 6]
+    No chapter starts in this batch [batch 7]
+    No chapter starts in this batch [batch 9]
+  Batch 11/34: pages 102-111
+  Batch 12/34: pages 112-121
+  Batch 13/34: pages 122-131
+  Batch 14/34: pages 132-141
+  Batch 15/34: pages 142-151
+    No chapter starts in this batch [batch 14]
+    ✓ page 124 → "Part II Ethical Intuitionism" (part) [batch 13, pages 122-131]
+    ✓ page 126 → "5 Moral Knowledge" (chapter) [batch 13, pages 122-131]
+    No chapter starts in this batch [batch 11]
+    No chapter starts in this batch [batch 15]
+    No chapter starts in this batch [batch 12]
+  Batch 16/34: pages 152-161
+  Batch 17/34: pages 162-171
+  Batch 18/34: pages 172-181
+  Batch 19/34: pages 182-191
+  Batch 20/34: pages 192-201
+    ✓ page 155 → "6 Disagreement and Error" (chapter) [batch 16, pages 152-161]
+    No chapter starts in this batch [batch 20]
+    No chapter starts in this batch [batch 18]
+    No chapter starts in this batch [batch 17]
+    ✓ page 182 → "7 Practical Reasons" (chapter) [batch 19, pages 182-191]
+  Batch 21/34: pages 202-211
+  Batch 22/34: pages 212-221
+  Batch 23/34: pages 222-231
+  Batch 24/34: pages 232-241
+  Batch 25/34: pages 242-251
+    No chapter starts in this batch [batch 22]
+    ✓ page 251 → "9 Conclusion" (conclusion) [batch 25, pages 242-251]
+    ✓ page 226 → "8 Further Objections" (chapter) [batch 23, pages 222-231]
+    No chapter starts in this batch [batch 21]
+    No chapter starts in this batch [batch 24]
+  Batch 26/34: pages 252-261
+  Batch 27/34: pages 262-271
+  Batch 28/34: pages 272-281
+  Batch 29/34: pages 282-291
+  Batch 30/34: pages 292-301
+    No chapter starts in this batch [batch 27]
+    No chapter starts in this batch [batch 26]
+    ✓ page 282 → "Notes" (notes) [batch 29, pages 282-291]
+    No chapter starts in this batch [batch 28]
+    No chapter starts in this batch [batch 30]
+  Batch 31/34: pages 302-311
+  Batch 32/34: pages 312-321
+  Batch 33/34: pages 322-331
+  Batch 34/34: pages 332-338
+    No chapter starts in this batch [batch 31]
+    ✓ page 312 → "References" (references) [batch 32, pages 312-321]
+    ✓ page 324 → "Index" (index) [batch 33, pages 322-331]
+    No chapter starts in this batch [batch 34]
+
+  TOC matching summary:
+    ✓ page 8     "Table of Contents"
+    ✓ page 8     "Analytical Contents"
+    ✓ page 23    "Preface"
+    ✓ page 28    "1 Introduction"
+    ✓ page 42    "PART I Alternative Metaethical Theories"
+    ✓ page 44    "2 Non-Cognitivism"
+    ✓ page 75    "3 Subjectivism"
+    ✓ page 93    "4 Reductionism"
+    ✓ page 124   "PART II Ethical Intuitionism"
+    ✓ page 126   "5 Moral Knowledge"
+    ✓ page 155   "6 Disagreement and Error"
+    ✓ page 182   "7 Practical Reasons"
+    ✓ page 226   "8 Further Objections"
+    ✓ page 251   "9 Conclusion"
+    ✓ page 282   "Notes"
+    ✓ page 312   "References"
+    ✓ page 324   "Index"
+    Structural extras (not in TOC):
+    + page 5 → "© Michael Huemer 2005" (copyright)
+    + page 6 → "For my students" (dedication)
+    + page 10 → "Analytical Contents" (toc)
+
+  Matched 17/17 TOC chapters
+
+  Detected chapters (20):
+
+    Page   Name                      Type           Heading
+    ────── ───────────────────────── ────────────── ──────────────────────────────
+    1      cover                     cover          Cover
+    5      copyright1                copyright      © Michael Huemer 2005
+    6      dedication1               dedication     For my students
+    8      toc                       toc            Contents
+    10     toc2                      toc            Analytical Contents
+    23     preface                   preface        Preface
+    28     introduction              introduction   1 Introduction
+    42     part1                     part           Part I Alternative Metaethical Theories
+    44     chapter1                  chapter        2 Non-Cognitivism
+    75     chapter2                  chapter        3 Subjectivism
+    93     chapter3                  chapter        4 Reductionism
+    124    part2                     part           Part II Ethical Intuitionism
+    126    chapter4                  chapter        5 Moral Knowledge
+    155    chapter5                  chapter        6 Disagreement and Error
+    182    chapter6                  chapter        7 Practical Reasons
+    226    chapter7                  chapter        8 Further Objections
+    251    conclusion1               conclusion     9 Conclusion
+    282    notes1                    notes          Notes
+    312    bibliography              references     References
+    324    index                     index          Index
+
+  Chapters saved to pipeline state (20 chapters)
+  Detection log: _chapters.003-chapters.json
+
+--- Completed in 148.0s ---

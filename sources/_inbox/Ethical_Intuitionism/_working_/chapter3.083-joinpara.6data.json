@@ -1,0 +1,12 @@
+{
+  "merges": [
+    {
+      "id": 1,
+      "reason": "Paragraph A ends mid-sentence and B completes the thought about an evaluative property."
+    },
+    {
+      "id": 7,
+      "reason": "Paragraph A ends mid-clause and B completes the grammatical structure of the sentence."
+    }
+  ]
+}

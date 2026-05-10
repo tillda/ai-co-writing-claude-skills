@@ -1,0 +1,3836 @@
+{
+  "provisionalTop": 8.861252795933979,
+  "provisionalBottom": 0,
+  "firstPageTop": 10.948598130841122,
+  "firstPageBottom": 9.427503720537121,
+  "chapters": {
+    "cover": {
+      "pages": [
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/cover.pdf",
+          "pageIndex": 0,
+          "topPercent": 12.64859813084112,
+          "bottomPercent": 11.12750372053712,
+          "topContentLine": {
+            "top": 230,
+            "text": "IsTumnonis"
+          },
+          "bottomContentLine": {
+            "bottom": 648,
+            "text": "IsTumnonis"
+          }
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/cover.pdf",
+          "pageIndex": 1,
+          "topPercent": 8.861252795933979,
+          "bottomPercent": 0,
+          "topContentLine": null,
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/cover.pdf",
+          "pageIndex": 2,
+          "topPercent": 8.861252795933979,
+          "bottomPercent": 0,
+          "topContentLine": null,
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/cover.pdf",
+          "pageIndex": 3,
+          "topPercent": 10.561252795933978,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 210,
+            "text": "Michael Huemer"
+          },
+          "bottomContentLine": null
+        }
+      ]
+    },
+    "copyright1": {
+      "pages": [
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/copyright1.pdf",
+          "pageIndex": 0,
+          "topPercent": 12,
+          "bottomPercent": 11.12750372053712,
+          "topContentLine": {
+            "top": 161,
+            "text": "All rights reserved. No reproduction, capy or transmission o"
+          },
+          "bottomContentLine": {
+            "bottom": 1137,
+            "text": "CPI Antony Rowe, Chippenham and Eastbourne"
+          }
+        }
+      ]
+    },
+    "dedication1": {
+      "pages": [
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/dedication1.pdf",
+          "pageIndex": 0,
+          "topPercent": 10.948598130841122,
+          "bottomPercent": 11.12750372053712,
+          "topContentLine": null,
+          "bottomContentLine": {
+            "bottom": 162,
+            "text": "For my students"
+          }
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/dedication1.pdf",
+          "pageIndex": 1,
+          "topPercent": 10.561252795933978,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 177,
+            "text": "ALBERT EINSTEIN"
+          },
+          "bottomContentLine": null
+        }
+      ]
+    },
+    "toc": {
+      "pages": [
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/toc.pdf",
+          "pageIndex": 0,
+          "topPercent": 10.516291698991466,
+          "bottomPercent": 11.12750372053712,
+          "topContentLine": {
+            "top": 142,
+            "text": "Contents"
+          },
+          "bottomContentLine": {
+            "bottom": 872,
+            "text": "Index"
+          }
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/toc.pdf",
+          "pageIndex": 1,
+          "topPercent": 8.861252795933979,
+          "bottomPercent": 0,
+          "topContentLine": null,
+          "bottomContentLine": null
+        }
+      ]
+    },
+    "toc2": {
+      "pages": [
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/toc2.pdf",
+          "pageIndex": 0,
+          "topPercent": 10.817829457364342,
+          "bottomPercent": 11.12750372053712,
+          "topContentLine": {
+            "top": 146,
+            "text": "Analytical Contents"
+          },
+          "bottomContentLine": {
+            "bottom": 1017,
+            "text": "the area of ethics. I shall argue that ethics is no differen"
+          }
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/toc2.pdf",
+          "pageIndex": 1,
+          "topPercent": 10.371517027863778,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 150,
+            "text": "Part I: ALTERNATIVE METALTHICAL THEORIES"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/toc2.pdf",
+          "pageIndex": 2,
+          "topPercent": 9.867394695787832,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 140,
+            "text": "3.2 Individualist subjectivism 49"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/toc2.pdf",
+          "pageIndex": 3,
+          "topPercent": 8.326878388845856,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 101,
+            "text": "Analytical Contents"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/toc2.pdf",
+          "pageIndex": 4,
+          "topPercent": 9.938366718027734,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 145,
+            "text": "non-moral properties can achieve the same advantage."
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/toc2.pdf",
+          "pageIndex": 5,
+          "topPercent": 10.107609531129901,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 148,
+            "text": "Intuitionists should take a similar direct realist view abou"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/toc2.pdf",
+          "pageIndex": 6,
+          "topPercent": 9.984579799537393,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 145,
+            "text": "6.4 Can intuitionists resolve disagreements? 141"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/toc2.pdf",
+          "pageIndex": 7,
+          "topPercent": 10.276073619631902,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 150,
+            "text": "7 PRACTICAL REASONS 155"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/toc2.pdf",
+          "pageIndex": 8,
+          "topPercent": 10.18590240123935,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 148,
+            "text": "one were to vividly and correctly imagine certain states of"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/toc2.pdf",
+          "pageIndex": 9,
+          "topPercent": 9.89984591679507,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 140,
+            "text": "7.7 Why be moral? 196"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/toc2.pdf",
+          "pageIndex": 10,
+          "topPercent": 9.937888198757763,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 144,
+            "text": "8.3 How can we understand ‘good’? 209"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/toc2.pdf",
+          "pageIndex": 11,
+          "topPercent": 10.338201383551114,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 151,
+            "text": "9 CONCLUSION 224"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/toc2.pdf",
+          "pageIndex": 12,
+          "topPercent": 9.946029298380878,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 145,
+            "text": "society’s values. Intuitionism does not fit with modern"
+          },
+          "bottomContentLine": null
+        }
+      ]
+    },
+    "preface": {
+      "pages": [
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/preface.pdf",
+          "pageIndex": 0,
+          "topPercent": 10.807692307692307,
+          "bottomPercent": 11.12750372053712,
+          "topContentLine": {
+            "top": 147,
+            "text": "Preface"
+          },
+          "bottomContentLine": {
+            "bottom": 1147,
+            "text": "moral as one would be expected to argue about what the socia"
+          }
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/preface.pdf",
+          "pageIndex": 1,
+          "topPercent": 9.868421052631579,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 142,
+            "text": "conventions are or what emotions people feel. They seem to t"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/preface.pdf",
+          "pageIndex": 2,
+          "topPercent": 10.030864197530864,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 144,
+            "text": "exempting some moral principle from the general anti-realism"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/preface.pdf",
+          "pageIndex": 3,
+          "topPercent": 9.907120743034056,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 142,
+            "text": "The first part of the book, following the introductory chapt"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/preface.pdf",
+          "pageIndex": 4,
+          "topPercent": 8.861252795933979,
+          "bottomPercent": 0,
+          "topContentLine": null,
+          "bottomContentLine": null
+        }
+      ]
+    },
+    "introduction": {
+      "pages": [
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/introduction.pdf",
+          "pageIndex": 0,
+          "topPercent": 10.782843894899536,
+          "bottomPercent": 11.12750372053712,
+          "topContentLine": {
+            "top": 146,
+            "text": "1"
+          },
+          "bottomContentLine": {
+            "bottom": 1121,
+            "text": "true?"
+          }
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/introduction.pdf",
+          "pageIndex": 1,
+          "topPercent": 10.215882806476484,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 148,
+            "text": "Fourth, there are questions about moral psychology and ratio"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/introduction.pdf",
+          "pageIndex": 2,
+          "topPercent": 9.82905982905983,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 142,
+            "text": "On the other hand, squareness is objective: whether an objec"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/introduction.pdf",
+          "pageIndex": 3,
+          "topPercent": 9.969088098918084,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 145,
+            "text": "constitutively dependent on observers’ psychological respons"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/introduction.pdf",
+          "pageIndex": 4,
+          "topPercent": 9.659969088098919,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "mean that we don’t like Stalin, nor are we just trying to ex"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/introduction.pdf",
+          "pageIndex": 5,
+          "topPercent": 10.123647604327667,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 147,
+            "text": "1. Ethical Naturalism holds that there are objective moral p"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/introduction.pdf",
+          "pageIndex": 6,
+          "topPercent": 9.884169884169884,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 145,
+            "text": "forms of realism by combining the naturalist view on one iss"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/introduction.pdf",
+          "pageIndex": 7,
+          "topPercent": 9.844961240310077,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "(I have borrowed terminology from the philosophy of mind lit"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/introduction.pdf",
+          "pageIndex": 8,
+          "topPercent": 9.573643410852712,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 139,
+            "text": "Statements true. Nihilists think that nothing is good becaus"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/introduction.pdf",
+          "pageIndex": 9,
+          "topPercent": 9.876065065840434,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "use evaluative language in exactly the way that we would if "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/introduction.pdf",
+          "pageIndex": 10,
+          "topPercent": 9.77501939487975,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 142,
+            "text": "not to see my nephew cry, or just a desire not to be a thief"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/introduction.pdf",
+          "pageIndex": 11,
+          "topPercent": 9.743788819875776,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 140,
+            "text": "of the gravitational bending of light around the sun as evid"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/introduction.pdf",
+          "pageIndex": 12,
+          "topPercent": 9.619860356865788,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 140,
+            "text": "against the possibility of knowledge in general, I don’t nee"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/introduction.pdf",
+          "pageIndex": 13,
+          "topPercent": 8.861252795933979,
+          "bottomPercent": 0,
+          "topContentLine": null,
+          "bottomContentLine": null
+        }
+      ]
+    },
+    "part1": {
+      "pages": [
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/part1.pdf",
+          "pageIndex": 0,
+          "topPercent": 10.663153786104605,
+          "bottomPercent": 11.12750372053712,
+          "topContentLine": {
+            "top": 143,
+            "text": "Part I"
+          },
+          "bottomContentLine": {
+            "bottom": 288,
+            "text": "Theories"
+          }
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/part1.pdf",
+          "pageIndex": 1,
+          "topPercent": 8.861252795933979,
+          "bottomPercent": 0,
+          "topContentLine": null,
+          "bottomContentLine": null
+        }
+      ]
+    },
+    "chapter1": {
+      "pages": [
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter1.pdf",
+          "pageIndex": 0,
+          "topPercent": 10.663153786104605,
+          "bottomPercent": 11.12750372053712,
+          "topContentLine": {
+            "top": 143,
+            "text": "2"
+          },
+          "bottomContentLine": {
+            "bottom": 1121,
+            "text": "Prescriptivism holds that the function of ‘x is good’ is, ro"
+          }
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter1.pdf",
+          "pageIndex": 1,
+          "topPercent": 9.937888198757763,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 144,
+            "text": "teil people what to do. Thus, it is like ‘Pursue x!’ or ‘App"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter1.pdf",
+          "pageIndex": 2,
+          "topPercent": 9.751359751359752,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 140,
+            "text": "typical proposition-expressing sentences, or more like how t"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter1.pdf",
+          "pageIndex": 3,
+          "topPercent": 9.937888198757763,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 144,
+            "text": "non-cognitivists alike would take to assert propositions. Th"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter1.pdf",
+          "pageIndex": 4,
+          "topPercent": 9.751359751359752,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 139,
+            "text": "(e) Evaluative statements can be transformed into yes/no que"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter1.pdf",
+          "pageIndex": 5,
+          "topPercent": 10.023310023310025,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 145,
+            "text": "Example 2:"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter1.pdf",
+          "pageIndex": 6,
+          "topPercent": 9.766536964980546,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 140,
+            "text": "can only be the case if ‘wrong’ has the same meaning in both"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter1.pdf",
+          "pageIndex": 7,
+          "topPercent": 9.813084112149532,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 142,
+            "text": "to non-cognitivism; the non-cognitivist must deal with all o"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter1.pdf",
+          "pageIndex": 8,
+          "topPercent": 9.610894941634243,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 138,
+            "text": "6. Therefore, our reaction to those sentences is evidence in"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter1.pdf",
+          "pageIndex": 9,
+          "topPercent": 9.85202492211838,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "sections, I consider how some prominent non-cognitivists res"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter1.pdf",
+          "pageIndex": 10,
+          "topPercent": 9.805447470817121,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 140,
+            "text": "Traq has weapons of mass destruction, and while this may be "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter1.pdf",
+          "pageIndex": 11,
+          "topPercent": 9.922178988326849,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "the prevailing moral standards ‘true’. And when such moral d"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter1.pdf",
+          "pageIndex": 12,
+          "topPercent": 9.671104150352388,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 138,
+            "text": "is true that cows have four stomachs’ just means ‘Cows have "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter1.pdf",
+          "pageIndex": 13,
+          "topPercent": 9.766536964980546,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "moral statements would be endorsed by all rational beings af"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter1.pdf",
+          "pageIndex": 14,
+          "topPercent": 9.937402190923319,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "statement ‘If stealing the candy was wrong, then God will pu"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter1.pdf",
+          "pageIndex": 15,
+          "topPercent": 9.899068322981366,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "factual claim that selling cigarettes kills people the norm "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter1.pdf",
+          "pageIndex": 16,
+          "topPercent": 9.588509316770185,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 138,
+            "text": "state of believing that God will punish you, which correspon"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter1.pdf",
+          "pageIndex": 17,
+          "topPercent": 9.945820433436532,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 144,
+            "text": "This is why Gibbard cannot in general supply meanings for co"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter1.pdf",
+          "pageIndex": 18,
+          "topPercent": 9.976798143851507,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "the second premise. But instead of thereupon accepting the c"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter1.pdf",
+          "pageIndex": 19,
+          "topPercent": 10.061919504643962,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 146,
+            "text": "would be likely to do (in non-dispositional terms) in at lea"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter1.pdf",
+          "pageIndex": 20,
+          "topPercent": 9.945820433436532,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 142,
+            "text": "Jupiter’. But surely my disapproval of theft does not commit"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter1.pdf",
+          "pageIndex": 21,
+          "topPercent": 10.069713400464755,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 145,
+            "text": "past or about other people: if ‘I wonder whether it is right"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter1.pdf",
+          "pageIndex": 22,
+          "topPercent": 9.85202492211838,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "and phrases that make most of the statements ordinary people"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter1.pdf",
+          "pageIndex": 23,
+          "topPercent": 9.813809154383243,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 142,
+            "text": "Timmons, following some recent philosophical trends, prefers"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter1.pdf",
+          "pageIndex": 24,
+          "topPercent": 9.735202492211839,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 139,
+            "text": "non-cognitivism, then it seems unlikely that it offers any r"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter1.pdf",
+          "pageIndex": 25,
+          "topPercent": 9.782608695652174,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 142,
+            "text": "So there are two things I might be mistaken about: the moral"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter1.pdf",
+          "pageIndex": 26,
+          "topPercent": 9.77501939487975,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 140,
+            "text": "Hereafter, I shall use the term ‘Timmons-property’ to mean w"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter1.pdf",
+          "pageIndex": 27,
+          "topPercent": 9.821428571428571,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 142,
+            "text": "depend on the mind, then Timmons does indeed take there to b"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter1.pdf",
+          "pageIndex": 28,
+          "topPercent": 9.549689440993788,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 137,
+            "text": "non-cognitivism implies that they are instead a species of e"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter1.pdf",
+          "pageIndex": 29,
+          "topPercent": 9.743788819875776,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "have more to do with such things as our concern for our own"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter1.pdf",
+          "pageIndex": 30,
+          "topPercent": 9.899068322981366,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 142,
+            "text": "unreasonable. This is unsurprising to the cognitivist, as it"
+          },
+          "bottomContentLine": null
+        }
+      ]
+    },
+    "chapter2": {
+      "pages": [
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter2.pdf",
+          "pageIndex": 0,
+          "topPercent": 11.05934833204034,
+          "bottomPercent": 11.12750372053712,
+          "topContentLine": {
+            "top": 149,
+            "text": "3"
+          },
+          "bottomContentLine": {
+            "bottom": 1106,
+            "text": "Thus, (b) does not hold that for a thing to be taken to be g"
+          }
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter2.pdf",
+          "pageIndex": 1,
+          "topPercent": 9.883268482490273,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "it to be approved of. It holds that for a thing to be good i"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter2.pdf",
+          "pageIndex": 2,
+          "topPercent": 10.10886469673406,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 146,
+            "text": "attitude or emotion not analyzable in terms of moral beliefs"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter2.pdf",
+          "pageIndex": 3,
+          "topPercent": 9.851446442533229,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 140,
+            "text": "These reasons may explain why few philosophers have embraced"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter2.pdf",
+          "pageIndex": 4,
+          "topPercent": 9.875583203732504,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "society.® Even if say, ‘No, i don't just mean that members o"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter2.pdf",
+          "pageIndex": 5,
+          "topPercent": 9.751359751359752,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 139,
+            "text": "prudent to do so. And one may very well be able to get away "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter2.pdf",
+          "pageIndex": 6,
+          "topPercent": 9.742790335151987,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "failure to cohere with other, more fundamental social practi"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter2.pdf",
+          "pageIndex": 7,
+          "topPercent": 9.883268482490273,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "arch-nemesis of cultural relativism, whereas in fact the two"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter2.pdf",
+          "pageIndex": 8,
+          "topPercent": 9.968847352024921,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 144,
+            "text": "Anyone who dies fighting for Allah will go to heaven. (47.4-"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter2.pdf",
+          "pageIndex": 9,
+          "topPercent": 9.735202492211839,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 139,
+            "text": "engage the objection, Even if we know that someone would not"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter2.pdf",
+          "pageIndex": 10,
+          "topPercent": 9.774143302180685,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 140,
+            "text": "tells you to kill your son,\"* this creates no obligation at "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter2.pdf",
+          "pageIndex": 11,
+          "topPercent": 9.883268482490273,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "to do so; would you be immoral if you were to resist Satan’s"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter2.pdf",
+          "pageIndex": 12,
+          "topPercent": 9.813084112149532,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 142,
+            "text": "moral facts independent of God's commands. So either there i"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter2.pdf",
+          "pageIndex": 13,
+          "topPercent": 9.610894941634243,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 138,
+            "text": "He is disinterested and dispassionate; that is, he Jacks des"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter2.pdf",
+          "pageIndex": 14,
+          "topPercent": 9.813084112149532,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 142,
+            "text": "are in effect stipulating that x, y, and z are the sole good"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter2.pdf",
+          "pageIndex": 15,
+          "topPercent": 9.87460815047022,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 140,
+            "text": "are good (for the racists}, and people with those attitudes "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter2.pdf",
+          "pageIndex": 16,
+          "topPercent": 9.797033567525371,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 142,
+            "text": "3. People’s moral beliefs are generally caused by emotions a"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter2.pdf",
+          "pageIndex": 17,
+          "topPercent": 9.733124018838305,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 138,
+            "text": "In addition, individual subjectivists, cultural relativists,"
+          },
+          "bottomContentLine": null
+        }
+      ]
+    },
+    "chapter3": {
+      "pages": [
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter3.pdf",
+          "pageIndex": 0,
+          "topPercent": 10.948598130841122,
+          "bottomPercent": 11.12750372053712,
+          "topContentLine": {
+            "top": 147,
+            "text": "4"
+          },
+          "bottomContentLine": {
+            "bottom": 1132,
+            "text": "an object to be red is just for it to reflect predominantly "
+          }
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter3.pdf",
+          "pageIndex": 1,
+          "topPercent": 9.67238689547582,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 140,
+            "text": "wavelengths in the neighborhood of 650 nanometers. Notice th"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter3.pdf",
+          "pageIndex": 2,
+          "topPercent": 9.992254066615027,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 145,
+            "text": "3, Therefore, the questions in (1) and (2) are not synonymou"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter3.pdf",
+          "pageIndex": 3,
+          "topPercent": 9.83733539891557,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "features must be presupposed in defining ‘good’. am not conc"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter3.pdf",
+          "pageIndex": 4,
+          "topPercent": 10.370084811102544,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 146,
+            "text": "does not own a Ford: it was sold just a few minutes ago. But"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter3.pdf",
+          "pageIndex": 5,
+          "topPercent": 9.890965732087228,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "for individuals who understand a given word, it is often dif"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter3.pdf",
+          "pageIndex": 6,
+          "topPercent": 10.092449922958398,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 147,
+            "text": "‘Is it right to obey social customs?’"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter3.pdf",
+          "pageIndex": 7,
+          "topPercent": 9.442724458204333,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 138,
+            "text": "altogether inconceivable, how this new relation can be a ded"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter3.pdf",
+          "pageIndex": 8,
+          "topPercent": 9.9147947327653,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 144,
+            "text": "evaluative respects) could rule out some otherwise possible "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter3.pdf",
+          "pageIndex": 9,
+          "topPercent": 9.767441860465116,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 142,
+            "text": "3. Jones placed himself under (undertook) an obligation to p"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter3.pdf",
+          "pageIndex": 10,
+          "topPercent": 10.015467904098994,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 146,
+            "text": "weak sense) obligations, their undertakings would always fai"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter3.pdf",
+          "pageIndex": 11,
+          "topPercent": 9.627329192546584,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 140,
+            "text": "wrong twice a day. So at least Geach seems to have shown how"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter3.pdf",
+          "pageIndex": 12,
+          "topPercent": 9.992254066615027,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 145,
+            "text": "That is evaluative because, once we fix the natural facts ab"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter3.pdf",
+          "pageIndex": 13,
+          "topPercent": 9.84375,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 142,
+            "text": "evaluative property. The conclusion of (A’), on the other ha"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter3.pdf",
+          "pageIndex": 14,
+          "topPercent": 10.03875968992248,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 146,
+            "text": "depends on whether Alfie's evaluative statements were true; "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter3.pdf",
+          "pageIndex": 15,
+          "topPercent": 9.789391575663027,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "required for the argument to be interesting vis-a-vis the pr"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter3.pdf",
+          "pageIndex": 16,
+          "topPercent": 9.96124031007752,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 144,
+            "text": "system that endorses baby-torture will make both disjuncts o"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter3.pdf",
+          "pageIndex": 17,
+          "topPercent": 9.711388455538222,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 140,
+            "text": "includes all the statements traditionally considered ‘evalua"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter3.pdf",
+          "pageIndex": 18,
+          "topPercent": 9.883720930232558,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 144,
+            "text": "known in a way analogous to how the above statements are kno"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter3.pdf",
+          "pageIndex": 19,
+          "topPercent": 9.70496894409938,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "scientific reasoning. And ‘H,O’ explains the underlying natu"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter3.pdf",
+          "pageIndex": 20,
+          "topPercent": 9.968968192397206,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 145,
+            "text": "depends upon prior moral beliefs, it does not aid in the ult"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter3.pdf",
+          "pageIndex": 21,
+          "topPercent": 9.914463452566096,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "If this inference were valid, Moore would have a viable acco"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter3.pdf",
+          "pageIndex": 22,
+          "topPercent": 10.561252795933978,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 165,
+            "text": "44,2 Can moral facts be known by inference to the best"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter3.pdf",
+          "pageIndex": 23,
+          "topPercent": 9.735202492211839,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "more respect for human life, etc. And if that were the case,"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter3.pdf",
+          "pageIndex": 24,
+          "topPercent": 9.98452012383901,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 145,
+            "text": "was depraved provides an explanation for some fact that cann"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter3.pdf",
+          "pageIndex": 25,
+          "topPercent": 10.12461059190031,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 146,
+            "text": "entails any testable predictions, Nicholas Sturgeon reminds "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter3.pdf",
+          "pageIndex": 26,
+          "topPercent": 10.224632068164214,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 148,
+            "text": "The problem now is that our ability to make a prediction bas"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter3.pdf",
+          "pageIndex": 27,
+          "topPercent": 9.782608695652174,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 142,
+            "text": "wilt not apply to it; we will have to give a distinct explan"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter3.pdf",
+          "pageIndex": 28,
+          "topPercent": 9.968968192397206,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 145,
+            "text": "two hydrogen atoms and one oxygen atom’) plays an essential "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter3.pdf",
+          "pageIndex": 29,
+          "topPercent": 9.735202492211839,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "concept of water takes it to be a clear, odorless, tasteless"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter3.pdf",
+          "pageIndex": 30,
+          "topPercent": 10.023310023310025,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 145,
+            "text": "5. Therefore, moral claims are not known empirically. (From "
+          },
+          "bottomContentLine": null
+        }
+      ]
+    },
+    "part2": {
+      "pages": [
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/part2.pdf",
+          "pageIndex": 0,
+          "topPercent": 10.61111111111111,
+          "bottomPercent": 11.12750372053712,
+          "topContentLine": {
+            "top": 142,
+            "text": "Part II"
+          },
+          "bottomContentLine": {
+            "bottom": 240,
+            "text": "Ethical Intuitionism"
+          }
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/part2.pdf",
+          "pageIndex": 1,
+          "topPercent": 8.861252795933979,
+          "bottomPercent": 0,
+          "topContentLine": null,
+          "bottomContentLine": null
+        }
+      ]
+    },
+    "chapter4": {
+      "pages": [
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter4.pdf",
+          "pageIndex": 0,
+          "topPercent": 10.75879593432369,
+          "bottomPercent": 11.12750372053712,
+          "topContentLine": {
+            "top": 144,
+            "text": "5"
+          },
+          "bottomContentLine": {
+            "bottom": 1116,
+            "text": "All of those statements make sense, using the same sense of "
+          }
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter4.pdf",
+          "pageIndex": 1,
+          "topPercent": 9.782608695652174,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 142,
+            "text": "Appearances can be deceiving, and appearances can conflict w"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter4.pdf",
+          "pageIndex": 2,
+          "topPercent": 9.702660406885759,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 138,
+            "text": "Logical judgments rest on intellectua! appearances. We think"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter4.pdf",
+          "pageIndex": 3,
+          "topPercent": 10.007757951900697,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 145,
+            "text": "call an ‘initial appearance’. An initial, intellectual appea"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter4.pdf",
+          "pageIndex": 4,
+          "topPercent": 10.031225604996097,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 142,
+            "text": "whether it is right to kill many people in order to depose a"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter4.pdf",
+          "pageIndex": 5,
+          "topPercent": 10.069984447900467,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 146,
+            "text": "is counter-intuitive, that it scents wrong to kill the healt"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter4.pdf",
+          "pageIndex": 6,
+          "topPercent": 9.976525821596244,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 142,
+            "text": "the same: I stipulate tliat those things are not the case. {"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter4.pdf",
+          "pageIndex": 7,
+          "topPercent": 9.89867498051442,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 142,
+            "text": "views.'' Presumably he thinks intuitionists deny those thing"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter4.pdf",
+          "pageIndex": 8,
+          "topPercent": 9.734167318217358,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 139,
+            "text": "a doctrine of infallibility: that is, the idea that we can s"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter4.pdf",
+          "pageIndex": 9,
+          "topPercent": 10.10844306738962,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 147,
+            "text": "such a theory can succeed in accounting for the justificatio"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter4.pdf",
+          "pageIndex": 10,
+          "topPercent": 9.674922600619196,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 139,
+            "text": "mental states—beliefs, desires, feelings, and so on—because "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter4.pdf",
+          "pageIndex": 11,
+          "topPercent": 9.844961240310077,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "in believing some things about the object, things that can b"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter4.pdf",
+          "pageIndex": 12,
+          "topPercent": 10.210444271239282,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 145,
+            "text": "Reply:"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter4.pdf",
+          "pageIndex": 13,
+          "topPercent": 10.170807453416149,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 147,
+            "text": "ever been both red and green. One thing that makes this impl"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter4.pdf",
+          "pageIndex": 14,
+          "topPercent": 10.015527950310558,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "understand the meanings of those words—since they did not kn"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter4.pdf",
+          "pageIndex": 15,
+          "topPercent": 10.18590240123935,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 147,
+            "text": "any of the following words), the following inference would h"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter4.pdf",
+          "pageIndex": 16,
+          "topPercent": 9.914463452566096,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "The meanings of the words in (B) depend on conventions, as i"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter4.pdf",
+          "pageIndex": 17,
+          "topPercent": 10.131987577639752,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 146,
+            "text": "More needs to be said to properly assess each of those premi"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter4.pdf",
+          "pageIndex": 18,
+          "topPercent": 9.906759906759907,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "To justify his position, the nihilist would have to produce"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter4.pdf",
+          "pageIndex": 19,
+          "topPercent": 9.813084112149532,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 140,
+            "text": "1. S has an intuition that p."
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter4.pdf",
+          "pageIndex": 20,
+          "topPercent": 9.898278560250391,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 140,
+            "text": "the argument is merely the adaptation to intuition of a clas"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter4.pdf",
+          "pageIndex": 21,
+          "topPercent": 10.04654771140419,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 145,
+            "text": "ment, (iii) the general plausibility judgments that run thro"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter4.pdf",
+          "pageIndex": 22,
+          "topPercent": 9.657320872274143,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 138,
+            "text": "by (2), (4), and (6}-require no evidence, rather than that o"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter4.pdf",
+          "pageIndex": 23,
+          "topPercent": 9.890965732087228,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "evidence from which we do or should infer moral conclusions."
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter4.pdf",
+          "pageIndex": 24,
+          "topPercent": 9.913793103448276,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 139,
+            "text": "some kind of interaction with it.*° For instance, can have k"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter4.pdf",
+          "pageIndex": 25,
+          "topPercent": 9.968847352024921,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 144,
+            "text": "so on—how can we have knowledge of it? might plead that it i"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter4.pdf",
+          "pageIndex": 26,
+          "topPercent": 9.742790335151987,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 139,
+            "text": "idea, Some philosophers will say I have oversimplified this "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter4.pdf",
+          "pageIndex": 27,
+          "topPercent": 9.961089494163424,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 144,
+            "text": "and that we sometimes have the experience of seeing somethin"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter4.pdf",
+          "pageIndex": 28,
+          "topPercent": 9.679937548790008,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 138,
+            "text": "of beliefs is therefore no bar to the latter sort of beliefs"
+          },
+          "bottomContentLine": null
+        }
+      ]
+    },
+    "chapter5": {
+      "pages": [
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter5.pdf",
+          "pageIndex": 0,
+          "topPercent": 11.035463756819954,
+          "bottomPercent": 11.12750372053712,
+          "topContentLine": {
+            "top": 148,
+            "text": "6"
+          },
+          "bottomContentLine": {
+            "bottom": 1024,
+            "text": "their proponents have in mind."
+          }
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter5.pdf",
+          "pageIndex": 1,
+          "topPercent": 10.561252795933978,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 172,
+            "text": "6.1 The prevalence of moral disagreement"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter5.pdf",
+          "pageIndex": 2,
+          "topPercent": 10.069984447900467,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 145,
+            "text": "thought the gods demanded sacrifice. The Aztecs believed the"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter5.pdf",
+          "pageIndex": 3,
+          "topPercent": 9.797033567525371,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 140,
+            "text": "None of this is to deny the existence of important disagreem"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter5.pdf",
+          "pageIndex": 4,
+          "topPercent": 9.945609945609945,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 144,
+            "text": "of the term, but it would be a use according to which there "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter5.pdf",
+          "pageIndex": 5,
+          "topPercent": 9.780907668231611,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 139,
+            "text": "understand interpersonal disagreements as arising from diffe"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter5.pdf",
+          "pageIndex": 6,
+          "topPercent": 9.890965732087228,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "truths. in fact, Clarke is referring to a specific series of"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter5.pdf",
+          "pageIndex": 7,
+          "topPercent": 10.179407176287052,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 145,
+            "text": "the mafia, or the CIA. Others are equally certain that a lon"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter5.pdf",
+          "pageIndex": 8,
+          "topPercent": 10.326086956521738,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 149,
+            "text": "lights), but only the uninitiated will imagine they have a c"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter5.pdf",
+          "pageIndex": 9,
+          "topPercent": 9.820031298904539,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 140,
+            "text": "the subject of religion, even its non-moral claims; all bran"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter5.pdf",
+          "pageIndex": 10,
+          "topPercent": 10.038910505836576,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 145,
+            "text": "image we want to maintain. These are just some of the possib"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter5.pdf",
+          "pageIndex": 11,
+          "topPercent": 9.7723704866562,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 139,
+            "text": "allowed. Or perhaps neither of thern really knows which of t"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter5.pdf",
+          "pageIndex": 12,
+          "topPercent": 10.561252795933978,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 162,
+            "text": "6.3.4 Disagreement is predictable"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter5.pdf",
+          "pageIndex": 13,
+          "topPercent": 9.70381917381138,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 139,
+            "text": "I prefer to portray myself as tough and uncompromising, then"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter5.pdf",
+          "pageIndex": 14,
+          "topPercent": 9.789391575663027,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 142,
+            "text": "1, Intuitionism provides no way of resolving moral disagreem"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter5.pdf",
+          "pageIndex": 15,
+          "topPercent": 9.921875,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "moral disputes are relatively rare; the disputes about abort"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter5.pdf",
+          "pageIndex": 16,
+          "topPercent": 10.031225604996097,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 144,
+            "text": "perception to provide a way to resolve that dispute? If cann"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter5.pdf",
+          "pageIndex": 17,
+          "topPercent": 9.789391575663027,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 140,
+            "text": "unreliable, that we would likely hold the belief whether it "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter5.pdf",
+          "pageIndex": 18,
+          "topPercent": 9.914129586260733,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "A foundational belief is defined as one that does not need a"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter5.pdf",
+          "pageIndex": 19,
+          "topPercent": 9.92156862745098,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "b) The problem of explaining disagreement: The disagreement "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter5.pdf",
+          "pageIndex": 20,
+          "topPercent": 9.98439937597504,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 144,
+            "text": "towards controversial moral beliefs is supported by the phen"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter5.pdf",
+          "pageIndex": 21,
+          "topPercent": 9.69626168224299,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 139,
+            "text": "the non-moral facts that moral judgments depend upon. For"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter5.pdf",
+          "pageIndex": 22,
+          "topPercent": 9.929906542056074,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 144,
+            "text": "that everyone is wrong.) How is this supposed to be superior"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter5.pdf",
+          "pageIndex": 23,
+          "topPercent": 10.125097732603598,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 144,
+            "text": "b) Criticisms of biases. Sometimes it is argued that certain"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter5.pdf",
+          "pageIndex": 24,
+          "topPercent": 9.968847352024921,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 144,
+            "text": "significance at all’. For example, he thinks our intuitions "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter5.pdf",
+          "pageIndex": 25,
+          "topPercent": 9.797033567525371,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 140,
+            "text": "abortion is not murder because abortion doesn’t make them fe"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter5.pdf",
+          "pageIndex": 26,
+          "topPercent": 9.968968192397206,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 144,
+            "text": "not others. A similar point applies to individual attitudes "
+          },
+          "bottomContentLine": null
+        }
+      ]
+    },
+    "chapter6": {
+      "pages": [
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 0,
+          "topPercent": 10.984375,
+          "bottomPercent": 9.96875,
+          "topContentLine": {
+            "top": 147,
+            "text": "7"
+          },
+          "bottomContentLine": {
+            "bottom": 1146,
+            "text": "We typically have normative reasons and motivating reasons f"
+          }
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 1,
+          "topPercent": 10.186625194401245,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 147,
+            "text": "the same things. In the above example, I have both a motivat"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 2,
+          "topPercent": 9.765625,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 140,
+            "text": "First Version:"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 3,
+          "topPercent": 10.023310023310025,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 145,
+            "text": "to avoid stealing. 1 might be an immoral person, even by my "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 4,
+          "topPercent": 10.054347826086957,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 145,
+            "text": "2. if S should do A, then S can freely do A."
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 5,
+          "topPercent": 10.069984447900467,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 146,
+            "text": "I might instead hypothesize that she thinks she is swimming "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 6,
+          "topPercent": 9.914129586260733,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "it is possible for a person to be generally irrational, then"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 7,
+          "topPercent": 10.10886469673406,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 146,
+            "text": "have much more sophisticated objects; one may be angry about"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 8,
+          "topPercent": 9.859154929577464,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 142,
+            "text": "tempted to view typical appetites as desires for physical pl"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 9,
+          "topPercent": 10.038910505836576,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 145,
+            "text": "reasons for action. There may be other impartial reasons tha"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 10,
+          "topPercent": 9.774143302180685,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "Judge: It doesn’t matter how feel about you. You committed a"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 11,
+          "topPercent": 10.26438569206843,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 148,
+            "text": "can find that might be called ‘desires’ are the appetites an"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 12,
+          "topPercent": 9.961089494163424,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 144,
+            "text": "the general intuition depended on our having certain kinds o"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 13,
+          "topPercent": 10.202492211838006,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 147,
+            "text": "Conception: Hume says that the function of reason is only to"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 14,
+          "topPercent": 9.601873536299765,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 139,
+            "text": "your belief fails to correspond to reality (that is, it is f"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 15,
+          "topPercent": 9.89867498051442,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 142,
+            "text": "good.” Now, the content of this belief—the thing 1 believe t"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 16,
+          "topPercent": 9.679937548790008,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 140,
+            "text": "(if it is read as (2,]) or find (3) obviously implausible (i"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 17,
+          "topPercent": 9.945397815912637,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "because the process of rational deliberation is not taken to"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 18,
+          "topPercent": 9.453125,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 137,
+            "text": "acting, to engage in rational deliberation about what will b"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 19,
+          "topPercent": 9.765625,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "what may. This desire, let us suppose, will be so strong tha"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 20,
+          "topPercent": 9.57613814756672,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 138,
+            "text": "my action, and in both cases, I could have lacked that desir"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 21,
+          "topPercent": 9.781761496492596,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "surgery to remove my appendix. I have just arrived at the ho"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 22,
+          "topPercent": 9.607843137254903,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 138,
+            "text": "than to make our desires conform to reality, the fact that a"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 23,
+          "topPercent": 9.914129586260733,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "I should address one argument for the claim that we have a"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 24,
+          "topPercent": 9.992163009404388,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "on the grounds that it is more likely to be by and large sat"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 25,
+          "topPercent": 10.132501948558067,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 146,
+            "text": "Second, then, can you be rationally criticized for believing"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 26,
+          "topPercent": 9.693877551020408,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 139,
+            "text": "agent’s beliefs and desires; it can only be irrational if on"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 27,
+          "topPercent": 10,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 144,
+            "text": "future desire to pass her exam. To a Humean, this is paradox"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 28,
+          "topPercent": 9.968725566849102,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "aesthetic tastes need not reflect any moral facts. If like o"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 29,
+          "topPercent": 9.9609375,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 144,
+            "text": "non-natural facts. He maintains that we can speak of evaluat"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 30,
+          "topPercent": 9.5703125,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 138,
+            "text": "serves my interests in the long run constitutes a prudential"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 31,
+          "topPercent": 9.976617303195635,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 144,
+            "text": "judgments involve evaluations of desires; desires do not inv"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 32,
+          "topPercent": 10.561252795933978,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 161,
+            "text": "7.6.2. The arbitrariness of morality on the Humean view"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 33,
+          "topPercent": 10.15625,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 146,
+            "text": "stemming from second-order desires, such as the desire to ac"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 34,
+          "topPercent": 9.460516028146989,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 136,
+            "text": "contro] of his muscles and wind up doing B in the manner of "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 35,
+          "topPercent": 9.851446442533229,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "mine that the salmon will taste better. There is no scope fo"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 36,
+          "topPercent": 9.774143302180685,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "A Humean might try to explain this by proposing that in such"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 37,
+          "topPercent": 10.046728971962617,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 145,
+            "text": "the rationalist conception is superior to the Humean concept"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 38,
+          "topPercent": 9.6875,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 140,
+            "text": "often in opposition to contrary inclinations. We therefore w"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 39,
+          "topPercent": 9.961089494163424,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "the poor.” According to Singer, each of us is obligated to d"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 40,
+          "topPercent": 9.735202492211839,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "cheat on his wife. Ne comes to his best friend, Sam, for adv"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 41,
+          "topPercent": 10.217560217560218,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 147,
+            "text": "But at least the theory does not positively encourage such l"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 42,
+          "topPercent": 9.796238244514106,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "question (i) seems like a real question. Of course, it sound"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter6.pdf",
+          "pageIndex": 43,
+          "topPercent": 10.194552529182879,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 147,
+            "text": "desires?’ To this, a Humean would respond that the question "
+          },
+          "bottomContentLine": null
+        }
+      ]
+    },
+    "chapter7": {
+      "pages": [
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter7.pdf",
+          "pageIndex": 0,
+          "topPercent": 10.801636788776305,
+          "bottomPercent": 11.12750372053712,
+          "topContentLine": {
+            "top": 145,
+            "text": "8"
+          },
+          "bottomContentLine": {
+            "bottom": 1078,
+            "text": "the argument is:"
+          }
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter7.pdf",
+          "pageIndex": 1,
+          "topPercent": 10.186625194401245,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 147,
+            "text": "1. Objective values would be weird."
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter7.pdf",
+          "pageIndex": 2,
+          "topPercent": 9.657320872274143,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 138,
+            "text": "is no such thing as weirdness. If moral anti-realism is true"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter7.pdf",
+          "pageIndex": 3,
+          "topPercent": 10.561252795933978,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 174,
+            "text": "*8.2 Troubles with supervenience"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter7.pdf",
+          "pageIndex": 4,
+          "topPercent": 10.203283815480845,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 152,
+            "text": "*8.2.2 Objections to the notion of prima facie rightness"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter7.pdf",
+          "pageIndex": 5,
+          "topPercent": 9.5703125,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 135,
+            "text": "pull an action towards rightness or wrongness.'? Just as, in"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter7.pdf",
+          "pageIndex": 6,
+          "topPercent": 9.758001561280249,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 139,
+            "text": "there can always, it seems, be further circumstances that ne"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter7.pdf",
+          "pageIndex": 7,
+          "topPercent": 10.561252795933978,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 161,
+            "text": "*8.2.3° Blackburn's objection"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter7.pdf",
+          "pageIndex": 8,
+          "topPercent": 9.6484375,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 137,
+            "text": "But the realist has available another explanation. Let us in"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter7.pdf",
+          "pageIndex": 9,
+          "topPercent": 9.765625,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 140,
+            "text": "apply it to, including which hypothetical! situations we wou"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter7.pdf",
+          "pageIndex": 10,
+          "topPercent": 9.718969555035128,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 138,
+            "text": "differing in the meaning or arrangement of their symbols. Ju"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter7.pdf",
+          "pageIndex": 11,
+          "topPercent": 9.98439937597504,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "since goodness is not perceivable by the senses, but perhaps"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter7.pdf",
+          "pageIndex": 12,
+          "topPercent": 9.69626168224299,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 138,
+            "text": "‘method’, but that does not impugn the objectivity of percep"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter7.pdf",
+          "pageIndex": 13,
+          "topPercent": 9.742790335151987,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 140,
+            "text": "asserted, it seems that non-cognitivism about funniness face"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter7.pdf",
+          "pageIndex": 14,
+          "topPercent": 9.75705329153605,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 139,
+            "text": "funny’, This does not seem obviously wrong, in the way that "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter7.pdf",
+          "pageIndex": 15,
+          "topPercent": 9.75609756097561,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 140,
+            "text": "finds Sally funny, but later decides he was mistaken about h"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter7.pdf",
+          "pageIndex": 16,
+          "topPercent": 9.702660406885759,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 138,
+            "text": "Sociobiologists do not say that we go through the above kind"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter7.pdf",
+          "pageIndex": 17,
+          "topPercent": 9.835423197492164,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "having different objects. There is thus no special explanati"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter7.pdf",
+          "pageIndex": 18,
+          "topPercent": 10.491419656786272,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 158,
+            "text": "8.6.3 How good are evolutionary accounts of ethics?"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter7.pdf",
+          "pageIndex": 19,
+          "topPercent": 9.98452012383901,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 144,
+            "text": "beliefs could not be falsified by any evidence. My claim is "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter7.pdf",
+          "pageIndex": 20,
+          "topPercent": 10.08533747090768,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 144,
+            "text": "c) Peaceful cooperation requires an agreed-upon set of rules"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter7.pdf",
+          "pageIndex": 21,
+          "topPercent": 10.18590240123935,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 147,
+            "text": "ordinary material objects are composed of tiny, colorless pa"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter7.pdf",
+          "pageIndex": 22,
+          "topPercent": 9.820031298904539,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 139,
+            "text": "ary. The rough idea I have in mind here is this: The meaning"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter7.pdf",
+          "pageIndex": 23,
+          "topPercent": 9.953343701399689,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 144,
+            "text": "proper sense, a word is misused when it is used to mean some"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/chapter7.pdf",
+          "pageIndex": 24,
+          "topPercent": 9.571984435797667,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 137,
+            "text": "Briefly, I think an intuitionist could, without rendering hi"
+          },
+          "bottomContentLine": null
+        }
+      ]
+    },
+    "conclusion1": {
+      "pages": [
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/conclusion1.pdf",
+          "pageIndex": 0,
+          "topPercent": 10.619751166407465,
+          "bottomPercent": 11.12750372053712,
+          "topContentLine": {
+            "top": 143,
+            "text": "9"
+          },
+          "bottomContentLine": {
+            "bottom": 1055,
+            "text": "analogous things about all other evaluative statements."
+          }
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/conclusion1.pdf",
+          "pageIndex": 1,
+          "topPercent": 10.46875,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 159,
+            "text": "‘ism"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/conclusion1.pdf",
+          "pageIndex": 2,
+          "topPercent": 9.805447470817121,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "intelligible meanings. I have no idea, for example, what it "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/conclusion1.pdf",
+          "pageIndex": 3,
+          "topPercent": 9.695074276778733,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 140,
+            "text": "Individual Subjectivism: x is right (the speaker) approve of"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/conclusion1.pdf",
+          "pageIndex": 4,
+          "topPercent": 9.789391575663027,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 142,
+            "text": "could support subjectivism. The arguments make about as much"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/conclusion1.pdf",
+          "pageIndex": 5,
+          "topPercent": 9.67238689547582,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 140,
+            "text": "ordinary moral discourse. The Moorean point is that the ques"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/conclusion1.pdf",
+          "pageIndex": 6,
+          "topPercent": 10.069984447900467,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 146,
+            "text": "imagine a perverse individual with exactly opposite values t"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/conclusion1.pdf",
+          "pageIndex": 7,
+          "topPercent": 10.561252795933978,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 171,
+            "text": "9.2 The intuitionist view"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/conclusion1.pdf",
+          "pageIndex": 8,
+          "topPercent": 10.093530787217459,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "“Socrates is a man’ and ‘Ail men are inconsiderate’ together"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/conclusion1.pdf",
+          "pageIndex": 9,
+          "topPercent": 9.50896336710834,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 137,
+            "text": "intuition, In some cases, we have difficulty even coming up "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/conclusion1.pdf",
+          "pageIndex": 10,
+          "topPercent": 9.797033567525371,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "commensurable with the strength of desiresthis is because a "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/conclusion1.pdf",
+          "pageIndex": 11,
+          "topPercent": 9.937646141855028,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "For a Humean, the reasons for action one now has must be det"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/conclusion1.pdf",
+          "pageIndex": 12,
+          "topPercent": 10.561252795933978,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 177,
+            "text": "9.3 Select objections to intuitionism"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/conclusion1.pdf",
+          "pageIndex": 13,
+          "topPercent": 9.421422986708366,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 136,
+            "text": "require justification. But as I have urged above, this would"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/conclusion1.pdf",
+          "pageIndex": 14,
+          "topPercent": 9.679937548790008,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 140,
+            "text": "nearly always tun smoothly and cleanly, with no defects or n"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/conclusion1.pdf",
+          "pageIndex": 15,
+          "topPercent": 9.68503937007874,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 139,
+            "text": "certain moral intuitions are unduly influenced by bias, indo"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/conclusion1.pdf",
+          "pageIndex": 16,
+          "topPercent": 9.937402190923319,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "intuition doesn't exist? We live in a diverse world: there a"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/conclusion1.pdf",
+          "pageIndex": 17,
+          "topPercent": 9.566929133858268,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 137,
+            "text": "tally, arose at the dawn of Western philosophy. As people re"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/conclusion1.pdf",
+          "pageIndex": 18,
+          "topPercent": 9.937402190923319,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "the past fifty years, intuitionism has been taken far less s"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/conclusion1.pdf",
+          "pageIndex": 19,
+          "topPercent": 9.724409448818898,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 139,
+            "text": "mentioned in the preceding paragraph; I rely on the reader's"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/conclusion1.pdf",
+          "pageIndex": 20,
+          "topPercent": 9.898278560250391,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 142,
+            "text": "there are few more reliable ways of offending a person than "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/conclusion1.pdf",
+          "pageIndex": 21,
+          "topPercent": 9.702660406885759,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 140,
+            "text": "express their attitude of exaggerated respect for natural sc"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/conclusion1.pdf",
+          "pageIndex": 22,
+          "topPercent": 10.35965598123534,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 144,
+            "text": "described above; we should not think that the victims of sci"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/conclusion1.pdf",
+          "pageIndex": 23,
+          "topPercent": 9.890539483971853,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 142,
+            "text": "{b) That people's beliefs are strongly influenced by other p"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/conclusion1.pdf",
+          "pageIndex": 24,
+          "topPercent": 9.92156862745098,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "offended by the idea of some cultures being more right than "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/conclusion1.pdf",
+          "pageIndex": 25,
+          "topPercent": 9.510655090765589,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 136,
+            "text": "moral principles were objectively true and provided good rea"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/conclusion1.pdf",
+          "pageIndex": 26,
+          "topPercent": 9.819324430479183,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "ment as merely arbitrary, and maintaining that from the obje"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/conclusion1.pdf",
+          "pageIndex": 27,
+          "topPercent": 9.709119496855347,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 139,
+            "text": "of duty themselves, and in their application to particular c"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/conclusion1.pdf",
+          "pageIndex": 28,
+          "topPercent": 10.148902821316614,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "render his view of moral knowledge strange, in comparison wi"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/conclusion1.pdf",
+          "pageIndex": 29,
+          "topPercent": 9.546165884194053,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 138,
+            "text": "errors? A plausible theory of morality cannot simply ignore "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/conclusion1.pdf",
+          "pageIndex": 30,
+          "topPercent": 8.861252795933979,
+          "bottomPercent": 0,
+          "topContentLine": null,
+          "bottomContentLine": null
+        }
+      ]
+    },
+    "notes1": {
+      "pages": [
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/notes1.pdf",
+          "pageIndex": 0,
+          "topPercent": 10.65414407436096,
+          "bottomPercent": 11.12750372053712,
+          "topContentLine": {
+            "top": 144,
+            "text": "Notes"
+          },
+          "bottomContentLine": {
+            "bottom": 1125,
+            "text": "refers to an altitude towards Stewart."
+          }
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/notes1.pdf",
+          "pageIndex": 1,
+          "topPercent": 8.114374034003092,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 99,
+            "text": "Notes"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/notes1.pdf",
+          "pageIndex": 2,
+          "topPercent": 9.946029298380878,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 146,
+            "text": "functions both of expressing (he speaker's attitudes and of "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/notes1.pdf",
+          "pageIndex": 3,
+          "topPercent": 10.08435582822086,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 149,
+            "text": "To ensure relevance to Hare’s view, assume that the presence"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/notes1.pdf",
+          "pageIndex": 4,
+          "topPercent": 10,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 146,
+            "text": "42-3) example involving the speech act of ‘accosting’ demons"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/notes1.pdf",
+          "pageIndex": 5,
+          "topPercent": 8.307692307692308,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 102,
+            "text": "Notes"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/notes1.pdf",
+          "pageIndex": 6,
+          "topPercent": 9.758942457231726,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "problems such as the objection from Nazis; however, Valienty"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/notes1.pdf",
+          "pageIndex": 7,
+          "topPercent": 10.300925925925926,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 151,
+            "text": "that his theory makes value independent of any actual being’"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/notes1.pdf",
+          "pageIndex": 8,
+          "topPercent": 9.69626168224299,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 142,
+            "text": "naturalism, attributing the former to Jeremy Bentham (sce Be"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/notes1.pdf",
+          "pageIndex": 9,
+          "topPercent": 8.010835913312693,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 97,
+            "text": "Notes"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/notes1.pdf",
+          "pageIndex": 10,
+          "topPercent": 9.542280837858804,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "phenomena not peculiar to ethical sentences that might creat"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/notes1.pdf",
+          "pageIndex": 11,
+          "topPercent": 8.010835913312693,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 97,
+            "text": "Notes"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/notes1.pdf",
+          "pageIndex": 12,
+          "topPercent": 9.921875,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 145,
+            "text": "The third one is a bit udd; normally, one would simply repor"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/notes1.pdf",
+          "pageIndex": 13,
+          "topPercent": 10.08533747090768,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 148,
+            "text": "are not derivative (1957, p. 8); he allows the possibility o"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/notes1.pdf",
+          "pageIndex": 14,
+          "topPercent": 9.540498442367602,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 140,
+            "text": "Some philosophers believe that this shows that one can have "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/notes1.pdf",
+          "pageIndex": 15,
+          "topPercent": 8.080808080808081,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 98,
+            "text": "Notes"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/notes1.pdf",
+          "pageIndex": 16,
+          "topPercent": 9.758942457231726,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "that the arguments of this section should all be taken to co"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/notes1.pdf",
+          "pageIndex": 17,
+          "topPercent": 9.751359751359752,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "disjoins two concepts, each concept may refer to a universal"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/notes1.pdf",
+          "pageIndex": 18,
+          "topPercent": 9.773260359655982,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "the argument. Brandt (1944, p. 477) implies that intellectua"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/notes1.pdf",
+          "pageIndex": 19,
+          "topPercent": 10.00778816199377,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 147,
+            "text": "23 Sinnott-Armstrong (1996, pp. 26-7); Layman (1991, pp. 179"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/notes1.pdf",
+          "pageIndex": 20,
+          "topPercent": 9.640905542544886,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "2"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/notes1.pdf",
+          "pageIndex": 21,
+          "topPercent": 9.883268482490273,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 145,
+            "text": "children into stavery: that would not get them what they wan"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/notes1.pdf",
+          "pageIndex": 22,
+          "topPercent": 9.601873536299765,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "motivating reason to pursue x docs not entail the presence o"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/notes1.pdf",
+          "pageIndex": 23,
+          "topPercent": 9.968847352024921,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 146,
+            "text": "‘The conditions become ever more complex as the series proce"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/notes1.pdf",
+          "pageIndex": 24,
+          "topPercent": 9.82839313572543,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 144,
+            "text": "express strong doubts that we could ever escape morality’s i"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/notes1.pdf",
+          "pageIndex": 25,
+          "topPercent": 9.968847352024921,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 146,
+            "text": "4 Mackie (1977, p. 38)."
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/notes1.pdf",
+          "pageIndex": 26,
+          "topPercent": 9.523809523809524,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 140,
+            "text": "possible games and could calculate al untimiled speed could "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/notes1.pdf",
+          "pageIndex": 27,
+          "topPercent": 9.968847352024921,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 146,
+            "text": "Nelson (1991) makes a similar point."
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/notes1.pdf",
+          "pageIndex": 28,
+          "topPercent": 9.718969555035128,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 142,
+            "text": "Haidt (2001) reports that individuals confronted with a stor"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/notes1.pdf",
+          "pageIndex": 29,
+          "topPercent": 8.106001558846454,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 98,
+            "text": "Notes"
+          },
+          "bottomContentLine": null
+        }
+      ]
+    },
+    "bibliography": {
+      "pages": [
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/bibliography.pdf",
+          "pageIndex": 0,
+          "topPercent": 10.663153786104605,
+          "bottomPercent": 11.12750372053712,
+          "topContentLine": {
+            "top": 143,
+            "text": "References"
+          },
+          "bottomContentLine": {
+            "bottom": 1109,
+            "text": "Press."
+          }
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/bibliography.pdf",
+          "pageIndex": 1,
+          "topPercent": 9.976617303195635,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 145,
+            "text": "Ayer, A. J. 1952. Language, Truth, and Logic. New York: Dove"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/bibliography.pdf",
+          "pageIndex": 2,
+          "topPercent": 9.898278560250391,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "Brandt, Richard. 1996. Facts, Valtes, and Morality. Cambridg"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/bibliography.pdf",
+          "pageIndex": 3,
+          "topPercent": 10.086004691164971,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 145,
+            "text": "Foley, Richard and Richard Fumerton, 1985. ‘Davidson's Theis"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/bibliography.pdf",
+          "pageIndex": 4,
+          "topPercent": 9.780907668231611,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "Goldman, Alvin. 1967. ‘A Causal Theory of Knowing’. Journal "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/bibliography.pdf",
+          "pageIndex": 5,
+          "topPercent": 10.101404056162247,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 145,
+            "text": "Hudson, W. D. 1983. Modern Moral Philosophy. 2\" ed. New York"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/bibliography.pdf",
+          "pageIndex": 6,
+          "topPercent": 9.945184025058731,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "Kant, Immanuel. [1785] 1959. Foundations of the Metaphysics "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/bibliography.pdf",
+          "pageIndex": 7,
+          "topPercent": 10.203283815480845,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 146,
+            "text": "Moore, Michael 5. 1992. ‘Moral Reality Revisited’. Michigan "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/bibliography.pdf",
+          "pageIndex": 8,
+          "topPercent": 9.490196078431373,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 131,
+            "text": "Putnam, Hilary. 1975. ‘Philosophy and our Mental Life’. Pp. "
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/bibliography.pdf",
+          "pageIndex": 9,
+          "topPercent": 10.1953125,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 146,
+            "text": "Ruse, Michael. 1988. Homosexuality: A Philosophical Inquiry."
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/bibliography.pdf",
+          "pageIndex": 10,
+          "topPercent": 9.90602975724354,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 142,
+            "text": "Stevenson, Charles L. 1963. Facts and Values: Studies in Eth"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/bibliography.pdf",
+          "pageIndex": 11,
+          "topPercent": 10.15625,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 146,
+            "text": "Westermarck, Edward. 1960, Ethical Relativity. Paterson, N.J"
+          },
+          "bottomContentLine": null
+        }
+      ]
+    },
+    "index": {
+      "pages": [
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/index.pdf",
+          "pageIndex": 0,
+          "topPercent": 10.541503523884105,
+          "bottomPercent": 11.08966327329679,
+          "topContentLine": {
+            "top": 141,
+            "text": "Index"
+          },
+          "bottomContentLine": {
+            "bottom": 1129,
+            "text": "moral methodology, 152-4; ni-"
+          }
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/index.pdf",
+          "pageIndex": 1,
+          "topPercent": 10.007818608287725,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 146,
+            "text": "Austin, J. L., 257n11, 27617"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/index.pdf",
+          "pageIndex": 2,
+          "topPercent": 9.827721221613157,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "tion, 165, 276n13; as appetite or"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/index.pdf",
+          "pageIndex": 3,
+          "topPercent": 9.968725566849102,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 145,
+            "text": "disjunctions, Blackburn's theory of,"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/index.pdf",
+          "pageIndex": 4,
+          "topPercent": 9.671104150352388,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "164-5, 172, 175, 181-2, 188,"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/index.pdf",
+          "pageIndex": 5,
+          "topPercent": 9.90602975724354,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 144,
+            "text": "group interests, as source of bias,"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/index.pdf",
+          "pageIndex": 6,
+          "topPercent": 9.92156862745098,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "267n 12; as function of reason,"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/index.pdf",
+          "pageIndex": 7,
+          "topPercent": 10.109717868338558,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 146,
+            "text": "130"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/index.pdf",
+          "pageIndex": 8,
+          "topPercent": 9.929078014184398,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 143,
+            "text": "by convention, 76; consistent"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/index.pdf",
+          "pageIndex": 9,
+          "topPercent": 10.211267605633804,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 148,
+            "text": "sire-satisfaction, 161-2; ‘physi-"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/index.pdf",
+          "pageIndex": 10,
+          "topPercent": 10.023584905660378,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 145,
+            "text": "about heat, 83-5, 87; about"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/index.pdf",
+          "pageIndex": 11,
+          "topPercent": 10.007849293563579,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 145,
+            "text": "Sterling, Grant, 267n12, 26823,"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/index.pdf",
+          "pageIndex": 12,
+          "topPercent": 9.794628751974724,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "verifiabilily of ethical claims, 19,"
+          },
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/index.pdf",
+          "pageIndex": 13,
+          "topPercent": 8.861252795933979,
+          "bottomPercent": 0,
+          "topContentLine": null,
+          "bottomContentLine": null
+        },
+        {
+          "file": "/Users/mtill/Scans/Ethical_Intuitionism/_working_/index.pdf",
+          "pageIndex": 14,
+          "topPercent": 8.6875,
+          "bottomPercent": 0,
+          "topContentLine": {
+            "top": 141,
+            "text": "through a kind of immediate, intellectual awareness, or ‘int"
+          },
+          "bottomContentLine": null
+        }
+      ]
+    }
+  }
+}

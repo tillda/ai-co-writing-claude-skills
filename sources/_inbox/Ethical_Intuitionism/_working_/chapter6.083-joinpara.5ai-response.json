@@ -1,0 +1,4 @@
+{
+  "text": "{\"merges\":[{\"id\":1,\"reason\":\"sentence split mid-phrase\"},{\"id\":2,\"reason\":\"word split across paragraphs\"},{\"id\":3,\"reason\":\"sentence split mid-conjunction\"},{\"id\":4,\"reason\":\"sentence split mid-phrase\"},{\"id\":5,\"reason\":\"word split across paragraphs\"},{\"id\":7,\"reason\":\"sentence split mid-phrase\"},{\"id\":9,\"reason\":\"word split across paragraphs\"},{\"id\":10,\"reason\":\"sentence split mid-phrase\"},{\"id\":12,\"reason\":\"sentence split mid-phrase\"},{\"id\":13,\"reason\":\"sentence split mid-phrase\"},{\"id\":15,\"reason\":\"sentence split at a comma\"},{\"id\":16,\"reason\":\"sentence split mid-phrase\"}]}",
+  "isError": false
+}

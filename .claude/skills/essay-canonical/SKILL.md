@@ -1,6 +1,6 @@
 ---
 name: essay-canonical
-description: Write canonical-book-derived study-note essays (C-essays) — one per author block of the course's canonical book. The C-essay mirrors the chapter's own argumentation, stripped of filler, ≤950 words. A chapter that contains two or more philosophical positions structurally separated as distinct subchapter blocks (each with its own Intro / extracts / Commentary) is treated as containing two or more distinct topics, and yields one C-essay per block. A chapter with a single position or with parallel sub-topics yields one C-essay. Use when the user asks for "canonical essays / C-essays / study notes for chapter N of <canonical book>", "write canonical essays for <course>", "write me canonical essays for chapters X, Y, Z in <course>", or names a course + chapter list and asks for canonical essays.
+description: Write canonical-book-derived study-note essays (C-essays) — one per author block of the course's canonical book. The C-essay mirrors the chapter's own argumentation, stripped of filler, ≤1000 words (Abstract excluded from the count). A chapter that contains two or more philosophical positions structurally separated as distinct subchapter blocks (each with its own Intro / extracts / Commentary) is treated as containing two or more distinct topics, and yields one C-essay per block. A chapter with a single position or with parallel sub-topics yields one C-essay. Use when the user asks for "canonical essays / C-essays / study notes for chapter N of <canonical book>", "write canonical essays for <course>", "write me canonical essays for chapters X, Y, Z in <course>", or names a course + chapter list and asks for canonical essays.
 ---
 
 # Canonical-Book Essay Writer (C-essays)
@@ -86,9 +86,18 @@ Identify upfront: chapter's central question (one line, shared across split essa
 
 - **Voice**: `/context/voice-dna.md`. Read voice-dna.md and icp.md once per batch.
 - **Register**: study notes in continuous prose. Less rhetorical than P-essay. Every sentence advances the chapter's argument. No "we can see that…", no "in my view" (it's the chapter's view, not the user's).
+- **Abstract**: every C-essay opens with 1–2 paragraphs starting `Abstract:` (the literal word + colon as the first token of the first paragraph). Telegraphic, maximally compressed: declarative skeleton sentences ("X is Y because Foo."), enumerated reasons in inline form ("Reasons: 1. foo (because bar), 2. quax, 3. baz"), no hedging, no rhetorical connectives, no transitions. Captures the chapter's central question, the position(s) covered in this file, and the verdict (or "open"). **The Abstract is excluded from the word count.** The full prose argument follows after a blank line.
 - **No filler**: drop "It is worth noting that…", "The standard objection runs…", "Two worries deserve naming…". Anything that delays the dialectic is cut. Same banlist as essay-philosophy plus stricter.
 - **Density**: compress, don't summarise. Same arguments at higher info-density per word.
-- **Word count**: ≤950 hard, ~800 target. Trim aggressively — models overshoot. Cut: textbook framing (already skipped at read stage; don't reintroduce), restatement, ornamental qualifiers, "as we shall see" / "as discussed above". Splitting ≠ budget increase; each per-block file ≤950 on its own.
+- **Sentence length (prose body): target 10–15 words. Hard ceiling 20.** Split wherever you can.
+  - Split on every coordinating conjunction (`and`, `but`, `so`, `yet`) joining two independent clauses → two sentences.
+  - Split on semicolons → two sentences.
+  - Split sentences with two or more subordinate clauses → promote one to its own sentence.
+  - Split sentences with parenthetical asides → pull the aside out, or cut it.
+  - Prefer two short sentences over one long one, even when the long one is grammatical and clear.
+  - Long sentences are allowed only when splitting would genuinely break the argument (e.g. a single conditional whose antecedent and consequent must stay joined).
+  - **Abstract is exempt.** Its telegraphic style is already shorter than the ceiling; don't apply the rule there.
+- **Word count**: ≤1000 hard, ~850 target — **Abstract excluded from the count** (cap applies to the prose body only). Trim aggressively — models overshoot. Cut: textbook framing (already skipped at read stage; don't reintroduce), restatement, ornamental qualifiers, "as we shall see" / "as discussed above". Splitting ≠ budget increase; each per-block file's prose body ≤1000 on its own.
 - **Author attribution**: each philosopher named once at first mention, thereafter engaged-with by view. **No chapter / section / page numbers in prose.**
 - **No academic-lineage chains** ("a view going back to Aristotle and developed by…").
 - **Cross-block restatement (split only)**: 1–2 sentences max where commentary engages the rival.
@@ -111,7 +120,7 @@ H1 (no frontmatter, blank line, prose):
 - **Non-split**: `# <Chapter title>` (e.g. `# Doubt`, `# Self`, `# Tragedy`).
 - **Split**: `# <Chapter title>: <Author>` (e.g. `# Equality: Williams`, `# Doubt: Descartes`).
 
-Plain paragraphs only — no `##`, no bullets, no numbered lists, no fences.
+Body opens with the Abstract paragraph(s) (first token: `Abstract:`), blank line, then the full prose argument. Plain paragraphs only — no `##`, no bullets, no numbered lists, no fences. Inline enumeration inside the Abstract (e.g. `Reasons: 1. foo, 2. bar`) stays inside the paragraph, not as a markdown list.
 
 ### 8. Report
 
@@ -134,7 +143,7 @@ Plain paragraphs only — no `##`, no bullets, no numbered lists, no fences.
 | Thesis | opinionated, up front | none — chapter's verdict if any |
 | Conclusion | matched position or mainstream | chapter's verdict or open |
 | Voice | user, exam register | user, study-note register |
-| Word cap | 1200 | 950 |
+| Word cap | 1200 | 1000 (Abstract excluded) |
 | Path | `/courses/<c>/essays/<N>-<name>/<questionSlug>.md` | `/essays/C-<bookSlug>/<N>-<topicSlug>.md` or `<N>-<authorSlug>.md` |
 | H1 | exam question | chapter title (± `: <Author>`) |
 | Files / chapter | one per question | one per chapter or one per author block |
@@ -154,7 +163,9 @@ Plain paragraphs only — no `##`, no bullets, no numbered lists, no fences.
 
 - [ ] Split detected (2+ contiguous Intro/extracts/Commentary)? If yes → one file per block at `<N>-<authorSlug>.md`. If no → one file at `<N>-<topicSlug>.md`.
 - [ ] H1 correct: `# <Chapter title>` (non-split) or `# <Chapter title>: <Author>` (split). No question framing, no number prefix.
-- [ ] ≤950 words per file. Splitting doesn't raise cap.
+- [ ] Body opens with 1–2 paragraphs starting `Abstract:` — telegraphic, compressed sentences, inline enumeration where useful, then blank line before the prose argument.
+- [ ] Prose body ≤1000 words per file (Abstract excluded from the count). Splitting doesn't raise cap.
+- [ ] Prose-body sentences ≤15 words target, ≤20 hard. Long sentences split on conjunctions / semicolons / second subordinate clauses / parenthetical asides. Abstract exempt.
 - [ ] Plain paragraphs only — no `##`, bullets, fences.
 - [ ] Each named philosopher attributed once; thereafter engaged-with by view.
 - [ ] No chapter / section / page numbers in prose; no canonical-book name in prose.

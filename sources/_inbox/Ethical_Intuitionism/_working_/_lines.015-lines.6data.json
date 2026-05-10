@@ -1,0 +1,297 @@
+{
+  "provisionalBorders": {
+    "top": 8.861252795933979,
+    "bottom": 0,
+    "hasRunningHeader": true,
+    "hasRunningFooter": false,
+    "headerBottom": 8.783522508250346,
+    "footerTop": null,
+    "sampleChapter": "chapter6",
+    "sampleCount": 8,
+    "topValues": [
+      9.020217729393467,
+      8.671875,
+      8.857808857808857,
+      8.928571428571429,
+      8.864696734059098,
+      8.743169398907105,
+      8.942457231726284,
+      8.685446009389672
+    ],
+    "bottomValues": []
+  },
+  "firstPageBorders": {
+    "top": 10.948598130841122,
+    "bottom": 9.427503720537121,
+    "topValues": [
+      10.663153786104605,
+      11.05934833204034,
+      10.948598130841122,
+      10.75879593432369,
+      11.035463756819954,
+      10.984375,
+      10.801636788776305
+    ],
+    "bottomValues": [
+      8.533747090768037,
+      8.489096573208723,
+      8.36591086786552,
+      8.495713172252534,
+      8.046875,
+      8.339828526890102
+    ],
+    "sampleCount": 7,
+    "chapterNames": [
+      "chapter1",
+      "chapter2",
+      "chapter3",
+      "chapter4",
+      "chapter5",
+      "chapter6",
+      "chapter7"
+    ]
+  },
+  "aiPages": [
+    {
+      "page": 1,
+      "header": {
+        "text": "156 Ethical Intuitionism",
+        "has_line_below": false
+      },
+      "footer": null
+    },
+    {
+      "page": 2,
+      "header": {
+        "text": "Practical Reasons 157",
+        "has_line_below": false
+      },
+      "footer": null
+    },
+    {
+      "page": 3,
+      "header": {
+        "text": "158 Ethical Intuitionism",
+        "has_line_below": false
+      },
+      "footer": null
+    },
+    {
+      "page": 4,
+      "header": {
+        "text": "Practical Reasons 159",
+        "has_line_below": false
+      },
+      "footer": null
+    },
+    {
+      "page": 5,
+      "header": {
+        "text": "160 Ethical Intuitionism",
+        "has_line_below": false
+      },
+      "footer": null
+    },
+    {
+      "page": 6,
+      "header": {
+        "text": "Practical Reasons 161",
+        "has_line_below": false
+      },
+      "footer": null
+    },
+    {
+      "page": 7,
+      "header": {
+        "text": "162 Ethical Intuitionism",
+        "has_line_below": false
+      },
+      "footer": null
+    },
+    {
+      "page": 8,
+      "header": {
+        "text": "Practical Reasons 163",
+        "has_line_below": false
+      },
+      "footer": null
+    }
+  ],
+  "sampleResults": [
+    {
+      "sample": 0,
+      "path": "/Users/mtill/Projects/reader/digitalize/temp/margins_page_183.png",
+      "imgWidth": 805,
+      "imgHeight": 1286,
+      "topPixel": 116,
+      "bottomPixel": null,
+      "topPercent": 9.020217729393467,
+      "bottomPercent": null,
+      "headerText": "156 Ethical Intuitionism",
+      "footerText": null
+    },
+    {
+      "sample": 1,
+      "path": "/Users/mtill/Projects/reader/digitalize/temp/margins_page_184.png",
+      "imgWidth": 808,
+      "imgHeight": 1280,
+      "topPixel": 111,
+      "bottomPixel": null,
+      "topPercent": 8.671875,
+      "bottomPercent": null,
+      "headerText": "Practical Reasons 157",
+      "footerText": null
+    },
+    {
+      "sample": 2,
+      "path": "/Users/mtill/Projects/reader/digitalize/temp/margins_page_185.png",
+      "imgWidth": 806,
+      "imgHeight": 1287,
+      "topPixel": 114,
+      "bottomPixel": null,
+      "topPercent": 8.857808857808857,
+      "bottomPercent": null,
+      "headerText": "158 Ethical Intuitionism",
+      "footerText": null
+    },
+    {
+      "sample": 3,
+      "path": "/Users/mtill/Projects/reader/digitalize/temp/margins_page_186.png",
+      "imgWidth": 808,
+      "imgHeight": 1288,
+      "topPixel": 115,
+      "bottomPixel": null,
+      "topPercent": 8.928571428571429,
+      "bottomPercent": null,
+      "headerText": "Practical Reasons 159",
+      "footerText": null
+    },
+    {
+      "sample": 4,
+      "path": "/Users/mtill/Projects/reader/digitalize/temp/margins_page_187.png",
+      "imgWidth": 806,
+      "imgHeight": 1286,
+      "topPixel": 114,
+      "bottomPixel": null,
+      "topPercent": 8.864696734059098,
+      "bottomPercent": null,
+      "headerText": "160 Ethical Intuitionism",
+      "footerText": null
+    },
+    {
+      "sample": 5,
+      "path": "/Users/mtill/Projects/reader/digitalize/temp/margins_page_188.png",
+      "imgWidth": 808,
+      "imgHeight": 1281,
+      "topPixel": 112,
+      "bottomPixel": null,
+      "topPercent": 8.743169398907105,
+      "bottomPercent": null,
+      "headerText": "Practical Reasons 161",
+      "footerText": null
+    },
+    {
+      "sample": 6,
+      "path": "/Users/mtill/Projects/reader/digitalize/temp/margins_page_189.png",
+      "imgWidth": 805,
+      "imgHeight": 1286,
+      "topPixel": 115,
+      "bottomPixel": null,
+      "topPercent": 8.942457231726284,
+      "bottomPercent": null,
+      "headerText": "162 Ethical Intuitionism",
+      "footerText": null
+    },
+    {
+      "sample": 7,
+      "path": "/Users/mtill/Projects/reader/digitalize/temp/margins_page_190.png",
+      "imgWidth": 807,
+      "imgHeight": 1278,
+      "topPixel": 111,
+      "bottomPixel": null,
+      "topPercent": 8.685446009389672,
+      "bottomPercent": null,
+      "headerText": "Practical Reasons 163",
+      "footerText": null
+    }
+  ],
+  "firstPageSampleResults": [
+    {
+      "sample": 0,
+      "chapterName": "chapter1",
+      "path": "/Users/mtill/Projects/reader/digitalize/temp/firstpage_chapter1_p44.png",
+      "imgWidth": 816,
+      "imgHeight": 1281,
+      "topPixel": 143,
+      "bottomPixel": null,
+      "topPercent": 10.663153786104605,
+      "bottomPercent": null
+    },
+    {
+      "sample": 1,
+      "chapterName": "chapter2",
+      "path": "/Users/mtill/Projects/reader/digitalize/temp/firstpage_chapter2_p75.png",
+      "imgWidth": 812,
+      "imgHeight": 1289,
+      "topPixel": 149,
+      "bottomPixel": 1179,
+      "topPercent": 11.05934833204034,
+      "bottomPercent": 8.533747090768037
+    },
+    {
+      "sample": 2,
+      "chapterName": "chapter3",
+      "path": "/Users/mtill/Projects/reader/digitalize/temp/firstpage_chapter3_p93.png",
+      "imgWidth": 813,
+      "imgHeight": 1284,
+      "topPixel": 147,
+      "bottomPixel": 1175,
+      "topPercent": 10.948598130841122,
+      "bottomPercent": 8.489096573208723
+    },
+    {
+      "sample": 3,
+      "chapterName": "chapter4",
+      "path": "/Users/mtill/Projects/reader/digitalize/temp/firstpage_chapter4_p126.png",
+      "imgWidth": 814,
+      "imgHeight": 1279,
+      "topPixel": 144,
+      "bottomPixel": 1172,
+      "topPercent": 10.75879593432369,
+      "bottomPercent": 8.36591086786552
+    },
+    {
+      "sample": 4,
+      "chapterName": "chapter5",
+      "path": "/Users/mtill/Projects/reader/digitalize/temp/firstpage_chapter5_p155.png",
+      "imgWidth": 811,
+      "imgHeight": 1283,
+      "topPixel": 148,
+      "bottomPixel": 1174,
+      "topPercent": 11.035463756819954,
+      "bottomPercent": 8.495713172252534
+    },
+    {
+      "sample": 5,
+      "chapterName": "chapter6",
+      "path": "/Users/mtill/Projects/reader/digitalize/temp/firstpage_chapter6_p182.png",
+      "imgWidth": 808,
+      "imgHeight": 1280,
+      "topPixel": 147,
+      "bottomPixel": 1177,
+      "topPercent": 10.984375,
+      "bottomPercent": 8.046875
+    },
+    {
+      "sample": 6,
+      "chapterName": "chapter7",
+      "path": "/Users/mtill/Projects/reader/digitalize/temp/firstpage_chapter7_p226.png",
+      "imgWidth": 805,
+      "imgHeight": 1283,
+      "topPixel": 145,
+      "bottomPixel": 1176,
+      "topPercent": 10.801636788776305,
+      "bottomPercent": 8.339828526890102
+    }
+  ]
+}

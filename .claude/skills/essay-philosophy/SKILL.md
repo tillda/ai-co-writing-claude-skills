@@ -26,7 +26,14 @@ Write clear, well-argued analytic philosophy essays at undergraduate level for a
 When the prompt supplies an outline or any laid-out argumentation (numbered outline, bulleted skeleton, rough narration, draft prose):
 
 - **Treat the supplied content as the spine.** Each distinct argument, objection, or move in it gets a corresponding argument in the essay, in the same order, with the same dialectical role (premise, objection, reply, verdict). Do not silently drop, reorder, or merge moves; do not invent new branches not present in the source.
-- **Translate, don't transcribe.** Rewrite in the user's voice (per `/context/voice-dna.md`), expand telegraphic notes into argued prose, weave attribution into the inference, and apply the no-markdown / no-em-dash / no-positional-refs rules. The supplied text is a scaffold for *what* to argue, not a draft of *how* to phrase it.
+- **Match the outline's emphasis — depth tracks prominence.** The amount of essay-space an argument gets must mirror the amount of outline-space it gets. Two regimes:
+  - **Detailed outline arguments → present closely in argument-shape, not in wording.** When the outline lays an argument out in detail (its own paragraph of prose, a full sub-tree of bullets with reasons and replies, or a numbered premise-by-premise statement), the essay treats it as a load-bearing argument: present it closely *in shape* — same dialectical role, same order of moves, same specific reasons given, same conclusion. Do not paraphrase into a higher-level summary; do not substitute a different argument for the same conclusion.
+  - **Bullets at depth-3 / depth-4, or single items in a long list → keep brief, do not expand.** When an argument appears as a single bullet inside a longer list of siblings, or sits at the third or fourth level of nesting, it is a *mention*, not a load-bearing argument. One sentence in the essay is usually enough — sometimes a clause inside another sentence. Do not promote a depth-4 bullet into a full paragraph; do not invent a sub-dialectic of objections-and-replies the outline doesn't supply. If the outline lists ten such bullets under one parent, the essay groups or compresses them, it does not give each its own paragraph.
+  - **The test:** roughly count the outline's words against the essay's words per argument. If the outline gave argument A four times the words of argument B, the essay should too — the proportion is the signal.
+- **What "follow closely" means.** Whenever an instruction (in this skill, in the prompt, or in an outline) says to follow something *closely* — an outline, an argument, a sketched move — it means **follow the argumentative moves AND structural shape, not the words and sentences**. Two halves:
+  - **Mirror the moves and the structure.** Same dialectical role, same order, same specific reasons. If the outline enumerates three objections, your essay enumerates three objections, signposted (`First, … / Second, … / Third, …`, `Objection 1: …`, narrative `##` sub-headings). The argumentative scaffolding is part of what is being followed; paraphrasing the outline does not mean dissolving its structure into a wall of prose. See Format → "Narrative structure markers".
+  - **Original wording, original sentence structure, original examples.** Different prose, different sentence boundaries, your own wording throughout. Where the source uses a concrete example (thought experiment, counter-example, analogy), invent a similar one of your own — same role, similar logical structure, original surface. Verbatim re-use only when the example *is* the canonical case (Gettier, brain-in-a-vat, trolley) and rewriting loses the reference. The only verbatim allowance for non-canonical content is **formal logical premises** (see Writing Style: numbered premises and inline propositional formulations).
+- **Translate, don't transcribe.** Rewrite in the user's voice (per `/context/voice-dna.md`), expand telegraphic notes into argued prose where the outline calls for depth, weave attribution into the inference, and apply the no-markdown / no-em-dash / no-positional-refs rules. The supplied text is a scaffold for *what* to argue, not a draft of *how* to phrase it. "Closely" is about argument shape, never about lexical copying — see the "follow closely" rule above.
 - **Add only what the form demands.** A thesis sentence, a brief setup, transitions, and a conclusion that echoes the supplied verdict are fine. Background or extra theories not in the supplied content do not belong unless the supplied content gestures at them.
 - **If the supplied content conflicts with a matched user position or a `**Usage:**` hint, the supplied content wins** — it sits above position-matching in the precedence list. Note the conflict in a one-line preface only if the user clearly didn't realise (e.g. the outline argues *against* a position they normally hold).
 - **Sources still resolve normally.** Refs cited inside the outline are read; the three-layer source resolution still runs for unattributed moves. The mirroring constraint is on argument structure, not on what evidence backs each step.
@@ -34,8 +41,9 @@ When the prompt supplies an outline or any laid-out argumentation (numbered outl
 ## Format
 
 - **Word count**: ~1000 words, **hard cap 1200**. Models overshoot — aim low and trim.
-- **Thesis**: stated clearly in the opening paragraph.
-- **Structure**: introduction (with thesis) → body → conclusion. If an outline or provided argumentation is given, mirror its structure instead (see "Mirroring provided argumentation" above).
+- **Thesis / opening statement**: stated clearly in the opening paragraph. When the provided sources (prompt refs, course-MD Sources/Readings, book-index canonical sections) contain a natural direction of argumentation or a clear conclusion, the opening paragraph must explicitly say what the essay is going to argue for — not just preview the topic. Land the thesis in one sentence: "I argue that …", "The view defended here is …", "This essay rejects … in favour of …". No wishy-washy "we shall see".
+- **Structure**: introduction (with thesis) → body → conclusion. The conclusion paragraph **must match the opening**: it restates the same thesis as now established, names the rejected rivals briefly, and adds no new arguments. Opening and conclusion are bookends. If an outline or provided argumentation is given, mirror its structure instead (see "Mirroring provided argumentation" above).
+- **Narrative structure markers**: break long stretches of prose with light visual rhythm — either short narrative `##` sub-headings (noun-phrase, e.g. `## The empiricist reply`, `## Two objections`) or inline labels at the start of paragraphs (`Objection 1: the criterion is too coarse. …`, `Objection 2: …`, `First reply: …`, `A second worry: …`). Use sparingly: roughly three to five markers per essay, not one per paragraph. Pure walls of text are forbidden; so is over-segmentation.
 - **H1 title**: first line is a single `# <question>` H1, verbatim from the prompt's `# Question` body. One blank line, then prose.
 
 ## Output
@@ -48,7 +56,7 @@ The finished essay is written to disk **and** printed to chat.
 - `<moduleId>` and `<moduleName>` — looked up from the matching `## <N>. <Name>` heading in `/courses/<course>/index.md`. Slugify the name: lowercase, non-alphanumerics → `-`, collapse, trim. E.g. `Tragedy and the Tragic` → `tragedy-and-the-tragic`.
 - `<questionSlug>` — frontmatter `slug:`; if absent, derive a 2–5 word slug from the question. **If the question's H1 (or the Q-file H1 it was derived from) starts with `Extra:` (case-insensitive), the slug must keep `extra-` as its leading token** — do not strip the `Extra:` qualifier when slugifying.
 
-The file has no frontmatter. First line is `# <question>`, blank line, then plain prose. No `##` sub-sections, no bullets, no fences — paragraph breaks only.
+The file has no frontmatter. First line is `# <question>`, blank line, then prose. Short narrative `##` sub-headings (noun-phrase) are permitted as structure markers, used sparingly (≈3–5 per essay); inline section labels (`Objection 1: …`) are an equally good alternative. No bullets, no fences, no numbered markdown lists — `##` plus paragraph breaks is the only structure.
 
 **Worked example**: course `aesthetics`, module `## 4. Tragedy and the Tragic`, slug `nietzsche-on-tragedy` → `/courses/aesthetics/essays/4-tragedy-and-the-tragic/nietzsche-on-tragedy.md`.
 
@@ -81,17 +89,20 @@ This is a timed essay, not a research paper. Referencing is light, narrative, on
 ## Writing Style
 
 - **Use voice DNA** from `/context/voice-dna.md` throughout.
-- **Plain, simple language. Short sentences.** Write as a sharp student whose first language is not English: clear common words, no flourish, no rhetorical filler.
+- **Plain, simple language.** Write as a sharp student whose first language is not English: clear common words, no flourish, no rhetorical filler.
   - BAD: "The criterion is right in spirit" → GOOD: "The criterion is plausible"
   - BAD: "The standard objection runs" → GOOD: "The standard objection is"
   - BAD: "Two worries deserve naming" → GOOD: "There are two worries"
   - Avoid stylised verbs ("runs", "deserves naming", "cuts deeper", "looms large"), abstract nouns where a verb works ("offers a defence" → "defends"), and stacked qualifiers ("right in spirit", "broadly correct in outline"). When unsure, pick the simpler word.
-- **Sentence length: vary it.** Average around 15–20 words, with frequent shorter sentences for emphasis and decisive verdicts. Longer sentences (up to ~30 words) are fine — and often necessary — when the argument is genuinely intertwined: tracing an inference, weighing a view against an objection, tying a reply back to a prior claim. The rule against long sentences applies only to padding and rhetorical flourish, not to argumentative content. **What to avoid is monotonous staccato.** A page of 8-word sentences in the pattern "X says A. Y says B. Z says C." reads as a list, not as reasoning. The essay must sound like someone *arguing*, weaving claims and replies together — not narrating a sequence of positions.
-  - Split when the split helps the argument breathe (decisive verdict after a long setup, contrast, change of direction). Don't split for its own sake.
+- **Sentence length: write long for the inferential tissue, then split.** Long sentences are good connective tissue — they trace an inference, weigh a view against an objection, tie a reply back to a prior claim. The fix for readability is *not* to write short sentences from the start; it is to write the long argumentative sentence and then split it on its connectives. Break on words like *but*, *because*, *and*, *so*, *yet* — the connective stays at the head of the new sentence, preserving the link. Example: "X holds A, but this fails because Y, and so the criterion collapses." → "X holds A. But this fails, because Y. And so the criterion collapses." The argument still reads as one inferential chain; each piece is short enough to follow.
+  - Default to splitting wherever a coordinating conjunction joins two independent clauses, or where a `,` precedes a *because* / *so* / *but* clause.
   - Avoid runs of three or more sentences all under ~10 words unless the rhythm is doing real work.
-  - Avoid the "X says, Y says, Z says" cadence: prefer "X holds A, but this fails because…", "the natural reply, defended by Y, is that…", weaving the attribution into the argument rather than front-loading it.
+  - Avoid the "X says, Y says, Z says" cadence: prefer "X holds A. But this fails, because…", "The natural reply, defended by Y, is that…" — attribution woven into the inference, not front-loaded.
   - Use colons and subordinate clauses freely when they make the inferential structure clearer. **No em-dashes and no semicolons** (see Forbidden formulations) — when tempted to join two clauses with either, split into two sentences instead.
-- **Weave formal arguments with accessible explanations** — do not sustain dry, purely formal academic prose. A formal argument (numbered premises, conclusion) should be followed or preceded by a clear explanation of what it shows and why it matters.
+- **Enumerative markers at paragraph starts.** Use "First, …", "Second, …", "Third, …" (and "Finally, …" for the closing item) at the head of paragraphs that introduce successive objections, considerations, or steps in an argument. They anchor the reader, signal the structure of the dialectic, and give the essay rhythm. Use them when the underlying structure is genuinely enumerated; don't sprinkle them as decoration.
+- **Split long paragraphs.** A paragraph that runs past ~6–8 sentences usually contains two argumentative moves. Split it. One paragraph = one inferential move (a claim and its support, an objection and its reply, a verdict and its grounds) — then a paragraph break.
+- **No markdown emphasis in prose.** No `**bold**`, no `*italic*`, no `_underscore_` emphasis anywhere in the body. The H1 title and the permitted narrative `##` sub-headings are the only markdown structure; everything else is plain prose. Emphasis is carried by word choice and sentence shape, not by formatting.
+- **Weave formal arguments with accessible explanations** — do not sustain dry, purely formal academic prose. A formal argument (numbered premises, conclusion) should be followed or preceded by a clear explanation of what it shows and why it matters. **Premises in formal logical argumentation may be reproduced verbatim from the source**, in either form — displayed/numbered (e.g. `(1) S knows that S is not a brain in a vat. (2) …`) or inline propositional formulations (e.g. *Jones owns a Ford OR Brown is in Barcelona implies I know that …*). The propositional structure is load-bearing; rephrasing it can distort the argument. No quotation marks are needed for premises in this form. The surrounding commentary — motivation, what the argument shows, replies — stays in your own voice.
 - **Show understanding of WHY** — not just what positions exist, but what supports them and what can be said against them.
 - **Inclusive "we"** — reason alongside the examiner ("We can see that...", "Suppose we accept..."), not "you".
 
@@ -103,7 +114,22 @@ Never use any of the following in essay prose. They mark AI-style or generic-aca
 - **Triplets of the form "foo, bar and baz"** — never list three items joined by "and". Use two, or split into separate sentences, or restructure.
 - **"Not only X, but also Y"** — restructure as two clauses or two sentences.
 - **Em-dashes (—).** Replace with comma, colon, or full stop.
-- **Semicolons (;).** Always split into two sentences instead — per the sentence-length rule, splitting almost always reads better than joining.
+- **Semicolons (;).** Never used to connect sentence parts. **Always split into two sentences** — there are no exceptions, no "stylistic" uses, no "the clauses are tightly linked" carve-outs. If you find yourself reaching for a `;`, the second clause needs to start a new sentence (with a connective like *But*, *And*, *Because*, *So* at its head if the link must be preserved).
+- **Markdown emphasis in prose (`**bold**`, `*italic*`, `_underscore_`).** Emphasis is carried by word choice and sentence shape, not by formatting. Only the H1 title and permitted narrative `##` sub-headings use markdown.
+
+**Enumerated lists inside prose — `(i)`, `(ii)`, `(iii)`:**
+- When using parenthetical Roman numerals to enumerate considerations, objections, or steps, **each item starts a new sentence AND a new paragraph**, with a **capital letter** at the start and a **full stop** at the end. The paragraph break before the next marker is what makes the enumeration readable on the page — never two markers inside the same paragraph.
+- Example (correct):
+
+  `(i) The criterion is too coarse.`
+
+  `(ii) It collapses on the borderline cases.`
+
+  `(iii) No principled fix is on offer.`
+
+  Three sentences, three paragraphs.
+- Never write `(i) the criterion is too coarse, (ii) it collapses on the borderline cases, …` — comma-joined lower-case lists are forbidden. Equally never write `(i) The criterion is too coarse. (ii) It collapses on the borderline cases.` as one paragraph — the paragraph break is mandatory.
+- The same rule applies to other parenthetical enumerators (`(a)`, `(b)`, `(1)`, `(2)`).
 
 **Banned grandstanding / throat-clearing phrases:**
 - "study underscores the significance"
@@ -162,10 +188,11 @@ Analytic essays survey competing theories, refute them in turn, and arrive at th
    - (Alleged) Objection 2
        → Reply that succeeds in favour of Theory N
 
-6. CONCLUSION
-   - Re-state the weaknesses of Theories 1 through N-1
-   - Re-state the reasons for accepting Theory N
-   - No new arguments
+6. CONCLUSION (matches the opening)
+   - Restate the thesis announced in the opening paragraph as now established.
+   - Briefly name the rejected rivals and the decisive reason each fails.
+   - Restate the reasons for accepting Theory N.
+   - No new arguments. Opening and conclusion are bookends — the same claim, before and after the dialectic.
 ```
 
 ### When to Use This Structure
@@ -240,5 +267,5 @@ The skill is liberal in what it accepts. A bare question is treated as a topic-o
 3. **Plan**: identify thesis, theories to reject and order, decisive objections per rejected theory, alleged objections + replies for Theory N. If an outline or laid-out argumentation is provided, plan instead to mirror its moves argument-per-argument (per "Mirroring provided argumentation"); otherwise map to the default structure.
 4. **Write**: follow Format, Referencing, Writing Style, Essay Structure Guidelines.
 5. **Trim**: count words. If > 1200, cut redundant restatement, over-explained background, and any objection/reply that doesn't change the verdict. Never cut the thesis, the decisive objection on each rejected theory, or the conclusion. Re-count.
-6. **Rhythm and intertwining pass**: scan the essay for two failure modes. First, any *padding* sentence (rhetorical flourish, restatement, throat-clearing) — cut or merge into adjacent argument. Second, any run of three or more consecutive short sentences in the "X says A. Y says B. X is wrong." cadence — rewrite to weave attribution into the argument ("X holds A, but this fails because…", "the natural reply is that…"). Sentences may be long when they earn it through inferential content; they may be short when they deliver a verdict or a contrast. The test is whether the essay reads as someone *arguing*, not as someone *narrating positions*.
+6. **Rhythm, structure, and intertwining pass**: scan the essay for failure modes. (a) Any *padding* sentence (rhetorical flourish, restatement, throat-clearing) — cut or merge into adjacent argument. (b) Any run of three or more consecutive short sentences in the "X says A. Y says B. X is wrong." cadence — rewrite to weave attribution into the argument. (c) Any sentence joining two independent clauses with *but*, *because*, *and*, *so*, *yet* that could be split at the connective without breaking the inference — split it (the connective stays at the head of the new sentence). (d) Any paragraph past ~6–8 sentences that contains two argumentative moves — split it. (e) Any semicolon — split into two sentences. (f) Any parenthetical enumeration (`(i)`/`(ii)`/`(iii)`, `(a)`/`(b)`, `(1)`/`(2)`) joined by commas, lower-case continuations, or sharing a paragraph with another marker — rewrite as one sentence and one paragraph per item, each starting with a capital letter and ending with a full stop, with a paragraph break before the next marker. Also check: opening states the thesis explicitly; conclusion bookends it; the essay carries three to five narrative `##` sub-headings or inline "Objection 1: …" / "First, …" markers (not zero, not one per paragraph); no markdown bold or italic anywhere in prose. The test is whether the essay reads as someone *arguing* with visible structure, not as a wall of text.
 7. **Save & deliver**: construct path; if no `course:`, reply with one line and stop; if no module, save under `_unfiled/`; overwrite if exists; print to chat; final reply line `Saved to: <path>`.

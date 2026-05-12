@@ -15,11 +15,11 @@ The course is primarily about the historical philosophers themselves. Each posit
 
 When the prompt directs a specific position or argument, follow the prompt; these defaults apply only when the prompt is silent.
 
-## The Humean Argument from Motivation Is Not Compelling
+## Hume's Case Against Moral Reason Is Not Compelling
 `file: against-humean-motivation-argument.md`
-`role: light reply, not refutation. Disambiguate from Hume's other theses (reason inert, moral judgments not from reason, is-ought gap) before deploying. See the file's Usage line.`
+`role: light reply, not refutation. Covers two strands of Hume's anti-rationalist case in ethics — reason cannot evaluate actions (truth/falsity argument), and reason/belief alone cannot motivate (Argument from Motivation). Disambiguate from is-ought gap and positive sentimentalism (separate positions) before deploying. See the file's Usage line.`
 
-**Applicable to:** Humean Argument from Motivation, Humean argument against objective values, beliefs and motivation, only desires can motivate, objective values must motivate, anti-realist deployment of Hume, Humean Theory of Reasons (in its anti-realist deployment), reason as inert (when used to argue against objective values), *ethics-historical / 3. Hume*
+**Applicable to:** Hume on reason and morality, reason is inert, reason as inert, reason is the slave of the passions, reason cannot evaluate actions, actions are not true or false, can morality be founded on reason, can reason judge moral questions, Humean Argument from Motivation, Humean argument against objective values, beliefs and motivation, only desires can motivate, objective values must motivate, Humean Conception of Reasons, anti-realist deployment of Hume, Humean Theory of Reasons (in its anti-realist deployment), *ethics-historical / 3. Hume*
 
 ## Against Hedonism (Cookie, Equality, Experience Machine)
 `file: against-hedonism.md`
